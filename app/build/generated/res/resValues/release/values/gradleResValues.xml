@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Value from build type: release -->
+    <string name="Ad_Mob_Banner_ID" translatable="false">ca-app-pub-2011235963710101/7337057285</string>
+    <!-- Value from build type: release -->
+    <string name="Ad_Mob_Intersticial_ID" translatable="false">ca-app-pub-2011235963710101/9215465373</string>
+    <!-- Value from build type: release -->
+    <string name="Ad_Mob_Native_ID" translatable="false">ca-app-pub-2011235963710101/7786158589</string>
+    <!-- Value from build type: release -->
+    <string name="app_id" translatable="false">ca-app-pub-2011235963710101~4037970941</string>
+    <!-- Value from build type: release -->
+    <string name="openAd_ID" translatable="false">ca-app-pub-2011235963710101/2852573287</string>
+
+</resources>

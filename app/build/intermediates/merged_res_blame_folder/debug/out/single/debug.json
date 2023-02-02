@@ -1,0 +1,334 @@
+[
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_indicator.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_info_view.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\info_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_preview.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\activity_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_like.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\ic_like.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\menu_search.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\menu\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_size.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\ic_size.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_red_like.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\ic_red_like.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\font_blogger_sans.otf.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\font\\blogger_sans.otf"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_exit_screen.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\activity_exit_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\xml_backup_descriptor.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\xml\\backup_descriptor.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_ad_unified_small.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\ad_unified_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_live_offline.gif.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\live_offline.gif"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_def_like.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\ic_def_like.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\activity_set.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_catalog_cell.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\catalog_cell.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_main.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\activity_splash_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\raw_fragment_30.glsl.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\raw\\fragment_30.glsl"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_preview.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout-land\\activity_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_ad_unified.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\ad_unified.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_live3d.gif.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\live3d.gif"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_item.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\child_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_categories.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\fragment_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_categorythumnail.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\activity_categorythumnail.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\xml_preferences.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_download.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\ic_download.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_parent_item.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\parent_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fallback.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\fallback.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_video_view.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\activity_video_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mainlauncher.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\activity_mainlauncher.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_slider.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\dialog_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\xml_livewallpaper.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\xml\\livewallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\menu_set_menu.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\menu\\set_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\raw_vertex_20.glsl.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\raw\\vertex_20.glsl"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\xml_wallpaper.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\xml\\wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_live_online.gif.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\live_online.gif"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_data_placeholder_layout.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\data_placeholder_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_link_white_36dp.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\ic_link_white_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\raw_vertex_30.glsl.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\raw\\vertex_30.glsl"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_download_video.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\download_video.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\shadow.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\raw_fragment_20.glsl.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\raw\\fragment_20.glsl"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_like_process.gif.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\like_process.gif"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gallery_preview.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\gallery_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main3d.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\activity_main3d.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_backarrow.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\ic_backarrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_line.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\blue_line.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_forward_arrow.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\ic_forward_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.gif.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\icon.gif"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_empty.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\empty.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_download_white_36dp.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\ic_download_white_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_sirf3d.png.flat",
+        "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\drawable\\icon_sirf3d.png"
+    }
+]

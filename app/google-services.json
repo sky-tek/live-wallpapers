@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "446890864321",
+    "project_id": "live-wallpapers-fe60f",
+    "storage_bucket": "live-wallpapers-fe60f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446890864321:android:bb213c8d6f517e0a91ee40",
+        "android_client_info": {
+          "package_name": "com.skytek.live.wallpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446890864321-4iqnjhgln605614bsr3jabnn5bi60iu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPrJYHSvpCjO5btwy61kbcxIAUCtBVxng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446890864321-4iqnjhgln605614bsr3jabnn5bi60iu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
