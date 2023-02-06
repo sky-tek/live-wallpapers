@@ -4,6 +4,7 @@
     <item quantity="one">%d nuwe kennisgewing</item>
     <item quantity="other">%d nuwe kennisgewings</item>
   </plurals>
+    <string name="YourdropWallpapers">Jou \n agtergronde</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Gaan na tuisskerm"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Gaan op"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Nog opsies"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Deel met"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Deel met <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Vou in"</string>
+    <string name="app_name">Lewendige plakpapier</string>
+    <string name="audio">Oudio</string>
     <string name="bottomsheet_action_expand_halfway">Vou halfpad uit</string>
     <string name="character_counter_content_description">Karakters ingevoer: %1$d van %2$d</string>
     <string name="character_counter_overflowed_content_description">Karakterlimiet oorskry %1$d van %2$d</string>
     <string name="clear_text_end_icon_content_description">Vee teks uit</string>
+    <string name="common_cancel">Kanselleer</string>
+    <string name="common_delete">Vee uit</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktiveer"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sal nie werk nie tensy jy Google Play Dienste aktiveer."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktiveer Google Play Dienste"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Dateer Google Play Dienste op"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sal nie sonder Google Play Dienste werk nie, wat tans opdateer."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Nuwe weergawe van Google Play Dienste is nodig. Dit sal binnekort self opdateer."</string>
+    <string name="common_ok">OK</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Maak oop op foon"</string>
+    <string name="common_pro">Pro</string>
+    <string name="common_retry">Probeer weer</string>
+    <string name="common_set">Stel</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Meld aan"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Meld aan met Google"</string>
+    <string name="confirm_exit">Bevestig uitgang?</string>
+    <string name="d3_wallpapers">3D-agtergronde</string>
+    <string name="d3dropwallpapers">3D \n agtergronde</string>
+    <string name="error_browser">Kan nie blaaier oopmaak nie!</string>
+    <string name="error_catalog">Kan nie beelde ophaal nie!</string>
+    <string name="error_connection">Internet konneksie benodig!</string>
+    <string name="error_download">Kon nie voorbeskou nie!</string>
     <string name="error_icon_content_description">Fout</string>
+    <string name="error_preview_notfound">Nie beskikbaar om voorbeskou te word nie</string>
+    <string name="error_preview_unknown">Kan nie voorskou wys nie!</string>
+    <string name="error_timeout">Verbinding uitteltyd. Probeer weer!</string>
+    <string name="error_wpsetter">Lewendige plakpapier nie gevind nie!</string>
+    <string name="exit">Verlaat</string>
     <string name="exposed_dropdown_menu_content_description">Wys aftrekkieslys</string>
     <string name="icon_content_description">Dialoogikoon</string>
     <string name="item_view_role_description">Oortjie</string>
+    <string name="live_wallpapers">Lewendige agtergronde</string>
+    <string name="livedropwallpapers">Regstreekse \n agtergronde</string>
+    <string name="loading">Laai tans...</string>
+    <string name="main_alert_deleted">Plaaslike kopie uitgevee!</string>
+    <string name="main_dialog_nosensor_message">Jou toestel het nie die vereiste sensors nie.</string>
+    <string name="main_dialog_nosensor_title">Sensorfout</string>
+    <string name="main_info_empty_message">Inhoud sal so gou moontlik afgelaai word...</string>
+    <string name="main_info_empty_title">Niks om te wys nie!</string>
+    <string name="main_menu_sort_author">Skrywer</string>
+    <string name="main_menu_sort_new">Nuut</string>
+    <string name="main_menu_sort_title">Titel</string>
+    <string name="main_ongoing_download">Genereer voorskou</string>
     <string name="material_clock_toggle_content_description">Kies vm. of nm.</string>
     <string name="material_hour_selection">Kies uur</string>
     <string name="material_hour_suffix">%1$s-uur</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">NM.</string>
     <string name="material_timepicker_select_time">Kies tyd</string>
     <string name="material_timepicker_text_input_mode_description">Skakel oor na teksmodus vir die tydinvoer.</string>
+    <string name="menu_delete">Vee uit</string>
+    <string name="menu_link">Skrywer se webwerf</string>
+    <string name="menu_refresh">Verfris</string>
+    <string name="menu_settings">Instellings</string>
+    <string name="menu_sort">Sorteer Volgens</string>
+    <string name="menu_wpsetter">Stel agtergrond</string>
     <string name="mtrl_badge_numberless_content_description">Nuwe kennisgewing</string>
     <string name="mtrl_chip_close_icon_content_description">Verwyder %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Meer as %1$d nuwe kennisgewings</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Tik om oor te skakel na die kies van \'n dag</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Skakel oor na teksinvoermodus</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tik om oor te skakel na die kies van \'n jaar</string>
+    <string name="my_name">Lewendige 3D-muurpapier</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Gaan op"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Maak navigasielaai oop"</string>
+    <string name="no_exit">Geen</string>
+    <string name="notif_new_message_multi">Nuwe agtergronde is by die katalogus gevoeg.</string>
+    <string name="notif_new_message_one">\'n Nuwe muurpapier is by die katalogus gevoeg.</string>
+    <string name="notif_new_title_multi">Nuwe agtergronde! Kyk na hulle!</string>
+    <string name="notif_new_title_one">Nuwe plakpapier! Kyk daarna!</string>
     <string name="offline_notification_text">Tik om advertensie oop te maak</string>
     <string name="offline_notification_title">Bekyk die advertensie wat jy gestoor het toe jy vanlyn was</string>
     <string name="offline_opt_in_confirm">OK</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">Ons sal vir jou \'n kennisgewing stuur met \'n skakel na die adverteerder se werf toe.</string>
     <string name="offline_opt_in_title">Maak advertensie oop wanneer jy weer aanlyn is.</string>
     <string name="password_toggle_content_description">Wys wagwoord</string>
+    <string name="prev_thisisaprev_toast">Dit is slegs \'n demo-animasie. Laai die muurpapier af om dit in aksie te sien!</string>
     <string name="s1">Stoor prent</string>
     <string name="s2">Laat advertensie toe om prent in Prentgalery te stoor?</string>
     <string name="s3">Aanvaar</string>
@@ -119,6 +165,20 @@
     <string name="s5">Skep kalendergeleentheid</string>
     <string name="s6">Laat advertensie toe om \'n kalendergeleentheid te skep?</string>
     <string name="s7">Toetsadvertensie</string>
+    <string name="search">Soek</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Soek"</string>
+    <string name="select_language">Kies taal</string>
+    <string name="set_alert_changed">Muurpapier verander!</string>
+    <string name="set_dialog_delete_message">Wil jy regtig hierdie muurpapier uitvee? Jy kan dit altyd later aflaai.</string>
+    <string name="set_dialog_delete_title">Vee muurpapier uit</string>
+    <string name="set_dialog_notzero_message">Stel as lewendige muurpapier</string>
+    <string name="set_dialog_notzero_title">Kies 3DLive</string>
+    <string name="set_title">Voorskou</string>
+    <string name="settings_dialog_delete_message">Wil jy regtig die plaaslike inhoud aflaai?</string>
+    <string name="settings_dialog_delete_title">Vee plaaslike inhoud uit</string>
+    <string name="settings_title">Instellings</string>
+    <string name="start">Begin</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">Gesoekte data nie gevind nie</string>
+    <string name="yes_exit">Ja</string>
 </resources>

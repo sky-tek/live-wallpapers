@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Elav tapeet</string>
+  <string name="my_name">Reaalajas 3D-taustapilt</string>
+  <string name="common_ok">Okei</string>
+  <string name="common_set">Määra</string>
+  <string name="common_cancel">Tühista</string>
+  <string name="common_delete">Kustuta</string>
+  <string name="common_retry">Uuesti proovima</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Reaalajas taustapildid</string>
+  <string name="menu_refresh">Värskenda</string>
+  <string name="menu_sort">Sorteerima</string>
+  <string name="menu_wpsetter">Määra tapeet</string>
+  <string name="menu_settings">Seaded</string>
+  <string name="menu_delete">Kustuta</string>
+  <string name="menu_link">Autori sait</string>
+  <string name="error_download">Eelvaade ebaõnnestus!</string>
+  <string name="error_connection">Vajalik internetiühendus!</string>
+  <string name="error_preview_unknown">Eelvaadet ei saa kuvada!</string>
+  <string name="error_preview_notfound">Eelvaate kuvamiseks pole saadaval</string>
+  <string name="error_wpsetter">Reaalajas taustapilti ei leitud!</string>
+  <string name="error_timeout">Ühenduse ajalõpp. Proovi uuesti!</string>
+  <string name="error_catalog">Pilte ei saa alla laadida!</string>
+  <string name="error_browser">Brauserit ei saa avada!</string>
+  <string name="notif_new_title_one">Uus tapeet! Vaata järgi!</string>
+  <string name="notif_new_title_multi">Uued taustapildid! Kontrollige neid!</string>
+  <string name="notif_new_message_one">Kataloogi on lisatud uus tapeet.</string>
+  <string name="notif_new_message_multi">Kataloogi on lisatud uued taustapildid.</string>
+  <string name="select_language">Vali keel</string>
+  <string name="main_info_empty_title">Pole midagi näidata!</string>
+  <string name="main_info_empty_message">Sisu laaditakse alla niipea kui võimalik…</string>
+  <string name="main_dialog_nosensor_title">Anduri viga</string>
+  <string name="main_dialog_nosensor_message">Teie seadmel pole nõutavaid andureid.</string>
+  <string name="main_ongoing_download">Eelvaate genereerimine</string>
+  <string name="main_alert_deleted">Kohalik koopia kustutatud!</string>
+  <string name="main_menu_sort_new">Uus</string>
+  <string name="main_menu_sort_title">Pealkiri</string>
+  <string name="main_menu_sort_author">Autor</string>
+  <string name="set_title">Eelvaade</string>
+  <string name="set_dialog_delete_title">Kustuta taustapilt</string>
+  <string name="set_dialog_delete_message">Kas soovite tõesti selle taustapildi kustutada? Saate selle alati hiljem alla laadida.</string>
+  <string name="set_dialog_notzero_title">Valige 3DLive</string>
+  <string name="set_dialog_notzero_message">Määra reaalajas taustapildiks</string>
+  <string name="set_alert_changed">Tapeet vahetatud!</string>
+  <string name="prev_thisisaprev_toast">See on ainult demo-animatsioon. Laadige alla tapeet, et näha seda tegevuses!</string>
+  <string name="settings_title">Seaded</string>
+  <string name="settings_dialog_delete_title">Kustutage kohalik sisu</string>
+  <string name="settings_dialog_delete_message">Kas soovite tõesti kohaliku sisu alla laadida?</string>
+  <string name="loading">Laadimine...</string>
+  <string name="start">Alusta</string>
+  <string name="exit">Välju</string>
+  <string name="confirm_exit">Kas kinnitada väljumine?</string>
+  <string name="yes_exit">Jah</string>
+  <string name="no_exit">Ei</string>
+  <string name="d3_wallpapers">3D taustapildid</string>
+  <string name="YourdropWallpapers">Teie \n Taustapildid</string>
+  <string name="livedropwallpapers">Live \n taustapildid</string>
+  <string name="d3dropwallpapers">3D \n Taustapildid</string>
+  <string name="search">Otsing</string>
+  <string name="text_not_found">Otsitud andmeid ei leitud</string>
+  <string name="audio">Heli</string>
+</resources>

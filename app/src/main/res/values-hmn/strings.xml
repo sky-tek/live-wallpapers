@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Nyob wallpaper</string>
+  <string name="my_name">Nyob 3D Wallpaper</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Teeb</string>
+  <string name="common_cancel">Tso tseg</string>
+  <string name="common_delete">Rho tawm</string>
+  <string name="common_retry">Rov sim dua</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Nyob Wallpapers</string>
+  <string name="menu_refresh">Hloov tshiab</string>
+  <string name="menu_sort">Xaiv los ntawm</string>
+  <string name="menu_wpsetter">Teeb wallpaper</string>
+  <string name="menu_settings">Chaw</string>
+  <string name="menu_delete">Rho tawm</string>
+  <string name="menu_link">Tus sau qhov chaw</string>
+  <string name="error_download">Ua tsis tiav los saib ua ntej!</string>
+  <string name="error_connection">Kev sib txuas hauv Is Taws Nem xav tau!</string>
+  <string name="error_preview_unknown">Tsis tuaj yeem tso saib ua ntej!</string>
+  <string name="error_preview_notfound">Tsis muaj los saib ua ntej</string>
+  <string name="error_wpsetter">Nyob wallpaper tsis pom!</string>
+  <string name="error_timeout">Kev sib txuas ncua sij hawm. Sim dua!</string>
+  <string name="error_catalog">Rov qab tsis tau cov duab!</string>
+  <string name="error_browser">Qhib browser tsis tau!</string>
+  <string name="notif_new_title_one">Tshiab Wallpaper! Tshawb xyuas nws!</string>
+  <string name="notif_new_title_multi">Tshiab Wallpapers! Tshawb xyuas lawv!</string>
+  <string name="notif_new_message_one">Ib daim duab tshiab tau ntxiv rau hauv phau ntawv teev npe.</string>
+  <string name="notif_new_message_multi">Tshiab wallpapers tau ntxiv rau hauv phau ntawv teev npe.</string>
+  <string name="select_language">Xaiv hom lus</string>
+  <string name="main_info_empty_title">Tsis muaj dab tsi los qhia!</string>
+  <string name="main_info_empty_message">Cov ntsiab lus yuav raug rub tawm sai li sai tau…</string>
+  <string name="main_dialog_nosensor_title">Sensor yuam kev</string>
+  <string name="main_dialog_nosensor_message">Koj lub cuab yeej tsis muaj qhov xav tau sensors.</string>
+  <string name="main_ongoing_download">Generating Saib ua ntej</string>
+  <string name="main_alert_deleted">Cov ntawv luam hauv zos deleted!</string>
+  <string name="main_menu_sort_new">Tshiab</string>
+  <string name="main_menu_sort_title">Title</string>
+  <string name="main_menu_sort_author">Tus sau</string>
+  <string name="set_title">Saib ua ntej</string>
+  <string name="set_dialog_delete_title">Rho tawm wallpaper</string>
+  <string name="set_dialog_delete_message">Koj puas xav rho tawm cov ntawv ntsa no tiag? Koj tuaj yeem rub tawm nws tom qab txhua lub sijhawm.</string>
+  <string name="set_dialog_notzero_title">Xaiv 3DLive</string>
+  <string name="set_dialog_notzero_message">Teem li Live Wallpaper</string>
+  <string name="set_alert_changed">Wallpaper hloov!</string>
+  <string name="prev_thisisaprev_toast">Qhov no tsuas yog ib qho animation demo xwb. Rub tawm lub wallpaper kom pom nws hauv kev nqis tes ua!</string>
+  <string name="settings_title">Chaw</string>
+  <string name="settings_dialog_delete_title">Rho tawm cov ntsiab lus hauv zos</string>
+  <string name="settings_dialog_delete_message">Koj puas xav rub tawm cov ntsiab lus hauv zos?</string>
+  <string name="loading">Loading...</string>
+  <string name="start">Pib</string>
+  <string name="exit">Tawm</string>
+  <string name="confirm_exit">Confirm Exit?</string>
+  <string name="yes_exit">Yog lawm</string>
+  <string name="no_exit">Tsis muaj</string>
+  <string name="d3_wallpapers">3D Wallpapers</string>
+  <string name="YourdropWallpapers">Koj \n Wallpapers</string>
+  <string name="livedropwallpapers">Nyob \n Wallpapers</string>
+  <string name="d3dropwallpapers">3D \n Wallpapers</string>
+  <string name="search">Nrhiav</string>
+  <string name="text_not_found">Nrhiav tsis pom cov ntaub ntawv</string>
+  <string name="audio">Suab</string>
+</resources>

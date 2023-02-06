@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Fondo de pantalla en vivo</string>
+  <string name="my_name">Fondo de pantalla 3D en directo</string>
+  <string name="common_ok">Ok</string>
+  <string name="common_set">Conxunto</string>
+  <string name="common_cancel">Cancelar</string>
+  <string name="common_delete">Eliminar</string>
+  <string name="common_retry">Volve tentar</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Fondos de pantalla animados</string>
+  <string name="menu_refresh">Actualizar</string>
+  <string name="menu_sort">Ordenar por</string>
+  <string name="menu_wpsetter">Establecer fondo de pantalla</string>
+  <string name="menu_settings">Configuración</string>
+  <string name="menu_delete">Eliminar</string>
+  <string name="menu_link">Sitio do autor</string>
+  <string name="error_download">Non se puido previsualizar!</string>
+  <string name="error_connection">Necesítase conexión a Internet!</string>
+  <string name="error_preview_unknown">Non se pode mostrar a vista previa!</string>
+  <string name="error_preview_notfound">Non está dispoñible para previsualizar</string>
+  <string name="error_wpsetter">Non se atopou o fondo de pantalla en directo!</string>
+  <string name="error_timeout">Tempo de espera da conexión. Téntao de novo!</string>
+  <string name="error_catalog">Non se poden recuperar as imaxes.</string>
+  <string name="error_browser">Non se pode abrir o navegador!</string>
+  <string name="notif_new_title_one">Novo fondo de pantalla! Bótalle unha ollada!</string>
+  <string name="notif_new_title_multi">Novos fondos de pantalla! Míraos!</string>
+  <string name="notif_new_message_one">Engadiuse un novo fondo de pantalla ao catálogo.</string>
+  <string name="notif_new_message_multi">Engadíronse novos fondos de pantalla ao catálogo.</string>
+  <string name="select_language">Seleccione Idioma</string>
+  <string name="main_info_empty_title">Nada que mostrar!</string>
+  <string name="main_info_empty_message">O contido descargarase o antes posible...</string>
+  <string name="main_dialog_nosensor_title">Erro do sensor</string>
+  <string name="main_dialog_nosensor_message">O teu dispositivo non ten os sensores necesarios.</string>
+  <string name="main_ongoing_download">Xerando vista previa</string>
+  <string name="main_alert_deleted">Copia local eliminada!</string>
+  <string name="main_menu_sort_new">Novo</string>
+  <string name="main_menu_sort_title">Título</string>
+  <string name="main_menu_sort_author">Autor</string>
+  <string name="set_title">Vista previa</string>
+  <string name="set_dialog_delete_title">Eliminar fondo de pantalla</string>
+  <string name="set_dialog_delete_message">Realmente queres eliminar este fondo de pantalla? Sempre podes descargalo máis tarde.</string>
+  <string name="set_dialog_notzero_title">Seleccione 3DLive</string>
+  <string name="set_dialog_notzero_message">Establecer como fondo de pantalla animado</string>
+  <string name="set_alert_changed">O fondo de pantalla cambiou!</string>
+  <string name="prev_thisisaprev_toast">Esta é só unha animación de demostración. Descarga o fondo para velo en acción!</string>
+  <string name="settings_title">Configuración</string>
+  <string name="settings_dialog_delete_title">Eliminar contido local</string>
+  <string name="settings_dialog_delete_message">Realmente queres descargar o contido local?</string>
+  <string name="loading">Cargando...</string>
+  <string name="start">Comeza</string>
+  <string name="exit">Saír</string>
+  <string name="confirm_exit">Confirmar a saída?</string>
+  <string name="yes_exit">Si</string>
+  <string name="no_exit">Non</string>
+  <string name="d3_wallpapers">Fondos de pantalla 3D</string>
+  <string name="YourdropWallpapers">Os teus \n fondos de pantalla</string>
+  <string name="livedropwallpapers">\n Fondos de pantalla en directo</string>
+  <string name="d3dropwallpapers">Fondos de pantalla \n</string>
+  <string name="search">Busca</string>
+  <string name="text_not_found">Non se atoparon os datos buscados</string>
+  <string name="audio">Audio</string>
+</resources>

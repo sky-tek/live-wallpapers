@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Live na wallpaper</string>
+  <string name="my_name">Live na 3D na Wallpaper</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Itakda</string>
+  <string name="common_cancel">Kanselahin</string>
+  <string name="common_delete">Tanggalin</string>
+  <string name="common_retry">Subukan muli</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Gumagalaw na wallpapers</string>
+  <string name="menu_refresh">Refresh</string>
+  <string name="menu_sort">Pagbukud-bukurin ayon sa</string>
+  <string name="menu_wpsetter">Itakda ang wallpaper</string>
+  <string name="menu_settings">Mga setting</string>
+  <string name="menu_delete">Tanggalin</string>
+  <string name="menu_link">Site ng may-akda</string>
+  <string name="error_download">Nabigong i-preview!</string>
+  <string name="error_connection">Kailangan ng koneksyon sa internet!</string>
+  <string name="error_preview_unknown">Hindi maipakita ang preview!</string>
+  <string name="error_preview_notfound">Hindi available na i-preview</string>
+  <string name="error_wpsetter">Hindi nahanap ang live na wallpaper!</string>
+  <string name="error_timeout">Timeout ng koneksyon. Subukan Muli!</string>
+  <string name="error_catalog">Hindi makuha ang mga larawan!</string>
+  <string name="error_browser">Hindi mabuksan ang browser!</string>
+  <string name="notif_new_title_one">Bagong Wallpaper! Tingnan ito!</string>
+  <string name="notif_new_title_multi">Mga Bagong Wallpaper! Tingnan ang mga ito!</string>
+  <string name="notif_new_message_one">Isang bagong wallpaper ang naidagdag sa catalog.</string>
+  <string name="notif_new_message_multi">Bagong wallpaper ay naidagdag sa catalog.</string>
+  <string name="select_language">Piliin ang Wika</string>
+  <string name="main_info_empty_title">Walang maipakita!</string>
+  <string name="main_info_empty_message">Ang nilalaman ay mada-download sa lalong madaling panahon…</string>
+  <string name="main_dialog_nosensor_title">Error sa sensor</string>
+  <string name="main_dialog_nosensor_message">Walang mga kinakailangang sensor ang iyong device.</string>
+  <string name="main_ongoing_download">Pagbuo ng Preview</string>
+  <string name="main_alert_deleted">Tinanggal ang lokal na kopya!</string>
+  <string name="main_menu_sort_new">Bago</string>
+  <string name="main_menu_sort_title">Pamagat</string>
+  <string name="main_menu_sort_author">May-akda</string>
+  <string name="set_title">Silipin</string>
+  <string name="set_dialog_delete_title">Tanggalin ang wallpaper</string>
+  <string name="set_dialog_delete_message">Gusto mo ba talagang tanggalin ang wallpaper na ito? Maaari mo itong i-download palagi sa ibang pagkakataon.</string>
+  <string name="set_dialog_notzero_title">Piliin ang 3DLive</string>
+  <string name="set_dialog_notzero_message">Itakda bilang Live Wallpaper</string>
+  <string name="set_alert_changed">Nagbago ang wallpaper!</string>
+  <string name="prev_thisisaprev_toast">Ito ay isang demo animation lamang. I-download ang wallpaper para makita ito sa aksyon!</string>
+  <string name="settings_title">Mga setting</string>
+  <string name="settings_dialog_delete_title">Tanggalin ang lokal na nilalaman</string>
+  <string name="settings_dialog_delete_message">Gusto mo ba talagang i-download ang lokal na nilalaman?</string>
+  <string name="loading">Naglo-load...</string>
+  <string name="start">Magsimula</string>
+  <string name="exit">Lumabas</string>
+  <string name="confirm_exit">Kumpirmahin ang Paglabas ?</string>
+  <string name="yes_exit">Oo</string>
+  <string name="no_exit">Hindi</string>
+  <string name="d3_wallpapers">Mga 3D na Wallpaper</string>
+  <string name="YourdropWallpapers">Ang iyong \n Wallpaper</string>
+  <string name="livedropwallpapers">Mga Live \n Wallpaper</string>
+  <string name="d3dropwallpapers">3D \n Wallpaper</string>
+  <string name="search">Maghanap</string>
+  <string name="text_not_found">Hindi nakita ang hinanap na data</string>
+  <string name="audio">Audio</string>
+</resources>

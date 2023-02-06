@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">טפט חי</string>
+  <string name="my_name">טפט 3D חי</string>
+  <string name="common_ok">בסדר</string>
+  <string name="common_set">מַעֲרֶכֶת</string>
+  <string name="common_cancel">לְבַטֵל</string>
+  <string name="common_delete">לִמְחוֹק</string>
+  <string name="common_retry">נסה שוב</string>
+  <string name="common_pro">מִקצוֹעָן</string>
+  <string name="live_wallpapers">רקעים חיים</string>
+  <string name="menu_refresh">לְרַעֲנֵן</string>
+  <string name="menu_sort">מיין לפי</string>
+  <string name="menu_wpsetter">הגדר טפט</string>
+  <string name="menu_settings">הגדרות</string>
+  <string name="menu_delete">לִמְחוֹק</string>
+  <string name="menu_link">אתר המחבר</string>
+  <string name="error_download">התצוגה המקדימה נכשלה!</string>
+  <string name="error_connection">דרוש חיבור לאינטרנט!</string>
+  <string name="error_preview_unknown">לא ניתן להציג תצוגה מקדימה!</string>
+  <string name="error_preview_notfound">לא זמין לתצוגה מקדימה</string>
+  <string name="error_wpsetter">טפט חי לא נמצא!</string>
+  <string name="error_timeout">פסק זמן לחיבור. נסה שוב!</string>
+  <string name="error_catalog">לא ניתן לאחזר תמונות!</string>
+  <string name="error_browser">לא ניתן לפתוח דפדפן!</string>
+  <string name="notif_new_title_one">טפט חדש! תבדוק את זה!</string>
+  <string name="notif_new_title_multi">טפטים חדשים! בדוק אותם!</string>
+  <string name="notif_new_message_one">טפט חדש נוסף לקטלוג.</string>
+  <string name="notif_new_message_multi">טפטים חדשים נוספו לקטלוג.</string>
+  <string name="select_language">בחר שפה</string>
+  <string name="main_info_empty_title">אין מה להראות!</string>
+  <string name="main_info_empty_message">התוכן יוורד בהקדם האפשרי...</string>
+  <string name="main_dialog_nosensor_title">שגיאת חיישן</string>
+  <string name="main_dialog_nosensor_message">למכשיר שלך אין את החיישנים הנדרשים.</string>
+  <string name="main_ongoing_download">יצירת תצוגה מקדימה</string>
+  <string name="main_alert_deleted">עותק מקומי נמחק!</string>
+  <string name="main_menu_sort_new">חָדָשׁ</string>
+  <string name="main_menu_sort_title">כותרת</string>
+  <string name="main_menu_sort_author">מְחַבֵּר</string>
+  <string name="set_title">תצוגה מקדימה</string>
+  <string name="set_dialog_delete_title">מחק טפט</string>
+  <string name="set_dialog_delete_message">האם אתה באמת רוצה למחוק את הטפט הזה? תמיד תוכל להוריד אותו מאוחר יותר.</string>
+  <string name="set_dialog_notzero_title">בחר 3DLive</string>
+  <string name="set_dialog_notzero_message">הגדר כטפט חי</string>
+  <string name="set_alert_changed">הטפט השתנה!</string>
+  <string name="prev_thisisaprev_toast">זו רק אנימציית הדגמה. הורד את הטפט כדי לראות אותו בפעולה!</string>
+  <string name="settings_title">הגדרות</string>
+  <string name="settings_dialog_delete_title">מחק תוכן מקומי</string>
+  <string name="settings_dialog_delete_message">האם אתה באמת רוצה להוריד את התוכן המקומי?</string>
+  <string name="loading">טוען...</string>
+  <string name="start">הַתחָלָה</string>
+  <string name="exit">יְצִיאָה</string>
+  <string name="confirm_exit">לאשר יציאה?</string>
+  <string name="yes_exit">כן</string>
+  <string name="no_exit">לא</string>
+  <string name="d3_wallpapers">רקעים תלת מימדיים</string>
+  <string name="YourdropWallpapers">הטפטים \n שלך</string>
+  <string name="livedropwallpapers">טפטים חיים \n</string>
+  <string name="d3dropwallpapers">רקעים תלת \n</string>
+  <string name="search">לחפש</string>
+  <string name="text_not_found">הנתונים שחיפשו לא נמצאו</string>
+  <string name="audio">שֶׁמַע</string>
+</resources>

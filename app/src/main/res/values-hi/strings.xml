@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">लाइव वॉलपेपर</string>
+  <string name="my_name">लाइव 3डी वॉलपेपर</string>
+  <string name="common_ok">ठीक</string>
+  <string name="common_set">तय करना</string>
+  <string name="common_cancel">रद्द करना</string>
+  <string name="common_delete">मिटाना</string>
+  <string name="common_retry">पुन: प्रयास करें</string>
+  <string name="common_pro">समर्थक</string>
+  <string name="live_wallpapers">लाइव वॉलपेपर</string>
+  <string name="menu_refresh">ताज़ा करना</string>
+  <string name="menu_sort">इसके अनुसार क्रमबद्ध करें</string>
+  <string name="menu_wpsetter">वॉलपेपर सेट करो</string>
+  <string name="menu_settings">समायोजन</string>
+  <string name="menu_delete">मिटाना</string>
+  <string name="menu_link">लेखक की साइट</string>
+  <string name="error_download">पूर्वावलोकन करने में विफल!</string>
+  <string name="error_connection">इंटरनेट कनेक्शन की जरूरत!</string>
+  <string name="error_preview_unknown">पूर्वावलोकन प्रदर्शित करने में असमर्थ!</string>
+  <string name="error_preview_notfound">पूर्वावलोकन के लिए अनुपलब्ध</string>
+  <string name="error_wpsetter">लाइव वॉलपेपर नहीं मिला!</string>
+  <string name="error_timeout">रिश्तों का समय बाहर। पुनः प्रयास करें!</string>
+  <string name="error_catalog">छवियों को पुनः प्राप्त करने में असमर्थ!</string>
+  <string name="error_browser">ब्राउज़र खोलने में असमर्थ!</string>
+  <string name="notif_new_title_one">नया वॉलपेपर! इसकी जांच - पड़ताल करें!</string>
+  <string name="notif_new_title_multi">नए वॉलपेपर! उनकी बाहर जांच करो!</string>
+  <string name="notif_new_message_one">कैटलॉग में एक नया वॉलपेपर जोड़ा गया है।</string>
+  <string name="notif_new_message_multi">कैटलॉग में नए वॉलपेपर जोड़े गए हैं।</string>
+  <string name="select_language">भाषा चुने</string>
+  <string name="main_info_empty_title">दिखाने के लिए कुछ नहीं!</string>
+  <string name="main_info_empty_message">जितनी जल्दी हो सके सामग्री डाउनलोड की जाएगी …</string>
+  <string name="main_dialog_nosensor_title">सेंसर त्रुटि</string>
+  <string name="main_dialog_nosensor_message">आपके डिवाइस में आवश्यक सेंसर नहीं हैं।</string>
+  <string name="main_ongoing_download">पूर्वावलोकन जनरेट कर रहा है</string>
+  <string name="main_alert_deleted">स्थानीय प्रतिलिपि हटाई गई!</string>
+  <string name="main_menu_sort_new">नया</string>
+  <string name="main_menu_sort_title">शीर्षक</string>
+  <string name="main_menu_sort_author">लेखक</string>
+  <string name="set_title">पूर्व दर्शन</string>
+  <string name="set_dialog_delete_title">वॉलपेपर हटाएं</string>
+  <string name="set_dialog_delete_message">क्या आप वाकई इस वॉलपेपर को हटाना चाहते हैं? आप इसे बाद में कभी भी डाउनलोड कर सकते हैं।</string>
+  <string name="set_dialog_notzero_title">3डीलाइव का चयन करें</string>
+  <string name="set_dialog_notzero_message">लाइव वॉलपेपर के रूप में सेट करें</string>
+  <string name="set_alert_changed">वॉलपेपर बदल गया!</string>
+  <string name="prev_thisisaprev_toast">यह केवल एक डेमो एनिमेशन है। कार्रवाई में इसे देखने के लिए वॉलपेपर डाउनलोड करें!</string>
+  <string name="settings_title">समायोजन</string>
+  <string name="settings_dialog_delete_title">स्थानीय सामग्री हटाएं</string>
+  <string name="settings_dialog_delete_message">क्या आप वाकई स्थानीय सामग्री डाउनलोड करना चाहते हैं?</string>
+  <string name="loading">लोड हो रहा है...</string>
+  <string name="start">शुरू</string>
+  <string name="exit">बाहर निकलना</string>
+  <string name="confirm_exit">बाहर निकलने की पुष्टि करें?</string>
+  <string name="yes_exit">हाँ</string>
+  <string name="no_exit">नहीं</string>
+  <string name="d3_wallpapers">3 डी वॉलपेपर</string>
+  <string name="YourdropWallpapers">आपका \n वॉलपेपर</string>
+  <string name="livedropwallpapers">लाइव \n वॉलपेपर</string>
+  <string name="d3dropwallpapers">3डी \n वॉलपेपर</string>
+  <string name="search">खोज</string>
+  <string name="text_not_found">खोजा गया डेटा नहीं मिला</string>
+  <string name="audio">ऑडियो</string>
+</resources>

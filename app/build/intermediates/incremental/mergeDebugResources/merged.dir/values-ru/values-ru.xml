@@ -6,6 +6,7 @@
     <item quantity="many">%d новых уведомлений</item>
     <item quantity="other">%d нового уведомления</item>
   </plurals>
+    <string name="YourdropWallpapers">Ваши обои \n</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вверх"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ещё"</string>
@@ -33,10 +34,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="app_name">Живые обои</string>
+    <string name="audio">Аудио</string>
     <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
     <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
     <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
     <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_delete">Удалить</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Включить"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется включить сервисы Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Включите сервисы Google Play"</string>
@@ -52,13 +57,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Обновите сервисы Google Play"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Сервисы Google Play, необходимые для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", в настоящий момент обновляются."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время."</string>
+    <string name="common_ok">ХОРОШО</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string name="common_pro">Про</string>
+    <string name="common_retry">Повторить попытку</string>
+    <string name="common_set">Набор</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Войти"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Войти через аккаунт Google"</string>
+    <string name="confirm_exit">Подтвердить выход?</string>
+    <string name="d3_wallpapers">3D обои</string>
+    <string name="d3dropwallpapers">3D \n Обои</string>
+    <string name="error_browser">Невозможно открыть браузер!</string>
+    <string name="error_catalog">Не удалось получить изображения!</string>
+    <string name="error_connection">Необходимо подключение к интернету!</string>
+    <string name="error_download">Не удалось просмотреть!</string>
     <string name="error_icon_content_description">Ошибка</string>
+    <string name="error_preview_notfound">Недоступно для предварительного просмотра</string>
+    <string name="error_preview_unknown">Невозможно отобразить предварительный просмотр!</string>
+    <string name="error_timeout">Время соединения вышло. Попробуйте еще раз!</string>
+    <string name="error_wpsetter">Живые обои не найдены!</string>
+    <string name="exit">Выход</string>
     <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
     <string name="icon_content_description">Значок диалогового окна</string>
     <string name="item_view_role_description">Вкладка</string>
+    <string name="live_wallpapers">Живые обои</string>
+    <string name="livedropwallpapers">Живые \n nобои</string>
+    <string name="loading">Загрузка...</string>
+    <string name="main_alert_deleted">Локальная копия удалена!</string>
+    <string name="main_dialog_nosensor_message">На вашем устройстве нет необходимых датчиков.</string>
+    <string name="main_dialog_nosensor_title">Ошибка датчика</string>
+    <string name="main_info_empty_message">Контент будет загружен как можно скорее…</string>
+    <string name="main_info_empty_title">Нечего показывать!</string>
+    <string name="main_menu_sort_author">Автор</string>
+    <string name="main_menu_sort_new">Новый</string>
+    <string name="main_menu_sort_title">Заголовок</string>
+    <string name="main_ongoing_download">Создание предварительного просмотра</string>
     <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
     <string name="material_hour_selection">Выберите час</string>
     <string name="material_hour_suffix">%1$s ч.</string>
@@ -71,6 +104,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Выбор времени</string>
     <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_link">Сайт автора</string>
+    <string name="menu_refresh">Обновить</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_sort">Сортировать по</string>
+    <string name="menu_wpsetter">Установка обоев</string>
     <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
     <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Новых уведомлений больше %1$d</string>
@@ -104,8 +143,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
     <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string name="my_name">Живые 3D обои</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Перейти вверх"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Открыть панель навигации"</string>
+    <string name="no_exit">Нет</string>
+    <string name="notif_new_message_multi">В каталог добавлены новые обои.</string>
+    <string name="notif_new_message_one">В каталог добавлены новые обои.</string>
+    <string name="notif_new_title_multi">Новые обои! Проверь их!</string>
+    <string name="notif_new_title_one">Новые обои! Проверьте это!</string>
     <string name="offline_notification_text">Чтобы открыть его, нажмите на уведомление.</string>
     <string name="offline_notification_title">Вы хотели посмотреть объявление, когда были офлайн</string>
     <string name="offline_opt_in_confirm">ОК</string>
@@ -114,6 +159,7 @@
     <string name="offline_opt_in_message">Когда вы подключитесь к Интернету, мы отправим вам уведомление со ссылкой на сайт рекламодателя.</string>
     <string name="offline_opt_in_title">Посмотрите объявление, когда будете в Сети</string>
     <string name="password_toggle_content_description">Показать пароль</string>
+    <string name="prev_thisisaprev_toast">Это всего лишь демонстрационная анимация. Загрузите обои, чтобы увидеть его в действии!</string>
     <string name="s1">Сохранить изображение</string>
     <string name="s2">Разрешить объявлению сохранить изображение в галерее?</string>
     <string name="s3">Разрешить</string>
@@ -121,6 +167,20 @@
     <string name="s5">Создать мероприятие</string>
     <string name="s6">Разрешить объявлению создать мероприятие в календаре?</string>
     <string name="s7">Тестовое объявление</string>
+    <string name="search">Поиск</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Поиск"</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="set_alert_changed">Обои изменены!</string>
+    <string name="set_dialog_delete_message">Вы действительно хотите удалить эти обои? Вы всегда можете скачать его позже.</string>
+    <string name="set_dialog_delete_title">Удалить обои</string>
+    <string name="set_dialog_notzero_message">Сделать живыми обоями</string>
+    <string name="set_dialog_notzero_title">Выберите 3DLive</string>
+    <string name="set_title">Предварительный просмотр</string>
+    <string name="settings_dialog_delete_message">Вы действительно хотите загрузить локальный контент?</string>
+    <string name="settings_dialog_delete_title">Удалить локальный контент</string>
+    <string name="settings_title">Настройки</string>
+    <string name="start">Начинать</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="text_not_found">Искомые данные не найдены</string>
+    <string name="yes_exit">Да</string>
 </resources>

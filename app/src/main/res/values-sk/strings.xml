@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Živé tapety</string>
+  <string name="my_name">Živá 3D tapeta</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Set</string>
+  <string name="common_cancel">Zrušiť</string>
+  <string name="common_delete">Odstrániť</string>
+  <string name="common_retry">Skúsiť znova</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Živé tapety</string>
+  <string name="menu_refresh">Obnoviť</string>
+  <string name="menu_sort">Triediť podľa</string>
+  <string name="menu_wpsetter">Nastaviť pozadie</string>
+  <string name="menu_settings">Nastavenie</string>
+  <string name="menu_delete">Odstrániť</string>
+  <string name="menu_link">Stránka autora</string>
+  <string name="error_download">Nepodarilo sa zobraziť ukážku!</string>
+  <string name="error_connection">Potrebné internetové pripojenie!</string>
+  <string name="error_preview_unknown">Nie je možné zobraziť ukážku!</string>
+  <string name="error_preview_notfound">Ukážka nie je k dispozícii</string>
+  <string name="error_wpsetter">Živá tapeta sa nenašla!</string>
+  <string name="error_timeout">Spojenie vypršalo. Skúste znova!</string>
+  <string name="error_catalog">Nie je možné načítať obrázky!</string>
+  <string name="error_browser">Nedá sa otvoriť prehliadač!</string>
+  <string name="notif_new_title_one">Nová tapeta! Skontrolovať to!</string>
+  <string name="notif_new_title_multi">Nové tapety! Skontroluj ich!</string>
+  <string name="notif_new_message_one">Do katalógu bola pridaná nová tapeta.</string>
+  <string name="notif_new_message_multi">Do katalógu boli pridané nové tapety.</string>
+  <string name="select_language">Zvoľ jazyk</string>
+  <string name="main_info_empty_title">Nie je čo ukázať!</string>
+  <string name="main_info_empty_message">Obsah bude stiahnutý čo najskôr…</string>
+  <string name="main_dialog_nosensor_title">Chyba snímača</string>
+  <string name="main_dialog_nosensor_message">Vaše zariadenie nemá požadované senzory.</string>
+  <string name="main_ongoing_download">Generovanie ukážky</string>
+  <string name="main_alert_deleted">Miestna kópia bola odstránená!</string>
+  <string name="main_menu_sort_new">Nový</string>
+  <string name="main_menu_sort_title">Názov</string>
+  <string name="main_menu_sort_author">Autor</string>
+  <string name="set_title">Náhľad</string>
+  <string name="set_dialog_delete_title">Odstrániť tapetu</string>
+  <string name="set_dialog_delete_message">Naozaj chcete odstrániť túto tapetu? Vždy si ho môžete stiahnuť neskôr.</string>
+  <string name="set_dialog_notzero_title">Vyberte 3DLive</string>
+  <string name="set_dialog_notzero_message">Nastaviť ako živú tapetu</string>
+  <string name="set_alert_changed">Tapeta zmenená!</string>
+  <string name="prev_thisisaprev_toast">Toto je len demo animácia. Stiahnite si tapetu a uvidíte ju v akcii!</string>
+  <string name="settings_title">Nastavenie</string>
+  <string name="settings_dialog_delete_title">Odstráňte miestny obsah</string>
+  <string name="settings_dialog_delete_message">Naozaj chcete stiahnuť miestny obsah?</string>
+  <string name="loading">Načítava...</string>
+  <string name="start">Štart</string>
+  <string name="exit">VÝCHOD</string>
+  <string name="confirm_exit">Potvrdiť ukončenie?</string>
+  <string name="yes_exit">Áno</string>
+  <string name="no_exit">Nie</string>
+  <string name="d3_wallpapers">3D tapety</string>
+  <string name="YourdropWallpapers">Vaše \n Tapety</string>
+  <string name="livedropwallpapers">Živé \n tapety</string>
+  <string name="d3dropwallpapers">3D \n Tapety</string>
+  <string name="search">Vyhľadávanie</string>
+  <string name="text_not_found">Hľadané údaje sa nenašli</string>
+  <string name="audio">Zvuk</string>
+</resources>

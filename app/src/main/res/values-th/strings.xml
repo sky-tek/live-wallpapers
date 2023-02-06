@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">วอลล์เปเปอร์สด</string>
+  <string name="my_name">วอลล์เปเปอร์ 3D สด</string>
+  <string name="common_ok">ตกลง</string>
+  <string name="common_set">ชุด</string>
+  <string name="common_cancel">ยกเลิก</string>
+  <string name="common_delete">ลบ</string>
+  <string name="common_retry">ลองอีกครั้ง</string>
+  <string name="common_pro">มือโปร</string>
+  <string name="live_wallpapers">วอลเปเปอร์สด</string>
+  <string name="menu_refresh">รีเฟรช</string>
+  <string name="menu_sort">เรียงตาม</string>
+  <string name="menu_wpsetter">ตั้งวอลล์เปเปอร์</string>
+  <string name="menu_settings">การตั้งค่า</string>
+  <string name="menu_delete">ลบ</string>
+  <string name="menu_link">เว็บไซต์ของผู้เขียน</string>
+  <string name="error_download">ดูตัวอย่างไม่สำเร็จ!</string>
+  <string name="error_connection">ต้องการการเชื่อมต่ออินเทอร์เน็ต!</string>
+  <string name="error_preview_unknown">ไม่สามารถแสดงตัวอย่างได้!</string>
+  <string name="error_preview_notfound">ไม่สามารถดูตัวอย่างได้</string>
+  <string name="error_wpsetter">ไม่พบวอลล์เปเปอร์สด!</string>
+  <string name="error_timeout">หมดเวลาการเชื่อมต่อ ลองอีกครั้ง!</string>
+  <string name="error_catalog">ดึงภาพไม่ได้!</string>
+  <string name="error_browser">เปิดบราวเซอร์ไม่ได้!</string>
+  <string name="notif_new_title_one">วอลล์เปเปอร์ใหม่! ตรวจสอบออก!</string>
+  <string name="notif_new_title_multi">วอลเปเปอร์ใหม่! ตรวจสอบพวกเขาออก!</string>
+  <string name="notif_new_message_one">เพิ่มวอลเปเปอร์ใหม่ลงในแคตตาล็อกแล้ว</string>
+  <string name="notif_new_message_multi">มีการเพิ่มวอลเปเปอร์ใหม่ลงในแคตตาล็อก</string>
+  <string name="select_language">เลือกภาษา</string>
+  <string name="main_info_empty_title">ไม่มีอะไรจะแสดง!</string>
+  <string name="main_info_empty_message">เนื้อหาจะถูกดาวน์โหลดโดยเร็วที่สุด ...</string>
+  <string name="main_dialog_nosensor_title">เซ็นเซอร์ผิดพลาด</string>
+  <string name="main_dialog_nosensor_message">อุปกรณ์ของคุณไม่มีเซ็นเซอร์ที่จำเป็น</string>
+  <string name="main_ongoing_download">กำลังสร้างการแสดงตัวอย่าง</string>
+  <string name="main_alert_deleted">ลบสำเนาในเครื่องแล้ว!</string>
+  <string name="main_menu_sort_new">ใหม่</string>
+  <string name="main_menu_sort_title">ชื่อ</string>
+  <string name="main_menu_sort_author">ผู้เขียน</string>
+  <string name="set_title">ดูตัวอย่าง</string>
+  <string name="set_dialog_delete_title">ลบวอลเปเปอร์</string>
+  <string name="set_dialog_delete_message">คุณต้องการลบวอลเปเปอร์นี้จริงหรือ คุณสามารถดาวน์โหลดได้ในภายหลัง</string>
+  <string name="set_dialog_notzero_title">เลือก 3DLive</string>
+  <string name="set_dialog_notzero_message">ตั้งเป็นวอลล์เปเปอร์สด</string>
+  <string name="set_alert_changed">วอลเปเปอร์เปลี่ยน!</string>
+  <string name="prev_thisisaprev_toast">นี่เป็นเพียงภาพเคลื่อนไหวสาธิตเท่านั้น ดาวน์โหลดวอลเปเปอร์เพื่อดูการใช้งานจริง!</string>
+  <string name="settings_title">การตั้งค่า</string>
+  <string name="settings_dialog_delete_title">ลบเนื้อหาในเครื่อง</string>
+  <string name="settings_dialog_delete_message">คุณต้องการดาวน์โหลดเนื้อหาในเครื่องหรือไม่</string>
+  <string name="loading">กำลังโหลด...</string>
+  <string name="start">เริ่ม</string>
+  <string name="exit">ทางออก</string>
+  <string name="confirm_exit">ยืนยันการออก ?</string>
+  <string name="yes_exit">ใช่</string>
+  <string name="no_exit">เลขที่</string>
+  <string name="d3_wallpapers">วอลเปเปอร์ 3 มิติ</string>
+  <string name="YourdropWallpapers">วอลเปเปอร์ \n ของคุณ</string>
+  <string name="livedropwallpapers">วอลเปเปอร์สด \n</string>
+  <string name="d3dropwallpapers">วอลเปเปอร์ 3D \n</string>
+  <string name="search">ค้นหา</string>
+  <string name="text_not_found">ไม่พบข้อมูลที่ค้นหา</string>
+  <string name="audio">เครื่องเสียง</string>
+</resources>

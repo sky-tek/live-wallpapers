@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Živa pozadina</string>
+  <string name="my_name">Živa 3D pozadina</string>
+  <string name="common_ok">U redu</string>
+  <string name="common_set">Set</string>
+  <string name="common_cancel">Otkazati</string>
+  <string name="common_delete">Izbrisati</string>
+  <string name="common_retry">Pokušaj ponovo</string>
+  <string name="common_pro">Profesionalac</string>
+  <string name="live_wallpapers">Žive pozadine</string>
+  <string name="menu_refresh">Osvježiti</string>
+  <string name="menu_sort">Poredaj po</string>
+  <string name="menu_wpsetter">Postavite pozadinu</string>
+  <string name="menu_settings">Postavke</string>
+  <string name="menu_delete">Izbrisati</string>
+  <string name="menu_link">Stranica autora</string>
+  <string name="error_download">Pregled nije uspio!</string>
+  <string name="error_connection">Potrebna internetska veza!</string>
+  <string name="error_preview_unknown">Nije moguće prikazati pregled!</string>
+  <string name="error_preview_notfound">Nije dostupno za pregled</string>
+  <string name="error_wpsetter">Živa pozadina nije pronađena!</string>
+  <string name="error_timeout">Vrijeme povezanosti je isteklo. Pokušajte ponovno!</string>
+  <string name="error_catalog">Nije moguće dohvatiti slike!</string>
+  <string name="error_browser">Nije moguće otvoriti preglednik!</string>
+  <string name="notif_new_title_one">Nova pozadina! Provjerite!</string>
+  <string name="notif_new_title_multi">Nove pozadine! Provjeri ih!</string>
+  <string name="notif_new_message_one">U katalog je dodana nova pozadina.</string>
+  <string name="notif_new_message_multi">Nove pozadine su dodane u katalog.</string>
+  <string name="select_language">Izaberi jezik</string>
+  <string name="main_info_empty_title">Ništa za pokazati!</string>
+  <string name="main_info_empty_message">Sadržaj će biti preuzet u najkraćem mogućem roku…</string>
+  <string name="main_dialog_nosensor_title">Greška senzora</string>
+  <string name="main_dialog_nosensor_message">Vaš uređaj nema potrebne senzore.</string>
+  <string name="main_ongoing_download">Generiranje pregleda</string>
+  <string name="main_alert_deleted">Lokalna kopija izbrisana!</string>
+  <string name="main_menu_sort_new">Novi</string>
+  <string name="main_menu_sort_title">Titula</string>
+  <string name="main_menu_sort_author">Autor</string>
+  <string name="set_title">Pregled</string>
+  <string name="set_dialog_delete_title">Izbriši pozadinu</string>
+  <string name="set_dialog_delete_message">Želite li stvarno izbrisati ovu pozadinu? Uvijek ga možete preuzeti kasnije.</string>
+  <string name="set_dialog_notzero_title">Odaberite 3DLive</string>
+  <string name="set_dialog_notzero_message">Postavi kao animiranu pozadinu</string>
+  <string name="set_alert_changed">Promijenjena pozadina!</string>
+  <string name="prev_thisisaprev_toast">Ovo je samo demo animacija. Preuzmite pozadinu da je vidite na djelu!</string>
+  <string name="settings_title">Postavke</string>
+  <string name="settings_dialog_delete_title">Izbrišite lokalni sadržaj</string>
+  <string name="settings_dialog_delete_message">Želite li stvarno preuzeti lokalni sadržaj?</string>
+  <string name="loading">Učitavam...</string>
+  <string name="start">Početak</string>
+  <string name="exit">Izlaz</string>
+  <string name="confirm_exit">Potvrditi izlaz?</string>
+  <string name="yes_exit">Da</string>
+  <string name="no_exit">Ne</string>
+  <string name="d3_wallpapers">3D pozadine</string>
+  <string name="YourdropWallpapers">Vaše \n pozadine</string>
+  <string name="livedropwallpapers">Žive \n pozadine</string>
+  <string name="d3dropwallpapers">3D \n pozadine</string>
+  <string name="search">Traži</string>
+  <string name="text_not_found">Traženi podaci nisu pronađeni</string>
+  <string name="audio">Audio</string>
+</resources>

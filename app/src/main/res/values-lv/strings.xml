@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Dzīvās tapetes</string>
+  <string name="my_name">Tiešsaistes 3D fona attēls</string>
+  <string name="common_ok">Labi</string>
+  <string name="common_set">Iestatīt</string>
+  <string name="common_cancel">Atcelt</string>
+  <string name="common_delete">Dzēst</string>
+  <string name="common_retry">Mēģiniet vēlreiz</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Dzīvās fona tapetes</string>
+  <string name="menu_refresh">Atjaunot</string>
+  <string name="menu_sort">Kārtot pēc</string>
+  <string name="menu_wpsetter">Iestatīt fonu</string>
+  <string name="menu_settings">Iestatījumi</string>
+  <string name="menu_delete">Dzēst</string>
+  <string name="menu_link">Autora vietne</string>
+  <string name="error_download">Neizdevās priekšskatīt!</string>
+  <string name="error_connection">Nepieciešams interneta pieslēgums!</string>
+  <string name="error_preview_unknown">Nevar parādīt priekšskatījumu!</string>
+  <string name="error_preview_notfound">Nav pieejams priekšskatīšanai</string>
+  <string name="error_wpsetter">Dzīvā fona tapete nav atrasta!</string>
+  <string name="error_timeout">Savienojuma taimauts. Mēģini vēlreiz!</string>
+  <string name="error_catalog">Nevar izgūt attēlus!</string>
+  <string name="error_browser">Nevar atvērt pārlūkprogrammu!</string>
+  <string name="notif_new_title_one">Jauna tapete! Pārbaudiet to!</string>
+  <string name="notif_new_title_multi">Jaunas tapetes! Pārbaudiet tos!</string>
+  <string name="notif_new_message_one">Katalogam ir pievienota jauna tapete.</string>
+  <string name="notif_new_message_multi">Katalogam ir pievienotas jaunas tapetes.</string>
+  <string name="select_language">Izvēlēties valodu</string>
+  <string name="main_info_empty_title">Nav ko rādīt!</string>
+  <string name="main_info_empty_message">Saturs tiks lejupielādēts pēc iespējas ātrāk…</string>
+  <string name="main_dialog_nosensor_title">Sensora kļūda</string>
+  <string name="main_dialog_nosensor_message">Jūsu ierīcei nav nepieciešamo sensoru.</string>
+  <string name="main_ongoing_download">Priekšskatījuma ģenerēšana</string>
+  <string name="main_alert_deleted">Vietējā kopija izdzēsta!</string>
+  <string name="main_menu_sort_new">Jauns</string>
+  <string name="main_menu_sort_title">Nosaukums</string>
+  <string name="main_menu_sort_author">Autors</string>
+  <string name="set_title">Priekšskatījums</string>
+  <string name="set_dialog_delete_title">Dzēst fonu</string>
+  <string name="set_dialog_delete_message">Vai tiešām vēlaties dzēst šo fona tapeti? Jūs vienmēr varat to lejupielādēt vēlāk.</string>
+  <string name="set_dialog_notzero_title">Atlasiet 3DLive</string>
+  <string name="set_dialog_notzero_message">Iestatīt kā Live Wallpaper</string>
+  <string name="set_alert_changed">Tapetes mainītas!</string>
+  <string name="prev_thisisaprev_toast">Šī ir tikai demonstrācijas animācija. Lejupielādējiet fona attēlu, lai redzētu to darbībā!</string>
+  <string name="settings_title">Iestatījumi</string>
+  <string name="settings_dialog_delete_title">Dzēst vietējo saturu</string>
+  <string name="settings_dialog_delete_message">Vai tiešām vēlaties lejupielādēt vietējo saturu?</string>
+  <string name="loading">Notiek ielāde...</string>
+  <string name="start">Sākt</string>
+  <string name="exit">Izeja</string>
+  <string name="confirm_exit">Apstiprināt iziešanu?</string>
+  <string name="yes_exit">Jā</string>
+  <string name="no_exit">Nē</string>
+  <string name="d3_wallpapers">3D tapetes</string>
+  <string name="YourdropWallpapers">Jūsu \n tapetes</string>
+  <string name="livedropwallpapers">Tiešraides \n tapetes</string>
+  <string name="d3dropwallpapers">3D \n</string>
+  <string name="search">Meklēt</string>
+  <string name="text_not_found">Meklētie dati nav atrasti</string>
+  <string name="audio">Audio</string>
+</resources>

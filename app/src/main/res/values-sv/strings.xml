@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Levande tapeter</string>
+  <string name="my_name">Live 3D-bakgrund</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Uppsättning</string>
+  <string name="common_cancel">Annullera</string>
+  <string name="common_delete">Radera</string>
+  <string name="common_retry">Försök igen</string>
+  <string name="common_pro">Proffs</string>
+  <string name="live_wallpapers">Rörande backgrundsbilder</string>
+  <string name="menu_refresh">Uppdatera</string>
+  <string name="menu_sort">Sortera efter</string>
+  <string name="menu_wpsetter">Ange bakgrund</string>
+  <string name="menu_settings">Inställningar</string>
+  <string name="menu_delete">Radera</string>
+  <string name="menu_link">Författarens webbplats</string>
+  <string name="error_download">Det gick inte att förhandsgranska!</string>
+  <string name="error_connection">Internetanslutning behövs!</string>
+  <string name="error_preview_unknown">Det går inte att visa förhandsgranskning!</string>
+  <string name="error_preview_notfound">Inte tillgänglig för förhandsgranskning</string>
+  <string name="error_wpsetter">Live wallpaper hittades inte!</string>
+  <string name="error_timeout">Timeout för anslutning. Försök igen!</string>
+  <string name="error_catalog">Det går inte att hämta bilder!</string>
+  <string name="error_browser">Det går inte att öppna webbläsaren!</string>
+  <string name="notif_new_title_one">Ny tapet! Kolla in det!</string>
+  <string name="notif_new_title_multi">Nya bakgrundsbilder! Kolla på dem!</string>
+  <string name="notif_new_message_one">En ny tapet har lagts till i katalogen.</string>
+  <string name="notif_new_message_multi">Nya tapeter har lagts till i katalogen.</string>
+  <string name="select_language">Välj språk</string>
+  <string name="main_info_empty_title">Inget att visa!</string>
+  <string name="main_info_empty_message">Innehåll kommer att laddas ner så snart som möjligt...</string>
+  <string name="main_dialog_nosensor_title">Sensorfel</string>
+  <string name="main_dialog_nosensor_message">Din enhet har inte de sensorer som krävs.</string>
+  <string name="main_ongoing_download">Genererar förhandsvisning</string>
+  <string name="main_alert_deleted">Lokal kopia raderad!</string>
+  <string name="main_menu_sort_new">Ny</string>
+  <string name="main_menu_sort_title">Titel</string>
+  <string name="main_menu_sort_author">Författare</string>
+  <string name="set_title">Förhandsvisning</string>
+  <string name="set_dialog_delete_title">Ta bort bakgrundsbild</string>
+  <string name="set_dialog_delete_message">Vill du verkligen ta bort den här bakgrunden? Du kan alltid ladda ner det senare.</string>
+  <string name="set_dialog_notzero_title">Välj 3DLive</string>
+  <string name="set_dialog_notzero_message">Ställ in som levande bakgrund</string>
+  <string name="set_alert_changed">Bakgrunden ändrad!</string>
+  <string name="prev_thisisaprev_toast">Detta är bara en demoanimation. Ladda ner tapeten för att se den i aktion!</string>
+  <string name="settings_title">Inställningar</string>
+  <string name="settings_dialog_delete_title">Ta bort lokalt innehåll</string>
+  <string name="settings_dialog_delete_message">Vill du verkligen ladda ner det lokala innehållet?</string>
+  <string name="loading">Läser in...</string>
+  <string name="start">Start</string>
+  <string name="exit">Utgång</string>
+  <string name="confirm_exit">Bekräfta utgång?</string>
+  <string name="yes_exit">Ja</string>
+  <string name="no_exit">Nej</string>
+  <string name="d3_wallpapers">3D-bakgrundsbilder</string>
+  <string name="YourdropWallpapers">Dina \n bakgrundsbilder</string>
+  <string name="livedropwallpapers">Live \n Bakgrundsbilder</string>
+  <string name="d3dropwallpapers">3D \n Bakgrundsbilder</string>
+  <string name="search">Sök</string>
+  <string name="text_not_found">Sökte data hittades inte</string>
+  <string name="audio">Audio</string>
+</resources>

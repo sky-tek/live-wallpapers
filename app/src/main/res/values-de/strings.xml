@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Live Hintergrund</string>
+  <string name="my_name">Live-3D-Hintergrundbild</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Satz</string>
+  <string name="common_cancel">Stornieren</string>
+  <string name="common_delete">Löschen</string>
+  <string name="common_retry">Wiederholen</string>
+  <string name="common_pro">Profi</string>
+  <string name="live_wallpapers">Live-Hintergründe</string>
+  <string name="menu_refresh">Aktualisierung</string>
+  <string name="menu_sort">Sortiere nach</string>
+  <string name="menu_wpsetter">Hintergrundbild festlegen</string>
+  <string name="menu_settings">Einstellungen</string>
+  <string name="menu_delete">Löschen</string>
+  <string name="menu_link">Website des Autors</string>
+  <string name="error_download">Vorschau fehlgeschlagen!</string>
+  <string name="error_connection">Internetverbindung erforderlich!</string>
+  <string name="error_preview_unknown">Vorschau kann nicht angezeigt werden!</string>
+  <string name="error_preview_notfound">Vorschau nicht verfügbar</string>
+  <string name="error_wpsetter">Live-Wallpaper nicht gefunden!</string>
+  <string name="error_timeout">Verbindungszeitüberschreitung. Versuchen Sie es erneut!</string>
+  <string name="error_catalog">Bilder können nicht abgerufen werden!</string>
+  <string name="error_browser">Browser kann nicht geöffnet werden!</string>
+  <string name="notif_new_title_one">Neues Hintergrundbild! Hör zu!</string>
+  <string name="notif_new_title_multi">Neue Hintergrundbilder! Schau sie dir an!</string>
+  <string name="notif_new_message_one">Dem Katalog wurde ein neues Hintergrundbild hinzugefügt.</string>
+  <string name="notif_new_message_multi">Neue Hintergrundbilder wurden dem Katalog hinzugefügt.</string>
+  <string name="select_language">Sprache auswählen</string>
+  <string name="main_info_empty_title">Nichts zu zeigen!</string>
+  <string name="main_info_empty_message">Inhalte werden so schnell wie möglich heruntergeladen…</string>
+  <string name="main_dialog_nosensor_title">Sensorfehler</string>
+  <string name="main_dialog_nosensor_message">Ihr Gerät verfügt nicht über die erforderlichen Sensoren.</string>
+  <string name="main_ongoing_download">Vorschau erstellen</string>
+  <string name="main_alert_deleted">Lokale Kopie gelöscht!</string>
+  <string name="main_menu_sort_new">Neu</string>
+  <string name="main_menu_sort_title">Titel</string>
+  <string name="main_menu_sort_author">Autor</string>
+  <string name="set_title">Vorschau</string>
+  <string name="set_dialog_delete_title">Hintergrundbild löschen</string>
+  <string name="set_dialog_delete_message">Möchten Sie dieses Hintergrundbild wirklich löschen? Sie können es später immer noch herunterladen.</string>
+  <string name="set_dialog_notzero_title">Wählen Sie 3DLive</string>
+  <string name="set_dialog_notzero_message">Als Live-Hintergrund festlegen</string>
+  <string name="set_alert_changed">Hintergrundbild geändert!</string>
+  <string name="prev_thisisaprev_toast">Dies ist nur eine Demo-Animation. Laden Sie das Hintergrundbild herunter, um es in Aktion zu sehen!</string>
+  <string name="settings_title">Einstellungen</string>
+  <string name="settings_dialog_delete_title">Löschen Sie lokale Inhalte</string>
+  <string name="settings_dialog_delete_message">Möchten Sie die lokalen Inhalte wirklich herunterladen?</string>
+  <string name="loading">Wird geladen...</string>
+  <string name="start">Start</string>
+  <string name="exit">Ausfahrt</string>
+  <string name="confirm_exit">Beenden bestätigen?</string>
+  <string name="yes_exit">Ja</string>
+  <string name="no_exit">NEIN</string>
+  <string name="d3_wallpapers">3D-Hintergründe</string>
+  <string name="YourdropWallpapers">Ihre \n Hintergrundbilder</string>
+  <string name="livedropwallpapers">Live- \n -Hintergründe</string>
+  <string name="d3dropwallpapers">3D \n Hintergrundbilder</string>
+  <string name="search">Suchen</string>
+  <string name="text_not_found">Gesuchte Daten nicht gefunden</string>
+  <string name="audio">Audio</string>
+</resources>

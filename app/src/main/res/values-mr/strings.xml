@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">थेट वॉलपेपर</string>
+  <string name="my_name">थेट 3D वॉलपेपर</string>
+  <string name="common_ok">ठीक आहे</string>
+  <string name="common_set">सेट करा</string>
+  <string name="common_cancel">रद्द करा</string>
+  <string name="common_delete">हटवा</string>
+  <string name="common_retry">पुन्हा प्रयत्न करा</string>
+  <string name="common_pro">प्रो</string>
+  <string name="live_wallpapers">थेट वॉलपेपर</string>
+  <string name="menu_refresh">रिफ्रेश करा</string>
+  <string name="menu_sort">यानुसार क्रमवारी लावा</string>
+  <string name="menu_wpsetter">वॉलपेपर सेट करा</string>
+  <string name="menu_settings">सेटिंग्ज</string>
+  <string name="menu_delete">हटवा</string>
+  <string name="menu_link">लेखकाची साइट</string>
+  <string name="error_download">पूर्वावलोकन करण्यात अयशस्वी!</string>
+  <string name="error_connection">इंटरनेट कनेक्शन आवश्यक!</string>
+  <string name="error_preview_unknown">पूर्वावलोकन प्रदर्शित करण्यात अक्षम!</string>
+  <string name="error_preview_notfound">पूर्वावलोकनासाठी अनुपलब्ध</string>
+  <string name="error_wpsetter">लाइव्ह वॉलपेपर सापडला नाही!</string>
+  <string name="error_timeout">कनेक्शन कालबाह्य. पुन्हा प्रयत्न करा!</string>
+  <string name="error_catalog">प्रतिमा पुनर्प्राप्त करण्यात अक्षम!</string>
+  <string name="error_browser">ब्राउझर उघडण्यास अक्षम!</string>
+  <string name="notif_new_title_one">नवीन वॉलपेपर! हे पहा!</string>
+  <string name="notif_new_title_multi">नवीन वॉलपेपर! त्यांना तपासा!</string>
+  <string name="notif_new_message_one">कॅटलॉगमध्ये एक नवीन वॉलपेपर जोडला गेला आहे.</string>
+  <string name="notif_new_message_multi">कॅटलॉगमध्ये नवीन वॉलपेपर जोडले गेले आहेत.</string>
+  <string name="select_language">भाषा निवडा</string>
+  <string name="main_info_empty_title">दाखवण्यासारखे काही नाही!</string>
+  <string name="main_info_empty_message">सामग्री शक्य तितक्या लवकर डाउनलोड केली जाईल...</string>
+  <string name="main_dialog_nosensor_title">सेन्सर त्रुटी</string>
+  <string name="main_dialog_nosensor_message">तुमच्या डिव्हाइसमध्ये आवश्यक सेन्सर नाहीत.</string>
+  <string name="main_ongoing_download">पूर्वावलोकन व्युत्पन्न करत आहे</string>
+  <string name="main_alert_deleted">स्थानिक प्रत हटवली!</string>
+  <string name="main_menu_sort_new">नवीन</string>
+  <string name="main_menu_sort_title">शीर्षक</string>
+  <string name="main_menu_sort_author">लेखक</string>
+  <string name="set_title">पूर्वावलोकन</string>
+  <string name="set_dialog_delete_title">वॉलपेपर हटवा</string>
+  <string name="set_dialog_delete_message">तुम्हाला खरोखर हा वॉलपेपर हटवायचा आहे का? तुम्ही ते नंतर कधीही डाउनलोड करू शकता.</string>
+  <string name="set_dialog_notzero_title">3DLive निवडा</string>
+  <string name="set_dialog_notzero_message">लाइव्ह वॉलपेपर म्हणून सेट करा</string>
+  <string name="set_alert_changed">वॉलपेपर बदलला!</string>
+  <string name="prev_thisisaprev_toast">हे फक्त डेमो अॅनिमेशन आहे. कृतीमध्ये पाहण्यासाठी वॉलपेपर डाउनलोड करा!</string>
+  <string name="settings_title">सेटिंग्ज</string>
+  <string name="settings_dialog_delete_title">स्थानिक सामग्री हटवा</string>
+  <string name="settings_dialog_delete_message">तुम्हाला खरोखर स्थानिक सामग्री डाउनलोड करायची आहे का?</string>
+  <string name="loading">लोड करत आहे...</string>
+  <string name="start">सुरू करा</string>
+  <string name="exit">बाहेर पडा</string>
+  <string name="confirm_exit">बाहेर पडण्याची पुष्टी करायची?</string>
+  <string name="yes_exit">होय</string>
+  <string name="no_exit">नाही</string>
+  <string name="d3_wallpapers">3D वॉलपेपर</string>
+  <string name="YourdropWallpapers">तुमचे \n वॉलपेपर</string>
+  <string name="livedropwallpapers">लाइव्ह \n वॉलपेपर</string>
+  <string name="d3dropwallpapers">3D \n वॉलपेपर</string>
+  <string name="search">शोधा</string>
+  <string name="text_not_found">शोधलेला डेटा सापडला नाही</string>
+  <string name="audio">ऑडिओ</string>
+</resources>

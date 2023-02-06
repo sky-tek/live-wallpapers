@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">ផ្ទាំងរូបភាពផ្សាយបន្តផ្ទាល់</string>
+  <string name="my_name">ផ្ទាំងរូបភាព 3D ផ្ទាល់</string>
+  <string name="common_ok">យល់ព្រម</string>
+  <string name="common_set">កំណត់</string>
+  <string name="common_cancel">បោះបង់</string>
+  <string name="common_delete">លុប</string>
+  <string name="common_retry">ព្យាយាមម្តងទៀត</string>
+  <string name="common_pro">គាំទ្រ</string>
+  <string name="live_wallpapers">ផ្ទាំងរូបភាពផ្ទាល់</string>
+  <string name="menu_refresh">ធ្វើ​ឱ្យ​ស្រស់</string>
+  <string name="menu_sort">តម្រៀបតាម</string>
+  <string name="menu_wpsetter">កំណត់ផ្ទាំងរូបភាព</string>
+  <string name="menu_settings">ការកំណត់</string>
+  <string name="menu_delete">លុប</string>
+  <string name="menu_link">គេហទំព័ររបស់អ្នកនិពន្ធ</string>
+  <string name="error_download">បរាជ័យក្នុងការមើលជាមុន!</string>
+  <string name="error_connection">ត្រូវការភ្ជាប់អ៊ីនធឺណិត!</string>
+  <string name="error_preview_unknown">មិនអាចបង្ហាញការមើលជាមុនបានទេ!</string>
+  <string name="error_preview_notfound">មិនអាចមើលជាមុនបានទេ។</string>
+  <string name="error_wpsetter">រកមិនឃើញផ្ទាំងរូបភាពផ្ទាល់!</string>
+  <string name="error_timeout">អស់ពេលនៃការតភ្ជាប់។ ព្យាយាម​ម្តង​ទៀត!</string>
+  <string name="error_catalog">មិន​អាច​ទាញ​យក​រូបភាព​!</string>
+  <string name="error_browser">មិនអាចបើកកម្មវិធីរុករកបានទេ!</string>
+  <string name="notif_new_title_one">ផ្ទាំងរូបភាពថ្មី! ពិនិត្យមើលវាចេញ!</string>
+  <string name="notif_new_title_multi">ផ្ទាំងរូបភាពថ្មី! ពិនិត្យមើលពួកវា!</string>
+  <string name="notif_new_message_one">ផ្ទាំងរូបភាពថ្មីត្រូវបានបន្ថែមទៅកាតាឡុក។</string>
+  <string name="notif_new_message_multi">ផ្ទាំងរូបភាពថ្មីត្រូវបានបន្ថែមទៅកាតាឡុក។</string>
+  <string name="select_language">ជ្រើសរើស​ភាសា</string>
+  <string name="main_info_empty_title">គ្មានអ្វីត្រូវបង្ហាញ!</string>
+  <string name="main_info_empty_message">មាតិកានឹងត្រូវបានទាញយកឱ្យបានឆាប់តាមដែលអាចធ្វើទៅបាន…</string>
+  <string name="main_dialog_nosensor_title">កំហុសឧបករណ៍ចាប់សញ្ញា</string>
+  <string name="main_dialog_nosensor_message">ឧបករណ៍របស់អ្នកមិនមានឧបករណ៍ចាប់សញ្ញាដែលត្រូវការទេ។</string>
+  <string name="main_ongoing_download">ការបង្កើតការមើលជាមុន</string>
+  <string name="main_alert_deleted">ច្បាប់ចម្លងក្នុងស្រុកត្រូវបានលុប!</string>
+  <string name="main_menu_sort_new">ថ្មី។</string>
+  <string name="main_menu_sort_title">ចំណងជើង</string>
+  <string name="main_menu_sort_author">អ្នកនិពន្ធ</string>
+  <string name="set_title">មើលជាមុន</string>
+  <string name="set_dialog_delete_title">លុបផ្ទាំងរូបភាព</string>
+  <string name="set_dialog_delete_message">តើអ្នកពិតជាចង់លុបផ្ទាំងរូបភាពនេះមែនទេ? អ្នកតែងតែអាចទាញយកវានៅពេលក្រោយ។</string>
+  <string name="set_dialog_notzero_title">ជ្រើសរើស 3DLive</string>
+  <string name="set_dialog_notzero_message">កំណត់ជាផ្ទាំងរូបភាពផ្ទាល់</string>
+  <string name="set_alert_changed">ផ្ទាំងរូបភាពត្រូវបានផ្លាស់ប្តូរ!</string>
+  <string name="prev_thisisaprev_toast">នេះគ្រាន់តែជាគំនូរជីវចលសាកល្បងប៉ុណ្ណោះ។ ទាញយកផ្ទាំងរូបភាពដើម្បីមើលវានៅក្នុងសកម្មភាព!</string>
+  <string name="settings_title">ការកំណត់</string>
+  <string name="settings_dialog_delete_title">លុបមាតិកាក្នុងស្រុក</string>
+  <string name="settings_dialog_delete_message">តើអ្នកពិតជាចង់ទាញយកមាតិកាក្នុងស្រុកមែនទេ?</string>
+  <string name="loading">កំពុង​ផ្ទុក...</string>
+  <string name="start">ចាប់ផ្តើម</string>
+  <string name="exit">ចេញ</string>
+  <string name="confirm_exit">បញ្ជាក់ការចាកចេញ?</string>
+  <string name="yes_exit">បាទ</string>
+  <string name="no_exit">ទេ</string>
+  <string name="d3_wallpapers">ផ្ទាំងរូបភាព 3D</string>
+  <string name="YourdropWallpapers">\n ផ្ទាំងរូបភាពរបស់អ្នក។</string>
+  <string name="livedropwallpapers">ផ្សាយបន្តផ្ទាល់ \n ផ្ទាំងរូបភាព</string>
+  <string name="d3dropwallpapers">3D \n ផ្ទាំងរូបភាព</string>
+  <string name="search">ស្វែងរក</string>
+  <string name="text_not_found">រកមិនឃើញទិន្នន័យទេ។</string>
+  <string name="audio">អូឌីយ៉ូ</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">ప్రత్యక్ష వాల్పేపర్</string>
+  <string name="my_name">ప్రత్యక్ష 3D వాల్‌పేపర్</string>
+  <string name="common_ok">అలాగే</string>
+  <string name="common_set">సెట్</string>
+  <string name="common_cancel">రద్దు చేయండి</string>
+  <string name="common_delete">తొలగించు</string>
+  <string name="common_retry">మళ్లీ ప్రయత్నించండి</string>
+  <string name="common_pro">ప్రో</string>
+  <string name="live_wallpapers">ప్రత్యక్ష వాల్‌పేపర్‌లు</string>
+  <string name="menu_refresh">రిఫ్రెష్ చేయండి</string>
+  <string name="menu_sort">ఆమరిక</string>
+  <string name="menu_wpsetter">వాల్‌పేపర్‌ని సెట్ చేయండి</string>
+  <string name="menu_settings">సెట్టింగ్‌లు</string>
+  <string name="menu_delete">తొలగించు</string>
+  <string name="menu_link">రచయిత యొక్క సైట్</string>
+  <string name="error_download">ప్రివ్యూ చేయడంలో విఫలమైంది!</string>
+  <string name="error_connection">ఇంటర్నెట్ కనెక్షన్ అవసరం!</string>
+  <string name="error_preview_unknown">ప్రివ్యూను ప్రదర్శించడం సాధ్యం కాలేదు!</string>
+  <string name="error_preview_notfound">ప్రివ్యూకి అందుబాటులో లేదు</string>
+  <string name="error_wpsetter">ప్రత్యక్ష వాల్‌పేపర్ కనుగొనబడలేదు!</string>
+  <string name="error_timeout">అనుసంధాన సమయం సమాప్తం. మళ్లీ ప్రయత్నించండి!</string>
+  <string name="error_catalog">చిత్రాలను తిరిగి పొందడం సాధ్యం కాలేదు!</string>
+  <string name="error_browser">బ్రౌజర్ తెరవడం సాధ్యం కాలేదు!</string>
+  <string name="notif_new_title_one">కొత్త వాల్‌పేపర్! దీన్ని తనిఖీ చేయండి!</string>
+  <string name="notif_new_title_multi">కొత్త వాల్‌పేపర్‌లు! వాటిని తనిఖీ చేయండి!</string>
+  <string name="notif_new_message_one">కేటలాగ్‌కి కొత్త వాల్‌పేపర్ జోడించబడింది.</string>
+  <string name="notif_new_message_multi">కొత్త వాల్‌పేపర్‌లు కేటలాగ్‌కు జోడించబడ్డాయి.</string>
+  <string name="select_language">భాషను ఎంచుకోండి</string>
+  <string name="main_info_empty_title">చూపించడానికి ఏమీ లేదు!</string>
+  <string name="main_info_empty_message">కంటెంట్ వీలైనంత త్వరగా డౌన్‌లోడ్ చేయబడుతుంది…</string>
+  <string name="main_dialog_nosensor_title">సెన్సార్ లోపం</string>
+  <string name="main_dialog_nosensor_message">మీ పరికరంలో అవసరమైన సెన్సార్‌లు లేవు.</string>
+  <string name="main_ongoing_download">ప్రివ్యూని రూపొందిస్తోంది</string>
+  <string name="main_alert_deleted">స్థానిక కాపీ తొలగించబడింది!</string>
+  <string name="main_menu_sort_new">కొత్తది</string>
+  <string name="main_menu_sort_title">శీర్షిక</string>
+  <string name="main_menu_sort_author">రచయిత</string>
+  <string name="set_title">ప్రివ్యూ</string>
+  <string name="set_dialog_delete_title">వాల్‌పేపర్‌ను తొలగించండి</string>
+  <string name="set_dialog_delete_message">మీరు నిజంగా ఈ వాల్‌పేపర్‌ని తొలగించాలనుకుంటున్నారా? మీరు దీన్ని తర్వాత ఎప్పుడైనా డౌన్‌లోడ్ చేసుకోవచ్చు.</string>
+  <string name="set_dialog_notzero_title">3DLive ఎంచుకోండి</string>
+  <string name="set_dialog_notzero_message">లైవ్ వాల్‌పేపర్‌గా సెట్ చేయండి</string>
+  <string name="set_alert_changed">వాల్‌పేపర్ మార్చబడింది!</string>
+  <string name="prev_thisisaprev_toast">ఇది డెమో యానిమేషన్ మాత్రమే. వాల్‌పేపర్ చర్యలో చూడటానికి దాన్ని డౌన్‌లోడ్ చేసుకోండి!</string>
+  <string name="settings_title">సెట్టింగ్‌లు</string>
+  <string name="settings_dialog_delete_title">స్థానిక కంటెంట్‌ను తొలగించండి</string>
+  <string name="settings_dialog_delete_message">మీరు నిజంగా స్థానిక కంటెంట్‌ని డౌన్‌లోడ్ చేయాలనుకుంటున్నారా?</string>
+  <string name="loading">లోడ్...</string>
+  <string name="start">ప్రారంభించండి</string>
+  <string name="exit">బయటకి దారి</string>
+  <string name="confirm_exit">నిష్క్రమణను నిర్ధారించాలా?</string>
+  <string name="yes_exit">అవును</string>
+  <string name="no_exit">నం</string>
+  <string name="d3_wallpapers">3D వాల్‌పేపర్‌లు</string>
+  <string name="YourdropWallpapers">మీ \n వాల్‌పేపర్‌లు</string>
+  <string name="livedropwallpapers">లైవ్ \n వాల్‌పేపర్‌లు</string>
+  <string name="d3dropwallpapers">3D \n వాల్‌పేపర్‌లు</string>
+  <string name="search">వెతకండి</string>
+  <string name="text_not_found">శోధించిన డేటా కనుగొనబడలేదు</string>
+  <string name="audio">ఆడియో</string>
+</resources>

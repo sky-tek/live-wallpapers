@@ -110,6 +110,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         return new ViewHolder(view);
     }
 
+
+
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder holder, @SuppressLint("RecyclerView") final int position) {
         final ModelClass ld = listData.get(position);
@@ -334,7 +336,9 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             Log.d("checkpermission" , "asdasdas is ");
 
         }
+
     }
+
 
     @SuppressLint("MissingPermission")
     public void permission(String id) {
@@ -343,24 +347,20 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         Log.d("checkpermission" , "permission is ");
             File file = new File(mcontext.getExternalFilesDir("live").getAbsolutePath() + "/" + id);
             if (file.exists()) {
-
                 try
                 {
                     final Intent intent1 = new Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER);
                     intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(context, GLWallpaperService.class));
                     ((Activity) mcontext).startActivityForResult(intent1, REQUEST_FOR_ACTIVITY_CODE);
+
                 }
-                catch (ActivityNotFoundException e)
+                catch (Exception e)
                 {
-                    try {
-                        Intent intent123 = new Intent(WallpaperManager.ACTION_LIVE_WALLPAPER_CHOOSER);
-                        ((Activity) mcontext).startActivityForResult(intent123, REQUEST_FOR_ACTIVITY_CODE);
-                    }
-                    catch (android.content.ActivityNotFoundException e3)
-                    {
-                        Log.d("checkException" , "asdsadsa"+e3.getMessage());
-                    }
+                    //IGNORE
                 }
+
+
+
             } else {
                 Utilities utilities=new Utilities();
                 if (utilities.isOnline(mcontext)) {
@@ -538,7 +538,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
         @Override
         protected void onPostExecute(String file_url) {
-            try {
+
                 if (RESULT_FAIL) {
 
                     File file = new File(mcontext.getExternalFilesDir("live").getAbsolutePath() + "/" + id1);
@@ -549,71 +549,28 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                     Toast.makeText(mcontext, "Internet Connection Failed", Toast.LENGTH_SHORT).show();
                 } else {
 
-                    final Intent intent1 = new Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER);
-                    intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(context, GLWallpaperService.class));
-                    ((Activity) context).startActivityForResult(intent1, REQUEST_FOR_ACTIVITY_CODE);
+                    try
+                    {
+                        final Intent intent1 = new Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER);
+                        intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(context, GLWallpaperService.class));
+                        ((Activity) context).startActivityForResult(intent1, REQUEST_FOR_ACTIVITY_CODE);
+                    }
+                    catch (Exception e)
+                    {
+
+                    }
+
                  notifyDataSetChanged();
+
                 }
                 pDialog.dismiss();
-            } catch (IllegalArgumentException e) {
-                // IGNORE
-            }
+
 
         }
+
 
     }
 
 
-//    public static class BroadCast extends BroadcastReceiver {
-//
-//
-//        @SuppressLint("MissingPermission")
-//        @Override
-//        public void onReceive(Context context, Intent intent) {
-//            System.out.println("got here");
-//
-//            String action = intent.getAction();
-//            if (DownloadManager.ACTION_DOWNLOAD_COMPLETE.equals(action)) {
-//                if (check) {
-//
-//
-//                    MainActivity.frameLayout.setVisibility(View.GONE);
-//                    MainActivity.relativeLayout.setVisibility(View.GONE);
-//                } else {
-//
-//                    categorythumnail.mframeLayout.setVisibility(View.GONE);
-//                    categorythumnail.mrelativeLayout.setVisibility(View.GONE);
-//
-//                }
-//
-//                DownloadManager.Query query = new DownloadManager.Query();
-//                query.setFilterById(intent.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, 0));
-//                DownloadManager manager = (DownloadManager) context.getSystemService(Context.DOWNLOAD_SERVICE);
-//                Cursor cursor = manager.query(query);
-//                if (cursor.moveToFirst()) {
-//                    if (cursor.getCount() > 0) {
-//                        @SuppressLint("Range") int status = cursor.getInt(cursor.getColumnIndex(DownloadManager.COLUMN_STATUS));
-//                        if (status == DownloadManager.STATUS_SUCCESSFUL) {
-//
-//
-//                            final Intent intent1 = new Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER);
-//                            intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(context, GLWallpaperService.class));
-//                            ((Activity) context).startActivityForResult(intent1, REQUEST_FOR_ACTIVITY_CODE);
-//                            if (check) {
-//
-//                            } else {
-//
-//                            }
-//                        } else {
-//                            Toast.makeText(context, "live wallpaper failed to load", Toast.LENGTH_SHORT).show();
-//
-//                        }
-//                    }
-//                }
-//
-//
-//            }
-//        }
-//    }
 
 }

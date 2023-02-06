@@ -30,37 +30,43 @@ class BackgroundHelper {
         // Get background folder
         File file = getBackgroundFolder(id, context);
 
-        if (file != null) {
-            // Directory found
-            Log.d(TAG, "Directory " + id + " found in root!");
+        try
+        {
+            if (file != null) {
+                // Directory found
+                Log.d(TAG, "Directory " + id + " found in root!");
 
-            File[] layers = file.listFiles();
-            if (layers != null) {
-                if (layers.length > 0) {
-
-                    // Sort array by name
-                    Arrays.sort(layers);
-
-                    for (File layerFile : layers) {
-                        String zString = Utils.getBetweenStrings(layerFile.getPath(), id + "_", BG_FORMAT);
-                        Log.d("checkexception" , "exception is "+zString);
-                        if(zString != null && !zString.isEmpty()) {
-                            int layerZ = Integer.parseInt(zString);
-                            Layer layer = new Layer(layerFile, layerZ);
-                            output.add(layer);
-                            Log.d(TAG, "Layer with name " + layerFile.getName() + " loaded with z=" + layerZ);
+                File[] layers = file.listFiles();
+                if (layers != null) {
+                    if (layers.length > 0) {
+                        // Sort array by name
+                        Arrays.sort(layers);
+                        for (File layerFile : layers) {
+                            String zString = Utils.getBetweenStrings(layerFile.getPath(), id + "_", BG_FORMAT);
+                            Log.d("checkexception" , "exception is "+zString);
+                            if(zString != null && !zString.isEmpty()) {
+                                int layerZ = Integer.parseInt(zString);
+                                Layer layer = new Layer(layerFile, layerZ);
+                                output.add(layer);
+                                Log.d(TAG, "Layer with name " + layerFile.getName() + " loaded with z=" + layerZ);
+                            }
                         }
+                    } else {
+                        Log.e(TAG, "Directory " + id + " is empty!");
+                        return null;
                     }
-                } else {
-                    Log.e(TAG, "Directory " + id + " is empty!");
-                    return null;
                 }
+            } else {
+                // Directory not found
+                Log.e(TAG, "Directory " + id + " not found in root!");
+                return null;
             }
-        } else {
-            // Directory not found
-            Log.e(TAG, "Directory " + id + " not found in root!");
-            return null;
         }
+        catch (Exception e)
+        {
+            Log.d("checkexception " , "exception is for Nexus 5X android M"+e.getMessage());
+        }
+
 
         return output;
     }

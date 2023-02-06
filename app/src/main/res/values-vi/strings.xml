@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Hình nền sống</string>
+  <string name="my_name">Hình Nền Động 3D</string>
+  <string name="common_ok">ĐƯỢC RỒI</string>
+  <string name="common_set">Bộ</string>
+  <string name="common_cancel">Hủy bỏ</string>
+  <string name="common_delete">Xóa bỏ</string>
+  <string name="common_retry">Thử lại</string>
+  <string name="common_pro">Chuyên nghiệp</string>
+  <string name="live_wallpapers">Hình nền động</string>
+  <string name="menu_refresh">Làm cho khỏe lại</string>
+  <string name="menu_sort">Sắp xếp theo</string>
+  <string name="menu_wpsetter">Cài đặt hình nền</string>
+  <string name="menu_settings">Cài đặt</string>
+  <string name="menu_delete">Xóa bỏ</string>
+  <string name="menu_link">Trang web của tác giả</string>
+  <string name="error_download">Không xem trước được!</string>
+  <string name="error_connection">Kết nối Internet cần thiết!</string>
+  <string name="error_preview_unknown">Không thể hiển thị bản xem trước!</string>
+  <string name="error_preview_notfound">Không có sẵn để xem trước</string>
+  <string name="error_wpsetter">Không tìm thấy hình nền sống!</string>
+  <string name="error_timeout">Hết thời gian kết nối. Thử lại!</string>
+  <string name="error_catalog">Không thể truy xuất hình ảnh!</string>
+  <string name="error_browser">Không thể mở trình duyệt!</string>
+  <string name="notif_new_title_one">Hình nền mới! Kiểm tra nó ra!</string>
+  <string name="notif_new_title_multi">Hình nền mới! Kiểm tra chúng ra!</string>
+  <string name="notif_new_message_one">Một hình nền mới đã được thêm vào danh mục.</string>
+  <string name="notif_new_message_multi">Hình nền mới đã được thêm vào danh mục.</string>
+  <string name="select_language">Chọn ngôn ngữ</string>
+  <string name="main_info_empty_title">Không có gì để hiển thị!</string>
+  <string name="main_info_empty_message">Nội dung sẽ được tải xuống sớm nhất có thể…</string>
+  <string name="main_dialog_nosensor_title">Lỗi cảm biến</string>
+  <string name="main_dialog_nosensor_message">Thiết bị của bạn không có các cảm biến cần thiết.</string>
+  <string name="main_ongoing_download">Tạo ra bản xem trước</string>
+  <string name="main_alert_deleted">Đã xóa bản sao cục bộ!</string>
+  <string name="main_menu_sort_new">Mới</string>
+  <string name="main_menu_sort_title">Tiêu đề</string>
+  <string name="main_menu_sort_author">Tác giả</string>
+  <string name="set_title">Xem trước</string>
+  <string name="set_dialog_delete_title">Xóa hình nền</string>
+  <string name="set_dialog_delete_message">Bạn có thực sự muốn xóa hình nền này? Bạn luôn có thể tải xuống sau.</string>
+  <string name="set_dialog_notzero_title">Chọn 3DLive</string>
+  <string name="set_dialog_notzero_message">Đặt làm hình nền động</string>
+  <string name="set_alert_changed">Hình nền đã thay đổi!</string>
+  <string name="prev_thisisaprev_toast">Đây chỉ là một hình ảnh động demo. Tải xuống hình nền để xem nó hoạt động!</string>
+  <string name="settings_title">Cài đặt</string>
+  <string name="settings_dialog_delete_title">Xóa nội dung cục bộ</string>
+  <string name="settings_dialog_delete_message">Bạn có thực sự muốn tải xuống nội dung cục bộ không?</string>
+  <string name="loading">Đang tải...</string>
+  <string name="start">Bắt đầu</string>
+  <string name="exit">Lối ra</string>
+  <string name="confirm_exit">Xác nhận Thoát?</string>
+  <string name="yes_exit">Đúng</string>
+  <string name="no_exit">KHÔNG</string>
+  <string name="d3_wallpapers">Hình nền 3D</string>
+  <string name="YourdropWallpapers">Hình nền \n của bạn</string>
+  <string name="livedropwallpapers">Hình nền động \n</string>
+  <string name="d3dropwallpapers">Hình nền 3D \n</string>
+  <string name="search">Tìm kiếm</string>
+  <string name="text_not_found">Dữ liệu tìm kiếm không tìm thấy</string>
+  <string name="audio">Âm thanh</string>
+</resources>

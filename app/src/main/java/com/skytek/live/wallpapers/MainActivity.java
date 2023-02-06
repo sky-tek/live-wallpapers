@@ -1,11 +1,18 @@
 package com.skytek.live.wallpapers;
 
+import static android.widget.Toast.LENGTH_SHORT;
 import static com.skytek.live.wallpapers.Adapters.Adapter.REQUEST_FOR_ACTIVITY_CODE;
 import static com.skytek.live.wallpapers.Adapters.Adapter.idnew;
 import static com.skytek.live.wallpapers.Adapters.Adapter.idold;
 import static com.skytek.live.wallpapers.Adapters.Adapter.id1;
+
+import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentSender;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -15,44 +22,69 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
 import com.falcon.video.downloader.Helper.AdsManager;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
+import com.google.android.play.core.appupdate.AppUpdateInfo;
+import com.google.android.play.core.appupdate.AppUpdateManager;
+import com.google.android.play.core.appupdate.AppUpdateManagerFactory;
+import com.google.android.play.core.install.InstallState;
+import com.google.android.play.core.install.InstallStateUpdatedListener;
+import com.google.android.play.core.install.model.AppUpdateType;
+import com.google.android.play.core.install.model.InstallStatus;
+import com.google.android.play.core.install.model.UpdateAvailability;
+import com.google.android.play.core.tasks.OnSuccessListener;
 import com.skytek.live.wallpapers.Adapters.Adapter;
+import com.skytek.live.wallpapers.Adapters.CustomAdapter;
 import com.skytek.live.wallpapers.Adapters.ViewPagerAdapter;
 import com.skytek.live.wallpapers.Fragments.Categories;
 import com.skytek.live.wallpapers.Fragments.Home;
+import com.skytek.live.wallpapers.ModelClasses.datamodel;
+
+
+import java.util.ArrayList;
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity {
 
     public static Context context;
-
-
-
 
     Toolbar toolbarob;
     private ViewPagerAdapter viewPagerAdapter;
     private ViewPager viewPager;
     private TabLayout tabLayout;
 
+
     AdsManager adsManager;
 
 
+
+
+
+
+
+
+    @SuppressLint("MissingInflatedId")
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getWindow().setStatusBarColor(Color.parseColor("#181725"));
-        }
+        getWindow().setStatusBarColor(Color.parseColor("#181725"));
         adsManager = new AdsManager();
         adsManager.load_inter(this);
         StrictMode.setThreadPolicy((new StrictMode.ThreadPolicy.Builder()).permitAll().build());
@@ -70,6 +102,8 @@ public class MainActivity extends AppCompatActivity {
         // add the fragments
 
 
+
+
         viewPagerAdapter.add(new Home(), "Home");
         viewPagerAdapter.add(new Categories(), "Categories");
         // Set the adapter
@@ -81,11 +115,15 @@ public class MainActivity extends AppCompatActivity {
         tabLayout = findViewById(R.id.tab_layout);
         tabLayout.setupWithViewPager(viewPager);
 
+        //app update manager
+
 
 
     }
 
 
+
+    //app update ends
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -148,11 +186,12 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 idold=id1;
                 adsManager.show_inter(this);
-                Toast.makeText(getApplicationContext(), "Wallpaper Set Successfully", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Wallpaper Set Successfully", LENGTH_SHORT).show();
             } else {
                 idnew=idold;
 
             }
+
 
         }
     }

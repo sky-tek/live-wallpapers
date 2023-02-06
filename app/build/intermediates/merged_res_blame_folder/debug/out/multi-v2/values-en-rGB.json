@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "D:\\live-wallpapers\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\MobiPixels01\\.gradle\\caches\\transforms-3\\ea901a9c2af8973fc100935d5516ad2e\\transformed\\jetified-play-services-ads-20.5.0\\res\\values-en-rGB\\values.xml",

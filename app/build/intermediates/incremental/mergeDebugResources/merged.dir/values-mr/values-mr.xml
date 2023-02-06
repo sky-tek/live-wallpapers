@@ -4,6 +4,7 @@
     <item quantity="one">%d नवीन सूचना</item>
     <item quantity="other">%d नवीन सूचना</item>
   </plurals>
+    <string name="YourdropWallpapers">तुमचे \n वॉलपेपर</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"घराकडे नेव्हिगेट करा"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"वर नेव्‍हिगेट करा"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"आणखी पर्याय"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"यांच्यासोबत शेअर करा"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> सह शेअर करा"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"कोलॅप्स करा"</string>
+    <string name="app_name">थेट वॉलपेपर</string>
+    <string name="audio">ऑडिओ</string>
     <string name="bottomsheet_action_expand_halfway">पूर्णपणे विस्तृत करा</string>
     <string name="character_counter_content_description">%2$d पैकी %1$d वर्ण एंटर केले आहे</string>
     <string name="character_counter_overflowed_content_description">%2$d पैकी %1$d वर्णमर्यादा ओलांडली आहे</string>
     <string name="clear_text_end_icon_content_description">मजकूर साफ करा</string>
+    <string name="common_cancel">रद्द करा</string>
+    <string name="common_delete">हटवा</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"सुरू करा"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"तुम्ही Google Play सेवा सक्षम केल्याशिवाय <ns1:g id="APP_NAME">%1$s</ns1:g> हा अ‍ॅप कार्य करणार नाही."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play सेवा सुरू करा"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play सेवा अपडेट करा"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"सध्‍या अपडेट होत असलेल्‍या, Google Play सेवांशिवाय <ns1:g id="APP_NAME">%1$s</ns1:g> चालणार नाही."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play सेवांच्या नवीन आवृत्तीची आवश्यकता आहे. हे स्वत:ला लवकरच अपडेट करेल."</string>
+    <string name="common_ok">ठीक आहे</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"फोनवर उघडा"</string>
+    <string name="common_pro">प्रो</string>
+    <string name="common_retry">पुन्हा प्रयत्न करा</string>
+    <string name="common_set">सेट करा</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"साइन इन करा"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google सह साइन इन करा"</string>
+    <string name="confirm_exit">बाहेर पडण्याची पुष्टी करायची?</string>
+    <string name="d3_wallpapers">3D वॉलपेपर</string>
+    <string name="d3dropwallpapers">3D \n वॉलपेपर</string>
+    <string name="error_browser">ब्राउझर उघडण्यास अक्षम!</string>
+    <string name="error_catalog">प्रतिमा पुनर्प्राप्त करण्यात अक्षम!</string>
+    <string name="error_connection">इंटरनेट कनेक्शन आवश्यक!</string>
+    <string name="error_download">पूर्वावलोकन करण्यात अयशस्वी!</string>
     <string name="error_icon_content_description">एरर</string>
+    <string name="error_preview_notfound">पूर्वावलोकनासाठी अनुपलब्ध</string>
+    <string name="error_preview_unknown">पूर्वावलोकन प्रदर्शित करण्यात अक्षम!</string>
+    <string name="error_timeout">कनेक्शन कालबाह्य. पुन्हा प्रयत्न करा!</string>
+    <string name="error_wpsetter">लाइव्ह वॉलपेपर सापडला नाही!</string>
+    <string name="exit">बाहेर पडा</string>
     <string name="exposed_dropdown_menu_content_description">ड्रॉपडाउन मेनू दाखवा</string>
     <string name="icon_content_description">डायलॉग आयकन</string>
     <string name="item_view_role_description">टॅब</string>
+    <string name="live_wallpapers">थेट वॉलपेपर</string>
+    <string name="livedropwallpapers">लाइव्ह \n वॉलपेपर</string>
+    <string name="loading">लोड करत आहे...</string>
+    <string name="main_alert_deleted">स्थानिक प्रत हटवली!</string>
+    <string name="main_dialog_nosensor_message">तुमच्या डिव्हाइसमध्ये आवश्यक सेन्सर नाहीत.</string>
+    <string name="main_dialog_nosensor_title">सेन्सर त्रुटी</string>
+    <string name="main_info_empty_message">सामग्री शक्य तितक्या लवकर डाउनलोड केली जाईल...</string>
+    <string name="main_info_empty_title">दाखवण्यासारखे काही नाही!</string>
+    <string name="main_menu_sort_author">लेखक</string>
+    <string name="main_menu_sort_new">नवीन</string>
+    <string name="main_menu_sort_title">शीर्षक</string>
+    <string name="main_ongoing_download">पूर्वावलोकन व्युत्पन्न करत आहे</string>
     <string name="material_clock_toggle_content_description">AM किंवा PM निवडा</string>
     <string name="material_hour_selection">वेळ निवडा</string>
     <string name="material_hour_suffix">%1$s वाजता</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">वेळ निवडा</string>
     <string name="material_timepicker_text_input_mode_description">वेळ इनपुटसाठी मजकूर इनपुट मोडवर स्विच करा.</string>
+    <string name="menu_delete">हटवा</string>
+    <string name="menu_link">लेखकाची साइट</string>
+    <string name="menu_refresh">रिफ्रेश करा</string>
+    <string name="menu_settings">सेटिंग्ज</string>
+    <string name="menu_sort">यानुसार क्रमवारी लावा</string>
+    <string name="menu_wpsetter">वॉलपेपर सेट करा</string>
     <string name="mtrl_badge_numberless_content_description">नवीन सूचना</string>
     <string name="mtrl_chip_close_icon_content_description">काढून टाका %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d पेक्षा अधिक नवीन सूचना</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">दिवस निवडण्यासाठी स्विच करा वर टॅप करा</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">मजकूर इनपुट मोडवर स्विच करा</string>
     <string name="mtrl_picker_toggle_to_year_selection">वर्ष निवडण्यासाठी स्विच करा वर टॅप करा</string>
+    <string name="my_name">थेट 3D वॉलपेपर</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"वर नेव्‍हिगेट करा"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"नेव्हिगेशन ड्रॉवर उघडा"</string>
+    <string name="no_exit">नाही</string>
+    <string name="notif_new_message_multi">कॅटलॉगमध्ये नवीन वॉलपेपर जोडले गेले आहेत.</string>
+    <string name="notif_new_message_one">कॅटलॉगमध्ये एक नवीन वॉलपेपर जोडला गेला आहे.</string>
+    <string name="notif_new_title_multi">नवीन वॉलपेपर! त्यांना तपासा!</string>
+    <string name="notif_new_title_one">नवीन वॉलपेपर! हे पहा!</string>
     <string name="offline_notification_text">जाहिरात उघडण्यासाठी टॅप करा</string>
     <string name="offline_notification_title">तुम्ही ऑफलाइन असताना तुम्ही सेव्ह केलेली जाहिरात पहा</string>
     <string name="offline_opt_in_confirm">ओके</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">आम्ही तुम्हाला जाहिरातदाराच्या साइटच्या लिंकसह एक सूचना पाठवू.</string>
     <string name="offline_opt_in_title">तुम्ही पुन्हा ऑनलाइन याल तेव्हा जाहिरात उघडा.</string>
     <string name="password_toggle_content_description">पासवर्ड दाखवा</string>
+    <string name="prev_thisisaprev_toast">हे फक्त डेमो अॅनिमेशन आहे. कृतीमध्ये पाहण्यासाठी वॉलपेपर डाउनलोड करा!</string>
     <string name="s1">इमेज सेव्ह करा</string>
     <string name="s2">चित्र गॅलरीत इमेज संग्रहित करण्याची जाहिरातीस अनुमती द्यायची?</string>
     <string name="s3">स्वीकारा</string>
@@ -119,6 +165,20 @@
     <string name="s5">कॅलेंडर इव्हेंट तयार करा</string>
     <string name="s6">जाहिरातीस कॅलेंडर इव्हेंट तयार करण्याची परवानगी द्यायची?</string>
     <string name="s7">चाचणी जाहिरात</string>
+    <string name="search">शोधा</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Search"</string>
+    <string name="select_language">भाषा निवडा</string>
+    <string name="set_alert_changed">वॉलपेपर बदलला!</string>
+    <string name="set_dialog_delete_message">तुम्हाला खरोखर हा वॉलपेपर हटवायचा आहे का? तुम्ही ते नंतर कधीही डाउनलोड करू शकता.</string>
+    <string name="set_dialog_delete_title">वॉलपेपर हटवा</string>
+    <string name="set_dialog_notzero_message">लाइव्ह वॉलपेपर म्हणून सेट करा</string>
+    <string name="set_dialog_notzero_title">3DLive निवडा</string>
+    <string name="set_title">पूर्वावलोकन</string>
+    <string name="settings_dialog_delete_message">तुम्हाला खरोखर स्थानिक सामग्री डाउनलोड करायची आहे का?</string>
+    <string name="settings_dialog_delete_title">स्थानिक सामग्री हटवा</string>
+    <string name="settings_title">सेटिंग्ज</string>
+    <string name="start">सुरू करा</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"९९९+"</string>
+    <string name="text_not_found">शोधलेला डेटा सापडला नाही</string>
+    <string name="yes_exit">होय</string>
 </resources>

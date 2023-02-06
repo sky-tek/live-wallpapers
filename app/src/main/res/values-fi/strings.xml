@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Elävä taustakuva</string>
+  <string name="my_name">Live 3D-taustakuva</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Aseta</string>
+  <string name="common_cancel">Peruuttaa</string>
+  <string name="common_delete">Poistaa</string>
+  <string name="common_retry">Yritä uudelleen</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Elävät taustakuvat</string>
+  <string name="menu_refresh">Virkistää</string>
+  <string name="menu_sort">Järjestä</string>
+  <string name="menu_wpsetter">Aseta taustakuva</string>
+  <string name="menu_settings">Asetukset</string>
+  <string name="menu_delete">Poistaa</string>
+  <string name="menu_link">Tekijän sivusto</string>
+  <string name="error_download">Esikatselu epäonnistui!</string>
+  <string name="error_connection">Internet-yhteys tarvitaan!</string>
+  <string name="error_preview_unknown">Esikatselua ei voi näyttää!</string>
+  <string name="error_preview_notfound">Ei esikatseltavissa</string>
+  <string name="error_wpsetter">Live-taustakuvaa ei löydy!</string>
+  <string name="error_timeout">Yhteyden aikakatkaisu. Yritä uudelleen!</string>
+  <string name="error_catalog">Kuvia ei voi noutaa!</string>
+  <string name="error_browser">Selainta ei voi avata!</string>
+  <string name="notif_new_title_one">Uusi taustakuva! Tarkista se!</string>
+  <string name="notif_new_title_multi">Uusia taustakuvia! Katso ne!</string>
+  <string name="notif_new_message_one">Uusi taustakuva on lisätty luetteloon.</string>
+  <string name="notif_new_message_multi">Uusia taustakuvia on lisätty luetteloon.</string>
+  <string name="select_language">Valitse kieli</string>
+  <string name="main_info_empty_title">Ei mitään näytettävää!</string>
+  <string name="main_info_empty_message">Sisältö ladataan mahdollisimman pian…</string>
+  <string name="main_dialog_nosensor_title">Anturin virhe</string>
+  <string name="main_dialog_nosensor_message">Laitteessasi ei ole tarvittavia antureita.</string>
+  <string name="main_ongoing_download">Esikatselun luominen</string>
+  <string name="main_alert_deleted">Paikallinen kopio poistettu!</string>
+  <string name="main_menu_sort_new">Uusi</string>
+  <string name="main_menu_sort_title">Otsikko</string>
+  <string name="main_menu_sort_author">Tekijä</string>
+  <string name="set_title">Esikatselu</string>
+  <string name="set_dialog_delete_title">Poista taustakuva</string>
+  <string name="set_dialog_delete_message">Haluatko todella poistaa tämän taustakuvan? Voit aina ladata sen myöhemmin.</string>
+  <string name="set_dialog_notzero_title">Valitse 3DLive</string>
+  <string name="set_dialog_notzero_message">Aseta live-taustakuvaksi</string>
+  <string name="set_alert_changed">Taustakuva vaihdettu!</string>
+  <string name="prev_thisisaprev_toast">Tämä on vain demo-animaatio. Lataa taustakuva nähdäksesi sen toiminnassa!</string>
+  <string name="settings_title">Asetukset</string>
+  <string name="settings_dialog_delete_title">Poista paikallinen sisältö</string>
+  <string name="settings_dialog_delete_message">Haluatko todella ladata paikallista sisältöä?</string>
+  <string name="loading">Ladataan...</string>
+  <string name="start">Alkaa</string>
+  <string name="exit">Poistu</string>
+  <string name="confirm_exit">Vahvista poistuminen?</string>
+  <string name="yes_exit">Joo</string>
+  <string name="no_exit">Ei</string>
+  <string name="d3_wallpapers">3D-taustakuvat</string>
+  <string name="YourdropWallpapers">\n Taustakuvasi</string>
+  <string name="livedropwallpapers">Live \n taustakuvat</string>
+  <string name="d3dropwallpapers">3D \n taustakuvat</string>
+  <string name="search">Hae</string>
+  <string name="text_not_found">Haettua dataa ei löytynyt</string>
+  <string name="audio">Audio</string>
+</resources>

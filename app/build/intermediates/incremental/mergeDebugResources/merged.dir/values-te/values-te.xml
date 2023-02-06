@@ -4,6 +4,7 @@
     <item quantity="one">%d కొత్త నోటిఫికేషన్</item>
     <item quantity="other">%d కొత్త నోటిఫికేషన్‌లు</item>
   </plurals>
+    <string name="YourdropWallpapers">మీ \n వాల్‌పేపర్‌లు</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"హోమ్‌కు నావిగేట్ చేస్తుంది"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"పైకి నావిగేట్ చేస్తుంది"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"మరిన్ని ఎంపికలు"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"వీరితో షేర్ చేస్తుంది"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>తో షేర్ చేస్తుంది"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"కుదిస్తుంది"</string>
+    <string name="app_name">ప్రత్యక్ష వాల్పేపర్</string>
+    <string name="audio">ఆడియో</string>
     <string name="bottomsheet_action_expand_halfway">సగాన్ని విస్తరింపజేయండి</string>
     <string name="character_counter_content_description">%2$dలో %1$d అక్షరాలు నమోదు చేయబడ్డాయి</string>
     <string name="character_counter_overflowed_content_description">అక్షర పరిధి %2$dలో %1$dను అధిగమించింది</string>
     <string name="clear_text_end_icon_content_description">రాసినదాన్ని తీసివేయి</string>
+    <string name="common_cancel">రద్దు చేయండి</string>
+    <string name="common_delete">తొలగించు</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"ప్రారంభించు"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"మీరు Google Play సేవలను ప్రారంభిస్తే మినహా <ns1:g id="APP_NAME">%1$s</ns1:g> పని చేయదు."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play సేవలను ప్రారంభించండి"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play సేవలను నవీకరించండి"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play సేవలు లేకుండా అమలు కాదు, ఆ సేవలు ప్రస్తుతం నవీకరించబడుతున్నాయి."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"కొత్త Google Play సేవల వెర్షన్ అవసరం. అది కొద్ది సేపట్లో దానంతట అదే అప్‌డేట్ చేయబడుతుంది."</string>
+    <string name="common_ok">అలాగే</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"ఫోన్‌లో తెరువు"</string>
+    <string name="common_pro">ప్రో</string>
+    <string name="common_retry">మళ్లీ ప్రయత్నించండి</string>
+    <string name="common_set">సెట్</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"సైన్ ఇన్ చేయండి"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleతో సైన్ ఇన్ చేయి"</string>
+    <string name="confirm_exit">నిష్క్రమణను నిర్ధారించాలా?</string>
+    <string name="d3_wallpapers">3D వాల్‌పేపర్‌లు</string>
+    <string name="d3dropwallpapers">3D \n వాల్‌పేపర్‌లు</string>
+    <string name="error_browser">బ్రౌజర్ తెరవడం సాధ్యం కాలేదు!</string>
+    <string name="error_catalog">చిత్రాలను తిరిగి పొందడం సాధ్యం కాలేదు!</string>
+    <string name="error_connection">ఇంటర్నెట్ కనెక్షన్ అవసరం!</string>
+    <string name="error_download">ప్రివ్యూ చేయడంలో విఫలమైంది!</string>
     <string name="error_icon_content_description">ఎర్రర్</string>
+    <string name="error_preview_notfound">ప్రివ్యూకి అందుబాటులో లేదు</string>
+    <string name="error_preview_unknown">ప్రివ్యూను ప్రదర్శించడం సాధ్యం కాలేదు!</string>
+    <string name="error_timeout">అనుసంధాన సమయం సమాప్తం. మళ్లీ ప్రయత్నించండి!</string>
+    <string name="error_wpsetter">ప్రత్యక్ష వాల్‌పేపర్ కనుగొనబడలేదు!</string>
+    <string name="exit">బయటకి దారి</string>
     <string name="exposed_dropdown_menu_content_description">డ్రాప్‌డౌన్ మెనూను చూపు</string>
     <string name="icon_content_description">డైలాగ్ చిహ్నం</string>
     <string name="item_view_role_description">ట్యాబ్</string>
+    <string name="live_wallpapers">ప్రత్యక్ష వాల్‌పేపర్‌లు</string>
+    <string name="livedropwallpapers">లైవ్ \n వాల్‌పేపర్‌లు</string>
+    <string name="loading">లోడ్...</string>
+    <string name="main_alert_deleted">స్థానిక కాపీ తొలగించబడింది!</string>
+    <string name="main_dialog_nosensor_message">మీ పరికరంలో అవసరమైన సెన్సార్‌లు లేవు.</string>
+    <string name="main_dialog_nosensor_title">సెన్సార్ లోపం</string>
+    <string name="main_info_empty_message">కంటెంట్ వీలైనంత త్వరగా డౌన్‌లోడ్ చేయబడుతుంది…</string>
+    <string name="main_info_empty_title">చూపించడానికి ఏమీ లేదు!</string>
+    <string name="main_menu_sort_author">రచయిత</string>
+    <string name="main_menu_sort_new">కొత్తది</string>
+    <string name="main_menu_sort_title">శీర్షిక</string>
+    <string name="main_ongoing_download">ప్రివ్యూని రూపొందిస్తోంది</string>
     <string name="material_clock_toggle_content_description">AM లేదా PMను ఎంచుకోండి</string>
     <string name="material_hour_selection">గంటను ఎంచుకోండి</string>
     <string name="material_hour_suffix">%1$s అవుతుంది</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">సమయాన్ని ఎంచుకోండి</string>
     <string name="material_timepicker_text_input_mode_description">సమయాన్ని నమోదు చేయడం కోసం వచన నమోదు మోడ్‌కి మారండి.</string>
+    <string name="menu_delete">తొలగించు</string>
+    <string name="menu_link">రచయిత యొక్క సైట్</string>
+    <string name="menu_refresh">రిఫ్రెష్ చేయండి</string>
+    <string name="menu_settings">సెట్టింగ్‌లు</string>
+    <string name="menu_sort">ఆమరిక</string>
+    <string name="menu_wpsetter">వాల్‌పేపర్‌ని సెట్ చేయండి</string>
     <string name="mtrl_badge_numberless_content_description">కొత్త నోటిఫికేషన్</string>
     <string name="mtrl_chip_close_icon_content_description">(%1$s)ని తీసివేస్తుంది</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d కంటే ఎక్కువ కొత్త నోటిఫికేషన్‌లు</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">\'రోజును ఎంపిక చేసుకోవడం\'కు మారడానికి నొక్కండి</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">వచన ఇన్‌పుట్ మోడ్‌కు మారుస్తుంది</string>
     <string name="mtrl_picker_toggle_to_year_selection">\'సంవత్సరాన్ని ఎంపిక చేసుకోవడం\'కు మారడానికి నొక్కండి</string>
+    <string name="my_name">ప్రత్యక్ష 3D వాల్‌పేపర్</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"పైకి నావిగేట్ చేయి"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"నావిగేషన్ డ్రాయర్‌ను తెరవండి"</string>
+    <string name="no_exit">నం</string>
+    <string name="notif_new_message_multi">కొత్త వాల్‌పేపర్‌లు కేటలాగ్‌కు జోడించబడ్డాయి.</string>
+    <string name="notif_new_message_one">కేటలాగ్‌కి కొత్త వాల్‌పేపర్ జోడించబడింది.</string>
+    <string name="notif_new_title_multi">కొత్త వాల్‌పేపర్‌లు! వాటిని తనిఖీ చేయండి!</string>
+    <string name="notif_new_title_one">కొత్త వాల్‌పేపర్! దీన్ని తనిఖీ చేయండి!</string>
     <string name="offline_notification_text">యాడ్‌ను తెరవడానికి ట్యాప్ చేయండి</string>
     <string name="offline_notification_title">మీరు ఆఫ్‌లైన్‌లో ఉన్నప్పుడు కూడా, సేవ్ చేసిన యాడ్‌ను చూడండి</string>
     <string name="offline_opt_in_confirm">సరే</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">అడ్వర్టైజర్ సైట్‌కు లింక్‌ను మేము మీకు నోటిఫికేషన్‌గా పంపుతాము.</string>
     <string name="offline_opt_in_title">మీరు తిరిగి ఆన్‌లైన్‌కు వచ్చినప్పుడు యాడ్ తెరవబడుతుంది.</string>
     <string name="password_toggle_content_description">పాస్‌వర్డ్‌ను చూపు</string>
+    <string name="prev_thisisaprev_toast">ఇది డెమో యానిమేషన్ మాత్రమే. వాల్‌పేపర్ చర్యలో చూడటానికి దాన్ని డౌన్‌లోడ్ చేసుకోండి!</string>
     <string name="s1">చిత్రాన్ని సేవ్ చేయి</string>
     <string name="s2">చిత్ర గ్యాలరీలో చిత్రాన్ని నిల్వ చేయడానికి ప్రకటనను అనుమతించాలా?</string>
     <string name="s3">అనుమతించు</string>
@@ -119,6 +165,20 @@
     <string name="s5">క్యాలెండర్ ఈవెంట్‌ను సృష్టించు</string>
     <string name="s6">క్యాలెండర్ ఈవెంట్‌ను సృష్టించడానికి ప్రకటనను అనుమతించాలా?</string>
     <string name="s7">ప్రకటనను పరీక్షించండి</string>
+    <string name="search">వెతకండి</string>
     <string msgid="6264217191555673260" name="search_menu_title">"సెర్చ్"</string>
+    <string name="select_language">భాషను ఎంచుకోండి</string>
+    <string name="set_alert_changed">వాల్‌పేపర్ మార్చబడింది!</string>
+    <string name="set_dialog_delete_message">మీరు నిజంగా ఈ వాల్‌పేపర్‌ని తొలగించాలనుకుంటున్నారా? మీరు దీన్ని తర్వాత ఎప్పుడైనా డౌన్‌లోడ్ చేసుకోవచ్చు.</string>
+    <string name="set_dialog_delete_title">వాల్‌పేపర్‌ను తొలగించండి</string>
+    <string name="set_dialog_notzero_message">లైవ్ వాల్‌పేపర్‌గా సెట్ చేయండి</string>
+    <string name="set_dialog_notzero_title">3DLive ఎంచుకోండి</string>
+    <string name="set_title">ప్రివ్యూ</string>
+    <string name="settings_dialog_delete_message">మీరు నిజంగా స్థానిక కంటెంట్‌ని డౌన్‌లోడ్ చేయాలనుకుంటున్నారా?</string>
+    <string name="settings_dialog_delete_title">స్థానిక కంటెంట్‌ను తొలగించండి</string>
+    <string name="settings_title">సెట్టింగ్‌లు</string>
+    <string name="start">ప్రారంభించండి</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">శోధించిన డేటా కనుగొనబడలేదు</string>
+    <string name="yes_exit">అవును</string>
 </resources>

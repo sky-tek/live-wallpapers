@@ -4,6 +4,7 @@
     <item quantity="one">%d പുതിയ അറിയിപ്പ്</item>
     <item quantity="other">%d പുതിയ അറിയിപ്പുകൾ</item>
   </plurals>
+    <string name="YourdropWallpapers">നിങ്ങളുടെ \n വാൾപേപ്പറുകൾ</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ഹോമിലേക്ക് പോവുക"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"മുകളിലേക്ക് പോവുക"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"കൂടുതൽ ഓപ്ഷനുകൾ"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ഇനിപ്പറയുന്നതുമായി പങ്കിടുക"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> എന്നതുമായി പങ്കിടുക"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ചുരുക്കുക"</string>
+    <string name="app_name">തത്സമയ വാൾപേപ്പർ</string>
+    <string name="audio">ഓഡിയോ</string>
     <string name="bottomsheet_action_expand_halfway">മുഴുവനായി വികസിപ്പിക്കുക</string>
     <string name="character_counter_content_description">%2$d-ൽ %1$d പ്രതീകങ്ങൾ നൽകി</string>
     <string name="character_counter_overflowed_content_description">അക്ഷര പരിധി, %2$d-ൽ %1$d കവിഞ്ഞു</string>
     <string name="clear_text_end_icon_content_description">ടെക്‌സ്‌റ്റ് മായ്‌ക്കുക</string>
+    <string name="common_cancel">റദ്ദാക്കുക</string>
+    <string name="common_delete">ഇല്ലാതാക്കുക</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"പ്രവർത്തനക്ഷമമാക്കുക"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"നിങ്ങൾ Google Play സേവനങ്ങൾ പ്രവർത്തനക്ഷമമാക്കുന്നില്ലെങ്കിൽ <ns1:g id="APP_NAME">%1$s</ns1:g> പ്രവർത്തിക്കില്ല."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play സേവനങ്ങൾ പ്രവർത്തനക്ഷമമാക്കുക"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play സേവനങ്ങൾ അപ്‌ഡേറ്റുചെയ്യുക"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"നിലവിൽ അപ്‌ഡേറ്റുചെയ്യുന്ന Google Play സേവനങ്ങൾ ഇല്ലാതെ <ns1:g id="APP_NAME">%1$s</ns1:g> പ്രവർത്തിക്കില്ല."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play സേവനങ്ങളുടെ പുതിയ പതിപ്പ് ആവശ്യമാണ്. താമസിയാതെ ഇത് സ്വയം അപ്‌ഡേറ്റുചെയ്യും."</string>
+    <string name="common_ok">ശരി</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"ഫോണിൽ തുറക്കുക"</string>
+    <string name="common_pro">പ്രൊഫ</string>
+    <string name="common_retry">വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="common_set">സജ്ജമാക്കുക</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"സൈൻ ഇൻ ചെയ്യുക"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക"</string>
+    <string name="confirm_exit">പുറത്തുകടക്കൽ സ്ഥിരീകരിക്കണോ?</string>
+    <string name="d3_wallpapers">3D വാൾപേപ്പറുകൾ</string>
+    <string name="d3dropwallpapers">3D \n വാൾപേപ്പറുകൾ</string>
+    <string name="error_browser">ബ്രൗസർ തുറക്കാൻ കഴിയില്ല!</string>
+    <string name="error_catalog">ചിത്രങ്ങൾ വീണ്ടെടുക്കാനായില്ല!</string>
+    <string name="error_connection">ഇന്റർനെറ്റ് കണക്ഷൻ ആവശ്യമാണ്!</string>
+    <string name="error_download">പ്രിവ്യൂ ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു!</string>
     <string name="error_icon_content_description">പിശക്</string>
+    <string name="error_preview_notfound">പ്രിവ്യൂ ചെയ്യാൻ ലഭ്യമല്ല</string>
+    <string name="error_preview_unknown">പ്രിവ്യൂ പ്രദർശിപ്പിക്കാനായില്ല!</string>
+    <string name="error_timeout">കണക്ഷൻ കാലഹരണപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക!</string>
+    <string name="error_wpsetter">തത്സമയ വാൾപേപ്പർ കണ്ടെത്തിയില്ല!</string>
+    <string name="exit">പുറത്ത്</string>
     <string name="exposed_dropdown_menu_content_description">ഡ്രോപ്പ്‌ ഡൗൺ മെനു കാണിക്കുക</string>
     <string name="icon_content_description">ഡയലോഗ് ഐക്കൺ</string>
     <string name="item_view_role_description">ടാബ്</string>
+    <string name="live_wallpapers">തത്സമയ വാൾപേപ്പറുകൾ</string>
+    <string name="livedropwallpapers">തത്സമയ \n വാൾപേപ്പറുകൾ</string>
+    <string name="loading">ലോഡിംഗ്...</string>
+    <string name="main_alert_deleted">പ്രാദേശിക പകർപ്പ് ഇല്ലാതാക്കി!</string>
+    <string name="main_dialog_nosensor_message">നിങ്ങളുടെ ഉപകരണത്തിന് ആവശ്യമായ സെൻസറുകൾ ഇല്ല.</string>
+    <string name="main_dialog_nosensor_title">സെൻസർ പിശക്</string>
+    <string name="main_info_empty_message">ഉള്ളടക്കം എത്രയും വേഗം ഡൗൺലോഡ് ചെയ്യപ്പെടും...</string>
+    <string name="main_info_empty_title">ഒന്നും കാണിക്കാനില്ല!</string>
+    <string name="main_menu_sort_author">രചയിതാവ്</string>
+    <string name="main_menu_sort_new">പുതിയത്</string>
+    <string name="main_menu_sort_title">തലക്കെട്ട്</string>
+    <string name="main_ongoing_download">പ്രിവ്യൂ സൃഷ്ടിക്കുന്നു</string>
     <string name="material_clock_toggle_content_description">AM അല്ലെങ്കിൽ PM തിരഞ്ഞെടുക്കുക</string>
     <string name="material_hour_selection">മണിക്കൂർ തിരഞ്ഞെടുക്കുക</string>
     <string name="material_hour_suffix">%1$s മണി</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">സമയം തിരഞ്ഞെടുക്കുക</string>
     <string name="material_timepicker_text_input_mode_description">സമയം നൽകുന്നതിന് ടെക്സ്റ്റ് ഇൻപുട്ട് ‌മോ‌ഡിലേക്ക് ‌മാറുക.</string>
+    <string name="menu_delete">ഇല്ലാതാക്കുക</string>
+    <string name="menu_link">രചയിതാവിന്റെ സൈറ്റ്</string>
+    <string name="menu_refresh">പുതുക്കുക</string>
+    <string name="menu_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="menu_sort">ഇങ്ങനെ അടുക്കുക</string>
+    <string name="menu_wpsetter">വാൾപേപ്പർ സജ്ജമാക്കുക</string>
     <string name="mtrl_badge_numberless_content_description">പുതിയ അറിയിപ്പ്</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s നീക്കം ചെയ്യുക</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d-ലധികം പുതിയ അറിയിപ്പുകൾ</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">ദിവസം തിരഞ്ഞെടുക്കുന്നതിലേക്ക് മാറാൻ ടാപ്പ് ചെയ്യുക</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">ടെക്‌സ്‌റ്റ് ഇൻപുട്ട് മോഡിലേക്ക് മാറുക</string>
     <string name="mtrl_picker_toggle_to_year_selection">വർഷം തിരഞ്ഞെടുക്കുന്നതിലേക്ക് മാറാൻ ടാപ്പ് ചെയ്യുക</string>
+    <string name="my_name">തത്സമയ 3D വാൾപേപ്പർ</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"മുകളിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"നാവിഗേഷൻ ഡ്രോയർ തുറക്കുക"</string>
+    <string name="no_exit">ഇല്ല</string>
+    <string name="notif_new_message_multi">കാറ്റലോഗിലേക്ക് പുതിയ വാൾപേപ്പറുകൾ ചേർത്തു.</string>
+    <string name="notif_new_message_one">കാറ്റലോഗിലേക്ക് ഒരു പുതിയ വാൾപേപ്പർ ചേർത്തു.</string>
+    <string name="notif_new_title_multi">പുതിയ വാൾപേപ്പറുകൾ! അവരെ പരിശോധിക്കുക!</string>
+    <string name="notif_new_title_one">പുതിയ വാൾപേപ്പർ! ഇത് പരിശോധിക്കുക!</string>
     <string name="offline_notification_text">പരസ്യം തുറക്കാൻ ടാപ്പ് ചെയ്യുക</string>
     <string name="offline_notification_title">നിങ്ങൾ ഓഫ്‌ലൈനിൽ ആയിരുന്നപ്പോൾ സംരക്ഷിച്ച പരസ്യം കാണുക</string>
     <string name="offline_opt_in_confirm">ശരി</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">പരസ്യദാതാവിന്റെ സൈറ്റിലേക്കുള്ള ലിങ്ക് അടങ്ങിയ അറിയിപ്പ് ഞങ്ങൾ നിങ്ങൾക്ക് അയയ്‌ക്കും</string>
     <string name="offline_opt_in_title">നിങ്ങൾ ഓൺലൈനിൽ തിരിച്ചെത്തുമ്പോൾ പരസ്യം തുറക്കുക.</string>
     <string name="password_toggle_content_description">പാസ്‌വേഡ് കാണിക്കുക</string>
+    <string name="prev_thisisaprev_toast">ഇതൊരു ഡെമോ ആനിമേഷൻ മാത്രമാണ്. വാൾപേപ്പർ പ്രവർത്തനക്ഷമമായി കാണുന്നതിന് ഡൗൺലോഡ് ചെയ്യുക!</string>
     <string name="s1">ചിത്രം സംരക്ഷിക്കുക</string>
     <string name="s2">\'ചിത്ര ഗാലറി\'യിൽ ചിത്രം സംഭരിക്കാൻ പരസ്യത്തെ അനുവദിക്കണോ?</string>
     <string name="s3">അംഗീകരിക്കുക</string>
@@ -119,6 +165,20 @@
     <string name="s5">കലണ്ടർ ഇവന്റ് സൃഷ്ടിക്കുക</string>
     <string name="s6">കലണ്ടർ ഇവന്റ് സൃഷ്ടിക്കാൻ പരസ്യത്തെ അനുവദിക്കണോ?</string>
     <string name="s7">പരസ്യം പരീക്ഷിക്കുക</string>
+    <string name="search">തിരയുക</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Search"</string>
+    <string name="select_language">ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+    <string name="set_alert_changed">വാൾപേപ്പർ മാറ്റി!</string>
+    <string name="set_dialog_delete_message">നിങ്ങൾക്ക് ശരിക്കും ഈ വാൾപേപ്പർ ഇല്ലാതാക്കണോ? നിങ്ങൾക്ക് ഇത് പിന്നീട് എപ്പോൾ വേണമെങ്കിലും ഡൗൺലോഡ് ചെയ്യാം.</string>
+    <string name="set_dialog_delete_title">വാൾപേപ്പർ ഇല്ലാതാക്കുക</string>
+    <string name="set_dialog_notzero_message">തത്സമയ വാൾപേപ്പറായി സജ്ജീകരിക്കുക</string>
+    <string name="set_dialog_notzero_title">3DLive തിരഞ്ഞെടുക്കുക</string>
+    <string name="set_title">പ്രിവ്യൂ</string>
+    <string name="settings_dialog_delete_message">നിങ്ങൾക്ക് യഥാർത്ഥത്തിൽ പ്രാദേശിക ഉള്ളടക്കം ഡൗൺലോഡ് ചെയ്യണോ?</string>
+    <string name="settings_dialog_delete_title">പ്രാദേശിക ഉള്ളടക്കം ഇല്ലാതാക്കുക</string>
+    <string name="settings_title">ക്രമീകരണങ്ങൾ</string>
+    <string name="start">ആരംഭിക്കുക</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">തിരഞ്ഞ ഡാറ്റ കണ്ടെത്തിയില്ല</string>
+    <string name="yes_exit">അതെ</string>
 </resources>

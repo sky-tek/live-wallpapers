@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">ଲାଇଭ୍ ୱାଲପେପର୍ |</string>
+  <string name="my_name">ଲାଇଭ୍ 3D ୱାଲପେପର୍ |</string>
+  <string name="common_ok">ଠିକ୍ ଅଛି</string>
+  <string name="common_set">ସେଟ୍ କରନ୍ତୁ |</string>
+  <string name="common_cancel">ବାତିଲ୍ କରନ୍ତୁ |</string>
+  <string name="common_delete">ବିଲୋପ କରନ୍ତୁ |</string>
+  <string name="common_retry">ପୁନ ry ଚେଷ୍ଟା କରନ୍ତୁ |</string>
+  <string name="common_pro">ପ୍ରୋ</string>
+  <string name="live_wallpapers">ଲାଇଭ୍ ୱାଲପେପର |</string>
+  <string name="menu_refresh">ସତେଜ କରନ୍ତୁ |</string>
+  <string name="menu_sort">ଦ୍ୱାରା ସର୍ଟ କରନ୍ତୁ |</string>
+  <string name="menu_wpsetter">ୱାଲପେପର ସେଟ୍ କରନ୍ତୁ |</string>
+  <string name="menu_settings">ସେଟିଂସମୂହ</string>
+  <string name="menu_delete">ବିଲୋପ କରନ୍ତୁ |</string>
+  <string name="menu_link">ଲେଖକଙ୍କ ସାଇଟ୍ |</string>
+  <string name="error_download">ପୂର୍ବାବଲୋକନ କରିବାରେ ବିଫଳ!</string>
+  <string name="error_connection">ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଆବଶ୍ୟକ!</string>
+  <string name="error_preview_unknown">ପୂର୍ବାବଲୋକନ ପ୍ରଦର୍ଶନ କରିବାକୁ ଅସମର୍ଥ!</string>
+  <string name="error_preview_notfound">ପୂର୍ବାବଲୋକନ ପାଇଁ ଉପଲବ୍ଧ ନାହିଁ</string>
+  <string name="error_wpsetter">ଲାଇଭ୍ ୱାଲପେପର ମିଳିଲା ନାହିଁ!</string>
+  <string name="error_timeout">ସଂଯୋଗ ସମୟ ସମାପ୍ତ | ପୁଣି ଥରେ ଚେଷ୍ଟା କର!</string>
+  <string name="error_catalog">ପ୍ରତିଛବିଗୁଡିକ ପୁନରୁଦ୍ଧାର କରିବାରେ ଅସମର୍ଥ!</string>
+  <string name="error_browser">ଖୋଲା ବ୍ରାଉଜର୍ ଅକ୍ଷମ!</string>
+  <string name="notif_new_title_one">ନୂଆ ୱାଲପେପର! ଏହାକୁ ଯାଞ୍ଚ କରନ୍ତୁ!</string>
+  <string name="notif_new_title_multi">ନୂଆ ୱାଲପେପର! ସେମାନଙ୍କୁ ଯାଞ୍ଚ କରନ୍ତୁ!</string>
+  <string name="notif_new_message_one">କାଟାଲଗ୍ ରେ ଏକ ନୂତନ ୱାଲପେପର୍ ଯୋଡା ଯାଇଛି |</string>
+  <string name="notif_new_message_multi">ନୂତନ ୱାଲପେପରଗୁଡିକ ତାଲିକାରେ ଯୋଗ କରାଯାଇଛି |</string>
+  <string name="select_language">ଭାଷା ଚୟନ କରନ୍ତୁ |</string>
+  <string name="main_info_empty_title">ଦେଖାଇବାକୁ କିଛି ନାହିଁ!</string>
+  <string name="main_info_empty_message">ଯଥାଶୀଘ୍ର ବିଷୟବସ୍ତୁ ଡାଉନଲୋଡ୍ ହେବ…</string>
+  <string name="main_dialog_nosensor_title">ସେନ୍ସର ତ୍ରୁଟି |</string>
+  <string name="main_dialog_nosensor_message">ଆପଣଙ୍କର ଡିଭାଇସରେ ଆବଶ୍ୟକୀୟ ସେନ୍ସର ନାହିଁ |</string>
+  <string name="main_ongoing_download">ପୂର୍ବାବଲୋକନ ସୃଷ୍ଟି କରୁଛି |</string>
+  <string name="main_alert_deleted">ସ୍ଥାନୀୟ କପି ବିଲୋପ ହେଲା!</string>
+  <string name="main_menu_sort_new">ନୂତନ</string>
+  <string name="main_menu_sort_title">ଆଖ୍ୟା</string>
+  <string name="main_menu_sort_author">ଲେଖକ</string>
+  <string name="set_title">ପୂର୍ବାବଲୋକନ</string>
+  <string name="set_dialog_delete_title">ୱାଲପେପର ବିଲୋପ କରନ୍ତୁ |</string>
+  <string name="set_dialog_delete_message">ଆପଣ ପ୍ରକୃତରେ ଏହି ୱାଲପେପର୍ ଡିଲିଟ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି? ଆପଣ ଏହାକୁ ପରେ ପରେ ଡାଉନଲୋଡ୍ କରିପାରିବେ |</string>
+  <string name="set_dialog_notzero_title">3DLive ଚୟନ କରନ୍ତୁ |</string>
+  <string name="set_dialog_notzero_message">ଲାଇଭ୍ ୱାଲପେପର ଭାବରେ ସେଟ୍ କରନ୍ତୁ |</string>
+  <string name="set_alert_changed">ୱାଲପେପର ବଦଳିଗଲା!</string>
+  <string name="prev_thisisaprev_toast">ଏହା କେବଳ ଏକ ଡେମୋ ଆନିମେସନ୍ | ଏହାକୁ କାର୍ଯ୍ୟରେ ଦେଖିବା ପାଇଁ ୱାଲପେପର ଡାଉନଲୋଡ୍ କରନ୍ତୁ!</string>
+  <string name="settings_title">ସେଟିଂସମୂହ</string>
+  <string name="settings_dialog_delete_title">ସ୍ଥାନୀୟ ବିଷୟବସ୍ତୁ ବିଲୋପ କରନ୍ତୁ |</string>
+  <string name="settings_dialog_delete_message">ଆପଣ ପ୍ରକୃତରେ ସ୍ଥାନୀୟ ବିଷୟବସ୍ତୁ ଡାଉନଲୋଡ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?</string>
+  <string name="loading">ଲୋଡିଂ ...</string>
+  <string name="start">ଆରମ୍ଭ କରନ୍ତୁ |</string>
+  <string name="exit">ପ୍ରସ୍ଥାନ</string>
+  <string name="confirm_exit">ପ୍ରସ୍ଥାନ ନିଶ୍ଚିତ କରନ୍ତୁ?</string>
+  <string name="yes_exit">ହଁ</string>
+  <string name="no_exit">ନା</string>
+  <string name="d3_wallpapers">3D ୱାଲପେପର |</string>
+  <string name="YourdropWallpapers">ତୁମର \n ୱାଲପେପର |</string>
+  <string name="livedropwallpapers">ଲାଇଭ୍ \n ୱାଲପେପର |</string>
+  <string name="d3dropwallpapers">3D \n ୱାଲପେପର |</string>
+  <string name="search">ସନ୍ଧାନ କର |</string>
+  <string name="text_not_found">ସନ୍ଧାନ କରାଯାଇଥିବା ତଥ୍ୟ ମିଳିଲା ନାହିଁ |</string>
+  <string name="audio">ଅଡିଓ</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Wallpaper obulamu</string>
+  <string name="my_name">Obulamu 3D Wallpaper</string>
+  <string name="common_ok">KALE</string>
+  <string name="common_set">Biggate</string>
+  <string name="common_cancel">Okusazaamu</string>
+  <string name="common_delete">Okusiimuula</string>
+  <string name="common_retry">Ddamu gezaako</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Wallpapers eziriko obutereevu</string>
+  <string name="menu_refresh">Okuzza obuggya</string>
+  <string name="menu_sort">Sort by</string>
+  <string name="menu_wpsetter">Teekawo wallpaper</string>
+  <string name="menu_settings">Enteekateeka</string>
+  <string name="menu_delete">Okusiimuula</string>
+  <string name="menu_link">Omukutu gw\'omuwandiisi</string>
+  <string name="error_download">Eremereddwa okusooka okulaba!</string>
+  <string name="error_connection">Omukutu gwa yintaneeti gwetaagibwa!</string>
+  <string name="error_preview_unknown">Tekisoboka kulaga kusooka kulaba!</string>
+  <string name="error_preview_notfound">Tekiriwo kusooka kulaba</string>
+  <string name="error_wpsetter">Live wallpaper tezuuliddwa!</string>
+  <string name="error_timeout">Ekiseera ky\'okuyungibwa kiweddeko. Gezaako Ddamu!</string>
+  <string name="error_catalog">Tekisoboka kuggya bifaananyi!</string>
+  <string name="error_browser">Tesobola kuggulawo browser!</string>
+  <string name="notif_new_title_one">Wallpaper Empya! Kikebere!</string>
+  <string name="notif_new_title_multi">Wallpapers Empya! Zikebere!</string>
+  <string name="notif_new_message_one">Wallpaper empya eyongedde ku katalogu.</string>
+  <string name="notif_new_message_multi">Wallpapers empya zongerwako mu katalogu.</string>
+  <string name="select_language">Londa Olulimi</string>
+  <string name="main_info_empty_title">Tewali kya kulaga!</string>
+  <string name="main_info_empty_message">Ebirimu bijja kuwanulibwa amangu ddala nga bwe kisoboka...</string>
+  <string name="main_dialog_nosensor_title">Ensobi ya sensa</string>
+  <string name="main_dialog_nosensor_message">Ekyuma kyo tekirina sensa ezeetaagisa.</string>
+  <string name="main_ongoing_download">Okukola Okusooka okulaba</string>
+  <string name="main_alert_deleted">Kopi ya wano esaziddwamu!</string>
+  <string name="main_menu_sort_new">Pya</string>
+  <string name="main_menu_sort_title">Omutwe</string>
+  <string name="main_menu_sort_author">Omuwandiisi</string>
+  <string name="set_title">Okusooka okulaba</string>
+  <string name="set_dialog_delete_title">Ssazaamu wallpaper</string>
+  <string name="set_dialog_delete_message">Ddala oyagala kusazaamu wallpaper eno? Bulijjo osobola okugiwanula oluvannyuma.</string>
+  <string name="set_dialog_notzero_title">Londa 3DLive</string>
+  <string name="set_dialog_notzero_message">Teeka nga Live Wallpaper</string>
+  <string name="set_alert_changed">Wallpaper ekyuse!</string>
+  <string name="prev_thisisaprev_toast">Eno ye demo animation yokka. Wano wefunire wallpaper ogirabe mu bikolwa!</string>
+  <string name="settings_title">Enteekateeka</string>
+  <string name="settings_dialog_delete_title">Ssaawo ebirimu eby’omu kitundu</string>
+  <string name="settings_dialog_delete_message">Ddala oyagala okuwanula ebirimu eby’omu kitundu?</string>
+  <string name="loading">Okutikka...</string>
+  <string name="start">Okutandika</string>
+  <string name="exit">Fuluma</string>
+  <string name="confirm_exit">Kakasa Okufuluma ?</string>
+  <string name="yes_exit">Yee</string>
+  <string name="no_exit">Nedda</string>
+  <string name="d3_wallpapers">Ebifaananyi eby’omulembe ebya 3D</string>
+  <string name="YourdropWallpapers">\n Wallpapers zo</string>
+  <string name="livedropwallpapers">Live \n Wallpapers eziriko ebifaananyi</string>
+  <string name="d3dropwallpapers">3D \n Ebifaananyi eby\'omulembe</string>
+  <string name="search">Okunoonya</string>
+  <string name="text_not_found">Data eyanoonyezebwa tezuuliddwa</string>
+  <string name="audio">Amaloboozi</string>
+</resources>

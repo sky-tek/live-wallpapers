@@ -4,6 +4,7 @@
     <item quantity="one">%d ਨਵੀਂ ਸੂਚਨਾ</item>
     <item quantity="other">%d ਨਵੀਆਂ ਸੂਚਨਾਵਾਂ</item>
   </plurals>
+    <string name="YourdropWallpapers">ਤੁਹਾਡੇ \n ਵਾਲਪੇਪਰ</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ਹੋਮ \'ਤੇ ਜਾਓ"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ਉੱਪਰ ਜਾਓ"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ਹੋਰ ਵਿਕਲਪ"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ਇਸ ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ਸਮੇਟੋ"</string>
+    <string name="app_name">ਲਾਈਵ ਵਾਲਪੇਪਰ</string>
+    <string name="audio">ਆਡੀਓ</string>
     <string name="bottomsheet_action_expand_halfway">ਅੱਧ ਤੱਕ ਵਿਸਤਾਰ ਕਰੋ</string>
     <string name="character_counter_content_description">%2$d ਵਿੱਚੋਂ %1$d ਅੱਖਰ-ਚਿੰਨ੍ਹ ਦਾਖਲ ਕੀਤੇ ਗਏ</string>
     <string name="character_counter_overflowed_content_description">ਅੱਖਰ-ਚਿੰਨ੍ਹ ਸੀਮਾ %2$d ਤੋਂ %1$d ਵਧੀ</string>
     <string name="clear_text_end_icon_content_description">ਲਿਖਤ ਕਲੀਅਰ ਕਰੋ</string>
+    <string name="common_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="common_delete">ਮਿਟਾਓ</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"ਚਾਲੂ ਕਰੋ"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ਕੰਮ ਨਹੀਂ ਕਰੇਗਾ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ Google Play ਸੇਵਾਵਾਂ ਨੂੰ ਚਾਲੂ ਨਹੀਂ ਕਰਦੇ ਹੋ।"</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play ਸੇਵਾਵਾਂ ਨੂੰ ਚਾਲੂ ਕਰੋ"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play ਸੇਵਾਵਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play ਸੇਵਾਵਾਂ ਤੋਂ ਬਿਨਾਂ ਨਹੀਂ ਚੱਲੇਗਾ, ਜੋ ਵਰਤਮਾਨ ਵਿੱਚ ਅੱਪਡੇਟ ਹੋ ਰਹੀਆਂ ਹਨ।"</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play ਸੇਵਾਵਾਂ ਦੇ ਨਵਾਂ ਸੰਸਕਰਨ ਦੀ ਲੋੜ ਹੈ। ਇਹ ਛੇਤੀ ਹੀ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਅੱਪਡੇਟ ਕਰੇਗਾ।"</string>
+    <string name="common_ok">ਠੀਕ ਹੈ</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"ਫ਼ੋਨ \'ਤੇ ਖੋਲ੍ਹੋ"</string>
+    <string name="common_pro">ਪ੍ਰੋ</string>
+    <string name="common_retry">ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="common_set">ਸੈੱਟ ਕਰੋ</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ਸਾਈਨ-ਇਨ ਕਰੋ"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google ਨਾਲ ਸਾਈਨ-ਇਨ ਕਰੋ"</string>
+    <string name="confirm_exit">ਬਾਹਰ ਨਿਕਲਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ?</string>
+    <string name="d3_wallpapers">3D ਵਾਲਪੇਪਰ</string>
+    <string name="d3dropwallpapers">3D \n ਵਾਲਪੇਪਰ</string>
+    <string name="error_browser">ਬਰਾਊਜ਼ਰ ਨੂੰ ਖੋਲ੍ਹਣ ਵਿੱਚ ਅਸਮਰੱਥ!</string>
+    <string name="error_catalog">ਚਿੱਤਰ ਮੁੜ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ!</string>
+    <string name="error_connection">ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਦੀ ਲੋੜ ਹੈ!</string>
+    <string name="error_download">ਪੂਰਵਦਰਸ਼ਨ ਕਰਨ ਵਿੱਚ ਅਸਫਲ!</string>
     <string name="error_icon_content_description">ਗੜਬੜ</string>
+    <string name="error_preview_notfound">ਪੂਰਵਦਰਸ਼ਨ ਲਈ ਉਪਲਬਧ ਨਹੀਂ ਹੈ</string>
+    <string name="error_preview_unknown">ਪੂਰਵ-ਝਲਕ ਦਿਖਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ!</string>
+    <string name="error_timeout">ਕਨੈਕਸ਼ਨ ਦਾ ਸਮਾਂ ਸਮਾਪਤ। ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ!</string>
+    <string name="error_wpsetter">ਲਾਈਵ ਵਾਲਪੇਪਰ ਨਹੀਂ ਮਿਲਿਆ!</string>
+    <string name="exit">ਨਿਕਾਸ</string>
     <string name="exposed_dropdown_menu_content_description">ਡ੍ਰੌਪ-ਡਾਊਨ ਮੀਨੂ ਦਿਖਾਓ</string>
     <string name="icon_content_description">ਵਿੰਡੋ ਦਾ ਪ੍ਰਤੀਕ</string>
     <string name="item_view_role_description">ਟੈਬ</string>
+    <string name="live_wallpapers">ਲਾਈਵ ਵਾਲਪੇਪਰ</string>
+    <string name="livedropwallpapers">ਲਾਈਵ \n ਵਾਲਪੇਪਰ</string>
+    <string name="loading">ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...</string>
+    <string name="main_alert_deleted">ਸਥਾਨਕ ਕਾਪੀ ਮਿਟਾਈ ਗਈ!</string>
+    <string name="main_dialog_nosensor_message">ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਵਿੱਚ ਲੋੜੀਂਦੇ ਸੈਂਸਰ ਨਹੀਂ ਹਨ।</string>
+    <string name="main_dialog_nosensor_title">ਸੈਂਸਰ ਗੜਬੜ</string>
+    <string name="main_info_empty_message">ਸਮੱਗਰੀ ਨੂੰ ਜਿੰਨੀ ਜਲਦੀ ਹੋ ਸਕੇ ਡਾਊਨਲੋਡ ਕੀਤਾ ਜਾਵੇਗਾ...</string>
+    <string name="main_info_empty_title">ਦਿਖਾਉਣ ਲਈ ਕੁਝ ਨਹੀਂ!</string>
+    <string name="main_menu_sort_author">ਲੇਖਕ</string>
+    <string name="main_menu_sort_new">ਨਵਾਂ</string>
+    <string name="main_menu_sort_title">ਸਿਰਲੇਖ</string>
+    <string name="main_ongoing_download">ਪੂਰਵਦਰਸ਼ਨ ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
     <string name="material_clock_toggle_content_description">AM ਜਾਂ PM ਚੁਣੋ</string>
     <string name="material_hour_selection">ਸਮਾਂ ਚੁਣੋ</string>
     <string name="material_hour_suffix">%1$s ਵਜੇ</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">ਸਮਾਂ ਚੁਣੋ</string>
     <string name="material_timepicker_text_input_mode_description">ਸਮਾਂ ਇਨਪੁੱਟ ਕਰਨ ਲਈ ਲਿਖਤ ਇਨਪੁੱਟ ਮੋਡ \'ਤੇ ਸਵਿੱਚ ਕਰੋ।</string>
+    <string name="menu_delete">ਮਿਟਾਓ</string>
+    <string name="menu_link">ਲੇਖਕ ਦੀ ਸਾਈਟ</string>
+    <string name="menu_refresh">ਤਾਜ਼ਾ ਕਰੋ</string>
+    <string name="menu_settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="menu_sort">ਦੇ ਨਾਲ ਕ੍ਰਮਬੱਧ</string>
+    <string name="menu_wpsetter">ਵਾਲਪੇਪਰ ਸੈੱਟ ਕਰੋ</string>
     <string name="mtrl_badge_numberless_content_description">ਨਵੀਂ ਸੂਚਨਾ</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s ਹਟਾਓ</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d ਤੋਂ ਵੱਧ ਨਵੀਆਂ ਸੂਚਨਾਵਾਂ</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">ਦਿਨ ਦੀ ਚੋਣ \'ਤੇ ਜਾਣ ਲਈ ਟੈਪ ਕਰੋ</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">ਲਿਖਤ ਇਨਪੁੱਟ ਮੋਡ \'ਤੇ ਜਾਓ</string>
     <string name="mtrl_picker_toggle_to_year_selection">ਸਾਲ ਦੀ ਚੋਣ \'ਤੇ ਜਾਣ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <string name="my_name">ਲਾਈਵ 3D ਵਾਲਪੇਪਰ</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"ਉੱਪਰ ਵੱਲ ਨੈਵੀਗੇਟ ਕਰੋ"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ਨੈਵੀਗੇਸ਼ਨ ਡ੍ਰਾਅਰ ਖੋਲ੍ਹੋ"</string>
+    <string name="no_exit">ਨੰ</string>
+    <string name="notif_new_message_multi">ਕੈਟਾਲਾਗ ਵਿੱਚ ਨਵੇਂ ਵਾਲਪੇਪਰ ਸ਼ਾਮਲ ਕੀਤੇ ਗਏ ਹਨ।</string>
+    <string name="notif_new_message_one">ਕੈਟਾਲਾਗ ਵਿੱਚ ਇੱਕ ਨਵਾਂ ਵਾਲਪੇਪਰ ਜੋੜਿਆ ਗਿਆ ਹੈ।</string>
+    <string name="notif_new_title_multi">ਨਵੇਂ ਵਾਲਪੇਪਰ! ਉਹਨਾਂ ਦੀ ਜਾਂਚ ਕਰੋ!</string>
+    <string name="notif_new_title_one">ਨਵਾਂ ਵਾਲਪੇਪਰ! ਇਸ ਦੀ ਜਾਂਚ ਕਰੋ!</string>
     <string name="offline_notification_text">ਵਿਗਿਆਪਨ ਖੋਲ੍ਹਣ ਲਈ ਟੈਪ ਕਰੋ</string>
     <string name="offline_notification_title">ਤੁਹਾਡੇ ਵੱਲੋਂ ਆਫ਼ਲਾਈਨ ਹੋਣ ਦੌਰਾਨ ਰੱਖਿਅਤ ਕੀਤੇ ਵਿਗਿਆਪਨ ਦੇਖੋ</string>
     <string name="offline_opt_in_confirm">ਠੀਕ ਹੈ</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">ਅਸੀਂ ਤੁਹਾਨੂੰ ਇੱਕ ਸੂਚਨਾ ਭੇਜਾਂਗੇ ਜਿਸ ਵਿੱਚ ਵਿਗਿਆਪਨਦਾਤਾ ਦੀ ਸਾਈਟ ਦਾ ਲਿੰਕ ਹੋਵੇਗਾ।</string>
     <string name="offline_opt_in_title">ਤੁਹਾਡੇ ਵਾਪਸ ਆਨਲਾਈਨ ਹੋਣ \'ਤੇ ਵਿਗਿਆਪਨ ਖੋਲ੍ਹੋ।</string>
     <string name="password_toggle_content_description">ਪਾਸਵਰਡ ਦਿਖਾਓ</string>
+    <string name="prev_thisisaprev_toast">ਇਹ ਸਿਰਫ਼ ਇੱਕ ਡੈਮੋ ਐਨੀਮੇਸ਼ਨ ਹੈ। ਇਸ ਨੂੰ ਕਾਰਵਾਈ ਵਿੱਚ ਦੇਖਣ ਲਈ ਵਾਲਪੇਪਰ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ!</string>
     <string name="s1">ਚਿੱਤਰ ਰੱਖਿਅਤ ਕਰੋ</string>
     <string name="s2">ਕੀ ਇਸ਼ਤਿਹਾਰ ਨੂੰ ਤਸਵੀਰ ਗੈਲਰੀ ਵਿੱਚ ਚਿੱਤਰ ਸਟੋਰ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦੇਣੀ ਹੈ?</string>
     <string name="s3">ਸਵੀਕਾਰ ਕਰੋ</string>
@@ -119,6 +165,20 @@
     <string name="s5">ਕੈਲੰਡਰ ਇਵੈਂਟ ਬਣਾਓ</string>
     <string name="s6">ਕੀ ਇਸ਼ਤਿਹਾਰ ਨੂੰ ਇੱਕ ਕੈਲੰਡਰ ਵਰਤਾਰਾ ਬਣਾਉਣ ਦੀ ਆਗਿਆ ਦੇਣੀ ਹੈ?</string>
     <string name="s7">ਟੈਸਟ ਇਸ਼ਤਿਹਾਰ</string>
+    <string name="search">ਖੋਜ</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ਖੋਜ"</string>
+    <string name="select_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="set_alert_changed">ਵਾਲਪੇਪਰ ਬਦਲਿਆ!</string>
+    <string name="set_dialog_delete_message">ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਇਸ ਵਾਲਪੇਪਰ ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਤੁਸੀਂ ਇਸਨੂੰ ਬਾਅਦ ਵਿੱਚ ਹਮੇਸ਼ਾ ਡਾਊਨਲੋਡ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="set_dialog_delete_title">ਵਾਲਪੇਪਰ ਮਿਟਾਓ</string>
+    <string name="set_dialog_notzero_message">ਲਾਈਵ ਵਾਲਪੇਪਰ ਵਜੋਂ ਸੈੱਟ ਕਰੋ</string>
+    <string name="set_dialog_notzero_title">3DLive ਚੁਣੋ</string>
+    <string name="set_title">ਝਲਕ</string>
+    <string name="settings_dialog_delete_message">ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਸਥਾਨਕ ਸਮੱਗਰੀ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="settings_dialog_delete_title">ਸਥਾਨਕ ਸਮੱਗਰੀ ਨੂੰ ਮਿਟਾਓ</string>
+    <string name="settings_title">ਸੈਟਿੰਗਾਂ</string>
+    <string name="start">ਸ਼ੁਰੂ ਕਰੋ</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">ਖੋਜਿਆ ਡਾਟਾ ਨਹੀਂ ਮਿਲਿਆ</string>
+    <string name="yes_exit">ਹਾਂ</string>
 </resources>

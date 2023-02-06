@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Iphepha lodonga bukhoma</string>
+  <string name="my_name">Iphephadonga elibukhoma le-3D</string>
+  <string name="common_ok">KULUNGILE</string>
+  <string name="common_set">Setha</string>
+  <string name="common_cancel">Khansela</string>
+  <string name="common_delete">Susa</string>
+  <string name="common_retry">Zama futhi</string>
+  <string name="common_pro">UPro</string>
+  <string name="live_wallpapers">Izithombe zangemuva ezibukhoma</string>
+  <string name="menu_refresh">Vuselela</string>
+  <string name="menu_sort">Hlunga nge</string>
+  <string name="menu_wpsetter">Setha isithombe sangemuva</string>
+  <string name="menu_settings">Izilungiselelo</string>
+  <string name="menu_delete">Susa</string>
+  <string name="menu_link">Isayithi lombhali</string>
+  <string name="error_download">Yehlulekile ukubuka kuqala!</string>
+  <string name="error_connection">Kudingeka uxhumano lwe-inthanethi!</string>
+  <string name="error_preview_unknown">Ayikwazi ukubonisa ukubuka kuqala!</string>
+  <string name="error_preview_notfound">Ayitholakali ukuze ihlolwe kuqala</string>
+  <string name="error_wpsetter">Isithombe sangemuva esibukhoma asitholakali!</string>
+  <string name="error_timeout">Ukuphela kwesikhathi sokuxhuma. Zama futhi!</string>
+  <string name="error_catalog">Ayikwazi ukubuyisa izithombe!</string>
+  <string name="error_browser">Ayikwazi ukuvula isiphequluli!</string>
+  <string name="notif_new_title_one">Iphephadonga Elisha! Kuhlole!</string>
+  <string name="notif_new_title_multi">Izithombe zangemuva ezintsha! Zihlole!</string>
+  <string name="notif_new_message_one">Iphephadonga elisha lengeziwe kukhathalogi.</string>
+  <string name="notif_new_message_multi">Amaphephadonga amasha engeziwe kukhathalogi.</string>
+  <string name="select_language">Khetha Ulimi</string>
+  <string name="main_info_empty_title">Akukho okungaboniswa!</string>
+  <string name="main_info_empty_message">Okuqukethwe kuzolandwa ngokushesha...</string>
+  <string name="main_dialog_nosensor_title">Iphutha lenzwa</string>
+  <string name="main_dialog_nosensor_message">Idivayisi yakho ayinazo izinzwa ezidingekayo.</string>
+  <string name="main_ongoing_download">Ikhiqiza ukubuka kuqala</string>
+  <string name="main_alert_deleted">Ikhophi yendawo isusiwe!</string>
+  <string name="main_menu_sort_new">Okusha</string>
+  <string name="main_menu_sort_title">Isihloko</string>
+  <string name="main_menu_sort_author">Umbhali</string>
+  <string name="set_title">Buka kuqala</string>
+  <string name="set_dialog_delete_title">Susa isithombe sangemuva</string>
+  <string name="set_dialog_delete_message">Ingabe ngempela ufuna ukususa lesi sangemuva? Ungakwazi ukuyilanda ngokuhamba kwesikhathi.</string>
+  <string name="set_dialog_notzero_title">Khetha i-3DLive</string>
+  <string name="set_dialog_notzero_message">Setha njengephephadonga elibukhoma</string>
+  <string name="set_alert_changed">Isithombe sangemuva sishintshile!</string>
+  <string name="prev_thisisaprev_toast">Lokhu ukugqwayiza kwedemo kuphela. Landa isithombe sangemuva ukuze usibone sisebenza!</string>
+  <string name="settings_title">Izilungiselelo</string>
+  <string name="settings_dialog_delete_title">Susa okuqukethwe kwasendaweni</string>
+  <string name="settings_dialog_delete_message">Ingabe ufuna ngempela ukulanda okuqukethwe kwasendaweni?</string>
+  <string name="loading">Iyalayisha...</string>
+  <string name="start">Qala</string>
+  <string name="exit">Phuma</string>
+  <string name="confirm_exit">Qinisekisa Ukuphuma ?</string>
+  <string name="yes_exit">Yebo</string>
+  <string name="no_exit">Cha</string>
+  <string name="d3_wallpapers">Izithombe zangemuva ze-3D</string>
+  <string name="YourdropWallpapers">\n Izithombe Zangemuva Zakho</string>
+  <string name="livedropwallpapers">Izithombe zangemuva \n ezibukhoma</string>
+  <string name="d3dropwallpapers">3D \n Izithombe zangemuva</string>
+  <string name="search">Sesha</string>
+  <string name="text_not_found">Idatha eseshiwe ayitholakali</string>
+  <string name="audio">Umsindo</string>
+</resources>

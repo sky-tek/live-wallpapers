@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Тірі тұсқағаз</string>
+  <string name="my_name">Жанды 3D тұсқағаз</string>
+  <string name="common_ok">ЖАРАЙДЫ МА</string>
+  <string name="common_set">Орнату</string>
+  <string name="common_cancel">Болдырмау</string>
+  <string name="common_delete">Жою</string>
+  <string name="common_retry">Қайталап көріңіз</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Жанды тұсқағаздар</string>
+  <string name="menu_refresh">Жаңарту</string>
+  <string name="menu_sort">Бойынша сұрыптау</string>
+  <string name="menu_wpsetter">Түсқағазды орнату</string>
+  <string name="menu_settings">Параметрлер</string>
+  <string name="menu_delete">Жою</string>
+  <string name="menu_link">Авторлық сайт</string>
+  <string name="error_download">Алдын ала қарау мүмкін болмады!</string>
+  <string name="error_connection">Интернетке қосылу қажет!</string>
+  <string name="error_preview_unknown">Алдын ала қарауды көрсету мүмкін емес!</string>
+  <string name="error_preview_notfound">Алдын ала қарау мүмкін емес</string>
+  <string name="error_wpsetter">Жанды тұсқағаз табылмады!</string>
+  <string name="error_timeout">Қосылу күту уақыты. Қайтадан байқап көріңіз!</string>
+  <string name="error_catalog">Суреттерді алу мүмкін емес!</string>
+  <string name="error_browser">Браузерді ашу мүмкін емес!</string>
+  <string name="notif_new_title_one">Жаңа тұсқағаз! Мынаны көр!</string>
+  <string name="notif_new_title_multi">Жаңа тұсқағаздар! Оларды тексеріңіз!</string>
+  <string name="notif_new_message_one">Каталогқа жаңа тұсқағаз қосылды.</string>
+  <string name="notif_new_message_multi">Каталогқа жаңа тұсқағаздар қосылды.</string>
+  <string name="select_language">Тіл таңдаңыз</string>
+  <string name="main_info_empty_title">Көрсететін ештеңе жоқ!</string>
+  <string name="main_info_empty_message">Мазмұн мүмкіндігінше тезірек жүктеледі…</string>
+  <string name="main_dialog_nosensor_title">Сенсор қатесі</string>
+  <string name="main_dialog_nosensor_message">Құрылғыңызда қажетті сенсорлар жоқ.</string>
+  <string name="main_ongoing_download">Алдын ала қарау жасалуда</string>
+  <string name="main_alert_deleted">Жергілікті көшірме жойылды!</string>
+  <string name="main_menu_sort_new">Жаңа</string>
+  <string name="main_menu_sort_title">Тақырып</string>
+  <string name="main_menu_sort_author">Автор</string>
+  <string name="set_title">Алдын ала қарау</string>
+  <string name="set_dialog_delete_title">Түсқағазды жою</string>
+  <string name="set_dialog_delete_message">Осы тұсқағазды шынымен жойғыңыз келе ме? Оны кейінірек жүктеп алуға болады.</string>
+  <string name="set_dialog_notzero_title">3DLive таңдаңыз</string>
+  <string name="set_dialog_notzero_message">Жанды тұсқағаз ретінде орнату</string>
+  <string name="set_alert_changed">Түсқағаз өзгерді!</string>
+  <string name="prev_thisisaprev_toast">Бұл тек демо анимация. Оны іс жүзінде көру үшін тұсқағазды жүктеп алыңыз!</string>
+  <string name="settings_title">Параметрлер</string>
+  <string name="settings_dialog_delete_title">Жергілікті мазмұнды жою</string>
+  <string name="settings_dialog_delete_message">Сіз шынымен жергілікті мазмұнды жүктеп алғыңыз келе ме?</string>
+  <string name="loading">Жүктелуде...</string>
+  <string name="start">Бастау</string>
+  <string name="exit">Шығу</string>
+  <string name="confirm_exit">Шығуды растау керек пе?</string>
+  <string name="yes_exit">Иә</string>
+  <string name="no_exit">Жоқ</string>
+  <string name="d3_wallpapers">3D тұсқағаздар</string>
+  <string name="YourdropWallpapers">\n Түсқағаздарыңыз</string>
+  <string name="livedropwallpapers">Тікелей \n Түсқағаздар</string>
+  <string name="d3dropwallpapers">3D \n Түсқағаздар</string>
+  <string name="search">Іздеу</string>
+  <string name="text_not_found">Ізденген деректер табылмады</string>
+  <string name="audio">Аудио</string>
+</resources>

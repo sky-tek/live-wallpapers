@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">प्रत्यक्ष वालपेपर</string>
+  <string name="my_name">लाइभ थ्रीडी वालपेपर</string>
+  <string name="common_ok">ठिक छ</string>
+  <string name="common_set">सेट</string>
+  <string name="common_cancel">रद्द गर्नुहोस्</string>
+  <string name="common_delete">मेटाउन</string>
+  <string name="common_retry">पुन: प्रयास गर्नुहोस्</string>
+  <string name="common_pro">प्रो</string>
+  <string name="live_wallpapers">लाइभ वालपेपर</string>
+  <string name="menu_refresh">रिफ्रेस गर्नुहोस्</string>
+  <string name="menu_sort">क्रमबद्ध गर्नुहोस्</string>
+  <string name="menu_wpsetter">वालपेपर सेट गर्नुहोस्</string>
+  <string name="menu_settings">सेटिङहरू</string>
+  <string name="menu_delete">मेटाउन</string>
+  <string name="menu_link">लेखकको साइट</string>
+  <string name="error_download">पूर्वावलोकन गर्न असफल भयो!</string>
+  <string name="error_connection">इन्टरनेट जडान आवश्यक छ!</string>
+  <string name="error_preview_unknown">पूर्वावलोकन प्रदर्शन गर्न असमर्थ!</string>
+  <string name="error_preview_notfound">पूर्वावलोकन गर्न अनुपलब्ध</string>
+  <string name="error_wpsetter">लाइभ वालपेपर फेला परेन!</string>
+  <string name="error_timeout">जडान टाइमआउट। फेरि प्रयास गर्नुहोस्!</string>
+  <string name="error_catalog">छविहरू पुन: प्राप्त गर्न असमर्थ!</string>
+  <string name="error_browser">ब्राउजर खोल्न असमर्थ!</string>
+  <string name="notif_new_title_one">नयाँ वालपेपर! यसलाई जाँच गर्नुहोस्!</string>
+  <string name="notif_new_title_multi">नयाँ वालपेपर! तिनीहरूलाई जाँच गर्नुहोस्!</string>
+  <string name="notif_new_message_one">क्याटलगमा नयाँ वालपेपर थपिएको छ।</string>
+  <string name="notif_new_message_multi">नयाँ वालपेपर सूचीमा थपिएको छ।</string>
+  <string name="select_language">भाषा छनोट गर्नुस</string>
+  <string name="main_info_empty_title">देखाउन को लागी केहि छैन!</string>
+  <string name="main_info_empty_message">सामग्री सकेसम्म चाँडो डाउनलोड गरिनेछ...</string>
+  <string name="main_dialog_nosensor_title">सेन्सर त्रुटि</string>
+  <string name="main_dialog_nosensor_message">तपाईंको यन्त्रमा आवश्यक सेन्सरहरू छैनन्।</string>
+  <string name="main_ongoing_download">पूर्वावलोकन उत्पन्न गर्दै</string>
+  <string name="main_alert_deleted">स्थानीय प्रतिलिपि मेटाइयो!</string>
+  <string name="main_menu_sort_new">नयाँ</string>
+  <string name="main_menu_sort_title">शीर्षक</string>
+  <string name="main_menu_sort_author">लेखक</string>
+  <string name="set_title">पूर्वावलोकन</string>
+  <string name="set_dialog_delete_title">वालपेपर मेटाउनुहोस्</string>
+  <string name="set_dialog_delete_message">के तपाई साँच्चै यो वालपेपर मेटाउन चाहनुहुन्छ? तपाईं जहिले पनि पछि डाउनलोड गर्न सक्नुहुन्छ।</string>
+  <string name="set_dialog_notzero_title">3DLive चयन गर्नुहोस्</string>
+  <string name="set_dialog_notzero_message">लाइभ वालपेपरको रूपमा सेट गर्नुहोस्</string>
+  <string name="set_alert_changed">वालपेपर परिवर्तन भयो!</string>
+  <string name="prev_thisisaprev_toast">यो केवल एक डेमो एनिमेसन हो। यसलाई कार्यमा हेर्न वालपेपर डाउनलोड गर्नुहोस्!</string>
+  <string name="settings_title">सेटिङहरू</string>
+  <string name="settings_dialog_delete_title">स्थानीय सामग्री मेटाउनुहोस्</string>
+  <string name="settings_dialog_delete_message">के तपाई साँच्चै स्थानीय सामग्री डाउनलोड गर्न चाहनुहुन्छ?</string>
+  <string name="loading">लोड गर्दै...</string>
+  <string name="start">सुरु गर्नुहोस्</string>
+  <string name="exit">बाहिर निस्कनुहोस्</string>
+  <string name="confirm_exit">निकास पुष्टि गर्नुहुन्छ?</string>
+  <string name="yes_exit">हो</string>
+  <string name="no_exit">छैन</string>
+  <string name="d3_wallpapers">3D वालपेपर</string>
+  <string name="YourdropWallpapers">तपाईंको \n वालपेपरहरू</string>
+  <string name="livedropwallpapers">लाइभ \n वालपेपरहरू</string>
+  <string name="d3dropwallpapers">3D \n वालपेपरहरू</string>
+  <string name="search">खोज्नुहोस्</string>
+  <string name="text_not_found">खोजी डाटा फेला परेन</string>
+  <string name="audio">अडियो</string>
+</resources>

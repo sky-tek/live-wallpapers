@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Zuzeneko horma-papera</string>
+  <string name="my_name">Zuzeneko 3D horma-papera</string>
+  <string name="common_ok">Ados</string>
+  <string name="common_set">Ezarri</string>
+  <string name="common_cancel">Utzi</string>
+  <string name="common_delete">Ezabatu</string>
+  <string name="common_retry">Saiatu berriro</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Zuzeneko horma-irudiak</string>
+  <string name="menu_refresh">Freskatu</string>
+  <string name="menu_sort">Ordenatu</string>
+  <string name="menu_wpsetter">Ezarri horma-papera</string>
+  <string name="menu_settings">Ezarpenak</string>
+  <string name="menu_delete">Ezabatu</string>
+  <string name="menu_link">Egilearen gunea</string>
+  <string name="error_download">Ezin izan da aurrebista egin!</string>
+  <string name="error_connection">Interneteko konexioa behar da!</string>
+  <string name="error_preview_unknown">Ezin da bistaratu aurrebista!</string>
+  <string name="error_preview_notfound">Ez dago erabilgarri aurrebistarako</string>
+  <string name="error_wpsetter">Ez da aurkitu zuzeneko horma-papera!</string>
+  <string name="error_timeout">Konexioaren denbora-muga. Saiatu berriro!</string>
+  <string name="error_catalog">Ezin dira irudiak berreskuratu!</string>
+  <string name="error_browser">Ezin da arakatzailea ireki!</string>
+  <string name="notif_new_title_one">Horma-irudi berria! Begira ezazu!</string>
+  <string name="notif_new_title_multi">Horma-irudi berriak! Begira itzazu!</string>
+  <string name="notif_new_message_one">Horma-paper berri bat gehitu da katalogoan.</string>
+  <string name="notif_new_message_multi">Horma-paper berriak gehitu dira katalogoan.</string>
+  <string name="select_language">Hautatu Hizkuntza</string>
+  <string name="main_info_empty_title">Ezer ez erakusteko!</string>
+  <string name="main_info_empty_message">Edukia ahalik eta lasterren deskargatuko da...</string>
+  <string name="main_dialog_nosensor_title">Sentsorearen errorea</string>
+  <string name="main_dialog_nosensor_message">Zure gailuak ez ditu beharrezko sentsorerik.</string>
+  <string name="main_ongoing_download">Aurrebista sortzea</string>
+  <string name="main_alert_deleted">Tokiko kopia ezabatu da!</string>
+  <string name="main_menu_sort_new">Berria</string>
+  <string name="main_menu_sort_title">Izenburua</string>
+  <string name="main_menu_sort_author">Egilea</string>
+  <string name="set_title">Aurrebista</string>
+  <string name="set_dialog_delete_title">Ezabatu horma-papera</string>
+  <string name="set_dialog_delete_message">Benetan nahi duzu horma-paper hau ezabatu? Geroago deskarga dezakezu beti.</string>
+  <string name="set_dialog_notzero_title">Hautatu 3DLive</string>
+  <string name="set_dialog_notzero_message">Ezarri Live Wallpaper gisa</string>
+  <string name="set_alert_changed">Aldatu da horma-papera!</string>
+  <string name="prev_thisisaprev_toast">Hau demo animazio bat baino ez da. Deskargatu horma-papera ekintzan ikusteko!</string>
+  <string name="settings_title">Ezarpenak</string>
+  <string name="settings_dialog_delete_title">Ezabatu tokiko edukia</string>
+  <string name="settings_dialog_delete_message">Benetan nahi duzu tokiko edukia deskargatu?</string>
+  <string name="loading">Kargatzen...</string>
+  <string name="start">Hasi</string>
+  <string name="exit">Irten</string>
+  <string name="confirm_exit">Irteera berretsi?</string>
+  <string name="yes_exit">Bai</string>
+  <string name="no_exit">Ez</string>
+  <string name="d3_wallpapers">3D horma-irudiak</string>
+  <string name="YourdropWallpapers">Zure \n horma-paperak</string>
+  <string name="livedropwallpapers">Zuzeneko \n Horma-irudiak</string>
+  <string name="d3dropwallpapers">3D \n Horma-irudiak</string>
+  <string name="search">Bilatu</string>
+  <string name="text_not_found">Bilatutako datuak ez dira aurkitu</string>
+  <string name="audio">Audioa</string>
+</resources>

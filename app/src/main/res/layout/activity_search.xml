@@ -34,7 +34,7 @@
                 android:layout_weight="3"
                 android:fontFamily="@font/blogger_sans"
                 android:gravity="center|left"
-                android:text="Search"
+                android:text="@string/search"
                 android:textColor="@color/white"
                 android:textSize="20dp" />
 
@@ -66,7 +66,7 @@
         <TextView
             android:id="@+id/text_notfound"
             android:layout_width="match_parent"
-            android:text="Searched data not found"
+            android:text="@string/text_not_found"
             android:gravity="center"
             android:textColor="@color/white"
             android:textSize="30dp"

@@ -8,6 +8,7 @@
     <item quantity="many">%d إشعارًا جديدًا</item>
     <item quantity="other">%d إشعار جديد</item>
   </plurals>
+    <string name="YourdropWallpapers">خلفياتك \n</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"التوجه إلى المنزل"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"خيارات أكثر"</string>
@@ -35,10 +36,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="app_name">خلفية حية</string>
+    <string name="audio">صوتي</string>
     <string name="bottomsheet_action_expand_halfway">توسيع البطاقة السفلية</string>
     <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
     <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
     <string name="clear_text_end_icon_content_description">محو النص</string>
+    <string name="common_cancel">يلغي</string>
+    <string name="common_delete">يمسح</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تفعيل"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تفعيل خدمات Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تفعيل خدمات Google Play"</string>
@@ -54,13 +59,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string name="common_ok">نعم</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string name="common_pro">طليعة</string>
+    <string name="common_retry">أعد المحاولة</string>
+    <string name="common_set">تعيين</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="confirm_exit">تأكيد الخروج؟</string>
+    <string name="d3_wallpapers">خلفيات ثلاثية الأبعاد</string>
+    <string name="d3dropwallpapers">خلفيات ثلاثية الأبعاد \n</string>
+    <string name="error_browser">تعذر فتح المتصفح!</string>
+    <string name="error_catalog">تعذر استرداد الصور!</string>
+    <string name="error_connection">مطلوب اتصال بالإنترنت!</string>
+    <string name="error_download">فشلت المعاينة!</string>
     <string name="error_icon_content_description">خطأ</string>
+    <string name="error_preview_notfound">غير متاح للمعاينة</string>
+    <string name="error_preview_unknown">غير قادر على عرض المعاينة!</string>
+    <string name="error_timeout">انتهى وقت محاولة الاتصال. حاول ثانية!</string>
+    <string name="error_wpsetter">لم يتم العثور على خلفية حية!</string>
+    <string name="exit">مخرج</string>
     <string name="exposed_dropdown_menu_content_description">عرض القائمة المنسدلة</string>
     <string name="icon_content_description">رمز مربع الحوار</string>
     <string name="item_view_role_description">علامة تبويب</string>
+    <string name="live_wallpapers">خلفيات حية</string>
+    <string name="livedropwallpapers">خلفيات حية \n</string>
+    <string name="loading">تحميل...</string>
+    <string name="main_alert_deleted">تم حذف النسخة المحلية!</string>
+    <string name="main_dialog_nosensor_message">جهازك لا يحتوي على المستشعرات المطلوبة.</string>
+    <string name="main_dialog_nosensor_title">خطأ في جهاز الاستشعار</string>
+    <string name="main_info_empty_message">سيتم تنزيل المحتوى في أقرب وقت ممكن ...</string>
+    <string name="main_info_empty_title">لا شيء للعرض!</string>
+    <string name="main_menu_sort_author">مؤلف</string>
+    <string name="main_menu_sort_new">جديد</string>
+    <string name="main_menu_sort_title">عنوان</string>
+    <string name="main_ongoing_download">إنشاء معاينة</string>
     <string name="material_clock_toggle_content_description">يُرجى اختيار صباحًا أو مساءً.</string>
     <string name="material_hour_selection">تحديد الساعة</string>
     <string name="material_hour_suffix">الساعة %1$s</string>
@@ -73,6 +106,12 @@
     <string name="material_timepicker_pm">مساءً</string>
     <string name="material_timepicker_select_time">اختيار الوقت</string>
     <string name="material_timepicker_text_input_mode_description">يُرجى التبديل إلى وضع إدخال النص لإدخال الوقت.</string>
+    <string name="menu_delete">يمسح</string>
+    <string name="menu_link">موقع المؤلف</string>
+    <string name="menu_refresh">ينعش</string>
+    <string name="menu_settings">إعدادات</string>
+    <string name="menu_sort">ترتيب حسب</string>
+    <string name="menu_wpsetter">تعيين خلفية</string>
     <string name="mtrl_badge_numberless_content_description">إشعار جديد</string>
     <string name="mtrl_chip_close_icon_content_description">إزالة %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">يبلغ عدد الإشعارات الجديدة أكثر من %1$d.</string>
@@ -106,8 +145,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">انقر للتبديل إلى اختيار يوم</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">التبديل إلى وضع \"إدخال النص\"</string>
     <string name="mtrl_picker_toggle_to_year_selection">انقر للتبديل إلى اختيار عام</string>
+    <string name="my_name">لايف للجدران 3D</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"التنقل إلى أعلى"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"فتح لائحة التنقل"</string>
+    <string name="no_exit">لا</string>
+    <string name="notif_new_message_multi">تمت إضافة خلفيات جديدة إلى الكتالوج.</string>
+    <string name="notif_new_message_one">تمت إضافة خلفية جديدة إلى الكتالوج.</string>
+    <string name="notif_new_title_multi">خلفيات جديدة! تحقق منها!</string>
+    <string name="notif_new_title_one">خلفيات جديدة! تحقق من ذلك!</string>
     <string name="offline_notification_text">انقر لفتح الإعلان</string>
     <string name="offline_notification_title">عرض الإعلان الذي حفظته عند عدم الاتصال بالإنترنت</string>
     <string name="offline_opt_in_confirm">حسنًا</string>
@@ -116,6 +161,7 @@
     <string name="offline_opt_in_message">سنرسل إليك إشعارًا يحتوي على رابط إلى الموقع الإلكتروني للمعلِن.</string>
     <string name="offline_opt_in_title">فتح العنوان عند إعادة الاتصال بالإنترنت</string>
     <string name="password_toggle_content_description">عرض كلمة المرور</string>
+    <string name="prev_thisisaprev_toast">هذه ليست سوى رسم متحرك تجريبي. قم بتنزيل خلفية الشاشة لرؤيتها أثناء العمل!</string>
     <string name="s1">حفظ الصورة</string>
     <string name="s2">هل تريد السماح للإعلان بتخزين الصورة في معرض الصور؟</string>
     <string name="s3">قبول</string>
@@ -123,6 +169,20 @@
     <string name="s5">إنشاء حدث تقويم</string>
     <string name="s6">هل تريد السماح للإعلان بإنشاء حدث تقويم؟</string>
     <string name="s7">إعلان تجريبي</string>
+    <string name="search">يبحث</string>
     <string msgid="6264217191555673260" name="search_menu_title">"البحث"</string>
+    <string name="select_language">اختار اللغة</string>
+    <string name="set_alert_changed">تغيرت خلفيات!</string>
+    <string name="set_dialog_delete_message">هل تريد حقًا حذف هذه الخلفية؟ يمكنك دائمًا تنزيله لاحقًا.</string>
+    <string name="set_dialog_delete_title">حذف الخلفية</string>
+    <string name="set_dialog_notzero_message">تعيين كخلفية حية</string>
+    <string name="set_dialog_notzero_title">حدد 3DLive</string>
+    <string name="set_title">معاينة</string>
+    <string name="settings_dialog_delete_message">هل تريد حقًا تنزيل المحتوى المحلي؟</string>
+    <string name="settings_dialog_delete_title">حذف المحتوى المحلي</string>
+    <string name="settings_title">إعدادات</string>
+    <string name="start">يبدأ</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">لم يتم العثور على البيانات التي تم البحث عنها</string>
+    <string name="yes_exit">نعم</string>
 </resources>

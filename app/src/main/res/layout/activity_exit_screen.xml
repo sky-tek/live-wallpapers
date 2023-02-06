@@ -42,7 +42,7 @@
                     android:layout_weight="3"
                     android:fontFamily="@font/blogger_sans"
                     android:gravity="center|left"
-                    android:text="Exit"
+                    android:text="@string/exit"
                     android:textColor="@color/white"
                     android:textSize="20dp" />
 
@@ -96,7 +96,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:text="Confirm Exit ?"
+                        android:text="@string/confirm_exit"
                         android:textColor="#fff"
                         android:fontFamily="@font/blogger_sans"
                         android:textSize="20dp"
@@ -117,7 +117,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/blogger_sans"
                             android:layout_marginRight="10dp"
-                            android:text="Yes">
+                            android:text="@string/yes_exit">
 
                         </Button>
 
@@ -128,7 +128,7 @@
                             android:layout_marginLeft="10dp"
                             android:fontFamily="@font/blogger_sans"
                             android:layout_marginRight="10dp"
-                            android:text="No">
+                            android:text="@string/no_exit">
 
                         </Button>
 

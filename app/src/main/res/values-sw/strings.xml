@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Karatasi ya Kupamba Ukuta</string>
+  <string name="my_name">Mandhari hai ya 3D</string>
+  <string name="common_ok">Sawa</string>
+  <string name="common_set">Weka</string>
+  <string name="common_cancel">Ghairi</string>
+  <string name="common_delete">Futa</string>
+  <string name="common_retry">Jaribu tena</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Mandhari Hai</string>
+  <string name="menu_refresh">Onyesha upya</string>
+  <string name="menu_sort">Panga kwa</string>
+  <string name="menu_wpsetter">Weka Ukuta</string>
+  <string name="menu_settings">Mipangilio</string>
+  <string name="menu_delete">Futa</string>
+  <string name="menu_link">Tovuti ya mwandishi</string>
+  <string name="error_download">Imeshindwa kuchungulia!</string>
+  <string name="error_connection">Muunganisho wa mtandao unahitajika!</string>
+  <string name="error_preview_unknown">Imeshindwa kuonyesha onyesho la kukagua!</string>
+  <string name="error_preview_notfound">Haipatikani kuchungulia</string>
+  <string name="error_wpsetter">Mandhari haipatikani!</string>
+  <string name="error_timeout">Muda wa muunganisho umekwisha. Jaribu tena!</string>
+  <string name="error_catalog">Imeshindwa kurejesha picha!</string>
+  <string name="error_browser">Imeshindwa kufungua kivinjari!</string>
+  <string name="notif_new_title_one">Mandhari Mpya! Iangalie!</string>
+  <string name="notif_new_title_multi">Mandhari Mpya! Ziangalie!</string>
+  <string name="notif_new_message_one">Mandhari mpya imeongezwa kwenye katalogi.</string>
+  <string name="notif_new_message_multi">Wallpapers mpya zimeongezwa kwenye orodha.</string>
+  <string name="select_language">Chagua Lugha</string>
+  <string name="main_info_empty_title">Hakuna cha kuonyesha!</string>
+  <string name="main_info_empty_message">Maudhui yatapakuliwa haraka iwezekanavyo...</string>
+  <string name="main_dialog_nosensor_title">Hitilafu ya kitambuzi</string>
+  <string name="main_dialog_nosensor_message">Kifaa chako hakina vitambuzi vinavyohitajika.</string>
+  <string name="main_ongoing_download">Inazalisha Onyesho la Kuchungulia</string>
+  <string name="main_alert_deleted">Nakala ya ndani imefutwa!</string>
+  <string name="main_menu_sort_new">Mpya</string>
+  <string name="main_menu_sort_title">Kichwa</string>
+  <string name="main_menu_sort_author">Mwandishi</string>
+  <string name="set_title">Hakiki</string>
+  <string name="set_dialog_delete_title">Futa Ukuta</string>
+  <string name="set_dialog_delete_message">Je, kweli unataka kufuta mandhari hii? Unaweza kuipakua baadaye.</string>
+  <string name="set_dialog_notzero_title">Chagua 3DLive</string>
+  <string name="set_dialog_notzero_message">Weka kama Mandhari Hai</string>
+  <string name="set_alert_changed">Mandhari imebadilishwa!</string>
+  <string name="prev_thisisaprev_toast">Huu ni uhuishaji wa onyesho pekee. Pakua mandhari ili uione ikitumika!</string>
+  <string name="settings_title">Mipangilio</string>
+  <string name="settings_dialog_delete_title">Futa maudhui ya ndani</string>
+  <string name="settings_dialog_delete_message">Je, kweli unataka kupakua maudhui ya ndani?</string>
+  <string name="loading">Inapakia...</string>
+  <string name="start">Anza</string>
+  <string name="exit">Utgång</string>
+  <string name="confirm_exit">Thibitisha Kutoka ?</string>
+  <string name="yes_exit">Ndiyo</string>
+  <string name="no_exit">Hapana</string>
+  <string name="d3_wallpapers">Mandhari za 3D</string>
+  <string name="YourdropWallpapers">Mandhari \n Yako</string>
+  <string name="livedropwallpapers">Mandhari \n Hai</string>
+  <string name="d3dropwallpapers">Mandhari ya 3D \n</string>
+  <string name="search">Tafuta</string>
+  <string name="text_not_found">Data iliyotafutwa haijapatikana</string>
+  <string name="audio">Sauti</string>
+</resources>

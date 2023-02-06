@@ -4,6 +4,7 @@
     <item quantity="one">%d жаңа хабарландыру</item>
     <item quantity="other">%d жаңа хабарландыру</item>
   </plurals>
+    <string name="YourdropWallpapers">\n Түсқағаздарыңыз</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Негізгі бетке өту"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Жоғары қарай өту"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Басқа опциялар"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Бөлісу"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> қолданбасымен бөлісу"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Жию"</string>
+    <string name="app_name">Тірі тұсқағаз</string>
+    <string name="audio">Аудио</string>
     <string name="bottomsheet_action_expand_halfway">Жартылай кеңейту</string>
     <string name="character_counter_content_description">%1$d/%2$d таңба енгізілді</string>
     <string name="character_counter_overflowed_content_description">Таңба саны шегінен асты: %1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Мәтінді өшіру</string>
+    <string name="common_cancel">Болдырмау</string>
+    <string name="common_delete">Жою</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Қосу"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play қызметтерін қоспасаңыз, <ns1:g id="APP_NAME">%1$s</ns1:g> жұмыс істемейді."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play қызметтерін қосу"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play қызметтерін жаңарту"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Қазіргі уақытта жаңартылып жатқан Google Play қызметтерінсіз <ns1:g id="APP_NAME">%1$s</ns1:g> іске қосылмайды."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play қызметтерінің жаңа нұсқасы қажет. Ол қысқа уақыттан кейін өзі жаңарады."</string>
+    <string name="common_ok">ЖАРАЙДЫ МА</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Телефонда ашу"</string>
+    <string name="common_pro">Pro</string>
+    <string name="common_retry">Қайталап көріңіз</string>
+    <string name="common_set">Орнату</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Кіру"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google арқылы кіру"</string>
+    <string name="confirm_exit">Шығуды растау керек пе?</string>
+    <string name="d3_wallpapers">3D тұсқағаздар</string>
+    <string name="d3dropwallpapers">3D \n Түсқағаздар</string>
+    <string name="error_browser">Браузерді ашу мүмкін емес!</string>
+    <string name="error_catalog">Суреттерді алу мүмкін емес!</string>
+    <string name="error_connection">Интернетке қосылу қажет!</string>
+    <string name="error_download">Алдын ала қарау мүмкін болмады!</string>
     <string name="error_icon_content_description">Қате</string>
+    <string name="error_preview_notfound">Алдын ала қарау мүмкін емес</string>
+    <string name="error_preview_unknown">Алдын ала қарауды көрсету мүмкін емес!</string>
+    <string name="error_timeout">Қосылу күту уақыты. Қайтадан байқап көріңіз!</string>
+    <string name="error_wpsetter">Жанды тұсқағаз табылмады!</string>
+    <string name="exit">Шығу</string>
     <string name="exposed_dropdown_menu_content_description">Ашылмалы мәзірді көрсету</string>
     <string name="icon_content_description">Диалог белгішесі</string>
     <string name="item_view_role_description">Қойынды</string>
+    <string name="live_wallpapers">Жанды тұсқағаздар</string>
+    <string name="livedropwallpapers">Тікелей \n Түсқағаздар</string>
+    <string name="loading">Жүктелуде...</string>
+    <string name="main_alert_deleted">Жергілікті көшірме жойылды!</string>
+    <string name="main_dialog_nosensor_message">Құрылғыңызда қажетті сенсорлар жоқ.</string>
+    <string name="main_dialog_nosensor_title">Сенсор қатесі</string>
+    <string name="main_info_empty_message">Мазмұн мүмкіндігінше тезірек жүктеледі…</string>
+    <string name="main_info_empty_title">Көрсететін ештеңе жоқ!</string>
+    <string name="main_menu_sort_author">Автор</string>
+    <string name="main_menu_sort_new">Жаңа</string>
+    <string name="main_menu_sort_title">Тақырып</string>
+    <string name="main_ongoing_download">Алдын ала қарау жасалуда</string>
     <string name="material_clock_toggle_content_description">\"AM\" немесе \"PM\" форматын таңдау</string>
     <string name="material_hour_selection">Сағатты таңдау</string>
     <string name="material_hour_suffix">Сағат: %1$s</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Уақытты таңдау</string>
     <string name="material_timepicker_text_input_mode_description">Уақытты енгізу үшін мәтін енгізу режиміне өтіңіз.</string>
+    <string name="menu_delete">Жою</string>
+    <string name="menu_link">Авторлық сайт</string>
+    <string name="menu_refresh">Жаңарту</string>
+    <string name="menu_settings">Параметрлер</string>
+    <string name="menu_sort">Бойынша сұрыптау</string>
+    <string name="menu_wpsetter">Түсқағазды орнату</string>
     <string name="mtrl_badge_numberless_content_description">Жаңа хабарландыру</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s мазмұнын өшіру</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d санынан көп жаңа хабарландыру</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Күнді таңдауға ауысу үшін түртіңіз.</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Мәтін енгізу режиміне ауысу</string>
     <string name="mtrl_picker_toggle_to_year_selection">Жылды таңдауға ауысу үшін түртіңіз.</string>
+    <string name="my_name">Жанды 3D тұсқағаз</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Жоғары қарай жылжу"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Навигация тартпасын ашу"</string>
+    <string name="no_exit">Жоқ</string>
+    <string name="notif_new_message_multi">Каталогқа жаңа тұсқағаздар қосылды.</string>
+    <string name="notif_new_message_one">Каталогқа жаңа тұсқағаз қосылды.</string>
+    <string name="notif_new_title_multi">Жаңа тұсқағаздар! Оларды тексеріңіз!</string>
+    <string name="notif_new_title_one">Жаңа тұсқағаз! Мынаны көр!</string>
     <string name="offline_notification_text">Жарнаманы ашу үшін түртіңіз.</string>
     <string name="offline_notification_title">Офлайн режимге өткенде, сақталған жарнамаңызды көріңіз</string>
     <string name="offline_opt_in_confirm">Жарайды</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">Сізге жарнама беруші сайтына сілтемесі бар хабарландыру жібереміз.</string>
     <string name="offline_opt_in_title">Онлайн режимге оралғанда, жарнаманы ашыңыз</string>
     <string name="password_toggle_content_description">Құпия сөзді көрсету</string>
+    <string name="prev_thisisaprev_toast">Бұл тек демо анимация. Оны іс жүзінде көру үшін тұсқағазды жүктеп алыңыз!</string>
     <string name="s1">Кескінді сақтау</string>
     <string name="s2">Жарнамаға кескінді сурет галереясында сақтауға рұқсат берілсін бе?</string>
     <string name="s3">Қабылдау</string>
@@ -119,6 +165,20 @@
     <string name="s5">Күнтізбе оқиғасын жасау</string>
     <string name="s6">Жарнамаға күнтізбе оқиғасын жасауға рұқсат берілсін бе?</string>
     <string name="s7">Сынақ жарнама</string>
+    <string name="search">Іздеу</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Іздеу"</string>
+    <string name="select_language">Тіл таңдаңыз</string>
+    <string name="set_alert_changed">Түсқағаз өзгерді!</string>
+    <string name="set_dialog_delete_message">Осы тұсқағазды шынымен жойғыңыз келе ме? Оны кейінірек жүктеп алуға болады.</string>
+    <string name="set_dialog_delete_title">Түсқағазды жою</string>
+    <string name="set_dialog_notzero_message">Жанды тұсқағаз ретінде орнату</string>
+    <string name="set_dialog_notzero_title">3DLive таңдаңыз</string>
+    <string name="set_title">Алдын ала қарау</string>
+    <string name="settings_dialog_delete_message">Сіз шынымен жергілікті мазмұнды жүктеп алғыңыз келе ме?</string>
+    <string name="settings_dialog_delete_title">Жергілікті мазмұнды жою</string>
+    <string name="settings_title">Параметрлер</string>
+    <string name="start">Бастау</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">Ізденген деректер табылмады</string>
+    <string name="yes_exit">Иә</string>
 </resources>

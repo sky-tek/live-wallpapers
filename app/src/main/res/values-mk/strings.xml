@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Жива позадина</string>
+  <string name="my_name">3D позадина во живо</string>
+  <string name="common_ok">Добро</string>
+  <string name="common_set">Поставете</string>
+  <string name="common_cancel">Откажи</string>
+  <string name="common_delete">Избриши</string>
+  <string name="common_retry">Обидете се повторно</string>
+  <string name="common_pro">Про</string>
+  <string name="live_wallpapers">Позадини во живо</string>
+  <string name="menu_refresh">Освежи</string>
+  <string name="menu_sort">Сортирај по</string>
+  <string name="menu_wpsetter">Поставете тапет</string>
+  <string name="menu_settings">Поставки</string>
+  <string name="menu_delete">Избриши</string>
+  <string name="menu_link">Сајт на авторот</string>
+  <string name="error_download">Не успеа да се прегледа!</string>
+  <string name="error_connection">Потребна е интернет конекција!</string>
+  <string name="error_preview_unknown">Не може да се прикаже преглед!</string>
+  <string name="error_preview_notfound">Недостапно за преглед</string>
+  <string name="error_wpsetter">Живата позадина не е пронајдена!</string>
+  <string name="error_timeout">Истече времето за поврзување. Обиди се повторно!</string>
+  <string name="error_catalog">Не може да се вратат сликите!</string>
+  <string name="error_browser">Не може да се отвори прелистувачот!</string>
+  <string name="notif_new_title_one">Нова позадина! Провери го!</string>
+  <string name="notif_new_title_multi">Нови позадини! Проверете ги!</string>
+  <string name="notif_new_message_one">Во каталогот е додадена нова позадина.</string>
+  <string name="notif_new_message_multi">Нови позадини се додадени во каталогот.</string>
+  <string name="select_language">Одбери јазик</string>
+  <string name="main_info_empty_title">Нема што да се покаже!</string>
+  <string name="main_info_empty_message">Содржината ќе се преземе што е можно поскоро…</string>
+  <string name="main_dialog_nosensor_title">Грешка на сензорот</string>
+  <string name="main_dialog_nosensor_message">Вашиот уред ги нема потребните сензори.</string>
+  <string name="main_ongoing_download">Се генерира преглед</string>
+  <string name="main_alert_deleted">Локалната копија е избришана!</string>
+  <string name="main_menu_sort_new">Ново</string>
+  <string name="main_menu_sort_title">Наслов</string>
+  <string name="main_menu_sort_author">Автор</string>
+  <string name="set_title">Преглед</string>
+  <string name="set_dialog_delete_title">Избришете ја позадината</string>
+  <string name="set_dialog_delete_message">Дали навистина сакате да ја избришете оваа позадина? Секогаш можете да го преземете подоцна.</string>
+  <string name="set_dialog_notzero_title">Изберете 3DLive</string>
+  <string name="set_dialog_notzero_message">Поставете како жива позадина</string>
+  <string name="set_alert_changed">Променет тапет!</string>
+  <string name="prev_thisisaprev_toast">Ова е само демо анимација. Преземете ја позадината за да ја видите во акција!</string>
+  <string name="settings_title">Поставки</string>
+  <string name="settings_dialog_delete_title">Избришете ја локалната содржина</string>
+  <string name="settings_dialog_delete_message">Дали навистина сакате да ја преземете локалната содржина?</string>
+  <string name="loading">Се вчитува...</string>
+  <string name="start">Започнете</string>
+  <string name="exit">Излезете</string>
+  <string name="confirm_exit">Потврди Излез?</string>
+  <string name="yes_exit">Да</string>
+  <string name="no_exit">Бр</string>
+  <string name="d3_wallpapers">3D позадини</string>
+  <string name="YourdropWallpapers">Вашите \n тапети</string>
+  <string name="livedropwallpapers">Во живо \n Позадини</string>
+  <string name="d3dropwallpapers">3D \n Позадини</string>
+  <string name="search">Пребарување</string>
+  <string name="text_not_found">Пребараните податоци не се пронајдени</string>
+  <string name="audio">Аудио</string>
+</resources>

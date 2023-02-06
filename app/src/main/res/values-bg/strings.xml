@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Жив тапет</string>
+  <string name="my_name">Живи 3D тапети</string>
+  <string name="common_ok">Добре</string>
+  <string name="common_set">Комплект</string>
+  <string name="common_cancel">Отказ</string>
+  <string name="common_delete">Изтрий</string>
+  <string name="common_retry">Опитайте отново</string>
+  <string name="common_pro">Професионалист</string>
+  <string name="live_wallpapers">Живи тапети</string>
+  <string name="menu_refresh">Опресняване</string>
+  <string name="menu_sort">Сортирай по</string>
+  <string name="menu_wpsetter">Постави тапет</string>
+  <string name="menu_settings">Настройки</string>
+  <string name="menu_delete">Изтрий</string>
+  <string name="menu_link">Сайт на автора</string>
+  <string name="error_download">Визуализацията не бе успешна!</string>
+  <string name="error_connection">Необходима е интернет връзка!</string>
+  <string name="error_preview_unknown">Не може да се покаже визуализация!</string>
+  <string name="error_preview_notfound">Недостъпно за преглед</string>
+  <string name="error_wpsetter">Жив тапет не е намерен!</string>
+  <string name="error_timeout">Изчакване на връзката. Опитай пак!</string>
+  <string name="error_catalog">Изображенията не могат да бъдат извлечени!</string>
+  <string name="error_browser">Браузърът не може да се отвори!</string>
+  <string name="notif_new_title_one">Нов тапет! Виж това!</string>
+  <string name="notif_new_title_multi">Нови тапети! Провери ги!</string>
+  <string name="notif_new_message_one">Към каталога е добавен нов тапет.</string>
+  <string name="notif_new_message_multi">Нови тапети са добавени към каталога.</string>
+  <string name="select_language">Избери език</string>
+  <string name="main_info_empty_title">Нищо за показване!</string>
+  <string name="main_info_empty_message">Съдържанието ще бъде изтеглено възможно най-скоро...</string>
+  <string name="main_dialog_nosensor_title">Грешка на сензора</string>
+  <string name="main_dialog_nosensor_message">Вашето устройство няма необходимите сензори.</string>
+  <string name="main_ongoing_download">Генериране на визуализация</string>
+  <string name="main_alert_deleted">Локалното копие е изтрито!</string>
+  <string name="main_menu_sort_new">Нов</string>
+  <string name="main_menu_sort_title">Заглавие</string>
+  <string name="main_menu_sort_author">Автор</string>
+  <string name="set_title">Преглед</string>
+  <string name="set_dialog_delete_title">Изтриване на тапет</string>
+  <string name="set_dialog_delete_message">Наистина ли искате да изтриете този тапет? Винаги можете да го изтеглите по-късно.</string>
+  <string name="set_dialog_notzero_title">Изберете 3DLive</string>
+  <string name="set_dialog_notzero_message">Задайте като жив тапет</string>
+  <string name="set_alert_changed">Сменен тапет!</string>
+  <string name="prev_thisisaprev_toast">Това е само демонстрационна анимация. Изтеглете тапета, за да го видите в действие!</string>
+  <string name="settings_title">Настройки</string>
+  <string name="settings_dialog_delete_title">Изтриване на локално съдържание</string>
+  <string name="settings_dialog_delete_message">Наистина ли искате да изтеглите местното съдържание?</string>
+  <string name="loading">Зареждане...</string>
+  <string name="start">Започнете</string>
+  <string name="exit">Изход</string>
+  <string name="confirm_exit">Потвърждаване на изход?</string>
+  <string name="yes_exit">Да</string>
+  <string name="no_exit">Не</string>
+  <string name="d3_wallpapers">3D тапети</string>
+  <string name="YourdropWallpapers">Вашите \n тапети</string>
+  <string name="livedropwallpapers">Живи \n тапети</string>
+  <string name="d3dropwallpapers">3D \n тапети</string>
+  <string name="search">Търсене</string>
+  <string name="text_not_found">Търсените данни не са намерени</string>
+  <string name="audio">Аудио</string>
+</resources>

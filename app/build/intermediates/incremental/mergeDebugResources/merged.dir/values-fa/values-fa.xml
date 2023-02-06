@@ -4,6 +4,7 @@
     <item quantity="one">%d اعلان جدید</item>
     <item quantity="other">%d اعلان جدید</item>
   </plurals>
+    <string name="YourdropWallpapers">تصاویر پس زمینه \n شما</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"پیمایش به صفحه اصلی"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"رفتن به بالا"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"گزینه‌های بیشتر"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"هم‌رسانی با"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"هم‌رسانی با <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"کوچک کردن"</string>
+    <string name="app_name">کاغذ دیواری زنده</string>
+    <string name="audio">سمعی</string>
     <string name="bottomsheet_action_expand_halfway">گسترده کردن تا نیمه</string>
     <string name="character_counter_content_description">نویسه‌های واردشده %1$d از %2$d</string>
     <string name="character_counter_overflowed_content_description">محدودیت نویسه از حد مجاز %1$d از %2$d بیشتر شده است</string>
     <string name="clear_text_end_icon_content_description">پاک کردن نوشتار</string>
+    <string name="common_cancel">لغو کنید</string>
+    <string name="common_delete">حذف</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"فعال کردن"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏تا وقتی سرویس‌های Google Play را فعال نکنید، <ns1:g id="APP_NAME">%1$s</ns1:g> کار نمی‌کند."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏‫فعال کردن سرویس‌های Google Play"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏‫به‌روزرسانی سرویس‌های Google Play"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> بدون سرویس‌های Google Play که درحال حاضر درحال به‌روزرسانی هستند، کار نمی‌کند."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏نسخه جدید سرویس‌های Google Play نیاز است. به‌زودی به‌طور خودکار به‌روزرسانی می‌شود."</string>
+    <string name="common_ok">خوب</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"باز کردن در تلفن"</string>
+    <string name="common_pro">حرفه ای</string>
+    <string name="common_retry">دوباره امتحان کنید</string>
+    <string name="common_set">تنظیم</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ورود به سیستم"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"‏ورود به سیستم با Google‎"</string>
+    <string name="confirm_exit">خروج را تایید کنید؟</string>
+    <string name="d3_wallpapers">والپیپرهای سه بعدی</string>
+    <string name="d3dropwallpapers">والپیپرهای سه بعدی \n</string>
+    <string name="error_browser">مرورگر باز نشد!</string>
+    <string name="error_catalog">بازیابی تصاویر ممکن نیست!</string>
+    <string name="error_connection">اتصال به اینترنت مورد نیاز است!</string>
+    <string name="error_download">پیش نمایش ناموفق بود!</string>
     <string name="error_icon_content_description">خطا</string>
+    <string name="error_preview_notfound">برای پیش نمایش در دسترس نیست</string>
+    <string name="error_preview_unknown">نمایش پیش نمایش ممکن نیست!</string>
+    <string name="error_timeout">پایان زمان اتصال. دوباره امتحان کن!</string>
+    <string name="error_wpsetter">تصویر زمینه زنده یافت نشد!</string>
+    <string name="exit">خارج شوید</string>
     <string name="exposed_dropdown_menu_content_description">نمایش منوی کرکره‌ای</string>
     <string name="icon_content_description">نماد کادر گفتگو</string>
     <string name="item_view_role_description">برگه</string>
+    <string name="live_wallpapers">تصاویر پس زمینه زنده</string>
+    <string name="livedropwallpapers">والپیپرهای زنده \n</string>
+    <string name="loading">بارگذاری...</string>
+    <string name="main_alert_deleted">کپی محلی حذف شد!</string>
+    <string name="main_dialog_nosensor_message">دستگاه شما سنسورهای لازم را ندارد.</string>
+    <string name="main_dialog_nosensor_title">خطای سنسور</string>
+    <string name="main_info_empty_message">مطالب در اسرع وقت دانلود خواهد شد…</string>
+    <string name="main_info_empty_title">چیزی برای نشان دادن نیست!</string>
+    <string name="main_menu_sort_author">نویسنده</string>
+    <string name="main_menu_sort_new">جدید</string>
+    <string name="main_menu_sort_title">عنوان</string>
+    <string name="main_ongoing_download">ایجاد پیش نمایش</string>
     <string name="material_clock_toggle_content_description">انتخاب .ق.ظ. یا ب.ظ.</string>
     <string name="material_hour_selection">انتخاب ساعت</string>
     <string name="material_hour_suffix">ساعت %1$s</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">ب.ظ</string>
     <string name="material_timepicker_select_time">انتخاب زمان</string>
     <string name="material_timepicker_text_input_mode_description">برای وارد کردن زمان، به حالت ورودی نوشتاری تغییر وضعیت دهید.</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_link">سایت نویسنده</string>
+    <string name="menu_refresh">تازه کردن</string>
+    <string name="menu_settings">تنظیمات</string>
+    <string name="menu_sort">مرتب سازی بر اساس</string>
+    <string name="menu_wpsetter">تنظیم پس زمینه</string>
     <string name="mtrl_badge_numberless_content_description">اعلان جدید</string>
     <string name="mtrl_chip_close_icon_content_description">برداشتن %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">بیش از %1$d اعلان جدید</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">رفتن به رفتن به حالت انتخاب روز ضربه بزنید</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">رفتن به حالت ورودی نوشتاری</string>
     <string name="mtrl_picker_toggle_to_year_selection">برای رفتن به حالت انتخاب سال ضربه بزنید</string>
+    <string name="my_name">والپیپر سه بعدی زنده</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"پیمایش به بالا"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"باز کردن کشوی پیمایش"</string>
+    <string name="no_exit">خیر</string>
+    <string name="notif_new_message_multi">تصاویر پس زمینه جدید به کاتالوگ اضافه شده است.</string>
+    <string name="notif_new_message_one">یک والپیپر جدید به کاتالوگ اضافه شده است.</string>
+    <string name="notif_new_title_multi">تصاویر پس زمینه جدید! آنها را بررسی کنید!</string>
+    <string name="notif_new_title_one">والپیپر جدید آن را بررسی کنید!</string>
     <string name="offline_notification_text">برای باز کردن آگهی، ضربه بزنید</string>
     <string name="offline_notification_title">مشاهده آگهی‌ای که هنگام آفلاین بودن ذخیره کردید</string>
     <string name="offline_opt_in_confirm">تأیید</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">اعلانی با پیوندی به سایت آگهی‌دهنده برایتان ارسال خواهیم کرد.</string>
     <string name="offline_opt_in_title">وقتی دوباره آنلاین شدید آگهی را باز کنید.</string>
     <string name="password_toggle_content_description">نمایش گذرواژه</string>
+    <string name="prev_thisisaprev_toast">این فقط یک انیمیشن دمو است. تصویر زمینه را دانلود کنید تا آن را در عمل ببینید!</string>
     <string name="s1">ذخیره تصویر</string>
     <string name="s2">به آگهی اجازه داده شود تصویر را در گالری تصویر ذخیره کند؟</string>
     <string name="s3">پذیرفتن</string>
@@ -119,6 +165,20 @@
     <string name="s5">ایجاد رویداد تقویم</string>
     <string name="s6">به آگهی اجازه داده شود رویداد تقویم ایجاد کند؟</string>
     <string name="s7">آگهی آزمایشی</string>
+    <string name="search">جستجو کردن</string>
     <string msgid="6264217191555673260" name="search_menu_title">"جستجو"</string>
+    <string name="select_language">زبان را انتخاب کنید</string>
+    <string name="set_alert_changed">والپیپر تغییر کرد!</string>
+    <string name="set_dialog_delete_message">آیا واقعاً می خواهید این تصویر زمینه را حذف کنید؟ همیشه می توانید آن را بعدا دانلود کنید.</string>
+    <string name="set_dialog_delete_title">حذف والپیپر</string>
+    <string name="set_dialog_notzero_message">به عنوان تصویر زمینه زنده تنظیم کنید</string>
+    <string name="set_dialog_notzero_title">3DLive را انتخاب کنید</string>
+    <string name="set_title">پیش نمایش</string>
+    <string name="settings_dialog_delete_message">آیا واقعاً می خواهید محتوای محلی را دانلود کنید؟</string>
+    <string name="settings_dialog_delete_title">حذف محتوای محلی</string>
+    <string name="settings_title">تنظیمات</string>
+    <string name="start">شروع کنید</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">داده های جستجو شده یافت نشد</string>
+    <string name="yes_exit">آره</string>
 </resources>

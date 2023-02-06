@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">ލައިވް ވޯލްޕޭޕަރ އެވެ</string>
+  <string name="my_name">ލައިވް 3ޑީ ވޯލްޕޭޕަރ</string>
+  <string name="common_ok">އެންމެ ރަނގަޅު</string>
+  <string name="common_set">ސެޓް</string>
+  <string name="common_cancel">ކެންސަލް</string>
+  <string name="common_delete">ޑިލީޓް</string>
+  <string name="common_retry">އަލުން މަސައްކަތް ކުރާށެވެ</string>
+  <string name="common_pro">ޕްރޯ</string>
+  <string name="live_wallpapers">ލައިވް ވޯލްޕޭޕަރސް</string>
+  <string name="menu_refresh">ރިފްރެޝް ކޮށްލާށެވެ</string>
+  <string name="menu_sort">ތަރުތީބުކުރުން</string>
+  <string name="menu_wpsetter">ވޯލްޕޭޕަރ ސެޓްކުރުން</string>
+  <string name="menu_settings">ސެޓިންގސް</string>
+  <string name="menu_delete">ޑިލީޓް</string>
+  <string name="menu_link">ލިޔުންތެރިޔާގެ ސައިޓެވެ</string>
+  <string name="error_download">ޕްރިވިއު ކުރަން ނާކާމިޔާބު!</string>
+  <string name="error_connection">އިންޓަނެޓް ކަނެކްޝަން ބޭނުންވޭ!</string>
+  <string name="error_preview_unknown">ޕްރިވިއު ދައްކަން ނުކުޅެދިއްޖެ!</string>
+  <string name="error_preview_notfound">ޕްރިވިއު ކުރަން ނުލިބެއެވެ</string>
+  <string name="error_wpsetter">ލައިވް ވޯލްޕޭޕަރެއް ނުފެނޭ!</string>
+  <string name="error_timeout">ކަނެކްޝަން ޓައިމްއައުޓް. އަނެއްކާވެސް ޓްރައި ކޮށްލައްވާ!</string>
+  <string name="error_catalog">ތަސްވީރުތައް ހޯދުމަށް ނުކުޅެދިއްޖެ!</string>
+  <string name="error_browser">އޮޕަން ބްރައުޒާ އަށް ނުކުޅެދިއްޖެ!</string>
+  <string name="notif_new_title_one">އައު ވޯލްޕޭޕަރ! ޗެކް ކޮށްލައްވާ!</string>
+  <string name="notif_new_title_multi">އައު ވޯލްޕޭޕަރސް! އެމީހުން ޗެކް ކޮށްލައްވާ!</string>
+  <string name="notif_new_message_one">ކެޓަލަގަށް އާ ވޯލްޕޭޕަރެއް ވަނީ އިތުރުކޮށްފައެވެ.</string>
+  <string name="notif_new_message_multi">ކެޓަލަގަށް އާ ވޯލްޕޭޕަރުތައް ވަނީ އިތުރުކޮށްފަ އެވެ.</string>
+  <string name="select_language">ބަސް ހޮވާށެވެ</string>
+  <string name="main_info_empty_title">ދައްކަން އެއްވެސް ކަމެއް ނެތް!</string>
+  <string name="main_info_empty_message">ވީހާވެސް އަވަހަކަށް ކޮންޓެންޓް ޑައުންލޯޑް ކުރެވޭނެ...</string>
+  <string name="main_dialog_nosensor_title">ސެންސަރ އެރަރ</string>
+  <string name="main_dialog_nosensor_message">ތިބާގެ ޑިވައިސްގައި ބޭނުންވާ ސެންސަރުތައް ނެތެވެ.</string>
+  <string name="main_ongoing_download">ޕްރިވިއު ޖެނެރޭޓްކުރުން</string>
+  <string name="main_alert_deleted">ލޯކަލް ކޮޕީ ޑިލީޓްކޮށްފި!</string>
+  <string name="main_menu_sort_new">އާ</string>
+  <string name="main_menu_sort_title">މަޤާމު</string>
+  <string name="main_menu_sort_author">ލިޔުންތެރިޔާ</string>
+  <string name="set_title">ޕްރިވިއު</string>
+  <string name="set_dialog_delete_title">ވޯލްޕޭޕަރ ޑިލީޓް ކުރުން</string>
+  <string name="set_dialog_delete_message">މި ވޯލްޕޭޕަރ ޑިލީޓް ކުރަން އަސްލު ބޭނުން ހެއްޔެވެ؟ އަބަދުވެސް ފަހުން ޑައުންލޯޑް ކުރެވޭނެއެވެ.</string>
+  <string name="set_dialog_notzero_title">3DLive ހޮވާށެވެ</string>
+  <string name="set_dialog_notzero_message">ލައިވް ވޯލްޕޭޕަރެއްގެ ގޮތުގައި ސެޓްކުރުން</string>
+  <string name="set_alert_changed">ވޯލްޕޭޕަރ ބަދަލުވެއްޖެ!</string>
+  <string name="prev_thisisaprev_toast">މިއީ ހަމައެކަނި ޑެމޯ އެނިމޭޝަނެކެވެ. އެކަން އަމަލީ ގޮތުން ބަލާލުމަށް ވޯލްޕޭޕަރ ޑައުންލޯޑް ކޮށްލައްވާ!</string>
+  <string name="settings_title">ސެޓިންގސް</string>
+  <string name="settings_dialog_delete_title">ލޯކަލް ކޮންޓެންޓް ޑިލީޓްކުރުން</string>
+  <string name="settings_dialog_delete_message">ހަގީގަތުގައި ލޯކަލް ކޮންޓެންޓް ޑައުންލޯޑް ކުރަން ބޭނުން ހެއްޔެވެ؟</string>
+  <string name="loading">ލޯޑިންގ...</string>
+  <string name="start">ފެށުން</string>
+  <string name="exit">ނިކުންނަ</string>
+  <string name="confirm_exit">އެގްޒިޓް ކޮންފަރމް ކުރުން ?</string>
+  <string name="yes_exit">އާނ</string>
+  <string name="no_exit">ނޫން</string>
+  <string name="d3_wallpapers">3ޑީ ވޯލްޕޭޕަރސް</string>
+  <string name="YourdropWallpapers">ތިޔަ \n ވޯލްޕޭޕަރސް</string>
+  <string name="livedropwallpapers">ލައިވް \n ވޯލްޕޭޕަރސް</string>
+  <string name="d3dropwallpapers">3ޑީ \n ވޯލްޕޭޕަރސް</string>
+  <string name="search">ހޯދުން</string>
+  <string name="text_not_found">ހޯދި ޑޭޓާ ނުފެނެއެވެ</string>
+  <string name="audio">އޯޑިއޯ</string>
+</resources>

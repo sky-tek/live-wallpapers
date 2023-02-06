@@ -297,5 +297,4 @@ public class GLWallpaperService extends WallpaperService {
     public Engine onCreateEngine() {
         return new GLWallpaperEngine(this);
     }
-
 }

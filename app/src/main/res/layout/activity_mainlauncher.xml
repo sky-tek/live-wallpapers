@@ -34,9 +34,17 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:fontFamily="@font/blogger_sans"
-                android:text="Live Wallpapers"
+                android:text="@string/live_wallpapers"
                 android:textColor="@color/white"
                 android:textSize="20dp" />
+            <ImageView
+                android:id="@+id/checkLangauge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/languagecheck"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                />
 
 
         </androidx.appcompat.widget.Toolbar>
@@ -92,7 +100,8 @@
                     android:layout_marginLeft="20dp"
                     android:fontFamily="@font/blogger_sans"
                     android:shadowColor="@color/black"
-                    android:text="    Live\nWallpapers"
+                    android:gravity="center"
+                    android:text="@string/livedropwallpapers"
                     android:textColor="@color/white"
                     android:textSize="25dp" />
             </androidx.cardview.widget.CardView>
@@ -120,7 +129,8 @@
                     android:layout_marginLeft="20dp"
                     android:fontFamily="@font/blogger_sans"
                     android:shadowColor="@color/black"
-                    android:text="     3D\nWallpapers"
+                    android:text="@string/d3dropwallpapers"
+                    android:gravity="center"
                     android:textColor="@color/white"
                     android:textSize="25dp" />
             </androidx.cardview.widget.CardView>
@@ -135,7 +145,6 @@
                 <ImageView
                     android:id="@+id/offline"
                     android:layout_width="match_parent"
-
                     android:layout_height="150dp"
                     android:adjustViewBounds="true"
                     android:scaleType="fitXY">
@@ -148,8 +157,8 @@
                     android:layout_gravity="left|center"
                     android:layout_marginLeft="20dp"
                     android:fontFamily="@font/blogger_sans"
-
-                    android:text="    Your\nWallpapers"
+                    android:gravity="center"
+                    android:text="@string/YourdropWallpapers"
                     android:textColor="@color/white"
                     android:textSize="25dp" />
             </androidx.cardview.widget.CardView>

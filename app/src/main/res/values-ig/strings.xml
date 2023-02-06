@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Akwụkwọ ahụaja dị ndụ</string>
+  <string name="my_name">Akwụkwọ ahụaja 3D dị ndụ</string>
+  <string name="common_ok">Ọ DỊ MMA</string>
+  <string name="common_set">Tọọ</string>
+  <string name="common_cancel">Kagbuo</string>
+  <string name="common_delete">Hichapụ</string>
+  <string name="common_retry">Gbalịa ọzọ</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Akwụkwọ ahụaja dị ndụ</string>
+  <string name="menu_refresh">Weghachite ume</string>
+  <string name="menu_sort">Hazie site na</string>
+  <string name="menu_wpsetter">Tọọ akwụkwọ ahụaja</string>
+  <string name="menu_settings">Ntọala</string>
+  <string name="menu_delete">Hichapụ</string>
+  <string name="menu_link">Saịtị odee</string>
+  <string name="error_download">Ihuchalụ agaghị elele!</string>
+  <string name="error_connection">Njikọ ịntanetị chọrọ!</string>
+  <string name="error_preview_unknown">Enweghị ike igosipụta nhụchalụ!</string>
+  <string name="error_preview_notfound">Enweghị ike ịhụchalụ</string>
+  <string name="error_wpsetter">Ahụghị akwụkwọ ahụaja dị ndụ!</string>
+  <string name="error_timeout">Oge njedebe njikọ. Nwaa ọzọ!</string>
+  <string name="error_catalog">Enweghị ike iweghachite onyonyo!</string>
+  <string name="error_browser">Enweghị ike imepe ihe nchọgharị!</string>
+  <string name="notif_new_title_one">Akwụkwọ ahụaja ọhụrụ! Lelee ya!</string>
+  <string name="notif_new_title_multi">Akwụkwọ ahụaja ọhụrụ! Lelee ha!</string>
+  <string name="notif_new_message_one">Agbakwunyela akwụkwọ ahụaja ọhụrụ na katalọgụ.</string>
+  <string name="notif_new_message_multi">Agbakwunyere akwụkwọ ahụaja ọhụrụ na katalọgụ.</string>
+  <string name="select_language">Họrọ Asụsụ</string>
+  <string name="main_info_empty_title">Ọ nweghị ihe ga-egosi!</string>
+  <string name="main_info_empty_message">A ga-ebudata ọdịnaya ozugbo enwere ike…</string>
+  <string name="main_dialog_nosensor_title">Njehie ihe mmetụta</string>
+  <string name="main_dialog_nosensor_message">Ngwaọrụ gị enweghị sensọ achọrọ.</string>
+  <string name="main_ongoing_download">Nhụchalụ na-emepụta</string>
+  <string name="main_alert_deleted">Ehichapụrụ oyiri mpaghara!</string>
+  <string name="main_menu_sort_new">Ọhụrụ</string>
+  <string name="main_menu_sort_title">Aha</string>
+  <string name="main_menu_sort_author">Odee</string>
+  <string name="set_title">Nhụchalụ</string>
+  <string name="set_dialog_delete_title">Hichapụ akwụkwọ ahụaja</string>
+  <string name="set_dialog_delete_message">Ị chọrọ n\'ezie ihichapụ akwụkwọ ahụaja a? Ị nwere ike ibudata ya mgbe ọ bụla ma emechaa.</string>
+  <string name="set_dialog_notzero_title">Họrọ 3DLive</string>
+  <string name="set_dialog_notzero_message">Tọọ ka akwụkwọ ahụaja Live</string>
+  <string name="set_alert_changed">Akwụkwọ ahụaja gbanwere!</string>
+  <string name="prev_thisisaprev_toast">Nke a bụ naanị ihe ngosi ngosi. Budata akwụkwọ ahụaja ka ịhụ ka ọ na-arụ ọrụ!</string>
+  <string name="settings_title">Ntọala</string>
+  <string name="settings_dialog_delete_title">Hichapụ ọdịnaya mpaghara</string>
+  <string name="settings_dialog_delete_message">Ị chọrọ n\'ezie ibudata ọdịnaya mpaghara?</string>
+  <string name="loading">Na-ebu...</string>
+  <string name="start">Malite</string>
+  <string name="exit">Ụzọ ọpụpụ</string>
+  <string name="confirm_exit">Kwenye Ọpụpụ?</string>
+  <string name="yes_exit">Ee</string>
+  <string name="no_exit">Mba</string>
+  <string name="d3_wallpapers">Akwụkwọ ahụaja 3D</string>
+  <string name="YourdropWallpapers">Akwụkwọ ahụaja \n gị</string>
+  <string name="livedropwallpapers">Ndụ \n Akwụkwọ ahụaja</string>
+  <string name="d3dropwallpapers">3D \n Akwụkwọ ahụaja</string>
+  <string name="search">Chọọ</string>
+  <string name="text_not_found">Ahụghị data achọrọ</string>
+  <string name="audio">Audio</string>
+</resources>

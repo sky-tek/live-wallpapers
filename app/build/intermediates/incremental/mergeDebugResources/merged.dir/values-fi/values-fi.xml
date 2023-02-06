@@ -4,6 +4,7 @@
     <item quantity="one">%d uusi ilmoitus</item>
     <item quantity="other">%d uutta ilmoitusta</item>
   </plurals>
+    <string name="YourdropWallpapers">\n Taustakuvasi</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Siirry etusivulle"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Siirry ylös"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Lisäasetukset"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Jaa…"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Jaa: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Tiivistä"</string>
+    <string name="app_name">Elävä taustakuva</string>
+    <string name="audio">Audio</string>
     <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
     <string name="character_counter_content_description">%1$d/%2$d merkkiä kirjoitettu</string>
     <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Tyhjennä teksti</string>
+    <string name="common_cancel">Peruuttaa</string>
+    <string name="common_delete">Poistaa</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ota käyttöön"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi, ellet ota Google Play Palveluita käyttöön."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ota Google Play Palvelut käyttöön"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Päivitä Google Play Palvelut"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi ilman Google Play Palveluita, joita päivitetään tällä hetkellä."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Uusi Google Play Palveluiden versio tarvitaan. Se päivittyy pian."</string>
+    <string name="common_ok">OK</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Avaa puhelimessa"</string>
+    <string name="common_pro">Pro</string>
+    <string name="common_retry">Yritä uudelleen</string>
+    <string name="common_set">Aseta</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Kirjaudu sisään"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Kirjaudu Google-tilille"</string>
+    <string name="confirm_exit">Vahvista poistuminen?</string>
+    <string name="d3_wallpapers">3D-taustakuvat</string>
+    <string name="d3dropwallpapers">3D \n taustakuvat</string>
+    <string name="error_browser">Selainta ei voi avata!</string>
+    <string name="error_catalog">Kuvia ei voi noutaa!</string>
+    <string name="error_connection">Internet-yhteys tarvitaan!</string>
+    <string name="error_download">Esikatselu epäonnistui!</string>
     <string name="error_icon_content_description">Virhe</string>
+    <string name="error_preview_notfound">Ei esikatseltavissa</string>
+    <string name="error_preview_unknown">Esikatselua ei voi näyttää!</string>
+    <string name="error_timeout">Yhteyden aikakatkaisu. Yritä uudelleen!</string>
+    <string name="error_wpsetter">Live-taustakuvaa ei löydy!</string>
+    <string name="exit">Poistu</string>
     <string name="exposed_dropdown_menu_content_description">Näytä avattava valikko</string>
     <string name="icon_content_description">Valintaikkunan kuvake</string>
     <string name="item_view_role_description">Välilehti</string>
+    <string name="live_wallpapers">Elävät taustakuvat</string>
+    <string name="livedropwallpapers">Live \n taustakuvat</string>
+    <string name="loading">Ladataan...</string>
+    <string name="main_alert_deleted">Paikallinen kopio poistettu!</string>
+    <string name="main_dialog_nosensor_message">Laitteessasi ei ole tarvittavia antureita.</string>
+    <string name="main_dialog_nosensor_title">Anturin virhe</string>
+    <string name="main_info_empty_message">Sisältö ladataan mahdollisimman pian…</string>
+    <string name="main_info_empty_title">Ei mitään näytettävää!</string>
+    <string name="main_menu_sort_author">Tekijä</string>
+    <string name="main_menu_sort_new">Uusi</string>
+    <string name="main_menu_sort_title">Otsikko</string>
+    <string name="main_ongoing_download">Esikatselun luominen</string>
     <string name="material_clock_toggle_content_description">Valitse AP tai IP</string>
     <string name="material_hour_selection">Valitse tunti</string>
     <string name="material_hour_suffix">klo %1$s</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">ip</string>
     <string name="material_timepicker_select_time">Valitse aika</string>
     <string name="material_timepicker_text_input_mode_description">Vaihda ajan syöttämiseen tekstitilassa.</string>
+    <string name="menu_delete">Poistaa</string>
+    <string name="menu_link">Tekijän sivusto</string>
+    <string name="menu_refresh">Virkistää</string>
+    <string name="menu_settings">Asetukset</string>
+    <string name="menu_sort">Järjestä</string>
+    <string name="menu_wpsetter">Aseta taustakuva</string>
     <string name="mtrl_badge_numberless_content_description">Uusi ilmoitus</string>
     <string name="mtrl_chip_close_icon_content_description">Poista %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Yli %1$d uutta ilmoitusta</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Siirry päivän valintaan napauttamalla</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Valitse syöttötavaksi teksti</string>
     <string name="mtrl_picker_toggle_to_year_selection">Siirry vuoden valintaan napauttamalla</string>
+    <string name="my_name">Live 3D-taustakuva</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Siirry ylös"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Avaa navigoinnin vetopaneeli"</string>
+    <string name="no_exit">Ei</string>
+    <string name="notif_new_message_multi">Uusia taustakuvia on lisätty luetteloon.</string>
+    <string name="notif_new_message_one">Uusi taustakuva on lisätty luetteloon.</string>
+    <string name="notif_new_title_multi">Uusia taustakuvia! Katso ne!</string>
+    <string name="notif_new_title_one">Uusi taustakuva! Tarkista se!</string>
     <string name="offline_notification_text">Avaa mainos napauttamalla</string>
     <string name="offline_notification_title">Katso mainos, jonka tallensit ollessasi offline-tilassa</string>
     <string name="offline_opt_in_confirm">OK</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">Lähetämme sinulle ilmoituksen, jossa on linkki mainostajan sivustolle.</string>
     <string name="offline_opt_in_title">Avaa mainos, kun olet taas yhteydessä verkkoon.</string>
     <string name="password_toggle_content_description">Näytä salasana</string>
+    <string name="prev_thisisaprev_toast">Tämä on vain demo-animaatio. Lataa taustakuva nähdäksesi sen toiminnassa!</string>
     <string name="s1">Tallenna kuva</string>
     <string name="s2">Myönnetäänkö mainokselle oikeus tallentaa kuva galleriaan?</string>
     <string name="s3">Hyväksy</string>
@@ -119,6 +165,20 @@
     <string name="s5">Luo kalenteritapahtuma</string>
     <string name="s6">Myönnetäänkö mainokselle oikeus luoda kalenteritapahtuma?</string>
     <string name="s7">Testimainos</string>
+    <string name="search">Hae</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Haku"</string>
+    <string name="select_language">Valitse kieli</string>
+    <string name="set_alert_changed">Taustakuva vaihdettu!</string>
+    <string name="set_dialog_delete_message">Haluatko todella poistaa tämän taustakuvan? Voit aina ladata sen myöhemmin.</string>
+    <string name="set_dialog_delete_title">Poista taustakuva</string>
+    <string name="set_dialog_notzero_message">Aseta live-taustakuvaksi</string>
+    <string name="set_dialog_notzero_title">Valitse 3DLive</string>
+    <string name="set_title">Esikatselu</string>
+    <string name="settings_dialog_delete_message">Haluatko todella ladata paikallista sisältöä?</string>
+    <string name="settings_dialog_delete_title">Poista paikallinen sisältö</string>
+    <string name="settings_title">Asetukset</string>
+    <string name="start">Alkaa</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">Haettua dataa ei löytynyt</string>
+    <string name="yes_exit">Joo</string>
 </resources>

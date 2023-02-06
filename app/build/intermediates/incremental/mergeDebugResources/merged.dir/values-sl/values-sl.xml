@@ -6,6 +6,7 @@
     <item quantity="few">%d nova obvestila</item>
     <item quantity="other">%d novih obvestil</item>
   </plurals>
+    <string name="YourdropWallpapers">Vaša \n ozadja</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Krmarjenje na začetek"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Pomik navzgor"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Več možnosti"</string>
@@ -33,10 +34,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Skupna raba z:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Skupna raba z drugimi prek aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Strnitev"</string>
+    <string name="app_name">Živo ozadje</string>
+    <string name="audio">Avdio</string>
     <string name="bottomsheet_action_expand_halfway">Razširjanje na pol višine</string>
     <string name="character_counter_content_description">Število vnesenih znakov je %1$d od %2$d</string>
     <string name="character_counter_overflowed_content_description">Omejitev števila znakov je presegla %1$d od %2$d</string>
     <string name="clear_text_end_icon_content_description">Izbris besedila</string>
+    <string name="common_cancel">Prekliči</string>
+    <string name="common_delete">Izbriši</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Omogoči"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Aplikacija <ns1:g id="APP_NAME">%1$s</ns1:g> ne bo delovala, če ne omogočite storitev Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Omogočanje storitev Google Play"</string>
@@ -52,13 +57,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Posodobitev storitev Google Play"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Aplikacija <ns1:g id="APP_NAME">%1$s</ns1:g> ne deluje brez storitev Google Play, ki se trenutno posodabljajo."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Potrebujete novo različico storitev Google Play. V kratkem se bodo posodobile."</string>
+    <string name="common_ok">V redu</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Odpiranje v telefonu"</string>
+    <string name="common_pro">Pro</string>
+    <string name="common_retry">Poskusite znova</string>
+    <string name="common_set">Set</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Prijava"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Prijava z Googlom"</string>
+    <string name="confirm_exit">Potrditev izhoda?</string>
+    <string name="d3_wallpapers">3D ozadja</string>
+    <string name="d3dropwallpapers">3D \n ozadja</string>
+    <string name="error_browser">Brskalnika ni mogoče odpreti!</string>
+    <string name="error_catalog">Slik ni mogoče pridobiti!</string>
+    <string name="error_connection">Potrebna internetna povezava!</string>
+    <string name="error_download">Predogleda ni uspelo!</string>
     <string name="error_icon_content_description">Napaka</string>
+    <string name="error_preview_notfound">Ni na voljo za predogled</string>
+    <string name="error_preview_unknown">Ni mogoče prikazati predogleda!</string>
+    <string name="error_timeout">Časovna omejitev povezave. Poskusi ponovno!</string>
+    <string name="error_wpsetter">Živega ozadja ni mogoče najti!</string>
+    <string name="exit">Izhod</string>
     <string name="exposed_dropdown_menu_content_description">Prikaz spustnega menija</string>
     <string name="icon_content_description">Ikona pogovornega okna</string>
     <string name="item_view_role_description">Zavihek</string>
+    <string name="live_wallpapers">Živa ozadja</string>
+    <string name="livedropwallpapers">Živa \n ozadja</string>
+    <string name="loading">Nalaganje...</string>
+    <string name="main_alert_deleted">Lokalna kopija izbrisana!</string>
+    <string name="main_dialog_nosensor_message">Vaša naprava nima potrebnih senzorjev.</string>
+    <string name="main_dialog_nosensor_title">Napaka senzorja</string>
+    <string name="main_info_empty_message">Vsebina bo prenesena v najkrajšem možnem času…</string>
+    <string name="main_info_empty_title">Nič za pokazati!</string>
+    <string name="main_menu_sort_author">Avtor</string>
+    <string name="main_menu_sort_new">Novo</string>
+    <string name="main_menu_sort_title">Naslov</string>
+    <string name="main_ongoing_download">Ustvarjanje predogleda</string>
     <string name="material_clock_toggle_content_description">Izberite dopoldanski ali popoldanski čas.</string>
     <string name="material_hour_selection">Izberite uro</string>
     <string name="material_hour_suffix">%1$s</string>
@@ -71,6 +104,12 @@
     <string name="material_timepicker_pm">pop.</string>
     <string name="material_timepicker_select_time">Izberite uro</string>
     <string name="material_timepicker_text_input_mode_description">Preklopite na način za vnašanje besedila, da vnesete čas.</string>
+    <string name="menu_delete">Izbriši</string>
+    <string name="menu_link">Avtorjevo mesto</string>
+    <string name="menu_refresh">Osveži</string>
+    <string name="menu_settings">Nastavitve</string>
+    <string name="menu_sort">Razvrsti po</string>
+    <string name="menu_wpsetter">Nastaviti ozadje</string>
     <string name="mtrl_badge_numberless_content_description">Novo obvestilo</string>
     <string name="mtrl_chip_close_icon_content_description">Odstranite %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Več kot toliko novih obvestil: %1$d</string>
@@ -104,8 +143,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Dotik za preklop na izbiro dneva</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Preklop na način vnosa besedila</string>
     <string name="mtrl_picker_toggle_to_year_selection">Dotik za preklop na izbiro leta</string>
+    <string name="my_name">Živo 3D ozadje</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Pomik navzgor"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Odpri predal za krmarjenje"</string>
+    <string name="no_exit">Št</string>
+    <string name="notif_new_message_multi">Nova ozadja so bila dodana v katalog.</string>
+    <string name="notif_new_message_one">V katalog je dodana nova tapeta.</string>
+    <string name="notif_new_title_multi">Nova ozadja! Preverite jih!</string>
+    <string name="notif_new_title_one">Novo ozadje! Preverite!</string>
     <string name="offline_notification_text">Dotaknite se, če želite odpreti oglas</string>
     <string name="offline_notification_title">Oglejte si oglas, ki ste shranili, ko ste bili brez povezave</string>
     <string name="offline_opt_in_confirm">V redu</string>
@@ -114,6 +159,7 @@
     <string name="offline_opt_in_message">Poslali vam bomo obvestilo s povezavo na spletno mesto oglaševalca.</string>
     <string name="offline_opt_in_title">Odprite oglas, ko bo povezava znova vzpostavljena.</string>
     <string name="password_toggle_content_description">Prikaz gesla</string>
+    <string name="prev_thisisaprev_toast">To je samo demo animacija. Prenesite ozadje, da ga vidite v akciji!</string>
     <string name="s1">Shranjevanje slike</string>
     <string name="s2">Ali dovolite, da oglas shrani sliko v galerijo slik?</string>
     <string name="s3">Sprejmi</string>
@@ -121,6 +167,20 @@
     <string name="s5">Ustvarjanje koledarskega dogodka</string>
     <string name="s6">Ali dovolite, da oglas ustvari koledarski dogodek?</string>
     <string name="s7">Preizkusni oglas</string>
+    <string name="search">Iskanje</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Iskanje"</string>
+    <string name="select_language">Izberi jezik</string>
+    <string name="set_alert_changed">Ozadje spremenjeno!</string>
+    <string name="set_dialog_delete_message">Ali res želite izbrisati to ozadje? Vedno ga lahko prenesete pozneje.</string>
+    <string name="set_dialog_delete_title">Izbriši ozadje</string>
+    <string name="set_dialog_notzero_message">Nastavi kot živo ozadje</string>
+    <string name="set_dialog_notzero_title">Izberite 3DLive</string>
+    <string name="set_title">Predogled</string>
+    <string name="settings_dialog_delete_message">Ali res želite prenesti lokalno vsebino?</string>
+    <string name="settings_dialog_delete_title">Izbrišite lokalno vsebino</string>
+    <string name="settings_title">Nastavitve</string>
+    <string name="start">Začetek</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">Iskani podatki niso bili najdeni</string>
+    <string name="yes_exit">Ja</string>
 </resources>

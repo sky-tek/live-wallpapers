@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Levende tapet</string>
+  <string name="my_name">Live 3D Tapet</string>
+  <string name="common_ok">Okay</string>
+  <string name="common_set">Sæt</string>
+  <string name="common_cancel">Afbestille</string>
+  <string name="common_delete">Slet</string>
+  <string name="common_retry">Prøve igen</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Levende baggrunde</string>
+  <string name="menu_refresh">Opdater</string>
+  <string name="menu_sort">Sorter efter</string>
+  <string name="menu_wpsetter">Indstil tapet</string>
+  <string name="menu_settings">Indstillinger</string>
+  <string name="menu_delete">Slet</string>
+  <string name="menu_link">Forfatterens websted</string>
+  <string name="error_download">Forhåndsvisning mislykkedes!</string>
+  <string name="error_connection">Internetforbindelse nødvendig!</string>
+  <string name="error_preview_unknown">Kan ikke vise forhåndsvisning!</string>
+  <string name="error_preview_notfound">Ikke tilgængelig til forhåndsvisning</string>
+  <string name="error_wpsetter">Levende tapet blev ikke fundet!</string>
+  <string name="error_timeout">Forbindelse timeout. Prøv igen!</string>
+  <string name="error_catalog">Kan ikke hente billeder!</string>
+  <string name="error_browser">Kan ikke åbne browser!</string>
+  <string name="notif_new_title_one">Ny tapet! Tjek det ud!</string>
+  <string name="notif_new_title_multi">Nye baggrunde! Tjek dem ud!</string>
+  <string name="notif_new_message_one">Et nyt tapet er blevet tilføjet til kataloget.</string>
+  <string name="notif_new_message_multi">Nye tapeter er blevet tilføjet til kataloget.</string>
+  <string name="select_language">Vælg sprog</string>
+  <string name="main_info_empty_title">Intet at vise!</string>
+  <string name="main_info_empty_message">Indholdet vil blive downloadet så hurtigt som muligt...</string>
+  <string name="main_dialog_nosensor_title">Sensor fejl</string>
+  <string name="main_dialog_nosensor_message">Din enhed har ikke de nødvendige sensorer.</string>
+  <string name="main_ongoing_download">Genererer forhåndsvisning</string>
+  <string name="main_alert_deleted">Lokal kopi slettet!</string>
+  <string name="main_menu_sort_new">Ny</string>
+  <string name="main_menu_sort_title">Titel</string>
+  <string name="main_menu_sort_author">Forfatter</string>
+  <string name="set_title">Forhåndsvisning</string>
+  <string name="set_dialog_delete_title">Slet tapet</string>
+  <string name="set_dialog_delete_message">Vil du virkelig slette dette tapet? Du kan altid downloade det senere.</string>
+  <string name="set_dialog_notzero_title">Vælg 3DLive</string>
+  <string name="set_dialog_notzero_message">Indstil som levende tapet</string>
+  <string name="set_alert_changed">Tapet ændret!</string>
+  <string name="prev_thisisaprev_toast">Dette er kun en demo-animation. Download tapetet for at se det i aktion!</string>
+  <string name="settings_title">Indstillinger</string>
+  <string name="settings_dialog_delete_title">Slet lokalt indhold</string>
+  <string name="settings_dialog_delete_message">Vil du virkelig downloade det lokale indhold?</string>
+  <string name="loading">Indlæser...</string>
+  <string name="start">Start</string>
+  <string name="exit">Afslut</string>
+  <string name="confirm_exit">Bekræft exit?</string>
+  <string name="yes_exit">Ja</string>
+  <string name="no_exit">Ingen</string>
+  <string name="d3_wallpapers">3D-baggrunde</string>
+  <string name="YourdropWallpapers">Dine \n Baggrunde</string>
+  <string name="livedropwallpapers">Levende \n Baggrunde</string>
+  <string name="d3dropwallpapers">3D \n Baggrunde</string>
+  <string name="search">Søg</string>
+  <string name="text_not_found">Søgte data blev ikke fundet</string>
+  <string name="audio">Lyd</string>
+</resources>

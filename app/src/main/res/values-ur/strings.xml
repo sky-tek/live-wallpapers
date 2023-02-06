@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">لائیو وال پیپر</string>
+  <string name="my_name">لائیو 3D وال پیپر</string>
+  <string name="common_ok">ٹھیک ہے</string>
+  <string name="common_set">سیٹ</string>
+  <string name="common_cancel">منسوخ کریں۔</string>
+  <string name="common_delete">حذف کریں۔</string>
+  <string name="common_retry">دوبارہ کوشش کریں۔</string>
+  <string name="common_pro">پرو</string>
+  <string name="live_wallpapers">لائیو وال پیپرز</string>
+  <string name="menu_refresh">ریفریش کریں۔</string>
+  <string name="menu_sort">ترتیب دیں</string>
+  <string name="menu_wpsetter">وال پیپر سیٹ کریں۔</string>
+  <string name="menu_settings">ترتیبات</string>
+  <string name="menu_delete">حذف کریں۔</string>
+  <string name="menu_link">مصنف کی سائٹ</string>
+  <string name="error_download">پیش نظارہ کرنے میں ناکام!</string>
+  <string name="error_connection">انٹرنیٹ کنکشن کی ضرورت ہے!</string>
+  <string name="error_preview_unknown">پیش نظارہ ظاہر کرنے سے قاصر!</string>
+  <string name="error_preview_notfound">پیش نظارہ کے لیے دستیاب نہیں ہے۔</string>
+  <string name="error_wpsetter">لائیو وال پیپر نہیں ملا!</string>
+  <string name="error_timeout">رابطے کا وقت ختم. دوبارہ کوشش کریں!</string>
+  <string name="error_catalog">تصاویر کی بازیافت سے قاصر!</string>
+  <string name="error_browser">براؤزر کھولنے سے قاصر!</string>
+  <string name="notif_new_title_one">نیا وال پیپر! اس کی جانچ پڑتال کر!</string>
+  <string name="notif_new_title_multi">نئے وال پیپر! ان کی جانچ پڑتال!</string>
+  <string name="notif_new_message_one">کیٹلاگ میں ایک نیا وال پیپر شامل کیا گیا ہے۔</string>
+  <string name="notif_new_message_multi">کیٹلاگ میں نئے وال پیپر شامل کیے گئے ہیں۔</string>
+  <string name="select_language">زبان منتخب کریں۔</string>
+  <string name="main_info_empty_title">دکھانے کے لیے کچھ نہیں!</string>
+  <string name="main_info_empty_message">مواد کو جلد از جلد ڈاؤن لوڈ کیا جائے گا…</string>
+  <string name="main_dialog_nosensor_title">سینسر کی خرابی۔</string>
+  <string name="main_dialog_nosensor_message">آپ کے آلے میں مطلوبہ سینسرز نہیں ہیں۔</string>
+  <string name="main_ongoing_download">پیش نظارہ تیار کیا جا رہا ہے۔</string>
+  <string name="main_alert_deleted">مقامی کاپی حذف کر دی گئی!</string>
+  <string name="main_menu_sort_new">نئی</string>
+  <string name="main_menu_sort_title">عنوان</string>
+  <string name="main_menu_sort_author">مصنف</string>
+  <string name="set_title">پیش نظارہ</string>
+  <string name="set_dialog_delete_title">وال پیپر حذف کریں۔</string>
+  <string name="set_dialog_delete_message">کیا آپ واقعی اس وال پیپر کو حذف کرنا چاہتے ہیں؟ آپ اسے بعد میں ہمیشہ ڈاؤن لوڈ کر سکتے ہیں۔</string>
+  <string name="set_dialog_notzero_title">3DLive منتخب کریں۔</string>
+  <string name="set_dialog_notzero_message">لائیو وال پیپر کے طور پر سیٹ کریں۔</string>
+  <string name="set_alert_changed">وال پیپر بدل گیا!</string>
+  <string name="prev_thisisaprev_toast">یہ صرف ایک ڈیمو اینیمیشن ہے۔ وال پیپر کو عمل میں دیکھنے کے لیے ڈاؤن لوڈ کریں!</string>
+  <string name="settings_title">ترتیبات</string>
+  <string name="settings_dialog_delete_title">مقامی مواد کو حذف کریں۔</string>
+  <string name="settings_dialog_delete_message">کیا آپ واقعی مقامی مواد ڈاؤن لوڈ کرنا چاہتے ہیں؟</string>
+  <string name="loading">لوڈ ہو رہا ہے...</string>
+  <string name="start">شروع کریں۔</string>
+  <string name="exit">باہر نکلیں</string>
+  <string name="confirm_exit">باہر نکلنے کی تصدیق کریں؟</string>
+  <string name="yes_exit">جی ہاں</string>
+  <string name="no_exit">نہیں</string>
+  <string name="d3_wallpapers">3D وال پیپرز</string>
+  <string name="YourdropWallpapers">آپ کے وال \n</string>
+  <string name="livedropwallpapers">لائیو \n وال پیپرز</string>
+  <string name="d3dropwallpapers">3D \n وال پیپرز</string>
+  <string name="search">تلاش کریں۔</string>
+  <string name="text_not_found">تلاش کیا گیا ڈیٹا نہیں ملا</string>
+  <string name="audio">آڈیو</string>
+</resources>

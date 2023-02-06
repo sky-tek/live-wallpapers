@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">לעבן טאַפּעטן</string>
+  <string name="my_name">לעבן 3 ד וואַללפּאַפּער</string>
+  <string name="common_ok">אקעי</string>
+  <string name="common_set">שטעלן</string>
+  <string name="common_cancel">באָטל מאַכן</string>
+  <string name="common_delete">ויסמעקן</string>
+  <string name="common_retry">פרובירט ווידער</string>
+  <string name="common_pro">פּראָ</string>
+  <string name="live_wallpapers">לעבן וואַללפּאַפּערס</string>
+  <string name="menu_refresh">דערפרישן</string>
+  <string name="menu_sort">סאָרט דורך</string>
+  <string name="menu_wpsetter">שטעלן טאַפּעטן</string>
+  <string name="menu_settings">סעטטינגס</string>
+  <string name="menu_delete">ויסמעקן</string>
+  <string name="menu_link">מחבר ס פּלאַץ</string>
+  <string name="error_download">ניט אַנדערש צו פאָרויסיקע ווייַזונג!</string>
+  <string name="error_connection">אינטערנעט קשר דארף!</string>
+  <string name="error_preview_unknown">ניט געקענט צו ווייַזן פאָרויסיקע ווייַזונג!</string>
+  <string name="error_preview_notfound">ניט בנימצא צו פאָרויסיקע ווייַזונג</string>
+  <string name="error_wpsetter">לעבן טאַפּעטן ניט געפֿונען!</string>
+  <string name="error_timeout">קשר צייט. פּרוּווט ווידער!</string>
+  <string name="error_catalog">ניט געקענט צוריקקריגן בילדער!</string>
+  <string name="error_browser">ניט געקענט עפענען בלעטערער!</string>
+  <string name="notif_new_title_one">ניו וואַללפּאַפּער! קוק עס דורך!</string>
+  <string name="notif_new_title_multi">ניו וואַללפּאַפּערס! קוק זיי אויס!</string>
+  <string name="notif_new_message_one">א נייַע טאַפּעטן איז צוגעלייגט צו דעם קאַטאַלאָג.</string>
+  <string name="notif_new_message_multi">נייַ וואָלפּייפּערז זענען צוגעגעבן צו דעם קאַטאַלאָג.</string>
+  <string name="select_language">אויסקלייַבן שפּראַך</string>
+  <string name="main_info_empty_title">גאָרנישט צו ווייַזן!</string>
+  <string name="main_info_empty_message">אינהאַלט וועט זיין דאַונלאָודיד ווי באַלד ווי מעגלעך ...</string>
+  <string name="main_dialog_nosensor_title">סענסאָר טעות</string>
+  <string name="main_dialog_nosensor_message">דיין מיטל האט נישט די פארלאנגט סענסאָרס.</string>
+  <string name="main_ongoing_download">דזשענערייטינג פּריוויו</string>
+  <string name="main_alert_deleted">לאקאלע קאָפּיע אויסגעמעקט!</string>
+  <string name="main_menu_sort_new">ניו</string>
+  <string name="main_menu_sort_title">טיטל</string>
+  <string name="main_menu_sort_author">מחבר</string>
+  <string name="set_title">פאָרויסיקע ווייַזונג</string>
+  <string name="set_dialog_delete_title">ויסמעקן טאַפּעטן</string>
+  <string name="set_dialog_delete_message">צי איר טאַקע ווילן צו ויסמעקן דעם טאַפּעטן? איר קענען שטענדיק אראפקאפיע עס שפּעטער.</string>
+  <string name="set_dialog_notzero_title">אויסקלייַבן 3DLive</string>
+  <string name="set_dialog_notzero_message">שטעלן ווי לייוו וואַללפּאַפּער</string>
+  <string name="set_alert_changed">טאַפּעטן געביטן!</string>
+  <string name="prev_thisisaprev_toast">דאָס איז בלויז אַ דעמאָ אַנאַמיישאַן. אראפקאפיע די טאַפּעטן צו זען עס אין קאַמף!</string>
+  <string name="settings_title">סעטטינגס</string>
+  <string name="settings_dialog_delete_title">ויסמעקן היגע אינהאַלט</string>
+  <string name="settings_dialog_delete_message">צי איר טאַקע ווילן צו אָפּלאָדירן די היגע אינהאַלט?</string>
+  <string name="loading">לאָדן...</string>
+  <string name="start">אָנהייב</string>
+  <string name="exit">אַרויסגאַנג</string>
+  <string name="confirm_exit">באַשטעטיקן אַרויסגאַנג?</string>
+  <string name="yes_exit">יא</string>
+  <string name="no_exit">ניין</string>
+  <string name="d3_wallpapers">3 ד וואַללפּאַפּערס</string>
+  <string name="YourdropWallpapers">דיין \n וואַללפּאַפּערס</string>
+  <string name="livedropwallpapers">לעבן \n וואַללפּאַפּערס</string>
+  <string name="d3dropwallpapers">3 ד \n וואַללפּאַפּערס</string>
+  <string name="search">זוכן</string>
+  <string name="text_not_found">געזוכט דאַטן ניט געפֿונען</string>
+  <string name="audio">אַודיאָ</string>
+</resources>

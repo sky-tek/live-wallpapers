@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Layv wallpaper</string>
+  <string name="my_name">Layf 3d wallpaper</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Sɛt</string>
+  <string name="common_cancel">Nɔ</string>
+  <string name="common_delete">Dilit</string>
+  <string name="common_retry">Tray bak</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Layf Wallpaper dɛn we de na di wɔl</string>
+  <string name="menu_refresh">Rifresh yu</string>
+  <string name="menu_sort">Sɔt bay</string>
+  <string name="menu_wpsetter">Set wallpaper</string>
+  <string name="menu_settings">Sɛtin dɛn we dɛn dɔn mek</string>
+  <string name="menu_delete">Dilit</string>
+  <string name="menu_link">Di sayt we di pɔsin we rayt di buk</string>
+  <string name="error_download">Failed fɔ privyu am!</string>
+  <string name="error_connection">Intanɛt kɔnɛkshɔn nid fɔ de!</string>
+  <string name="error_preview_unknown">Nɔ ebul fɔ sho di prɛviu!</string>
+  <string name="error_preview_notfound">Nɔ de fɔ si am bifo tɛm</string>
+  <string name="error_wpsetter">Layf wallpaper nɔ fɛn!</string>
+  <string name="error_timeout">Kɔnɛkshɔn tɛm dɔn. Tray bak!</string>
+  <string name="error_catalog">Nɔ ebul fɔ pul di pikchɔ dɛn!</string>
+  <string name="error_browser">Nɔ ebul fɔ opin brawza!</string>
+  <string name="notif_new_title_one">Nyu Wallpaper! Chek am fɔ si am!</string>
+  <string name="notif_new_title_multi">Nyu Wallpaper dɛn! Chek dɛn fɔ no!</string>
+  <string name="notif_new_message_one">Dɛn dɔn ad nyu wallpaper to di katalog.</string>
+  <string name="notif_new_message_multi">Dɛn dɔn ad nyu wallpaper dɛn to di katalog.</string>
+  <string name="select_language">Pik di Langwej</string>
+  <string name="main_info_empty_title">Natin nɔ de fɔ sho!</string>
+  <string name="main_info_empty_message">Dɛn go dawnlod di tin dɛn we de insay kwik kwik wan...</string>
+  <string name="main_dialog_nosensor_title">Sensor mistek</string>
+  <string name="main_dialog_nosensor_message">Yu divays nɔ gɛt di sɛns dɛn we dɛn nid.</string>
+  <string name="main_ongoing_download">Fɔ Jɛnɛret Privyu</string>
+  <string name="main_alert_deleted">Lokal kɔpi dɔn dilit!</string>
+  <string name="main_menu_sort_new">Nyu</string>
+  <string name="main_menu_sort_title">Taytul</string>
+  <string name="main_menu_sort_author">Pɔsin we de rayt buk</string>
+  <string name="set_title">Fɔ si di tɛm bifo dis tɛm</string>
+  <string name="set_dialog_delete_title">Dilit wallpaper fɔ dilit</string>
+  <string name="set_dialog_delete_message">Yu rili want fɔ dilit dis wallpaper? Yu kin dawnlod am ɔltɛm leta.</string>
+  <string name="set_dialog_notzero_title">Pik di 3DLive</string>
+  <string name="set_dialog_notzero_message">Set as Layf Wallpaper</string>
+  <string name="set_alert_changed">Wallpaper chenj!</string>
+  <string name="prev_thisisaprev_toast">Dis na jɔs wan demo animashɔn. Daunlod di wallpaper fɔ si am in akshɔn!</string>
+  <string name="settings_title">Sɛtin dɛn we dɛn dɔn mek</string>
+  <string name="settings_dialog_delete_title">Dilit di tin dɛn we de insay di say we yu de</string>
+  <string name="settings_dialog_delete_message">Yu rili want fɔ dawnlod di tin dɛn we de na di say we yu de?</string>
+  <string name="loading">We yu de lod...</string>
+  <string name="start">Stat</string>
+  <string name="exit">Kɔmɔt</string>
+  <string name="confirm_exit">Kɔnfɛm Ɛkzit ?</string>
+  <string name="yes_exit">Yɛs</string>
+  <string name="no_exit">Nɔ</string>
+  <string name="d3_wallpapers">Wallpaper dɛn we gɛt 3D</string>
+  <string name="YourdropWallpapers">Yu \n Wallpapers</string>
+  <string name="livedropwallpapers">Layf \n Wallpapers</string>
+  <string name="d3dropwallpapers">3D \n Wallpaper dɛn we dɛn kin yuz</string>
+  <string name="search">Luk fɔ</string>
+  <string name="text_not_found">Data we dɛn dɔn fɛn nɔ fɛn</string>
+  <string name="audio">Odio we dɛn kin yuz</string>
+</resources>

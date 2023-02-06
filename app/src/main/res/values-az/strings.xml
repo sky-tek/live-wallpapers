@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Canlı divar kağızı</string>
+  <string name="my_name">Canlı 3d divar kağızı</string>
+  <string name="common_ok">Tamam</string>
+  <string name="common_set">Set</string>
+  <string name="common_cancel">Ləğv et</string>
+  <string name="common_delete">Sil</string>
+  <string name="common_retry">Yenidən cəhd edin</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Canlı divar kağızları</string>
+  <string name="menu_refresh">Təzələmək</string>
+  <string name="menu_sort">Sırala</string>
+  <string name="menu_wpsetter">Divar kağızı təyin edin</string>
+  <string name="menu_settings">Parametrlər</string>
+  <string name="menu_delete">Sil</string>
+  <string name="menu_link">Müəllif saytı</string>
+  <string name="error_download">Önizləmək alınmadı!</string>
+  <string name="error_connection">İnternet bağlantısı lazımdır!</string>
+  <string name="error_preview_unknown">Önizləməni göstərmək mümkün deyil!</string>
+  <string name="error_preview_notfound">Önizləmək mümkün deyil</string>
+  <string name="error_wpsetter">Canlı divar kağızı tapılmadı!</string>
+  <string name="error_timeout">Bağlantı fasiləsi. Yenidən cəhd elə!</string>
+  <string name="error_catalog">Şəkilləri əldə etmək mümkün deyil!</string>
+  <string name="error_browser">Brauzeri açmaq mümkün deyil!</string>
+  <string name="notif_new_title_one">Yeni divar kağızı! Onu yoxlamaq!</string>
+  <string name="notif_new_title_multi">Yeni Divar kağızları! Onları yoxlayın!</string>
+  <string name="notif_new_message_one">Kataloqa yeni divar kağızı əlavə edildi.</string>
+  <string name="notif_new_message_multi">Kataloqa yeni divar kağızları əlavə edildi.</string>
+  <string name="select_language">Dil seçin</string>
+  <string name="main_info_empty_title">Göstərəcək heç nə yoxdur!</string>
+  <string name="main_info_empty_message">Məzmun ən qısa zamanda endiriləcək...</string>
+  <string name="main_dialog_nosensor_title">Sensor xətası</string>
+  <string name="main_dialog_nosensor_message">Cihazınızda tələb olunan sensorlar yoxdur.</string>
+  <string name="main_ongoing_download">Önizləmə yaradılır</string>
+  <string name="main_alert_deleted">Yerli nüsxə silindi!</string>
+  <string name="main_menu_sort_new">Yeni</string>
+  <string name="main_menu_sort_title">Başlıq</string>
+  <string name="main_menu_sort_author">Müəllif</string>
+  <string name="set_title">Önizləmə</string>
+  <string name="set_dialog_delete_title">Divar kağızı silin</string>
+  <string name="set_dialog_delete_message">Bu divar kağızı həqiqətən silmək istəyirsiniz? Siz həmişə sonra yükləyə bilərsiniz.</string>
+  <string name="set_dialog_notzero_title">3DLive seçin</string>
+  <string name="set_dialog_notzero_message">Canlı Divar kağızı kimi təyin edin</string>
+  <string name="set_alert_changed">Divar kağızı dəyişdirildi!</string>
+  <string name="prev_thisisaprev_toast">Bu yalnız demo animasiyadır. Fəaliyyətdə görmək üçün divar kağızı yükləyin!</string>
+  <string name="settings_title">Parametrlər</string>
+  <string name="settings_dialog_delete_title">Yerli məzmunu silin</string>
+  <string name="settings_dialog_delete_message">Həqiqətən yerli məzmunu yükləmək istəyirsiniz?</string>
+  <string name="loading">Yüklənir...</string>
+  <string name="start">Başlamaq</string>
+  <string name="exit">Çıx</string>
+  <string name="confirm_exit">Çıxışı təsdiqləyin?</string>
+  <string name="yes_exit">Bəli</string>
+  <string name="no_exit">Yox</string>
+  <string name="d3_wallpapers">3D divar kağızları</string>
+  <string name="YourdropWallpapers">\n Divar kağızlarınız</string>
+  <string name="livedropwallpapers">Canlı \n Divar kağızları</string>
+  <string name="d3dropwallpapers">3D \n Divar kağızları</string>
+  <string name="search">Axtar</string>
+  <string name="text_not_found">Axtarılan data tapılmadı</string>
+  <string name="audio">Audio</string>
+</resources>

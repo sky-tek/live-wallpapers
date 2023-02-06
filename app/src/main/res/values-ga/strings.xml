@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Ballapháipéir beo</string>
+  <string name="my_name">Ballapháipéir beo 3D saor in aisce,</string>
+  <string name="common_ok">Ceart go leor</string>
+  <string name="common_set">Socraigh</string>
+  <string name="common_cancel">Cealaigh</string>
+  <string name="common_delete">Scrios</string>
+  <string name="common_retry">Bain triail eile as</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Wallpapers beo</string>
+  <string name="menu_refresh">Athnuaigh</string>
+  <string name="menu_sort">Sórtáil de réir</string>
+  <string name="menu_wpsetter">Socraigh ballapháipéir</string>
+  <string name="menu_settings">Socruithe</string>
+  <string name="menu_delete">Scrios</string>
+  <string name="menu_link">Suíomh an údair</string>
+  <string name="error_download">Theip ar an réamhamharc!</string>
+  <string name="error_connection">Ceangal idirlín ag teastáil!</string>
+  <string name="error_preview_unknown">Ní féidir réamhamharc a thaispeáint!</string>
+  <string name="error_preview_notfound">Níl sé ar fáil le réamhamharc</string>
+  <string name="error_wpsetter">Ní bhfuarthas páipéar balla beo!</string>
+  <string name="error_timeout">Teorainn ama ceangail. Déan iarracht arís!</string>
+  <string name="error_catalog">Ní féidir íomhánna a aisghabháil!</string>
+  <string name="error_browser">Ní féidir an brabhsálaí a oscailt!</string>
+  <string name="notif_new_title_one">Cúlbhrat Nua! Seiceáil é!</string>
+  <string name="notif_new_title_multi">Cúlbhrat Nua! Seiceáil iad!</string>
+  <string name="notif_new_message_one">Tá páipéar balla nua curtha leis an gcatalóg.</string>
+  <string name="notif_new_message_multi">Ballapháipéir nua curtha leis an gcatalóg.</string>
+  <string name="select_language">Roghnaigh Teanga</string>
+  <string name="main_info_empty_title">Ní dhéanfaidh aon ní a thaispeáint!</string>
+  <string name="main_info_empty_message">Déanfar ábhar a íoslódáil chomh luath agus is féidir…</string>
+  <string name="main_dialog_nosensor_title">Earráid bhraiteora</string>
+  <string name="main_dialog_nosensor_message">Níl na braiteoirí riachtanacha ag do ghléas.</string>
+  <string name="main_ongoing_download">Réamhamharc á Giniúint</string>
+  <string name="main_alert_deleted">Scriosadh an chóip áitiúil!</string>
+  <string name="main_menu_sort_new">Nua</string>
+  <string name="main_menu_sort_title">Teideal</string>
+  <string name="main_menu_sort_author">Údar</string>
+  <string name="set_title">Réamhamharc</string>
+  <string name="set_dialog_delete_title">Scrios ballapháipéir</string>
+  <string name="set_dialog_delete_message">An bhfuil tú cinnte gur mhaith leat an páipéar balla seo a scriosadh? Is féidir leat a íoslódáil i gcónaí níos déanaí.</string>
+  <string name="set_dialog_notzero_title">Roghnaigh 3DLive</string>
+  <string name="set_dialog_notzero_message">Socraigh mar Cúlbhrat Beo</string>
+  <string name="set_alert_changed">Cúlbhrat athraithe!</string>
+  <string name="prev_thisisaprev_toast">Níl anseo ach beochan taispeána. Íoslódáil an páipéar balla chun é a fheiceáil i mbun gníomhaíochta!</string>
+  <string name="settings_title">Socruithe</string>
+  <string name="settings_dialog_delete_title">Scrios ábhar áitiúil</string>
+  <string name="settings_dialog_delete_message">Ar mhaith leat i ndáiríre an t-ábhar áitiúil a íoslódáil?</string>
+  <string name="loading">Á lódáil...</string>
+  <string name="start">Tosaigh</string>
+  <string name="exit">An slí amach</string>
+  <string name="confirm_exit">Deimhnigh Scoir?</string>
+  <string name="yes_exit">Tá</string>
+  <string name="no_exit">Níl</string>
+  <string name="d3_wallpapers">3D Wallpapers</string>
+  <string name="YourdropWallpapers">Do \n Wallpapers</string>
+  <string name="livedropwallpapers">\n Wallpapers beo</string>
+  <string name="d3dropwallpapers">3D \n Wallpapers</string>
+  <string name="search">Cuardach</string>
+  <string name="text_not_found">Ní bhfuarthas na sonraí cuardaigh</string>
+  <string name="audio">Fuaime</string>
+</resources>

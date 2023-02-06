@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Wallpaper mivantana</string>
+  <string name="my_name">Wallpaper 3D mivantana</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Set</string>
+  <string name="common_cancel">Hanafoana</string>
+  <string name="common_delete">Mamafa</string>
+  <string name="common_retry">Hanandrana indray</string>
+  <string name="common_pro">Ohb</string>
+  <string name="live_wallpapers">Wallpapers mivantana</string>
+  <string name="menu_refresh">Havaozina</string>
+  <string name="menu_sort">Sivanina araka</string>
+  <string name="menu_wpsetter">Mametraha wallpaper</string>
+  <string name="menu_settings">Fikirana</string>
+  <string name="menu_delete">Mamafa</string>
+  <string name="menu_link">Tranon\'ny mpanoratra</string>
+  <string name="error_download">Tsy nahavita nijery mialoha!</string>
+  <string name="error_connection">Mila fifandraisana Internet!</string>
+  <string name="error_preview_unknown">Tsy afaka mampiseho ny fijery!</string>
+  <string name="error_preview_notfound">Tsy azo jerena</string>
+  <string name="error_wpsetter">Tsy hita ny wallpaper mivantana!</string>
+  <string name="error_timeout">Tapitra ny fifandraisana. Andramo indray mandeha!</string>
+  <string name="error_catalog">Tsy afaka maka sary!</string>
+  <string name="error_browser">Tsy afaka misokatra ny navigateur!</string>
+  <string name="notif_new_title_one">Wallpaper vaovao! Zahao hahitanao azy!</string>
+  <string name="notif_new_title_multi">Wallpapers vaovao! Jereo ireo!</string>
+  <string name="notif_new_message_one">Nisy wallpaper vaovao nampiana tao amin\'ny katalaogy.</string>
+  <string name="notif_new_message_multi">Nisy wallpapers vaovao nampiana tao amin\'ny katalaogy.</string>
+  <string name="select_language">Select Language</string>
+  <string name="main_info_empty_title">Tsy misy haseho!</string>
+  <string name="main_info_empty_message">Ny votoaty dia alaina haingana araka izay azo atao…</string>
+  <string name="main_dialog_nosensor_title">Error sensor</string>
+  <string name="main_dialog_nosensor_message">Tsy manana sensor ilaina ny fitaovanao.</string>
+  <string name="main_ongoing_download">Mamorona Preview</string>
+  <string name="main_alert_deleted">Voafafa ny kopia eo an-toerana!</string>
+  <string name="main_menu_sort_new">Vaovao</string>
+  <string name="main_menu_sort_title">Lohateny</string>
+  <string name="main_menu_sort_author">Mpanoratra</string>
+  <string name="set_title">TOPI-MASO</string>
+  <string name="set_dialog_delete_title">Fafao ny wallpaper</string>
+  <string name="set_dialog_delete_message">Te-hamafa an\'ity wallpaper ity ve ianao? Azonao alaina foana izany any aoriana any.</string>
+  <string name="set_dialog_notzero_title">Safidio ny 3DLive</string>
+  <string name="set_dialog_notzero_message">Ataovy toy ny Live Wallpaper</string>
+  <string name="set_alert_changed">Niova ny wallpaper!</string>
+  <string name="prev_thisisaprev_toast">Animation demo ihany ity. Ampidino ny wallpaper mba hahitana azy amin\'ny hetsika!</string>
+  <string name="settings_title">Fikirana</string>
+  <string name="settings_dialog_delete_title">Fafao ny atiny eo an-toerana</string>
+  <string name="settings_dialog_delete_message">Te-hisintona ny atiny eo an-toerana tokoa ve ianao?</string>
+  <string name="loading">Loading...</string>
+  <string name="start">Fanombohana</string>
+  <string name="exit">Fivoahana</string>
+  <string name="confirm_exit">Hamafiso ny fivoahana ?</string>
+  <string name="yes_exit">ENY</string>
+  <string name="no_exit">Tsy misy</string>
+  <string name="d3_wallpapers">Wallpapers 3D</string>
+  <string name="YourdropWallpapers">Ny \n Wallpapers anao</string>
+  <string name="livedropwallpapers">Live \n Wallpapers</string>
+  <string name="d3dropwallpapers">3D \n Wallpapers</string>
+  <string name="search">Karohy</string>
+  <string name="text_not_found">Tsy hita ny angona notadiavina</string>
+  <string name="audio">Teny</string>
+</resources>

@@ -31,7 +31,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:fontFamily="@font/blogger_sans"
-                    android:text="3D Wallpapers"
+                    android:text="@string/d3_wallpapers"
                     android:textColor="@color/white"
                     android:textSize="25dp" />
 

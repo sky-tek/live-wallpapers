@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Կենդանի պաստառ</string>
+  <string name="my_name">Կենդանի 3D պաստառ</string>
+  <string name="common_ok">Լավ</string>
+  <string name="common_set">Սահմանել</string>
+  <string name="common_cancel">Չեղարկել</string>
+  <string name="common_delete">Ջնջել</string>
+  <string name="common_retry">Կրկին փորձեք</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Կենդանի պաստառներ</string>
+  <string name="menu_refresh">Թարմացնել</string>
+  <string name="menu_sort">Դասավորել ըստ</string>
+  <string name="menu_wpsetter">Պաստառի տեղադրում</string>
+  <string name="menu_settings">Կարգավորումներ</string>
+  <string name="menu_delete">Ջնջել</string>
+  <string name="menu_link">Հեղինակային կայք</string>
+  <string name="error_download">Չհաջողվեց նախադիտել:</string>
+  <string name="error_connection">Պահանջվում է ինտերնետ կապ:</string>
+  <string name="error_preview_unknown">Հնարավոր չէ ցուցադրել նախադիտումը:</string>
+  <string name="error_preview_notfound">Անհասանելի է նախադիտման համար</string>
+  <string name="error_wpsetter">Կենդանի պաստառ չի գտնվել:</string>
+  <string name="error_timeout">Միացման ժամկետը սպառվել է: Կրկին փորձեք:</string>
+  <string name="error_catalog">Հնարավոր չէ առբերել պատկերները:</string>
+  <string name="error_browser">Հնարավոր չէ բացել զննարկիչը:</string>
+  <string name="notif_new_title_one">Նոր Պաստառ Ստուգեք այն!</string>
+  <string name="notif_new_title_multi">Նոր Պաստառներ Ստուգե՛ք դրանք։</string>
+  <string name="notif_new_message_one">Կատալոգում ավելացվել է նոր պաստառ։</string>
+  <string name="notif_new_message_multi">Կատալոգում ավելացվել են նոր պաստառներ։</string>
+  <string name="select_language">Ընտրել լեզուն</string>
+  <string name="main_info_empty_title">Ցույց տալու ոչինչ չկա։</string>
+  <string name="main_info_empty_message">Բովանդակությունը կներբեռնվի որքան հնարավոր է շուտ…</string>
+  <string name="main_dialog_nosensor_title">Սենսորի սխալ</string>
+  <string name="main_dialog_nosensor_message">Ձեր սարքը չունի անհրաժեշտ սենսորները:</string>
+  <string name="main_ongoing_download">Նախադիտման առաջացում</string>
+  <string name="main_alert_deleted">Տեղական պատճենը ջնջվեց:</string>
+  <string name="main_menu_sort_new">Նոր</string>
+  <string name="main_menu_sort_title">Կոչում</string>
+  <string name="main_menu_sort_author">Հեղինակ</string>
+  <string name="set_title">Նախադիտում</string>
+  <string name="set_dialog_delete_title">Ջնջել պաստառը</string>
+  <string name="set_dialog_delete_message">Իսկապե՞ս ուզում եք ջնջել այս պաստառը: Դուք միշտ կարող եք ներբեռնել այն ավելի ուշ:</string>
+  <string name="set_dialog_notzero_title">Ընտրեք 3DLive</string>
+  <string name="set_dialog_notzero_message">Սահմանել որպես կենդանի պաստառ</string>
+  <string name="set_alert_changed">Պաստառը փոխվել է:</string>
+  <string name="prev_thisisaprev_toast">Սա միայն ցուցադրական անիմացիա է: Ներբեռնեք պաստառը՝ այն գործողության մեջ տեսնելու համար:</string>
+  <string name="settings_title">Կարգավորումներ</string>
+  <string name="settings_dialog_delete_title">Ջնջել տեղական բովանդակությունը</string>
+  <string name="settings_dialog_delete_message">Իսկապե՞ս ցանկանում եք ներբեռնել տեղական բովանդակությունը:</string>
+  <string name="loading">Բեռնվում է...</string>
+  <string name="start">Սկսել</string>
+  <string name="exit">Ելք</string>
+  <string name="confirm_exit">Հաստատե՞լ Ելքը</string>
+  <string name="yes_exit">Այո՛</string>
+  <string name="no_exit">Ոչ</string>
+  <string name="d3_wallpapers">3D Պաստառներ</string>
+  <string name="YourdropWallpapers">Ձեր \n Պաստառները</string>
+  <string name="livedropwallpapers">Կենդանի \n Պաստառներ</string>
+  <string name="d3dropwallpapers">3D \n Պաստառներ</string>
+  <string name="search">Որոնում</string>
+  <string name="text_not_found">Որոնված տվյալները չեն գտնվել</string>
+  <string name="audio">Աուդիո</string>
+</resources>

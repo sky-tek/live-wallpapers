@@ -4,6 +4,7 @@
     <item quantity="one">%d 則新通知</item>
     <item quantity="other">%d 則新通知</item>
   </plurals>
+    <string name="YourdropWallpapers">你的\n壁紙</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"瀏覽首頁"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"向上瀏覽"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"更多選項"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享對象"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="app_name">動態壁紙</string>
+    <string name="audio">聲音的</string>
     <string name="bottomsheet_action_expand_halfway">展開一半</string>
     <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
     <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
     <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_delete">刪除</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"啟用"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必須啟用 Google Play 服務，才能執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"啟用 Google Play 服務"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"更新 Google Play 服務"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」所需的 Google Play 服務正在更新。"</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"必須使用新版 Google Play 服務。該服務稍後就會自動更新。"</string>
+    <string name="common_ok">好的</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"在手機上開啟"</string>
+    <string name="common_pro">臨</string>
+    <string name="common_retry">重試</string>
+    <string name="common_set">放</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"登入"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"使用 Google 帳戶登入"</string>
+    <string name="confirm_exit">確認退出？</string>
+    <string name="d3_wallpapers">3D壁紙</string>
+    <string name="d3dropwallpapers">3D \n壁紙</string>
+    <string name="error_browser">無法打開瀏覽器！</string>
+    <string name="error_catalog">無法檢索圖像！</string>
+    <string name="error_connection">需要互聯網連接！</string>
+    <string name="error_download">預覽失敗！</string>
     <string name="error_icon_content_description">錯誤</string>
+    <string name="error_preview_notfound">無法預覽</string>
+    <string name="error_preview_unknown">無法顯示預覽！</string>
+    <string name="error_timeout">連接超時。 再試一次！</string>
+    <string name="error_wpsetter">找不到動態壁紙！</string>
+    <string name="exit">出口</string>
     <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
     <string name="icon_content_description">對話方塊圖示</string>
     <string name="item_view_role_description">分頁標籤</string>
+    <string name="live_wallpapers">動態壁紙</string>
+    <string name="livedropwallpapers">動態\n</string>
+    <string name="loading">加載中...</string>
+    <string name="main_alert_deleted">本地副本已刪除！</string>
+    <string name="main_dialog_nosensor_message">您的設備沒有所需的傳感器。</string>
+    <string name="main_dialog_nosensor_title">傳感器錯誤</string>
+    <string name="main_info_empty_message">內容將盡快下載...</string>
+    <string name="main_info_empty_title">沒有什麼可展示的！</string>
+    <string name="main_menu_sort_author">作者</string>
+    <string name="main_menu_sort_new">新的</string>
+    <string name="main_menu_sort_title">標題</string>
+    <string name="main_ongoing_download">生成預覽</string>
     <string name="material_clock_toggle_content_description">選取上午或下午</string>
     <string name="material_hour_selection">請選取時段</string>
     <string name="material_hour_suffix">%1$s 點</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">選取時間</string>
     <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string>
+    <string name="menu_delete">刪除</string>
+    <string name="menu_link">作者網站</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_settings">設置</string>
+    <string name="menu_sort">排序方式</string>
+    <string name="menu_wpsetter">設置壁紙</string>
     <string name="mtrl_badge_numberless_content_description">新通知</string>
     <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
     <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string>
+    <string name="my_name">動態 3D 壁紙</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"向上瀏覽"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"開啟導覽匣"</string>
+    <string name="no_exit">不</string>
+    <string name="notif_new_message_multi">新壁紙已添加到目錄中。</string>
+    <string name="notif_new_message_one">新壁紙已添加到目錄中。</string>
+    <string name="notif_new_title_multi">新壁紙！ 去看一下！</string>
+    <string name="notif_new_title_one">新壁紙！ 一探究竟！</string>
     <string name="offline_notification_text">輕觸即可開啟廣告</string>
     <string name="offline_notification_title">查看你在離線時儲存的廣告</string>
     <string name="offline_opt_in_confirm">確定</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">我們會傳送含有廣告客戶網站連結的通知給你。</string>
     <string name="offline_opt_in_title">系統會在重新連上網路後開啟廣告。</string>
     <string name="password_toggle_content_description">顯示密碼</string>
+    <string name="prev_thisisaprev_toast">這只是一個演示動畫。 下載壁紙以查看實際效果！</string>
     <string name="s1">儲存圖片</string>
     <string name="s2">要允許廣告將圖片儲存在相片庫中嗎？</string>
     <string name="s3">接受</string>
@@ -119,6 +165,20 @@
     <string name="s5">建立日曆活動</string>
     <string name="s6">要允許廣告建立日曆活動嗎？</string>
     <string name="s7">測試廣告</string>
+    <string name="search">搜索</string>
     <string msgid="6264217191555673260" name="search_menu_title">"搜尋"</string>
+    <string name="select_language">選擇語言</string>
+    <string name="set_alert_changed">壁紙變了！</string>
+    <string name="set_dialog_delete_message">您真的要刪除此壁紙嗎？ 您以後可以隨時下載它。</string>
+    <string name="set_dialog_delete_title">刪除牆紙</string>
+    <string name="set_dialog_notzero_message">設為動態壁紙</string>
+    <string name="set_dialog_notzero_title">選擇 3DLive</string>
+    <string name="set_title">預覽</string>
+    <string name="settings_dialog_delete_message">您真的要下載本地內容嗎？</string>
+    <string name="settings_dialog_delete_title">刪除本地內容</string>
+    <string name="settings_title">設置</string>
+    <string name="start">開始</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">未找到搜索的數據</string>
+    <string name="yes_exit">是的</string>
 </resources>

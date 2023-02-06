@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Fond d\'écran en direct</string>
+  <string name="my_name">Fond d\'écran 3D en direct</string>
+  <string name="common_ok">D\'ACCORD</string>
+  <string name="common_set">Ensemble</string>
+  <string name="common_cancel">Annuler</string>
+  <string name="common_delete">Supprimer</string>
+  <string name="common_retry">Recommencez</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Fonds d\'écran animés</string>
+  <string name="menu_refresh">Rafraîchir</string>
+  <string name="menu_sort">Trier par</string>
+  <string name="menu_wpsetter">Définir le papier peint</string>
+  <string name="menu_settings">Paramètres</string>
+  <string name="menu_delete">Supprimer</string>
+  <string name="menu_link">Site de l\'auteur</string>
+  <string name="error_download">Échec de la prévisualisation !</string>
+  <string name="error_connection">Connexion Internet nécessaire !</string>
+  <string name="error_preview_unknown">Impossible d\'afficher l\'aperçu !</string>
+  <string name="error_preview_notfound">Non disponible pour prévisualiser</string>
+  <string name="error_wpsetter">Fond d\'écran animé introuvable !</string>
+  <string name="error_timeout">Délai de connection dépassé. Essayer à nouveau!</string>
+  <string name="error_catalog">Impossible de récupérer les images !</string>
+  <string name="error_browser">Impossible d\'ouvrir le navigateur !</string>
+  <string name="notif_new_title_one">Nouveau fond d\'écran! Vérifiez-le!</string>
+  <string name="notif_new_title_multi">Nouveaux fonds d\'écran ! Vérifie-les!</string>
+  <string name="notif_new_message_one">Un nouveau fond d\'écran a été ajouté au catalogue.</string>
+  <string name="notif_new_message_multi">De nouveaux papiers peints ont été ajoutés au catalogue.</string>
+  <string name="select_language">Choisir la langue</string>
+  <string name="main_info_empty_title">Rien à montrer !</string>
+  <string name="main_info_empty_message">Le contenu sera téléchargé dès que possible…</string>
+  <string name="main_dialog_nosensor_title">Erreur de capteur</string>
+  <string name="main_dialog_nosensor_message">Votre appareil ne dispose pas des capteurs requis.</string>
+  <string name="main_ongoing_download">Génération d\'un aperçu</string>
+  <string name="main_alert_deleted">Copie locale supprimée !</string>
+  <string name="main_menu_sort_new">Nouveau</string>
+  <string name="main_menu_sort_title">Titre</string>
+  <string name="main_menu_sort_author">Auteur</string>
+  <string name="set_title">Aperçu</string>
+  <string name="set_dialog_delete_title">Supprimer le fond d\'écran</string>
+  <string name="set_dialog_delete_message">Voulez-vous vraiment supprimer ce fond d\'écran ? Vous pouvez toujours le télécharger plus tard.</string>
+  <string name="set_dialog_notzero_title">Sélectionnez 3DLive</string>
+  <string name="set_dialog_notzero_message">Définir comme fond d\'écran animé</string>
+  <string name="set_alert_changed">Fond d\'écran changé !</string>
+  <string name="prev_thisisaprev_toast">Ceci n\'est qu\'une animation de démonstration. Téléchargez le fond d\'écran pour le voir en action !</string>
+  <string name="settings_title">Paramètres</string>
+  <string name="settings_dialog_delete_title">Supprimer le contenu local</string>
+  <string name="settings_dialog_delete_message">Voulez-vous vraiment télécharger le contenu local ?</string>
+  <string name="loading">Chargement...</string>
+  <string name="start">Commencer</string>
+  <string name="exit">Sortie</string>
+  <string name="confirm_exit">Confirmer Quitter ?</string>
+  <string name="yes_exit">Oui</string>
+  <string name="no_exit">Non</string>
+  <string name="d3_wallpapers">Fonds d\'écran 3D</string>
+  <string name="YourdropWallpapers">Vos \n fonds d\'écran</string>
+  <string name="livedropwallpapers">\n Fonds d\'écran animés</string>
+  <string name="d3dropwallpapers">Fonds d\'écran \n 3D</string>
+  <string name="search">Recherche</string>
+  <string name="text_not_found">Données recherchées introuvables</string>
+  <string name="audio">L\'audio</string>
+</resources>

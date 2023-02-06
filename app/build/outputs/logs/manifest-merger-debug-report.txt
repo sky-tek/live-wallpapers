@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:2:1-143:12
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:2:1-143:12
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:17:1-32:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c13f080e2cdc8d26039acbd992ce70b\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\2bf6acdb9a911e2a55a6e3b1221bbfe0\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
@@ -105,39 +105,39 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\MobiPixels01\.gradle\caches\tr
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ef03d0edaae314d549269b24643dc999\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\37a41bb0c531b514026390446d8e4eea\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\9e4001477cf4ad489f0c43e272278b46\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:2:1-143:12
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:2:1-143:12
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:2:1-143:12
 	package
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:4:5-41
-		INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:4:5-41
+		INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
+		INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:2:1-143:12
-		INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
+		INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:2:1-143:12
+		INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:2:1-143:12
-		INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
+		INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:2:1-143:12
+		INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#android.software.live_wallpaper
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:6:5-8:35
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:6:5-8:35
 	android:required
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:8:9-32
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:8:9-32
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:7:9-55
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:7:9-55
 uses-feature#0x00020000
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:9:5-11:35
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:9:5-11:35
 	android:glEsVersion
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:10:9-41
 	android:required
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:11:9-32
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:11:9-32
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:13:5-79
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:13:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\MobiPixels01\.gradle\caches\transforms-3\56527b23241e7a278584ffe519c8c49f\transformed\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.6] C:\Users\MobiPixels01\.gradle\caches\transforms-3\56527b23241e7a278584ffe519c8c49f\transformed\jetified-exoplayer-core-2.9.6\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:24:5-79
@@ -161,33 +161,33 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Us
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\99ac0979a4f9223e83ed42a4e242f1b7\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\99ac0979a4f9223e83ed42a4e242f1b7\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:13:22-76
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:15:5-17:31
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:15:5-17:31
 	tools:node
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:17:9-28
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:17:9-28
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:16:9-59
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:16:9-59
 uses-permission#android.permission.SET_WALLPAPER
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:18:5-72
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:18:5-72
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:18:22-69
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:18:22-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:19:5-21:40
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:19:5-21:40
 	tools:ignore
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:21:9-37
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:21:9-37
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:20:9-65
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:20:9-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:22:5-80
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:22:5-80
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:22:22-77
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:22:22-77
 uses-permission#android.permission.READ_MEDIA_VIDEO
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:23:5-75
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:23:5-75
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:23:22-72
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:23:22-72
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:24:5-67
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:10:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:23:5-67
@@ -207,29 +207,29 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.0] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1969c959af8471b29a86bd9a69e9404b\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1969c959af8471b29a86bd9a69e9404b\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:24:22-64
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:24:22-64
 uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:25:5-88
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:25:5-88
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:25:22-85
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:25:22-85
 uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:27:5-78
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:27:5-78
 MERGED from [com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\48aa8673c90345e2d0e809de21c5c8b9\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\48aa8673c90345e2d0e809de21c5c8b9\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:27:22-76
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:27:22-76
 supports-gl-texture#GL_OES_compressed_ETC1_RGB8_texture
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:29:5-79
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:29:5-79
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:29:26-76
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:29:26-76
 supports-gl-texture#GL_OES_compressed_paletted_texture
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:30:5-78
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:30:5-78
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:30:26-75
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:30:26-75
 application
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:32:5-141:19
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:32:5-141:19
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\70bb765044a3203b4ddbd00cb3e3d9e9\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
@@ -299,177 +299,177 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\MobiPixels01\.grad
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\8566d2620b75309ef0c628398163e925\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\8566d2620b75309ef0c628398163e925\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:38:9-52
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:38:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\e38877ea22addeb564df72c2095bc473\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:40:9-35
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:40:9-35
 	android:label
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:36:9-41
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:36:9-41
 	android:roundIcon
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:39:9-54
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:39:9-54
 	android:icon
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:35:9-43
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:35:9-43
 	android:allowBackup
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:34:9-35
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:34:9-35
 	android:theme
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:41:9-51
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:41:9-51
 	android:networkSecurityConfig
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:37:9-69
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:37:9-69
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:33:9-38
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:33:9-38
 activity#com.skytek.live.wallpapers.Search
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:42:9-45:65
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:42:9-45:65
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:44:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:44:13-36
 	android:theme
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:45:13-63
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:45:13-63
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:43:13-35
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:43:13-35
 activity#com.skytek.live.wallpapers.exitScreen
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:46:9-48:39
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:46:9-48:39
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:48:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:47:13-39
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:47:13-39
 activity#com.skytek.live.wallpapers.splashMainActivity
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:49:9-57:20
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:49:9-57:20
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:51:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:51:13-36
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:50:13-47
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:50:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:52:13-56:29
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:52:13-56:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:53:17-69
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:53:17-69
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:53:25-66
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:53:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:55:17-77
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:55:17-77
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:55:27-74
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:55:27-74
 activity#com.skytek.live.wallpapers.categorythumnail
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:58:9-61:66
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:58:9-61:66
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:60:13-36
 	android:theme
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:61:13-63
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:61:13-63
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:59:13-45
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:59:13-45
 activity#com.skytek.live.wallpapers.VideoView
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:62:9-64:39
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:62:9-64:39
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:64:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:63:13-38
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:63:13-38
 activity#com.skytek.live.wallpapers.MainLauncher
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:65:9-50
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:65:9-50
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:65:19-47
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:65:19-47
 activity#com.skytek.live.wallpapers.MainActivity
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:66:9-69:66
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:66:9-69:66
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:68:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:68:13-36
 	android:theme
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:69:13-63
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:69:13-63
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:67:13-41
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:67:13-41
 activity#com.skytek.live.wallpapers.Just3D.MainActivity3d
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:70:9-73:66
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:70:9-73:66
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:72:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:72:13-36
 	android:theme
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:73:13-63
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:73:13-63
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:71:13-50
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:71:13-50
 activity#com.skytek.live.wallpapers.Just3D.SettingsActivity
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:74:9-79:67
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:74:9-79:67
 	android:parentActivityName
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:79:13-64
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:79:13-64
 	android:label
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:78:13-51
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:78:13-51
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:76:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:76:13-36
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:75:13-52
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:75:13-52
 service#com.skytek.live.wallpapers.Just3D.wallpaper.MyWallpaperService
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:81:9-94:19
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:81:9-94:19
 	android:enabled
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:83:13-35
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:83:13-35
 	android:label
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:85:13-46
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:85:13-46
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:84:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:84:13-36
 	android:permission
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:86:13-67
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:86:13-67
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:82:13-64
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:82:13-64
 intent-filter#action:name:android.service.wallpaper.WallpaperService
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:87:13-89:29
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:87:13-89:29
 action#android.service.wallpaper.WallpaperService
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:88:17-85
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:17-85
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:88:25-82
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:25-82
 meta-data#android.service.wallpaper
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:91:13-93:53
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:91:13-93:53
 	android:resource
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:93:17-50
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:93:17-50
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:92:17-57
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:92:17-57
 activity#com.skytek.live.wallpapers.Just3D.SetActivity
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:96:9-101:59
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:96:9-101:59
 	android:parentActivityName
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:100:13-64
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:100:13-64
 	android:label
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:98:13-46
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:98:13-46
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:99:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:99:13-36
 	android:theme
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:101:13-56
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:101:13-56
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:97:13-47
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:97:13-47
 activity#com.skytek.live.wallpapers.Just3D.PreviewActivity
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:102:9-105:66
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:102:9-105:66
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:104:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:104:13-36
 	android:theme
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:105:13-63
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:105:13-63
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:103:13-51
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:103:13-51
 service#com.skytek.live.wallpapers.Just3D.services.SyncManager
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:107:9-110:38
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:107:9-110:38
 	android:enabled
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:110:13-35
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:110:13-35
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:109:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:109:13-36
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:108:13-56
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:108:13-56
 service#com.skytek.live.wallpapers.VideoLiveWallpaperoffline
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:111:9-124:19
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:111:9-124:19
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:113:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:113:13-36
 	android:permission
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:114:13-67
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:114:13-67
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:112:13-54
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:112:13-54
 service#com.skytek.live.wallpapers.GLWallpaperService
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:125:9-136:19
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:125:9-136:19
 	android:exported
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:127:13-36
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:127:13-36
 	android:permission
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:128:13-67
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:128:13-67
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:126:13-47
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:126:13-47
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:138:9-140:46
+ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:138:9-140:46
 	android:value
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:140:13-43
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:140:13-43
 	android:name
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:139:13-69
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml:139:13-69
 uses-sdk
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:22:5-24:41
 MERGED from [com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:22:5-24:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c13f080e2cdc8d26039acbd992ce70b\transformed\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
@@ -672,18 +672,18 @@ MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\MobiPixels01\.gradle\caches\
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\37a41bb0c531b514026390446d8e4eea\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\9e4001477cf4ad489f0c43e272278b46\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\9e4001477cf4ad489f0c43e272278b46\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
+INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ea901a9c2af8973fc100935d5516ad2e\transformed\jetified-play-services-ads-20.5.0\AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
+		INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
+		INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
+		INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
+		ADDED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
+		INJECTED from D:\live-wallpapers\app\src\main\AndroidManifest.xml
 activity#com.karumi.dexter.DexterActivity
 ADDED from [com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72
 	android:theme

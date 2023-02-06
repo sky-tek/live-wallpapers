@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">ライブ壁紙</string>
+  <string name="my_name">ライブ3D壁紙</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">設定</string>
+  <string name="common_cancel">キャンセル</string>
+  <string name="common_delete">消去</string>
+  <string name="common_retry">リトライ</string>
+  <string name="common_pro">プロ</string>
+  <string name="live_wallpapers">ライブ壁紙</string>
+  <string name="menu_refresh">リフレッシュ</string>
+  <string name="menu_sort">並び替え</string>
+  <string name="menu_wpsetter">壁紙を設定する</string>
+  <string name="menu_settings">設定</string>
+  <string name="menu_delete">消去</string>
+  <string name="menu_link">著者のサイト</string>
+  <string name="error_download">プレビューに失敗しました!</string>
+  <string name="error_connection">インターネット接続が必要です!</string>
+  <string name="error_preview_unknown">プレビューを表示できません!</string>
+  <string name="error_preview_notfound">プレビューできません</string>
+  <string name="error_wpsetter">ライブ壁紙が見つかりません！</string>
+  <string name="error_timeout">接続タイムアウト。 再試行する！</string>
+  <string name="error_catalog">画像を取得できません!</string>
+  <string name="error_browser">ブラウザを開けません!</string>
+  <string name="notif_new_title_one">新しい壁紙！ 見てみな！</string>
+  <string name="notif_new_title_multi">新しい壁紙！ それらをチェックしてください！</string>
+  <string name="notif_new_message_one">カタログに新しい壁紙が追加されました。</string>
+  <string name="notif_new_message_multi">新しい壁紙がカタログに追加されました。</string>
+  <string name="select_language">言語を選択する</string>
+  <string name="main_info_empty_title">表示するものはありません。</string>
+  <string name="main_info_empty_message">コンテンツはできるだけ早くダウンロードされます…</string>
+  <string name="main_dialog_nosensor_title">センサーエラー</string>
+  <string name="main_dialog_nosensor_message">お使いのデバイスには必要なセンサーがありません。</string>
+  <string name="main_ongoing_download">プレビューの生成</string>
+  <string name="main_alert_deleted">ローカル コピーが削除されました。</string>
+  <string name="main_menu_sort_new">新しい</string>
+  <string name="main_menu_sort_title">タイトル</string>
+  <string name="main_menu_sort_author">著者</string>
+  <string name="set_title">プレビュー</string>
+  <string name="set_dialog_delete_title">壁紙を削除する</string>
+  <string name="set_dialog_delete_message">本当にこの壁紙を削除しますか? 後でいつでもダウンロードできます。</string>
+  <string name="set_dialog_notzero_title">3DLiveを選択</string>
+  <string name="set_dialog_notzero_message">ライブ壁紙に設定</string>
+  <string name="set_alert_changed">壁紙が変わりました！</string>
+  <string name="prev_thisisaprev_toast">これはデモアニメーションです。 壁紙をダウンロードして、動作を確認してください。</string>
+  <string name="settings_title">設定</string>
+  <string name="settings_dialog_delete_title">ローカル コンテンツの削除</string>
+  <string name="settings_dialog_delete_message">本当にローカル コンテンツをダウンロードしますか?</string>
+  <string name="loading">読み込んでいます...</string>
+  <string name="start">始める</string>
+  <string name="exit">出口</string>
+  <string name="confirm_exit">終了を確認しますか?</string>
+  <string name="yes_exit">はい</string>
+  <string name="no_exit">いいえ</string>
+  <string name="d3_wallpapers">3D壁紙</string>
+  <string name="YourdropWallpapers">\n壁紙</string>
+  <string name="livedropwallpapers">ライブ\n壁紙</string>
+  <string name="d3dropwallpapers">3D \n壁紙</string>
+  <string name="search">検索</string>
+  <string name="text_not_found">検索したデータが見つかりません</string>
+  <string name="audio">オーディオ</string>
+</resources>

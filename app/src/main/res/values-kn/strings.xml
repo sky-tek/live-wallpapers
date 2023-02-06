@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">ಲೈವ್ ವಾಲ್‌ಪೇಪರ್</string>
+  <string name="my_name">ಲೈವ್ 3D ವಾಲ್‌ಪೇಪರ್</string>
+  <string name="common_ok">ಸರಿ</string>
+  <string name="common_set">ಹೊಂದಿಸಿ</string>
+  <string name="common_cancel">ರದ್ದುಮಾಡಿ</string>
+  <string name="common_delete">ಅಳಿಸಿ</string>
+  <string name="common_retry">ಮರುಪ್ರಯತ್ನಿಸಿ</string>
+  <string name="common_pro">ಪ್ರೊ</string>
+  <string name="live_wallpapers">ಲೈವ್ ವಾಲ್‌ಪೇಪರ್‌ಗಳು</string>
+  <string name="menu_refresh">ರಿಫ್ರೆಶ್ ಮಾಡಿ</string>
+  <string name="menu_sort">ವಿಂಗಡಿಸು</string>
+  <string name="menu_wpsetter">ವಾಲ್‌ಪೇಪರ್ ಹೊಂದಿಸಿ</string>
+  <string name="menu_settings">ಸಂಯೋಜನೆಗಳು</string>
+  <string name="menu_delete">ಅಳಿಸಿ</string>
+  <string name="menu_link">ಲೇಖಕರ ಸೈಟ್</string>
+  <string name="error_download">ಪೂರ್ವವೀಕ್ಷಣೆ ವಿಫಲವಾಗಿದೆ!</string>
+  <string name="error_connection">ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ ಅಗತ್ಯವಿದೆ!</string>
+  <string name="error_preview_unknown">ಪೂರ್ವವೀಕ್ಷಣೆಯನ್ನು ಪ್ರದರ್ಶಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ!</string>
+  <string name="error_preview_notfound">ಪೂರ್ವವೀಕ್ಷಣೆಗೆ ಲಭ್ಯವಿಲ್ಲ</string>
+  <string name="error_wpsetter">ಲೈವ್ ವಾಲ್‌ಪೇಪರ್ ಕಂಡುಬಂದಿಲ್ಲ!</string>
+  <string name="error_timeout">ಸಂಪರ್ಕದ ಅವಧಿ ಮೀರಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸು!</string>
+  <string name="error_catalog">ಚಿತ್ರಗಳನ್ನು ಹಿಂಪಡೆಯಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ!</string>
+  <string name="error_browser">ಬ್ರೌಸರ್ ತೆರೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ!</string>
+  <string name="notif_new_title_one">ಹೊಸ ವಾಲ್‌ಪೇಪರ್! ಇದನ್ನು ಪರಿಶೀಲಿಸಿ!</string>
+  <string name="notif_new_title_multi">ಹೊಸ ವಾಲ್‌ಪೇಪರ್‌ಗಳು! ಅವುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ!</string>
+  <string name="notif_new_message_one">ಕ್ಯಾಟಲಾಗ್‌ಗೆ ಹೊಸ ವಾಲ್‌ಪೇಪರ್ ಅನ್ನು ಸೇರಿಸಲಾಗಿದೆ.</string>
+  <string name="notif_new_message_multi">ಕ್ಯಾಟಲಾಗ್‌ಗೆ ಹೊಸ ವಾಲ್‌ಪೇಪರ್‌ಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ.</string>
+  <string name="select_language">ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+  <string name="main_info_empty_title">ತೋರಿಸಲು ಏನೂ ಇಲ್ಲ!</string>
+  <string name="main_info_empty_message">ವಿಷಯವನ್ನು ಆದಷ್ಟು ಬೇಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತದೆ...</string>
+  <string name="main_dialog_nosensor_title">ಸಂವೇದಕ ದೋಷ</string>
+  <string name="main_dialog_nosensor_message">ನಿಮ್ಮ ಸಾಧನವು ಅಗತ್ಯವಿರುವ ಸಂವೇದಕಗಳನ್ನು ಹೊಂದಿಲ್ಲ.</string>
+  <string name="main_ongoing_download">ಪೂರ್ವವೀಕ್ಷಣೆ ರಚಿಸಲಾಗುತ್ತಿದೆ</string>
+  <string name="main_alert_deleted">ಸ್ಥಳೀಯ ಪ್ರತಿಯನ್ನು ಅಳಿಸಲಾಗಿದೆ!</string>
+  <string name="main_menu_sort_new">ಹೊಸದು</string>
+  <string name="main_menu_sort_title">ಶೀರ್ಷಿಕೆ</string>
+  <string name="main_menu_sort_author">ಲೇಖಕ</string>
+  <string name="set_title">ಮುನ್ನೋಟ</string>
+  <string name="set_dialog_delete_title">ವಾಲ್‌ಪೇಪರ್ ಅಳಿಸಿ</string>
+  <string name="set_dialog_delete_message">ನೀವು ನಿಜವಾಗಿಯೂ ಈ ವಾಲ್‌ಪೇಪರ್ ಅನ್ನು ಅಳಿಸಲು ಬಯಸುವಿರಾ? ನೀವು ಅದನ್ನು ನಂತರ ಯಾವಾಗ ಬೇಕಾದರೂ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.</string>
+  <string name="set_dialog_notzero_title">3DLive ಆಯ್ಕೆಮಾಡಿ</string>
+  <string name="set_dialog_notzero_message">ಲೈವ್ ವಾಲ್‌ಪೇಪರ್‌ನಂತೆ ಹೊಂದಿಸಿ</string>
+  <string name="set_alert_changed">ವಾಲ್‌ಪೇಪರ್ ಬದಲಾಗಿದೆ!</string>
+  <string name="prev_thisisaprev_toast">ಇದು ಕೇವಲ ಡೆಮೊ ಅನಿಮೇಷನ್ ಆಗಿದೆ. ವಾಲ್‌ಪೇಪರ್ ಅನ್ನು ಕ್ರಿಯೆಯಲ್ಲಿ ನೋಡಲು ಅದನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ!</string>
+  <string name="settings_title">ಸಂಯೋಜನೆಗಳು</string>
+  <string name="settings_dialog_delete_title">ಸ್ಥಳೀಯ ವಿಷಯವನ್ನು ಅಳಿಸಿ</string>
+  <string name="settings_dialog_delete_message">ನೀವು ನಿಜವಾಗಿಯೂ ಸ್ಥಳೀಯ ವಿಷಯವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಬಯಸುವಿರಾ?</string>
+  <string name="loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ...</string>
+  <string name="start">ಪ್ರಾರಂಭಿಸಿ</string>
+  <string name="exit">ನಿರ್ಗಮಿಸಿ</string>
+  <string name="confirm_exit">ನಿರ್ಗಮನವನ್ನು ದೃಢೀಕರಿಸುವುದೇ?</string>
+  <string name="yes_exit">ಹೌದು</string>
+  <string name="no_exit">ಸಂ</string>
+  <string name="d3_wallpapers">3D ವಾಲ್‌ಪೇಪರ್‌ಗಳು</string>
+  <string name="YourdropWallpapers">ನಿಮ್ಮ \n ವಾಲ್‌ಪೇಪರ್‌ಗಳು</string>
+  <string name="livedropwallpapers">ಲೈವ್ \n ವಾಲ್‌ಪೇಪರ್‌ಗಳು</string>
+  <string name="d3dropwallpapers">3D \n ವಾಲ್‌ಪೇಪರ್‌ಗಳು</string>
+  <string name="search">ಹುಡುಕಿ Kannada</string>
+  <string name="text_not_found">ಹುಡುಕಿದ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ</string>
+  <string name="audio">ಆಡಿಯೋ</string>
+</resources>

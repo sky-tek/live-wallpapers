@@ -6,6 +6,7 @@
     <item quantity="many">%d new notifications</item>
     <item quantity="other">%d nových upozornení</item>
   </plurals>
+    <string name="YourdropWallpapers">Vaše \n Tapety</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Prejsť na plochu"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Prejsť nahor"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ďalšie možnosti"</string>
@@ -33,10 +34,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Zdieľať s"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Zdieľať s aplikáciou <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Zbaliť"</string>
+    <string name="app_name">Živé tapety</string>
+    <string name="audio">Zvuk</string>
     <string name="bottomsheet_action_expand_halfway">Rozbaliť napoly</string>
     <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
     <string name="character_counter_overflowed_content_description">Bol prekročený povolený počet znakov (%1$d z %2$d)</string>
     <string name="clear_text_end_icon_content_description">Vymazať text</string>
+    <string name="common_cancel">Zrušiť</string>
+    <string name="common_delete">Odstrániť</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Povoliť"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> bude fungovať až po povolení služieb Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Povoliť služby Google Play"</string>
@@ -52,13 +57,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Aktualizácia služieb Google Play"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Na spustenie aplikácie <ns1:g id="APP_NAME">%1$s</ns1:g> sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase."</string>
+    <string name="common_ok">OK</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Otvoriť v telefóne"</string>
+    <string name="common_pro">Pro</string>
+    <string name="common_retry">Skúsiť znova</string>
+    <string name="common_set">Set</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Prihlásiť sa"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Prihlásiť sa účtom Google"</string>
+    <string name="confirm_exit">Potvrdiť ukončenie?</string>
+    <string name="d3_wallpapers">3D tapety</string>
+    <string name="d3dropwallpapers">3D \n Tapety</string>
+    <string name="error_browser">Nedá sa otvoriť prehliadač!</string>
+    <string name="error_catalog">Nie je možné načítať obrázky!</string>
+    <string name="error_connection">Potrebné internetové pripojenie!</string>
+    <string name="error_download">Nepodarilo sa zobraziť ukážku!</string>
     <string name="error_icon_content_description">Chyba</string>
+    <string name="error_preview_notfound">Ukážka nie je k dispozícii</string>
+    <string name="error_preview_unknown">Nie je možné zobraziť ukážku!</string>
+    <string name="error_timeout">Spojenie vypršalo. Skúste znova!</string>
+    <string name="error_wpsetter">Živá tapeta sa nenašla!</string>
+    <string name="exit">VÝCHOD</string>
     <string name="exposed_dropdown_menu_content_description">Zobraziť rozbaľovaciu ponuku</string>
     <string name="icon_content_description">Ikona dialógového okna</string>
     <string name="item_view_role_description">Tabulátor</string>
+    <string name="live_wallpapers">Živé tapety</string>
+    <string name="livedropwallpapers">Živé \n tapety</string>
+    <string name="loading">Načítava...</string>
+    <string name="main_alert_deleted">Miestna kópia bola odstránená!</string>
+    <string name="main_dialog_nosensor_message">Vaše zariadenie nemá požadované senzory.</string>
+    <string name="main_dialog_nosensor_title">Chyba snímača</string>
+    <string name="main_info_empty_message">Obsah bude stiahnutý čo najskôr…</string>
+    <string name="main_info_empty_title">Nie je čo ukázať!</string>
+    <string name="main_menu_sort_author">Autor</string>
+    <string name="main_menu_sort_new">Nový</string>
+    <string name="main_menu_sort_title">Názov</string>
+    <string name="main_ongoing_download">Generovanie ukážky</string>
     <string name="material_clock_toggle_content_description">Vyberte AM alebo PM</string>
     <string name="material_hour_selection">Vybrať hodinu</string>
     <string name="material_hour_suffix">%1$s</string>
@@ -71,6 +104,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Vyberte čas</string>
     <string name="material_timepicker_text_input_mode_description">Ak chcete zadať čas, prepnite na textový režim vstupu</string>
+    <string name="menu_delete">Odstrániť</string>
+    <string name="menu_link">Stránka autora</string>
+    <string name="menu_refresh">Obnoviť</string>
+    <string name="menu_settings">Nastavenie</string>
+    <string name="menu_sort">Triediť podľa</string>
+    <string name="menu_wpsetter">Nastaviť pozadie</string>
     <string name="mtrl_badge_numberless_content_description">Nové upozornenie</string>
     <string name="mtrl_chip_close_icon_content_description">Odstrániť položku %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Viac než %1$d nových upozornení</string>
@@ -104,8 +143,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Klepnutím prepnete na výber dňa</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Prepnúť na textový režim vstupu</string>
     <string name="mtrl_picker_toggle_to_year_selection">Klepnutím prepnete na výber roka</string>
+    <string name="my_name">Živá 3D tapeta</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Prejsť hore"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Otvoriť navigačný vysúvací panel"</string>
+    <string name="no_exit">Nie</string>
+    <string name="notif_new_message_multi">Do katalógu boli pridané nové tapety.</string>
+    <string name="notif_new_message_one">Do katalógu bola pridaná nová tapeta.</string>
+    <string name="notif_new_title_multi">Nové tapety! Skontroluj ich!</string>
+    <string name="notif_new_title_one">Nová tapeta! Skontrolovať to!</string>
     <string name="offline_notification_text">Klepnutím otvoriť reklamu</string>
     <string name="offline_notification_title">Zobrazte si reklamu, ktorú ste uložili v režime offline</string>
     <string name="offline_opt_in_confirm">OK</string>
@@ -114,6 +159,7 @@
     <string name="offline_opt_in_message">Pošleme vám upozornenie s odkazom na web inzerenta.</string>
     <string name="offline_opt_in_title">Reklama sa otvorí, keď budete znova online.</string>
     <string name="password_toggle_content_description">Zobraziť heslo</string>
+    <string name="prev_thisisaprev_toast">Toto je len demo animácia. Stiahnite si tapetu a uvidíte ju v akcii!</string>
     <string name="s1">Uloženie obrázka</string>
     <string name="s2">Povoliť reklame uložiť obrázok do galérie obrázkov?</string>
     <string name="s3">Prijať</string>
@@ -121,6 +167,20 @@
     <string name="s5">Vytvorenie udalosti v kalendári</string>
     <string name="s6">Povoliť reklame vytvoriť udalosť v kalendári?</string>
     <string name="s7">Testovacia reklama</string>
+    <string name="search">Vyhľadávanie</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Hľadať"</string>
+    <string name="select_language">Zvoľ jazyk</string>
+    <string name="set_alert_changed">Tapeta zmenená!</string>
+    <string name="set_dialog_delete_message">Naozaj chcete odstrániť túto tapetu? Vždy si ho môžete stiahnuť neskôr.</string>
+    <string name="set_dialog_delete_title">Odstrániť tapetu</string>
+    <string name="set_dialog_notzero_message">Nastaviť ako živú tapetu</string>
+    <string name="set_dialog_notzero_title">Vyberte 3DLive</string>
+    <string name="set_title">Náhľad</string>
+    <string name="settings_dialog_delete_message">Naozaj chcete stiahnuť miestny obsah?</string>
+    <string name="settings_dialog_delete_title">Odstráňte miestny obsah</string>
+    <string name="settings_title">Nastavenie</string>
+    <string name="start">Štart</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">Hľadané údaje sa nenašli</string>
+    <string name="yes_exit">Áno</string>
 </resources>

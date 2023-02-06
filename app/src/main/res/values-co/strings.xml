@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Wallpaper live</string>
+  <string name="my_name">Live Wallpaper 3D</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Set</string>
+  <string name="common_cancel">Cancella</string>
+  <string name="common_delete">Sguassà</string>
+  <string name="common_retry">Riprova</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Sfondi Live</string>
+  <string name="menu_refresh">Refresh</string>
+  <string name="menu_sort">Ordina per</string>
+  <string name="menu_wpsetter">Pone u wallpaper</string>
+  <string name="menu_settings">Settings</string>
+  <string name="menu_delete">Sguassà</string>
+  <string name="menu_link">U situ di l\'autore</string>
+  <string name="error_download">Impossible di vede in anteprima!</string>
+  <string name="error_connection">A cunnessione Internet hè necessaria!</string>
+  <string name="error_preview_unknown">Impossible di vede l\'anteprima!</string>
+  <string name="error_preview_notfound">Indisponibile per vede in anteprima</string>
+  <string name="error_wpsetter">U wallpaper live ùn hè micca truvatu!</string>
+  <string name="error_timeout">Timeout di cunnessione. Prova dinò!</string>
+  <string name="error_catalog">Impossibile ritruvà l\'imaghjini!</string>
+  <string name="error_browser">Impossibile apre u navigatore!</string>
+  <string name="notif_new_title_one">New Wallpaper! Da un\'uchjata!</string>
+  <string name="notif_new_title_multi">Sfondi novi! Scupriteli!</string>
+  <string name="notif_new_message_one">Un novu wallpaper hè statu aghjuntu à u catalogu.</string>
+  <string name="notif_new_message_multi">Novi wallpapers sò stati aghjuntu à u catalogu.</string>
+  <string name="select_language">Selezziunà a lingua</string>
+  <string name="main_info_empty_title">Nunda à mustrà!</string>
+  <string name="main_info_empty_message">U cuntenutu serà scaricatu u più prestu pussibule ...</string>
+  <string name="main_dialog_nosensor_title">Errore di u sensoru</string>
+  <string name="main_dialog_nosensor_message">U vostru dispositivu ùn hà micca i sensori necessarii.</string>
+  <string name="main_ongoing_download">Generazione di Preview</string>
+  <string name="main_alert_deleted">Copia locale eliminata!</string>
+  <string name="main_menu_sort_new">Novu</string>
+  <string name="main_menu_sort_title">Titulu</string>
+  <string name="main_menu_sort_author">Autore</string>
+  <string name="set_title">Anteprima</string>
+  <string name="set_dialog_delete_title">Sguassà u wallpaper</string>
+  <string name="set_dialog_delete_message">Vulete veramente sguassà stu wallpaper? Pudete sempre scaricà dopu.</string>
+  <string name="set_dialog_notzero_title">Selezziunà 3DLive</string>
+  <string name="set_dialog_notzero_message">Stabilite cum\'è Live Wallpaper</string>
+  <string name="set_alert_changed">U wallpaper hè cambiatu!</string>
+  <string name="prev_thisisaprev_toast">Questu hè solu una animazione demo. Scaricate u wallpaper per vedelu in azione!</string>
+  <string name="settings_title">Settings</string>
+  <string name="settings_dialog_delete_title">Sguassà u cuntenutu locale</string>
+  <string name="settings_dialog_delete_message">Vulete veramente scaricà u cuntenutu locale?</string>
+  <string name="loading">Caricamentu...</string>
+  <string name="start">Principià</string>
+  <string name="exit">Esci</string>
+  <string name="confirm_exit">Cunfirmà l\'uscita ?</string>
+  <string name="yes_exit">Iè</string>
+  <string name="no_exit">Innò</string>
+  <string name="d3_wallpapers">Sfondi 3D</string>
+  <string name="YourdropWallpapers">I vostri \n Sfondi</string>
+  <string name="livedropwallpapers">Live \n Sfondi</string>
+  <string name="d3dropwallpapers">Sfondi 3D \n</string>
+  <string name="search">Ricerca</string>
+  <string name="text_not_found">Dati cercati micca trovu</string>
+  <string name="audio">Audio</string>
+</resources>

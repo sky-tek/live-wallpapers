@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Амьд ханын цаас</string>
+  <string name="my_name">Амьд 3D дэлгэцийн зураг</string>
+  <string name="common_ok">БОЛЖ БАЙНА УУ</string>
+  <string name="common_set">Тохируулах</string>
+  <string name="common_cancel">Цуцлах</string>
+  <string name="common_delete">Устгах</string>
+  <string name="common_retry">Дахин оролдоно уу</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Амьд ханын зураг</string>
+  <string name="menu_refresh">Сэргээх</string>
+  <string name="menu_sort">Эрэмбэлэх</string>
+  <string name="menu_wpsetter">Дэлгэцийн зураг тохируулах</string>
+  <string name="menu_settings">Тохиргоо</string>
+  <string name="menu_delete">Устгах</string>
+  <string name="menu_link">Зохиогчийн сайт</string>
+  <string name="error_download">Урьдчилан үзэж чадсангүй!</string>
+  <string name="error_connection">Интернет холболт шаардлагатай!</string>
+  <string name="error_preview_unknown">Урьдчилан үзэхийг харуулах боломжгүй!</string>
+  <string name="error_preview_notfound">Урьдчилан үзэх боломжгүй</string>
+  <string name="error_wpsetter">Амьд ханын цаас олдсонгүй!</string>
+  <string name="error_timeout">Холболтын завсарлага. Дахин оролд!</string>
+  <string name="error_catalog">Зургийг сэргээх боломжгүй!</string>
+  <string name="error_browser">Хөтөчийг нээх боломжгүй байна!</string>
+  <string name="notif_new_title_one">Шинэ ханын цаас! Үүнийг шалгаарай!</string>
+  <string name="notif_new_title_multi">Шинэ ханын зураг! Тэднийг шалгаарай!</string>
+  <string name="notif_new_message_one">Каталогт шинэ ханын цаас нэмэгдлээ.</string>
+  <string name="notif_new_message_multi">Каталогт шинэ ханын зургууд нэмэгдсэн.</string>
+  <string name="select_language">Хэл сонгох</string>
+  <string name="main_info_empty_title">Үзүүлэх зүйл алга!</string>
+  <string name="main_info_empty_message">Агуулгыг аль болох хурдан татаж авах болно...</string>
+  <string name="main_dialog_nosensor_title">Мэдрэгчийн алдаа</string>
+  <string name="main_dialog_nosensor_message">Таны төхөөрөмжид шаардлагатай мэдрэгч байхгүй байна.</string>
+  <string name="main_ongoing_download">Урьдчилан харахыг үүсгэж байна</string>
+  <string name="main_alert_deleted">Орон нутгийн хуулбарыг устгасан!</string>
+  <string name="main_menu_sort_new">Шинэ</string>
+  <string name="main_menu_sort_title">Гарчиг</string>
+  <string name="main_menu_sort_author">Зохиогч</string>
+  <string name="set_title">Урьдчилан үзэх</string>
+  <string name="set_dialog_delete_title">Дэлгэцийн зургийг устгах</string>
+  <string name="set_dialog_delete_message">Та энэ ханын цаасыг устгахыг үнэхээр хүсч байна уу? Та үүнийг дараа нь хэзээ ч татаж авах боломжтой.</string>
+  <string name="set_dialog_notzero_title">3DLive-г сонгоно уу</string>
+  <string name="set_dialog_notzero_message">Амьд ханын зураг болгон тохируулна уу</string>
+  <string name="set_alert_changed">Дэлгэцийн зураг өөрчлөгдсөн!</string>
+  <string name="prev_thisisaprev_toast">Энэ бол зөвхөн үзүүлэх хөдөлгөөнт дүрс юм. Үүнийг хэрхэн ажиллаж байгааг харахын тулд ханын зургийг татаж аваарай!</string>
+  <string name="settings_title">Тохиргоо</string>
+  <string name="settings_dialog_delete_title">Орон нутгийн контентыг устгах</string>
+  <string name="settings_dialog_delete_message">Та орон нутгийн контентыг татаж авахыг үнэхээр хүсч байна уу?</string>
+  <string name="loading">Ачааж байна...</string>
+  <string name="start">Эхлэх</string>
+  <string name="exit">Гарах</string>
+  <string name="confirm_exit">Гарахыг баталгаажуулах уу?</string>
+  <string name="yes_exit">Тиймээ</string>
+  <string name="no_exit">Үгүй</string>
+  <string name="d3_wallpapers">3D ханын зураг</string>
+  <string name="YourdropWallpapers">Таны \n Дэлгэцийн зураг</string>
+  <string name="livedropwallpapers">Амьд \n Дэлгэцийн зураг</string>
+  <string name="d3dropwallpapers">3D \n Дэлгэцийн зураг</string>
+  <string name="search">Хайх</string>
+  <string name="text_not_found">Хайсан өгөгдөл олдсонгүй</string>
+  <string name="audio">Аудио</string>
+</resources>

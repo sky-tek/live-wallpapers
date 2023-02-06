@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">ცოცხალი ფონი</string>
+  <string name="my_name">ცოცხალი 3D ფონი</string>
+  <string name="common_ok">კარგი</string>
+  <string name="common_set">კომპლექტი</string>
+  <string name="common_cancel">გაუქმება</string>
+  <string name="common_delete">წაშლა</string>
+  <string name="common_retry">ხელახლა სცადეთ</string>
+  <string name="common_pro">პრო</string>
+  <string name="live_wallpapers">ცოცხალი ფონები</string>
+  <string name="menu_refresh">განაახლეთ</string>
+  <string name="menu_sort">Დალაგება</string>
+  <string name="menu_wpsetter">დააყენეთ ფონი</string>
+  <string name="menu_settings">პარამეტრები</string>
+  <string name="menu_delete">წაშლა</string>
+  <string name="menu_link">ავტორის საიტი</string>
+  <string name="error_download">გადახედვა ვერ მოხერხდა!</string>
+  <string name="error_connection">საჭიროა ინტერნეტი!</string>
+  <string name="error_preview_unknown">გადახედვის ჩვენება შეუძლებელია!</string>
+  <string name="error_preview_notfound">წინასწარი გადახედვა მიუწვდომელია</string>
+  <string name="error_wpsetter">ცოცხალი ფონი ვერ მოიძებნა!</string>
+  <string name="error_timeout">Კავშირის დრო ამოიწურა. Კიდევ სცადე!</string>
+  <string name="error_catalog">სურათების მოძიება შეუძლებელია!</string>
+  <string name="error_browser">ბრაუზერის გახსნა ვერ ხერხდება!</string>
+  <string name="notif_new_title_one">ახალი ფონი! Შეამოწმე!</string>
+  <string name="notif_new_title_multi">ახალი ფონები! შეამოწმეთ ისინი!</string>
+  <string name="notif_new_message_one">კატალოგს დაემატა ახალი ფონი.</string>
+  <string name="notif_new_message_multi">კატალოგს დაემატა ახალი ფონები.</string>
+  <string name="select_language">Აირჩიეთ ენა</string>
+  <string name="main_info_empty_title">საჩვენებელი არაფერია!</string>
+  <string name="main_info_empty_message">კონტენტი ჩამოიტვირთება რაც შეიძლება მალე…</string>
+  <string name="main_dialog_nosensor_title">სენსორის შეცდომა</string>
+  <string name="main_dialog_nosensor_message">თქვენს მოწყობილობას არ აქვს საჭირო სენსორები.</string>
+  <string name="main_ongoing_download">გადახედვის გენერირება</string>
+  <string name="main_alert_deleted">ადგილობრივი ასლი წაშლილია!</string>
+  <string name="main_menu_sort_new">ახალი</string>
+  <string name="main_menu_sort_title">სათაური</string>
+  <string name="main_menu_sort_author">ავტორი</string>
+  <string name="set_title">გადახედვა</string>
+  <string name="set_dialog_delete_title">წაშალეთ ფონი</string>
+  <string name="set_dialog_delete_message">ნამდვილად გსურთ ამ ფონის წაშლა? თქვენ ყოველთვის შეგიძლიათ ჩამოტვირთოთ მოგვიანებით.</string>
+  <string name="set_dialog_notzero_title">აირჩიეთ 3DLive</string>
+  <string name="set_dialog_notzero_message">დააყენეთ როგორც ცოცხალი ფონი</string>
+  <string name="set_alert_changed">ფონი შეიცვალა!</string>
+  <string name="prev_thisisaprev_toast">ეს მხოლოდ დემო ანიმაციაა. ჩამოტვირთეთ ფონი, რომ ნახოთ ის მოქმედებაში!</string>
+  <string name="settings_title">პარამეტრები</string>
+  <string name="settings_dialog_delete_title">წაშალეთ ადგილობრივი შინაარსი</string>
+  <string name="settings_dialog_delete_message">ნამდვილად გსურთ ადგილობრივი შინაარსის ჩამოტვირთვა?</string>
+  <string name="loading">Ჩატვირთვა...</string>
+  <string name="start">დაწყება</string>
+  <string name="exit">გასვლა</string>
+  <string name="confirm_exit">დაადასტურეთ გასვლა?</string>
+  <string name="yes_exit">დიახ</string>
+  <string name="no_exit">არა</string>
+  <string name="d3_wallpapers">3D ფონები</string>
+  <string name="YourdropWallpapers">თქვენი \n ფონები</string>
+  <string name="livedropwallpapers">ცოცხალი \n ფონები</string>
+  <string name="d3dropwallpapers">3D \n ფონები</string>
+  <string name="search">ძიება</string>
+  <string name="text_not_found">მოძიებული მონაცემები ვერ მოიძებნა</string>
+  <string name="audio">აუდიო</string>
+</resources>

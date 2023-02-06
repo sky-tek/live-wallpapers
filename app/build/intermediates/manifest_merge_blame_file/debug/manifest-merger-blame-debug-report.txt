@@ -6,60 +6,60 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
+8-->D:\live-wallpapers\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml
+9-->D:\live-wallpapers\app\src\main\AndroidManifest.xml
 10
 11    <uses-feature
-11-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:6:5-8:35
+11-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:6:5-8:35
 12        android:name="android.software.live_wallpaper"
-12-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:7:9-55
+12-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:7:9-55
 13        android:required="true" />
-13-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:8:9-32
+13-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:8:9-32
 14    <uses-feature
-14-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:9:5-11:35
+14-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:9:5-11:35
 15        android:glEsVersion="0x00020000"
-15-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:10:9-41
+15-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:10:9-41
 16        android:required="true" />
-16-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:11:9-32
+16-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:11:9-32
 17
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:13:5-79
-18-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:13:22-76
+18-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:13:5-79
+18-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:13:22-76
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:13:5-79
-19-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:13:22-76
+19-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:13:5-79
+19-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:13:22-76
 20    <uses-permission android:name="android.permission.SET_WALLPAPER" />
-20-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:18:5-72
-20-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:18:22-69
+20-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:18:5-72
+20-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:18:22-69
 21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-21-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:19:5-21:40
-21-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:20:9-65
+21-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:19:5-21:40
+21-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:20:9-65
 22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-22-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:22:5-80
-22-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:22:22-77
+22-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:22:5-80
+22-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:22:22-77
 23    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-23-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:23:5-75
-23-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:23:22-72
+23-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:23:5-75
+23-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:23:22-72
 24    <uses-permission android:name="android.permission.INTERNET" />
-24-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:24:5-67
-24-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:24:22-64
+24-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:24:5-67
+24-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:24:22-64
 25    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-25-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:25:5-88
-25-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:25:22-85
+25-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:25:5-88
+25-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:25:22-85
 26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-26-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:13:5-79
-26-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:13:22-76
+26-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:13:5-79
+26-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:13:22-76
 27    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-27-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:27:5-78
-27-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:27:22-76
+27-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:27:5-78
+27-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:27:22-76
 28
 29    <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
-29-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:29:5-79
-29-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:29:26-76
+29-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:29:5-79
+29-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:29:26-76
 30    <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
-30-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:30:5-78
-30-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:30:26-75
+30-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:30:5-78
+30-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:30:26-75
 31
 32    <!-- Permission will be merged into the manifest of the hosting app. -->
 33    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
@@ -109,214 +109,214 @@
 56-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:22-78
 57
 58    <application
-58-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:32:5-141:19
+58-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:32:5-141:19
 59        android:name="com.skytek.live.wallpapers.MyApplication"
-59-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:33:9-38
+59-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:33:9-38
 60        android:allowBackup="true"
-60-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:34:9-35
+60-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:34:9-35
 61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 61-->[androidx.core:core:1.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\e38877ea22addeb564df72c2095bc473\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 62        android:debuggable="true"
 63        android:extractNativeLibs="false"
 64        android:icon="@mipmap/ic_launcher"
-64-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:35:9-43
+64-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:35:9-43
 65        android:label="@string/app_name"
-65-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:36:9-41
+65-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:36:9-41
 66        android:networkSecurityConfig="@xml/network_security_config"
-66-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:37:9-69
+66-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:37:9-69
 67        android:requestLegacyExternalStorage="true"
-67-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:38:9-52
+67-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:38:9-52
 68        android:roundIcon="@mipmap/ic_launcher_round"
-68-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:39:9-54
+68-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:39:9-54
 69        android:supportsRtl="true"
-69-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:40:9-35
+69-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:40:9-35
 70        android:testOnly="true"
 71        android:theme="@style/Theme.LiveWallpaper" >
-71-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:41:9-51
+71-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:41:9-51
 72        <activity
-72-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:42:9-45:65
+72-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:42:9-45:65
 73            android:name="com.skytek.live.wallpapers.Search"
-73-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:43:13-35
+73-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:43:13-35
 74            android:exported="true"
-74-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:44:13-36
+74-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:44:13-36
 75            android:theme="@style/Theme.AppCompat.NoActionBar" />
-75-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:45:13-63
+75-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:45:13-63
 76        <activity
-76-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:46:9-48:39
+76-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:46:9-48:39
 77            android:name="com.skytek.live.wallpapers.exitScreen"
-77-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:47:13-39
+77-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:47:13-39
 78            android:exported="true" />
-78-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:48:13-36
+78-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:48:13-36
 79        <activity
-79-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:49:9-57:20
+79-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:49:9-57:20
 80            android:name="com.skytek.live.wallpapers.splashMainActivity"
-80-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:50:13-47
+80-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:50:13-47
 81            android:exported="true" >
-81-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:51:13-36
+81-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:51:13-36
 82            <intent-filter>
-82-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:52:13-56:29
+82-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:52:13-56:29
 83                <action android:name="android.intent.action.MAIN" />
-83-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:53:17-69
-83-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:53:25-66
+83-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:53:17-69
+83-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:53:25-66
 84
 85                <category android:name="android.intent.category.LAUNCHER" />
-85-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:55:17-77
-85-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:55:27-74
+85-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:55:17-77
+85-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:55:27-74
 86            </intent-filter>
 87        </activity>
 88        <activity
-88-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:58:9-61:66
+88-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:58:9-61:66
 89            android:name="com.skytek.live.wallpapers.categorythumnail"
-89-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:59:13-45
+89-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:59:13-45
 90            android:exported="true"
-90-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:60:13-36
+90-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:60:13-36
 91            android:theme="@style/Theme.AppCompat.NoActionBar" />
-91-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:61:13-63
+91-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:61:13-63
 92        <activity
-92-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:62:9-64:39
+92-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:62:9-64:39
 93            android:name="com.skytek.live.wallpapers.VideoView"
-93-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:63:13-38
+93-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:63:13-38
 94            android:exported="true" />
-94-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:64:13-36
+94-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:64:13-36
 95        <activity android:name="com.skytek.live.wallpapers.MainLauncher" />
-95-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:65:9-50
-95-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:65:19-47
+95-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:65:9-50
+95-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:65:19-47
 96        <activity
-96-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:66:9-69:66
+96-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:66:9-69:66
 97            android:name="com.skytek.live.wallpapers.MainActivity"
-97-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:67:13-41
+97-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:67:13-41
 98            android:exported="true"
-98-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:68:13-36
+98-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:68:13-36
 99            android:theme="@style/Theme.AppCompat.NoActionBar" />
-99-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:69:13-63
+99-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:69:13-63
 100        <activity
-100-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:70:9-73:66
+100-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:70:9-73:66
 101            android:name="com.skytek.live.wallpapers.Just3D.MainActivity3d"
-101-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:71:13-50
+101-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:71:13-50
 102            android:exported="true"
-102-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:72:13-36
+102-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:72:13-36
 103            android:theme="@style/Theme.AppCompat.NoActionBar" />
-103-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:73:13-63
+103-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:73:13-63
 104        <activity
-104-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:74:9-79:67
+104-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:74:9-79:67
 105            android:name="com.skytek.live.wallpapers.Just3D.SettingsActivity"
-105-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:75:13-52
+105-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:75:13-52
 106            android:exported="true"
-106-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:76:13-36
+106-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:76:13-36
 107            android:label="@string/settings_title"
-107-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:78:13-51
+107-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:78:13-51
 108            android:parentActivityName="com.skytek.live.wallpapers.Just3D.MainActivity3d" />
-108-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:79:13-64
+108-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:79:13-64
 109
 110        <service
-110-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:81:9-94:19
+110-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:81:9-94:19
 111            android:name="com.skytek.live.wallpapers.Just3D.wallpaper.MyWallpaperService"
-111-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:82:13-64
+111-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:82:13-64
 112            android:enabled="true"
-112-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:83:13-35
+112-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:83:13-35
 113            android:exported="true"
-113-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:84:13-36
+113-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:84:13-36
 114            android:label="3D Live Wallpaper"
-114-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:85:13-46
+114-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:85:13-46
 115            android:permission="android.permission.BIND_WALLPAPER" >
-115-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:86:13-67
+115-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:86:13-67
 116            <intent-filter>
-116-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:87:13-89:29
+116-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:87:13-89:29
 117                <action android:name="android.service.wallpaper.WallpaperService" />
-117-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:88:17-85
-117-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:88:25-82
+117-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:17-85
+117-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:25-82
 118            </intent-filter>
 119
 120            <meta-data
-120-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:91:13-93:53
+120-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:91:13-93:53
 121                android:name="android.service.wallpaper"
-121-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:92:17-57
+121-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:92:17-57
 122                android:resource="@xml/wallpaper" />
-122-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:93:17-50
+122-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:93:17-50
 123        </service>
 124
 125        <activity
-125-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:96:9-101:59
+125-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:96:9-101:59
 126            android:name="com.skytek.live.wallpapers.Just3D.SetActivity"
-126-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:97:13-47
+126-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:97:13-47
 127            android:exported="true"
-127-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:99:13-36
+127-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:99:13-36
 128            android:label="@string/set_title"
-128-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:98:13-46
+128-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:98:13-46
 129            android:parentActivityName="com.skytek.live.wallpapers.Just3D.MainActivity3d"
-129-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:100:13-64
+129-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:100:13-64
 130            android:theme="@style/LiveWallpaper3D.Base" />
-130-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:101:13-56
+130-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:101:13-56
 131        <activity
-131-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:102:9-105:66
+131-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:102:9-105:66
 132            android:name="com.skytek.live.wallpapers.Just3D.PreviewActivity"
-132-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:103:13-51
+132-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:103:13-51
 133            android:exported="true"
-133-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:104:13-36
+133-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:104:13-36
 134            android:theme="@style/LiveWallpaper3D.NoActionBar" />
-134-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:105:13-63
+134-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:105:13-63
 135
 136        <service
-136-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:107:9-110:38
+136-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:107:9-110:38
 137            android:name="com.skytek.live.wallpapers.Just3D.services.SyncManager"
-137-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:108:13-56
+137-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:108:13-56
 138            android:enabled="true"
-138-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:110:13-35
+138-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:110:13-35
 139            android:exported="true" />
-139-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:109:13-36
+139-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:109:13-36
 140        <service
-140-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:111:9-124:19
+140-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:111:9-124:19
 141            android:name="com.skytek.live.wallpapers.VideoLiveWallpaperoffline"
-141-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:112:13-54
+141-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:112:13-54
 142            android:exported="true"
-142-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:113:13-36
+142-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:113:13-36
 143            android:permission="android.permission.BIND_WALLPAPER" >
-143-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:114:13-67
+143-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:114:13-67
 144
 145            <!-- android:process=":wallpaper" -->
 146            <intent-filter>
-146-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:87:13-89:29
+146-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:87:13-89:29
 147                <action android:name="android.service.wallpaper.WallpaperService" />
-147-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:88:17-85
-147-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:88:25-82
+147-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:17-85
+147-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:25-82
 148            </intent-filter>
 149
 150            <meta-data
-150-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:91:13-93:53
+150-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:91:13-93:53
 151                android:name="android.service.wallpaper"
-151-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:92:17-57
+151-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:92:17-57
 152                android:resource="@xml/livewallpaper" />
-152-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:93:17-50
+152-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:93:17-50
 153        </service>
 154        <service
-154-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:125:9-136:19
+154-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:125:9-136:19
 155            android:name="com.skytek.live.wallpapers.GLWallpaperService"
-155-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:126:13-47
+155-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:126:13-47
 156            android:exported="true"
-156-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:127:13-36
+156-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:127:13-36
 157            android:permission="android.permission.BIND_WALLPAPER" >
-157-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:128:13-67
+157-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:128:13-67
 158            <intent-filter>
-158-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:87:13-89:29
+158-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:87:13-89:29
 159                <action android:name="android.service.wallpaper.WallpaperService" />
-159-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:88:17-85
-159-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:88:25-82
+159-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:17-85
+159-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:25-82
 160            </intent-filter>
 161
 162            <meta-data
-162-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:91:13-93:53
+162-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:91:13-93:53
 163                android:name="android.service.wallpaper"
-163-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:92:17-57
+163-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:92:17-57
 164                android:resource="@xml/livewallpaper" />
-164-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:93:17-50
+164-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:93:17-50
 165        </service>
 166
 167        <meta-data
-167-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:138:9-140:46
+167-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:138:9-140:46
 168            android:name="com.google.android.gms.ads.APPLICATION_ID"
-168-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:139:13-69
+168-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:139:13-69
 169            android:value="@string/app_id" />
-169-->C:\Users\MobiPixels01\AndroidStudioProjects\live wallpaper\app\src\main\AndroidManifest.xml:140:13-43
+169-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:140:13-43
 170
 171        <activity
 171-->[com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72

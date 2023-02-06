@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Papel de parede ao vivo</string>
+  <string name="my_name">Papel de parede 3D ao vivo</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Definir</string>
+  <string name="common_cancel">Cancelar</string>
+  <string name="common_delete">Excluir</string>
+  <string name="common_retry">Tentar novamente</string>
+  <string name="common_pro">Pró</string>
+  <string name="live_wallpapers">Papel de parede animados</string>
+  <string name="menu_refresh">Atualizar</string>
+  <string name="menu_sort">Ordenar por</string>
+  <string name="menu_wpsetter">Definir papel de parede</string>
+  <string name="menu_settings">Configurações</string>
+  <string name="menu_delete">Excluir</string>
+  <string name="menu_link">Site do autor</string>
+  <string name="error_download">Falha ao visualizar!</string>
+  <string name="error_connection">Conexão com a Internet necessária!</string>
+  <string name="error_preview_unknown">Não foi possível exibir a visualização!</string>
+  <string name="error_preview_notfound">Indisponível para visualização</string>
+  <string name="error_wpsetter">Papel de parede ao vivo não encontrado!</string>
+  <string name="error_timeout">Tempo limite de conexão. Tente novamente!</string>
+  <string name="error_catalog">Não foi possível recuperar as imagens!</string>
+  <string name="error_browser">Não é possível abrir o navegador!</string>
+  <string name="notif_new_title_one">Novo papel de parede! Confira!</string>
+  <string name="notif_new_title_multi">Novos papéis de parede! Confira!</string>
+  <string name="notif_new_message_one">Um novo papel de parede foi adicionado ao catálogo.</string>
+  <string name="notif_new_message_multi">Novos papéis de parede foram adicionados ao catálogo.</string>
+  <string name="select_language">Selecione o idioma</string>
+  <string name="main_info_empty_title">Nada a mostrar!</string>
+  <string name="main_info_empty_message">O conteúdo será baixado o mais rápido possível…</string>
+  <string name="main_dialog_nosensor_title">Erro do sensor</string>
+  <string name="main_dialog_nosensor_message">Seu dispositivo não possui os sensores necessários.</string>
+  <string name="main_ongoing_download">Gerando visualização</string>
+  <string name="main_alert_deleted">Cópia local deletada!</string>
+  <string name="main_menu_sort_new">Novo</string>
+  <string name="main_menu_sort_title">Título</string>
+  <string name="main_menu_sort_author">Autor</string>
+  <string name="set_title">Visualização</string>
+  <string name="set_dialog_delete_title">Excluir papel de parede</string>
+  <string name="set_dialog_delete_message">Você realmente deseja excluir este papel de parede? Você sempre pode baixá-lo mais tarde.</string>
+  <string name="set_dialog_notzero_title">Selecione 3DLive</string>
+  <string name="set_dialog_notzero_message">Definir como papel de parede ao vivo</string>
+  <string name="set_alert_changed">Papel de parede alterado!</string>
+  <string name="prev_thisisaprev_toast">Esta é apenas uma animação de demonstração. Baixe o papel de parede para vê-lo em ação!</string>
+  <string name="settings_title">Configurações</string>
+  <string name="settings_dialog_delete_title">Excluir conteúdo local</string>
+  <string name="settings_dialog_delete_message">Você realmente deseja baixar o conteúdo local?</string>
+  <string name="loading">Carregando...</string>
+  <string name="start">Começar</string>
+  <string name="exit">Saída</string>
+  <string name="confirm_exit">Confirmar saída?</string>
+  <string name="yes_exit">Sim</string>
+  <string name="no_exit">Não</string>
+  <string name="d3_wallpapers">Papéis de parede 3D</string>
+  <string name="YourdropWallpapers">Seus \n papéis de parede</string>
+  <string name="livedropwallpapers">Papéis de parede \n animados</string>
+  <string name="d3dropwallpapers">Papéis de parede \n 3D</string>
+  <string name="search">Procurar</string>
+  <string name="text_not_found">Dados pesquisados ​​não encontrados</string>
+  <string name="audio">Áudio</string>
+</resources>

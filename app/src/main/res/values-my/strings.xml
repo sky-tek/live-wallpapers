@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">တိုက်ရိုက်နောက်ခံပုံ</string>
+  <string name="my_name">တိုက်ရိုက် 3D နောက်ခံပုံ</string>
+  <string name="common_ok">အိုကေ</string>
+  <string name="common_set">သတ်မှတ်</string>
+  <string name="common_cancel">မလုပ်တော့</string>
+  <string name="common_delete">ဖျက်ပါ။</string>
+  <string name="common_retry">ပြန်ကြိုးစားပါ။</string>
+  <string name="common_pro">လိုလားသူ</string>
+  <string name="live_wallpapers">တိုက်ရိုက်နောက်ခံပုံများ</string>
+  <string name="menu_refresh">ပြန်လည်စတင်ပါ။</string>
+  <string name="menu_sort">အလိုက်စဥ်သည်</string>
+  <string name="menu_wpsetter">နောက်ခံပုံသတ်မှတ်ပါ။</string>
+  <string name="menu_settings">ဆက်တင်များ</string>
+  <string name="menu_delete">ဖျက်ပါ။</string>
+  <string name="menu_link">စာရေးသူ၏ဆိုဒ်</string>
+  <string name="error_download">အစမ်းကြည့်ရန် မအောင်မြင်ပါ။</string>
+  <string name="error_connection">အင်တာနက်ချိတ်ဆက်မှု လိုအပ်ပါသည်။</string>
+  <string name="error_preview_unknown">အစမ်းကြည့်ရှုမှုကို မပြသနိုင်ပါ။</string>
+  <string name="error_preview_notfound">အစမ်းကြည့်ရန် မရနိုင်ပါ။</string>
+  <string name="error_wpsetter">တိုက်ရိုက်နောက်ခံပုံ မတွေ့ပါ။</string>
+  <string name="error_timeout">ချိတ်ဆက်မှု အချိန်ကုန်သွားသည်။ ထပ်ကြိုးစားပါ!</string>
+  <string name="error_catalog">ပုံများကို ထုတ်ယူ၍မရပါ။</string>
+  <string name="error_browser">ဘရောက်ဆာကို ဖွင့်၍မရပါ။</string>
+  <string name="notif_new_title_one">နောက်ခံပုံအသစ်။ စုံစမ်းသည်!</string>
+  <string name="notif_new_title_multi">နောက်ခံပုံအသစ်များ ၎င်းတို့ကို စစ်ဆေးကြည့်ပါ။</string>
+  <string name="notif_new_message_one">ကတ်တလောက်တွင် နောက်ခံပုံအသစ်တစ်ခုကို ထည့်လိုက်ပါပြီ။</string>
+  <string name="notif_new_message_multi">နောက်ခံပုံအသစ်များကို ကတ်တလောက်တွင် ထည့်သွင်းထားသည်။</string>
+  <string name="select_language">ဘာသာစကားကို ရွေးပါ။</string>
+  <string name="main_info_empty_title">ပြစရာမရှိ!</string>
+  <string name="main_info_empty_message">အကြောင်းအရာကို တတ်နိုင်သမျှ ဒေါင်းလုဒ်လုပ်ပါမည်...</string>
+  <string name="main_dialog_nosensor_title">အာရုံခံ အမှား</string>
+  <string name="main_dialog_nosensor_message">သင့်စက်တွင် လိုအပ်သော အာရုံခံကိရိယာများ မရှိပါ။</string>
+  <string name="main_ongoing_download">အစမ်းကြည့်ရှုခြင်းကို ထုတ်လုပ်ခြင်း။</string>
+  <string name="main_alert_deleted">စက်တွင်းမိတ္တူကို ဖျက်လိုက်ပါပြီ။</string>
+  <string name="main_menu_sort_new">အသစ်</string>
+  <string name="main_menu_sort_title">ခေါင်းစဥ်</string>
+  <string name="main_menu_sort_author">စာရေးသူ</string>
+  <string name="set_title">စမ်းကြည့်ပါ။</string>
+  <string name="set_dialog_delete_title">နောက်ခံပုံကိုဖျက်ပါ။</string>
+  <string name="set_dialog_delete_message">သင်သည် ဤနောက်ခံပုံကို အမှန်တကယ် ဖျက်လိုပါသလား။ ၎င်းကို နောက်မှ အမြဲဒေါင်းလုဒ်လုပ်နိုင်ပါသည်။</string>
+  <string name="set_dialog_notzero_title">3DLive ကို ရွေးပါ။</string>
+  <string name="set_dialog_notzero_message">Live Wallpaper အဖြစ် သတ်မှတ်ပါ။</string>
+  <string name="set_alert_changed">နောက်ခံပုံပြောင်းထားသည်။</string>
+  <string name="prev_thisisaprev_toast">ဤသည်မှာ သရုပ်ပြ ကာတွန်းတစ်ခုသာဖြစ်သည်။ ၎င်းကိုလုပ်ဆောင်ချက်တွင်ကြည့်ရှုရန်နောက်ခံပုံကိုဒေါင်းလုဒ်လုပ်ပါ။</string>
+  <string name="settings_title">ဆက်တင်များ</string>
+  <string name="settings_dialog_delete_title">ဒေသတွင်း အကြောင်းအရာကို ဖျက်ပါ။</string>
+  <string name="settings_dialog_delete_message">ပြည်တွင်းအကြောင်းအရာကို အမှန်တကယ်ဒေါင်းလုဒ်လုပ်လိုပါသလား။</string>
+  <string name="loading">ဖွင့်နေသည်...</string>
+  <string name="start">စတင်ပါ။</string>
+  <string name="exit">ထွက်ပေါက်</string>
+  <string name="confirm_exit">ထွက်ရန် အတည်ပြုမလား။</string>
+  <string name="yes_exit">ဟုတ်ကဲ့</string>
+  <string name="no_exit">မရှိ</string>
+  <string name="d3_wallpapers">3D နောက်ခံပုံများ</string>
+  <string name="YourdropWallpapers">သင်၏ \n နောက်ခံပုံများ</string>
+  <string name="livedropwallpapers">တိုက်ရိုက် \n နောက်ခံပုံများ</string>
+  <string name="d3dropwallpapers">3D \n နောက်ခံပုံများ</string>
+  <string name="search">ရှာရန်</string>
+  <string name="text_not_found">ဒေတာရှာမတွေ့ပါ။</string>
+  <string name="audio">အသံ</string>
+</resources>

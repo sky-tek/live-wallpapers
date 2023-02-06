@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Wallpaper e phelang</string>
+  <string name="my_name">Live 3D Wallpaper</string>
+  <string name="common_ok">HO LOKILE</string>
+  <string name="common_set">Beha</string>
+  <string name="common_cancel">Hlakola</string>
+  <string name="common_delete">Hlakola</string>
+  <string name="common_retry">Leka hape</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Live Wallpaper</string>
+  <string name="menu_refresh">Hlasimolla</string>
+  <string name="menu_sort">Hlophisa ka</string>
+  <string name="menu_wpsetter">Seta wallpaper</string>
+  <string name="menu_settings">Litlhophiso</string>
+  <string name="menu_delete">Hlakola</string>
+  <string name="menu_link">Sebaka sa mongoli</string>
+  <string name="error_download">E hlolehile ho bona esale pele!</string>
+  <string name="error_connection">Khokahano ea Marang-rang e hlokahala!</string>
+  <string name="error_preview_unknown">Ha e khone ho hlahisa ponelo-pele!</string>
+  <string name="error_preview_notfound">Ha e fumanehe ho lekoa pele</string>
+  <string name="error_wpsetter">Wallpaper ha e so fumanehe!</string>
+  <string name="error_timeout">Khokahano e felile. Leka hape!</string>
+  <string name="error_catalog">Ha re khone ho fumana litšoantšo!</string>
+  <string name="error_browser">Ha e khone ho bula sebatli!</string>
+  <string name="notif_new_title_one">Wallpaper e Ncha! Lekola!</string>
+  <string name="notif_new_title_multi">Litšoantšo tse Ncha! Li hlahlobe!</string>
+  <string name="notif_new_message_one">Wallpaper e ncha e kentsoe lethathamong.</string>
+  <string name="notif_new_message_multi">Li-wallpaper tse ncha li kentsoe lethathamong.</string>
+  <string name="select_language">Kgetha Puo</string>
+  <string name="main_info_empty_title">Ha ho letho le ka bontšoang!</string>
+  <string name="main_info_empty_message">Litaba li tla kopitsoa kapele kamoo ho ka khonehang…</string>
+  <string name="main_dialog_nosensor_title">Phoso ea kutlo</string>
+  <string name="main_dialog_nosensor_message">Sesebelisoa sa hau ha se na lisensara tse hlokahalang.</string>
+  <string name="main_ongoing_download">E Hlahisa Preview</string>
+  <string name="main_alert_deleted">Kopi ea lehae e hlakotsoe!</string>
+  <string name="main_menu_sort_new">E ncha</string>
+  <string name="main_menu_sort_title">Sehlooho</string>
+  <string name="main_menu_sort_author">Mongoli</string>
+  <string name="set_title">Sheba esale pele</string>
+  <string name="set_dialog_delete_title">Hlakola wallpaper</string>
+  <string name="set_dialog_delete_message">Na ehlile u batla ho hlakola Wallpaper ee? U ka e khoasolla hamorao.</string>
+  <string name="set_dialog_notzero_title">Khetha 3DLive</string>
+  <string name="set_dialog_notzero_message">Beha e le Wallpaper e Phelang</string>
+  <string name="set_alert_changed">Wallpaper e fetohile!</string>
+  <string name="prev_thisisaprev_toast">Ena ke animation ea demo feela. Khoasolla Wallpaper ho e bona e sebetsa!</string>
+  <string name="settings_title">Litlhophiso</string>
+  <string name="settings_dialog_delete_title">Hlakola litaba tsa lehae</string>
+  <string name="settings_dialog_delete_message">Na ehlile u batla ho khoasolla litaba tsa lehae?</string>
+  <string name="loading">E ea kenya...</string>
+  <string name="start">Qala</string>
+  <string name="exit">Etsoa</string>
+  <string name="confirm_exit">Netefatsa ho Tsoa ?</string>
+  <string name="yes_exit">Ee</string>
+  <string name="no_exit">Che</string>
+  <string name="d3_wallpapers">Litšoantšo tsa 3D</string>
+  <string name="YourdropWallpapers">Litšoantšo tsa \n tsa hau</string>
+  <string name="livedropwallpapers">Live \n Wallpaper</string>
+  <string name="d3dropwallpapers">3D \n Wallpaper</string>
+  <string name="search">Batla</string>
+  <string name="text_not_found">Lintlha tse batliloeng ha li fumanehe</string>
+  <string name="audio">Audio</string>
+</resources>

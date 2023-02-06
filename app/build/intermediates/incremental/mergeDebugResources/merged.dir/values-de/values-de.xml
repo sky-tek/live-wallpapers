@@ -4,6 +4,7 @@
     <item quantity="one">%d neue Benachrichtigung</item>
     <item quantity="other">%d neue Benachrichtigungen</item>
   </plurals>
+    <string name="YourdropWallpapers">Ihre \n Hintergrundbilder</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Zur Startseite"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Nach oben"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="app_name">Live Hintergrund</string>
+    <string name="audio">Audio</string>
     <string name="bottomsheet_action_expand_halfway">Zur Hälfte maximieren</string>
     <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
     <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Text löschen</string>
+    <string name="common_cancel">Stornieren</string>
+    <string name="common_delete">Löschen</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivieren"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> funktioniert erst nach der Aktivierung der Google Play-Dienste."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-Dienste aktivieren"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play-Dienste aktualisieren"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die gerade aktualisiert werden."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert."</string>
+    <string name="common_ok">OK</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Auf Smartphone öffnen"</string>
+    <string name="common_pro">Profi</string>
+    <string name="common_retry">Wiederholen</string>
+    <string name="common_set">Satz</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Anmelden"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Über Google anmelden"</string>
+    <string name="confirm_exit">Beenden bestätigen?</string>
+    <string name="d3_wallpapers">3D-Hintergründe</string>
+    <string name="d3dropwallpapers">3D \n Hintergrundbilder</string>
+    <string name="error_browser">Browser kann nicht geöffnet werden!</string>
+    <string name="error_catalog">Bilder können nicht abgerufen werden!</string>
+    <string name="error_connection">Internetverbindung erforderlich!</string>
+    <string name="error_download">Vorschau fehlgeschlagen!</string>
     <string name="error_icon_content_description">Fehler</string>
+    <string name="error_preview_notfound">Vorschau nicht verfügbar</string>
+    <string name="error_preview_unknown">Vorschau kann nicht angezeigt werden!</string>
+    <string name="error_timeout">Verbindungszeitüberschreitung. Versuchen Sie es erneut!</string>
+    <string name="error_wpsetter">Live-Wallpaper nicht gefunden!</string>
+    <string name="exit">Ausfahrt</string>
     <string name="exposed_dropdown_menu_content_description">Drop-down-Menü anzeigen</string>
     <string name="icon_content_description">Dialogfeldsymbol</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="live_wallpapers">Live-Hintergründe</string>
+    <string name="livedropwallpapers">Live- \n -Hintergründe</string>
+    <string name="loading">Wird geladen...</string>
+    <string name="main_alert_deleted">Lokale Kopie gelöscht!</string>
+    <string name="main_dialog_nosensor_message">Ihr Gerät verfügt nicht über die erforderlichen Sensoren.</string>
+    <string name="main_dialog_nosensor_title">Sensorfehler</string>
+    <string name="main_info_empty_message">Inhalte werden so schnell wie möglich heruntergeladen…</string>
+    <string name="main_info_empty_title">Nichts zu zeigen!</string>
+    <string name="main_menu_sort_author">Autor</string>
+    <string name="main_menu_sort_new">Neu</string>
+    <string name="main_menu_sort_title">Titel</string>
+    <string name="main_ongoing_download">Vorschau erstellen</string>
     <string name="material_clock_toggle_content_description">Vormittags oder Nachmittags auswählen</string>
     <string name="material_hour_selection">Stunde auswählen</string>
     <string name="material_hour_suffix">%1$s Uhr</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Uhrzeit auswählen</string>
     <string name="material_timepicker_text_input_mode_description">In den Texteingabemodus wechseln, um die Uhrzeit einzugeben.</string>
+    <string name="menu_delete">Löschen</string>
+    <string name="menu_link">Website des Autors</string>
+    <string name="menu_refresh">Aktualisierung</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_sort">Sortiere nach</string>
+    <string name="menu_wpsetter">Hintergrundbild festlegen</string>
     <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Mehr als %1$d neue Benachrichtigungen</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Tippen, um zur Tagesauswahl zu wechseln</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">In den Texteingabemodus wechseln</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tippen, um zur Jahresauswahl zu wechseln</string>
+    <string name="my_name">Live-3D-Hintergrundbild</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Nach oben"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Navigationsleiste öffnen"</string>
+    <string name="no_exit">NEIN</string>
+    <string name="notif_new_message_multi">Neue Hintergrundbilder wurden dem Katalog hinzugefügt.</string>
+    <string name="notif_new_message_one">Dem Katalog wurde ein neues Hintergrundbild hinzugefügt.</string>
+    <string name="notif_new_title_multi">Neue Hintergrundbilder! Schau sie dir an!</string>
+    <string name="notif_new_title_one">Neues Hintergrundbild! Hör zu!</string>
     <string name="offline_notification_text">Tippen, um die Werbung zu öffnen</string>
     <string name="offline_notification_title">Werbung anzeigen, die du gespeichert hast, während du offline warst</string>
     <string name="offline_opt_in_confirm">OK</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">Wir senden dir eine Benachrichtigung mit einem Link zur Website des Werbetreibenden.</string>
     <string name="offline_opt_in_title">Werbung öffnen, wenn du wieder online bist.</string>
     <string name="password_toggle_content_description">Passwort anzeigen</string>
+    <string name="prev_thisisaprev_toast">Dies ist nur eine Demo-Animation. Laden Sie das Hintergrundbild herunter, um es in Aktion zu sehen!</string>
     <string name="s1">Bild speichern</string>
     <string name="s2">Der Werbeanzeige erlauben, das Bild in der Bildergalerie zu speichern?</string>
     <string name="s3">Zustimmen</string>
@@ -119,6 +165,20 @@
     <string name="s5">Kalendertermin erstellen</string>
     <string name="s6">Der Werbeanzeige erlauben, einen Kalendertermin zu erstellen?</string>
     <string name="s7">Testanzeige</string>
+    <string name="search">Suchen</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
+    <string name="select_language">Sprache auswählen</string>
+    <string name="set_alert_changed">Hintergrundbild geändert!</string>
+    <string name="set_dialog_delete_message">Möchten Sie dieses Hintergrundbild wirklich löschen? Sie können es später immer noch herunterladen.</string>
+    <string name="set_dialog_delete_title">Hintergrundbild löschen</string>
+    <string name="set_dialog_notzero_message">Als Live-Hintergrund festlegen</string>
+    <string name="set_dialog_notzero_title">Wählen Sie 3DLive</string>
+    <string name="set_title">Vorschau</string>
+    <string name="settings_dialog_delete_message">Möchten Sie die lokalen Inhalte wirklich herunterladen?</string>
+    <string name="settings_dialog_delete_title">Löschen Sie lokale Inhalte</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="start">Start</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">Gesuchte Daten nicht gefunden</string>
+    <string name="yes_exit">Ja</string>
 </resources>

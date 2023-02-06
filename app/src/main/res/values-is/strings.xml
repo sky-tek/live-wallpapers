@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Lifandi veggfóður</string>
+  <string name="my_name">Lifandi 3D veggfóður</string>
+  <string name="common_ok">Allt í lagi</string>
+  <string name="common_set">Sett</string>
+  <string name="common_cancel">Hætta við</string>
+  <string name="common_delete">Eyða</string>
+  <string name="common_retry">Reyndu aftur</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Lifandi Veggfóður</string>
+  <string name="menu_refresh">Endurnýja</string>
+  <string name="menu_sort">Raða eftir</string>
+  <string name="menu_wpsetter">Stilltu veggfóður</string>
+  <string name="menu_settings">Stillingar</string>
+  <string name="menu_delete">Eyða</string>
+  <string name="menu_link">Heimasíða höfundar</string>
+  <string name="error_download">Mistókst að forskoða!</string>
+  <string name="error_connection">Internettenging nauðsynleg!</string>
+  <string name="error_preview_unknown">Ekki er hægt að sýna forskoðun!</string>
+  <string name="error_preview_notfound">Ekki hægt að forskoða</string>
+  <string name="error_wpsetter">Lifandi veggfóður fannst ekki!</string>
+  <string name="error_timeout">Tímamörk tengingar. Reyndu aftur!</string>
+  <string name="error_catalog">Ekki tókst að sækja myndir!</string>
+  <string name="error_browser">Ekki hægt að opna vafra!</string>
+  <string name="notif_new_title_one">Nýtt veggfóður! Skoðaðu þetta!</string>
+  <string name="notif_new_title_multi">Ný veggfóður! Skoðaðu þá!</string>
+  <string name="notif_new_message_one">Nýtt veggfóður hefur verið bætt við vörulistann.</string>
+  <string name="notif_new_message_multi">Nýtt veggfóður hefur verið bætt við vörulistann.</string>
+  <string name="select_language">Veldu tungumál</string>
+  <string name="main_info_empty_title">Ekkert að sýna!</string>
+  <string name="main_info_empty_message">Efni verður hlaðið niður eins fljótt og auðið er...</string>
+  <string name="main_dialog_nosensor_title">Skynjarvilla</string>
+  <string name="main_dialog_nosensor_message">Tækið þitt hefur ekki nauðsynlega skynjara.</string>
+  <string name="main_ongoing_download">Búa til forskoðun</string>
+  <string name="main_alert_deleted">Staðbundnu eintaki eytt!</string>
+  <string name="main_menu_sort_new">Nýtt</string>
+  <string name="main_menu_sort_title">Titill</string>
+  <string name="main_menu_sort_author">Höfundur</string>
+  <string name="set_title">Forskoðun</string>
+  <string name="set_dialog_delete_title">Eyða veggfóður</string>
+  <string name="set_dialog_delete_message">Viltu virkilega eyða þessu veggfóður? Þú getur alltaf halað því niður síðar.</string>
+  <string name="set_dialog_notzero_title">Veldu 3DLive</string>
+  <string name="set_dialog_notzero_message">Stilla sem lifandi veggfóður</string>
+  <string name="set_alert_changed">Veggfóður breytt!</string>
+  <string name="prev_thisisaprev_toast">Þetta er aðeins demo hreyfimynd. Sæktu veggfóðurið til að sjá það í aðgerð!</string>
+  <string name="settings_title">Stillingar</string>
+  <string name="settings_dialog_delete_title">Eyða staðbundnu efni</string>
+  <string name="settings_dialog_delete_message">Viltu virkilega hlaða niður staðbundnu efni?</string>
+  <string name="loading">Hleður...</string>
+  <string name="start">Byrjaðu</string>
+  <string name="exit">Hætta</string>
+  <string name="confirm_exit">Staðfesta brottför?</string>
+  <string name="yes_exit">Já</string>
+  <string name="no_exit">Nei</string>
+  <string name="d3_wallpapers">3D Veggfóður</string>
+  <string name="YourdropWallpapers">\n Veggfóður þín</string>
+  <string name="livedropwallpapers">Lifandi \n Veggfóður</string>
+  <string name="d3dropwallpapers">3D \n Veggfóður</string>
+  <string name="search">Leita</string>
+  <string name="text_not_found">Leituð gögn fundust ekki</string>
+  <string name="audio">Hljóð</string>
+</resources>

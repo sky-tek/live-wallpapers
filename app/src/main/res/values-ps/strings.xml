@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">ژوندی وال پیپر</string>
+  <string name="my_name">ژوندی 3D وال پیپر</string>
+  <string name="common_ok">سمه ده</string>
+  <string name="common_set">ټاکل</string>
+  <string name="common_cancel">لغوه کړئ</string>
+  <string name="common_delete">ړنګول</string>
+  <string name="common_retry">بیا هڅه وکړئ</string>
+  <string name="common_pro">پرو</string>
+  <string name="live_wallpapers">ژوندی وال پیپرونه</string>
+  <string name="menu_refresh">تازه کړئ</string>
+  <string name="menu_sort">ترتیب یی کړه په</string>
+  <string name="menu_wpsetter">وال پیپر تنظیم کړئ</string>
+  <string name="menu_settings">ترتیبات</string>
+  <string name="menu_delete">ړنګول</string>
+  <string name="menu_link">د لیکوال سایټ</string>
+  <string name="error_download">په مخکتنه کې پاتې راغلی!</string>
+  <string name="error_connection">د انټرنیټ پیوستون ته اړتیا ده!</string>
+  <string name="error_preview_unknown">د مخکتنې ښودلو توان نلري!</string>
+  <string name="error_preview_notfound">د مخکتنې لپاره شتون نلري</string>
+  <string name="error_wpsetter">ژوندی وال پیپر ونه موندل شو!</string>
+  <string name="error_timeout">د پیوستون وخت پای ته ورسید. بیا هڅه وکړه!</string>
+  <string name="error_catalog">د عکسونو ترلاسه کولو توان نلري!</string>
+  <string name="error_browser">د براؤزر خلاصولو توان نلري!</string>
+  <string name="notif_new_title_one">نوی وال پیپر! ویې ګوره!</string>
+  <string name="notif_new_title_multi">نوي وال پیپرونه! دوی وګورئ!</string>
+  <string name="notif_new_message_one">یو نوی وال پیپر په کتلاګ کې اضافه شوی.</string>
+  <string name="notif_new_message_multi">نوي وال پیپرونه په کتلاګ کې اضافه شوي.</string>
+  <string name="select_language">ژبه غوره کړئ</string>
+  <string name="main_info_empty_title">د ښودلو لپاره هیڅ نشته!</string>
+  <string name="main_info_empty_message">مواد به ژر تر ژره ډاونلوډ شي ...</string>
+  <string name="main_dialog_nosensor_title">د سینسر تېروتنه</string>
+  <string name="main_dialog_nosensor_message">ستاسو وسیله اړین سینسر نلري.</string>
+  <string name="main_ongoing_download">د مخکتنې پیدا کول</string>
+  <string name="main_alert_deleted">محلي کاپي ړنګه شوه!</string>
+  <string name="main_menu_sort_new">نوی</string>
+  <string name="main_menu_sort_title">عنوان</string>
+  <string name="main_menu_sort_author">لیکوال</string>
+  <string name="set_title">مخکتنه</string>
+  <string name="set_dialog_delete_title">وال پیپر ړنګ کړئ</string>
+  <string name="set_dialog_delete_message">ایا تاسو واقعیا غواړئ دا وال پیپر حذف کړئ؟ تاسو کولی شئ تل دا وروسته ډاونلوډ کړئ.</string>
+  <string name="set_dialog_notzero_title">3DLive غوره کړئ</string>
+  <string name="set_dialog_notzero_message">د ژوندی وال پیپر په توګه تنظیم کړئ</string>
+  <string name="set_alert_changed">وال پیپر بدل شوی!</string>
+  <string name="prev_thisisaprev_toast">دا یوازې یو ډیمو حرکت دی. وال پیپر ډاونلوډ کړئ ترڅو دا په عمل کې وګورئ!</string>
+  <string name="settings_title">ترتیبات</string>
+  <string name="settings_dialog_delete_title">محلي مینځپانګه حذف کړئ</string>
+  <string name="settings_dialog_delete_message">ایا تاسو واقعیا غواړئ محلي مینځپانګه ډاونلوډ کړئ؟</string>
+  <string name="loading">بار کول...</string>
+  <string name="start">پیل</string>
+  <string name="exit">وتون</string>
+  <string name="confirm_exit">د وتلو تایید؟</string>
+  <string name="yes_exit">هو</string>
+  <string name="no_exit">نه</string>
+  <string name="d3_wallpapers">3D وال پیپرونه</string>
+  <string name="YourdropWallpapers">ستاسو \n وال پیپرونه</string>
+  <string name="livedropwallpapers">ژوندی \n وال پیپرونه</string>
+  <string name="d3dropwallpapers">3D \n وال پیپرونه</string>
+  <string name="search">لټون</string>
+  <string name="text_not_found">لټون شوي معلومات ونه موندل شول</string>
+  <string name="audio">آډیو</string>
+</resources>

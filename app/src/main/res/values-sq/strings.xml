@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Letër-muri live</string>
+  <string name="my_name">Wallpaper live 3D</string>
+  <string name="common_ok">Ne rregull</string>
+  <string name="common_set">Set</string>
+  <string name="common_cancel">Anulo</string>
+  <string name="common_delete">Fshije</string>
+  <string name="common_retry">Provo sërish</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Wallpapers live</string>
+  <string name="menu_refresh">Rifresko</string>
+  <string name="menu_sort">Ndaj sipas</string>
+  <string name="menu_wpsetter">Vendosni letër-muri</string>
+  <string name="menu_settings">Cilësimet</string>
+  <string name="menu_delete">Fshije</string>
+  <string name="menu_link">Faqja e autorit</string>
+  <string name="error_download">Pamja paraprake dështoi!</string>
+  <string name="error_connection">Nevojitet lidhje interneti!</string>
+  <string name="error_preview_unknown">Pamja paraprake nuk mund të shfaqet!</string>
+  <string name="error_preview_notfound">I padisponueshëm për shikim paraprak</string>
+  <string name="error_wpsetter">Sfondi i drejtpërdrejtë nuk u gjet!</string>
+  <string name="error_timeout">Kohëzgjatja e lidhjes. Provo përsëri!</string>
+  <string name="error_catalog">Imazhet nuk mund të merren!</string>
+  <string name="error_browser">Shfletuesi nuk mund të hapet!</string>
+  <string name="notif_new_title_one">Wallpaper e re! Kontrolloje!</string>
+  <string name="notif_new_title_multi">Wallpapers të reja! Shikoni ato!</string>
+  <string name="notif_new_message_one">Një sfond i ri është shtuar në katalog.</string>
+  <string name="notif_new_message_multi">Wallpapers të reja janë shtuar në katalog.</string>
+  <string name="select_language">Zgjidh gjuhen</string>
+  <string name="main_info_empty_title">Asgjë për të treguar!</string>
+  <string name="main_info_empty_message">Përmbajtja do të shkarkohet sa më shpejt të jetë e mundur…</string>
+  <string name="main_dialog_nosensor_title">Gabim sensori</string>
+  <string name="main_dialog_nosensor_message">Pajisja juaj nuk ka sensorët e kërkuar.</string>
+  <string name="main_ongoing_download">Gjenerimi i pamjes paraprake</string>
+  <string name="main_alert_deleted">Kopja lokale u fshi!</string>
+  <string name="main_menu_sort_new">I ri</string>
+  <string name="main_menu_sort_title">Titulli</string>
+  <string name="main_menu_sort_author">Autori</string>
+  <string name="set_title">Parapamje</string>
+  <string name="set_dialog_delete_title">Fshi sfondin</string>
+  <string name="set_dialog_delete_message">Dëshiron vërtet ta fshish këtë sfond? Mund ta shkarkoni gjithmonë më vonë.</string>
+  <string name="set_dialog_notzero_title">Zgjidhni 3DLive</string>
+  <string name="set_dialog_notzero_message">Cakto si sfond të drejtpërdrejtë</string>
+  <string name="set_alert_changed">Sfondi u ndryshua!</string>
+  <string name="prev_thisisaprev_toast">Ky është vetëm një animacion demo. Shkarkoni sfondin për ta parë atë në veprim!</string>
+  <string name="settings_title">Cilësimet</string>
+  <string name="settings_dialog_delete_title">Fshi përmbajtjen lokale</string>
+  <string name="settings_dialog_delete_message">Dëshiron vërtet të shkarkosh përmbajtjen lokale?</string>
+  <string name="loading">Po ngarkohet...</string>
+  <string name="start">Filloni</string>
+  <string name="exit">Dilni</string>
+  <string name="confirm_exit">Konfirmo daljen?</string>
+  <string name="yes_exit">Po</string>
+  <string name="no_exit">Nr</string>
+  <string name="d3_wallpapers">Wallpapers 3D</string>
+  <string name="YourdropWallpapers">\n Wallpapers-et tuaja</string>
+  <string name="livedropwallpapers">Imazhe të drejtpërdrejta \n</string>
+  <string name="d3dropwallpapers">Wallpapers 3D \n</string>
+  <string name="search">Kërko</string>
+  <string name="text_not_found">Të dhënat e kërkuara nuk u gjetën</string>
+  <string name="audio">Audio</string>
+</resources>

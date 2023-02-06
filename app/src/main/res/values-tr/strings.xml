@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Canlı duvar kağıdı</string>
+  <string name="my_name">Canlı 3D Duvar Kağıdı</string>
+  <string name="common_ok">TAMAM</string>
+  <string name="common_set">Ayarlamak</string>
+  <string name="common_cancel">İptal etmek</string>
+  <string name="common_delete">Silmek</string>
+  <string name="common_retry">Yeniden dene</string>
+  <string name="common_pro">Profesyonel</string>
+  <string name="live_wallpapers">Canlı Duvarkağıtları</string>
+  <string name="menu_refresh">Yenile</string>
+  <string name="menu_sort">Göre sırala</string>
+  <string name="menu_wpsetter">Duvar kağıdı ayarla</string>
+  <string name="menu_settings">Ayarlar</string>
+  <string name="menu_delete">Silmek</string>
+  <string name="menu_link">Yazarın sitesi</string>
+  <string name="error_download">Önizleme başarısız oldu!</string>
+  <string name="error_connection">İnternet bağlantısı gerekli!</string>
+  <string name="error_preview_unknown">Önizleme görüntülenemiyor!</string>
+  <string name="error_preview_notfound">Önizleme için kullanılamıyor</string>
+  <string name="error_wpsetter">Canlı duvar kağıdı bulunamadı!</string>
+  <string name="error_timeout">Bağlantı zamanaşımı. Tekrar deneyin!</string>
+  <string name="error_catalog">Resimler alınamıyor!</string>
+  <string name="error_browser">Tarayıcı açılamıyor!</string>
+  <string name="notif_new_title_one">Yeni Duvar Kağıdı! Buna bir bak!</string>
+  <string name="notif_new_title_multi">Yeni Duvar Kağıtları! Onları kontrol et!</string>
+  <string name="notif_new_message_one">Kataloğa yeni bir duvar kağıdı eklendi.</string>
+  <string name="notif_new_message_multi">Kataloğa yeni duvar kağıtları eklendi.</string>
+  <string name="select_language">Dil Seçin</string>
+  <string name="main_info_empty_title">Gösterecek bir şey yok!</string>
+  <string name="main_info_empty_message">İçerik en kısa sürede indirilecektir…</string>
+  <string name="main_dialog_nosensor_title">Sensör hatası</string>
+  <string name="main_dialog_nosensor_message">Cihazınız gerekli sensörlere sahip değil.</string>
+  <string name="main_ongoing_download">Önizleme oluşturuluyor</string>
+  <string name="main_alert_deleted">Yerel kopya silindi!</string>
+  <string name="main_menu_sort_new">Yeni</string>
+  <string name="main_menu_sort_title">Başlık</string>
+  <string name="main_menu_sort_author">Yazar</string>
+  <string name="set_title">Ön izleme</string>
+  <string name="set_dialog_delete_title">Duvar kağıdını sil</string>
+  <string name="set_dialog_delete_message">Bu duvar kağıdını gerçekten silmek istiyor musunuz? Daha sonra istediğiniz zaman indirebilirsiniz.</string>
+  <string name="set_dialog_notzero_title">3DLive\'ı seçin</string>
+  <string name="set_dialog_notzero_message">Canlı Duvar Kağıdı Olarak Ayarla</string>
+  <string name="set_alert_changed">Duvar kağıdı değişti!</string>
+  <string name="prev_thisisaprev_toast">Bu sadece bir demo animasyondur. Hareket halinde görmek için duvar kağıdını indirin!</string>
+  <string name="settings_title">Ayarlar</string>
+  <string name="settings_dialog_delete_title">Yerel içeriği sil</string>
+  <string name="settings_dialog_delete_message">Yerel içeriği gerçekten indirmek istiyor musunuz?</string>
+  <string name="loading">Yükleniyor...</string>
+  <string name="start">Başlangıç</string>
+  <string name="exit">Çıkış</string>
+  <string name="confirm_exit">Çıkışı Onayla?</string>
+  <string name="yes_exit">Evet</string>
+  <string name="no_exit">HAYIR</string>
+  <string name="d3_wallpapers">3D Duvar Kağıtları</string>
+  <string name="YourdropWallpapers">\n Duvar Kağıtlarınız</string>
+  <string name="livedropwallpapers">Canlı \n Duvar Kağıtları</string>
+  <string name="d3dropwallpapers">3D \n Duvar Kağıtları</string>
+  <string name="search">Aramak</string>
+  <string name="text_not_found">Aranan veri bulunamadı</string>
+  <string name="audio">Ses</string>
+</resources>

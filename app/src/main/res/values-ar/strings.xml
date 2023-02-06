@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">خلفية حية</string>
+  <string name="my_name">لايف للجدران 3D</string>
+  <string name="common_ok">نعم</string>
+  <string name="common_set">تعيين</string>
+  <string name="common_cancel">يلغي</string>
+  <string name="common_delete">يمسح</string>
+  <string name="common_retry">أعد المحاولة</string>
+  <string name="common_pro">طليعة</string>
+  <string name="live_wallpapers">خلفيات حية</string>
+  <string name="menu_refresh">ينعش</string>
+  <string name="menu_sort">ترتيب حسب</string>
+  <string name="menu_wpsetter">تعيين خلفية</string>
+  <string name="menu_settings">إعدادات</string>
+  <string name="menu_delete">يمسح</string>
+  <string name="menu_link">موقع المؤلف</string>
+  <string name="error_download">فشلت المعاينة!</string>
+  <string name="error_connection">مطلوب اتصال بالإنترنت!</string>
+  <string name="error_preview_unknown">غير قادر على عرض المعاينة!</string>
+  <string name="error_preview_notfound">غير متاح للمعاينة</string>
+  <string name="error_wpsetter">لم يتم العثور على خلفية حية!</string>
+  <string name="error_timeout">انتهى وقت محاولة الاتصال. حاول ثانية!</string>
+  <string name="error_catalog">تعذر استرداد الصور!</string>
+  <string name="error_browser">تعذر فتح المتصفح!</string>
+  <string name="notif_new_title_one">خلفيات جديدة! تحقق من ذلك!</string>
+  <string name="notif_new_title_multi">خلفيات جديدة! تحقق منها!</string>
+  <string name="notif_new_message_one">تمت إضافة خلفية جديدة إلى الكتالوج.</string>
+  <string name="notif_new_message_multi">تمت إضافة خلفيات جديدة إلى الكتالوج.</string>
+  <string name="select_language">اختار اللغة</string>
+  <string name="main_info_empty_title">لا شيء للعرض!</string>
+  <string name="main_info_empty_message">سيتم تنزيل المحتوى في أقرب وقت ممكن ...</string>
+  <string name="main_dialog_nosensor_title">خطأ في جهاز الاستشعار</string>
+  <string name="main_dialog_nosensor_message">جهازك لا يحتوي على المستشعرات المطلوبة.</string>
+  <string name="main_ongoing_download">إنشاء معاينة</string>
+  <string name="main_alert_deleted">تم حذف النسخة المحلية!</string>
+  <string name="main_menu_sort_new">جديد</string>
+  <string name="main_menu_sort_title">عنوان</string>
+  <string name="main_menu_sort_author">مؤلف</string>
+  <string name="set_title">معاينة</string>
+  <string name="set_dialog_delete_title">حذف الخلفية</string>
+  <string name="set_dialog_delete_message">هل تريد حقًا حذف هذه الخلفية؟ يمكنك دائمًا تنزيله لاحقًا.</string>
+  <string name="set_dialog_notzero_title">حدد 3DLive</string>
+  <string name="set_dialog_notzero_message">تعيين كخلفية حية</string>
+  <string name="set_alert_changed">تغيرت خلفيات!</string>
+  <string name="prev_thisisaprev_toast">هذه ليست سوى رسم متحرك تجريبي. قم بتنزيل خلفية الشاشة لرؤيتها أثناء العمل!</string>
+  <string name="settings_title">إعدادات</string>
+  <string name="settings_dialog_delete_title">حذف المحتوى المحلي</string>
+  <string name="settings_dialog_delete_message">هل تريد حقًا تنزيل المحتوى المحلي؟</string>
+  <string name="loading">تحميل...</string>
+  <string name="start">يبدأ</string>
+  <string name="exit">مخرج</string>
+  <string name="confirm_exit">تأكيد الخروج؟</string>
+  <string name="yes_exit">نعم</string>
+  <string name="no_exit">لا</string>
+  <string name="d3_wallpapers">خلفيات ثلاثية الأبعاد</string>
+  <string name="YourdropWallpapers">خلفياتك \n</string>
+  <string name="livedropwallpapers">خلفيات حية \n</string>
+  <string name="d3dropwallpapers">خلفيات ثلاثية الأبعاد \n</string>
+  <string name="search">يبحث</string>
+  <string name="text_not_found">لم يتم العثور على البيانات التي تم البحث عنها</string>
+  <string name="audio">صوتي</string>
+</resources>

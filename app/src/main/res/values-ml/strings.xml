@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">തത്സമയ വാൾപേപ്പർ</string>
+  <string name="my_name">തത്സമയ 3D വാൾപേപ്പർ</string>
+  <string name="common_ok">ശരി</string>
+  <string name="common_set">സജ്ജമാക്കുക</string>
+  <string name="common_cancel">റദ്ദാക്കുക</string>
+  <string name="common_delete">ഇല്ലാതാക്കുക</string>
+  <string name="common_retry">വീണ്ടും ശ്രമിക്കുക</string>
+  <string name="common_pro">പ്രൊഫ</string>
+  <string name="live_wallpapers">തത്സമയ വാൾപേപ്പറുകൾ</string>
+  <string name="menu_refresh">പുതുക്കുക</string>
+  <string name="menu_sort">ഇങ്ങനെ അടുക്കുക</string>
+  <string name="menu_wpsetter">വാൾപേപ്പർ സജ്ജമാക്കുക</string>
+  <string name="menu_settings">ക്രമീകരണങ്ങൾ</string>
+  <string name="menu_delete">ഇല്ലാതാക്കുക</string>
+  <string name="menu_link">രചയിതാവിന്റെ സൈറ്റ്</string>
+  <string name="error_download">പ്രിവ്യൂ ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു!</string>
+  <string name="error_connection">ഇന്റർനെറ്റ് കണക്ഷൻ ആവശ്യമാണ്!</string>
+  <string name="error_preview_unknown">പ്രിവ്യൂ പ്രദർശിപ്പിക്കാനായില്ല!</string>
+  <string name="error_preview_notfound">പ്രിവ്യൂ ചെയ്യാൻ ലഭ്യമല്ല</string>
+  <string name="error_wpsetter">തത്സമയ വാൾപേപ്പർ കണ്ടെത്തിയില്ല!</string>
+  <string name="error_timeout">കണക്ഷൻ കാലഹരണപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക!</string>
+  <string name="error_catalog">ചിത്രങ്ങൾ വീണ്ടെടുക്കാനായില്ല!</string>
+  <string name="error_browser">ബ്രൗസർ തുറക്കാൻ കഴിയില്ല!</string>
+  <string name="notif_new_title_one">പുതിയ വാൾപേപ്പർ! ഇത് പരിശോധിക്കുക!</string>
+  <string name="notif_new_title_multi">പുതിയ വാൾപേപ്പറുകൾ! അവരെ പരിശോധിക്കുക!</string>
+  <string name="notif_new_message_one">കാറ്റലോഗിലേക്ക് ഒരു പുതിയ വാൾപേപ്പർ ചേർത്തു.</string>
+  <string name="notif_new_message_multi">കാറ്റലോഗിലേക്ക് പുതിയ വാൾപേപ്പറുകൾ ചേർത്തു.</string>
+  <string name="select_language">ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+  <string name="main_info_empty_title">ഒന്നും കാണിക്കാനില്ല!</string>
+  <string name="main_info_empty_message">ഉള്ളടക്കം എത്രയും വേഗം ഡൗൺലോഡ് ചെയ്യപ്പെടും...</string>
+  <string name="main_dialog_nosensor_title">സെൻസർ പിശക്</string>
+  <string name="main_dialog_nosensor_message">നിങ്ങളുടെ ഉപകരണത്തിന് ആവശ്യമായ സെൻസറുകൾ ഇല്ല.</string>
+  <string name="main_ongoing_download">പ്രിവ്യൂ സൃഷ്ടിക്കുന്നു</string>
+  <string name="main_alert_deleted">പ്രാദേശിക പകർപ്പ് ഇല്ലാതാക്കി!</string>
+  <string name="main_menu_sort_new">പുതിയത്</string>
+  <string name="main_menu_sort_title">തലക്കെട്ട്</string>
+  <string name="main_menu_sort_author">രചയിതാവ്</string>
+  <string name="set_title">പ്രിവ്യൂ</string>
+  <string name="set_dialog_delete_title">വാൾപേപ്പർ ഇല്ലാതാക്കുക</string>
+  <string name="set_dialog_delete_message">നിങ്ങൾക്ക് ശരിക്കും ഈ വാൾപേപ്പർ ഇല്ലാതാക്കണോ? നിങ്ങൾക്ക് ഇത് പിന്നീട് എപ്പോൾ വേണമെങ്കിലും ഡൗൺലോഡ് ചെയ്യാം.</string>
+  <string name="set_dialog_notzero_title">3DLive തിരഞ്ഞെടുക്കുക</string>
+  <string name="set_dialog_notzero_message">തത്സമയ വാൾപേപ്പറായി സജ്ജീകരിക്കുക</string>
+  <string name="set_alert_changed">വാൾപേപ്പർ മാറ്റി!</string>
+  <string name="prev_thisisaprev_toast">ഇതൊരു ഡെമോ ആനിമേഷൻ മാത്രമാണ്. വാൾപേപ്പർ പ്രവർത്തനക്ഷമമായി കാണുന്നതിന് ഡൗൺലോഡ് ചെയ്യുക!</string>
+  <string name="settings_title">ക്രമീകരണങ്ങൾ</string>
+  <string name="settings_dialog_delete_title">പ്രാദേശിക ഉള്ളടക്കം ഇല്ലാതാക്കുക</string>
+  <string name="settings_dialog_delete_message">നിങ്ങൾക്ക് യഥാർത്ഥത്തിൽ പ്രാദേശിക ഉള്ളടക്കം ഡൗൺലോഡ് ചെയ്യണോ?</string>
+  <string name="loading">ലോഡിംഗ്...</string>
+  <string name="start">ആരംഭിക്കുക</string>
+  <string name="exit">പുറത്ത്</string>
+  <string name="confirm_exit">പുറത്തുകടക്കൽ സ്ഥിരീകരിക്കണോ?</string>
+  <string name="yes_exit">അതെ</string>
+  <string name="no_exit">ഇല്ല</string>
+  <string name="d3_wallpapers">3D വാൾപേപ്പറുകൾ</string>
+  <string name="YourdropWallpapers">നിങ്ങളുടെ \n വാൾപേപ്പറുകൾ</string>
+  <string name="livedropwallpapers">തത്സമയ \n വാൾപേപ്പറുകൾ</string>
+  <string name="d3dropwallpapers">3D \n വാൾപേപ്പറുകൾ</string>
+  <string name="search">തിരയുക</string>
+  <string name="text_not_found">തിരഞ്ഞ ഡാറ്റ കണ്ടെത്തിയില്ല</string>
+  <string name="audio">ഓഡിയോ</string>
+</resources>

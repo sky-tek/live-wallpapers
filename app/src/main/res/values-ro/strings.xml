@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Imagine de fundal vie</string>
+  <string name="my_name">Imagini de fundal 3D live</string>
+  <string name="common_ok">Bine</string>
+  <string name="common_set">A stabilit</string>
+  <string name="common_cancel">Anulare</string>
+  <string name="common_delete">Șterge</string>
+  <string name="common_retry">Reîncercați</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Imagini de fundal live</string>
+  <string name="menu_refresh">Reîmprospăta</string>
+  <string name="menu_sort">Filtrează după</string>
+  <string name="menu_wpsetter">Seteaza fundal</string>
+  <string name="menu_settings">Setări</string>
+  <string name="menu_delete">Șterge</string>
+  <string name="menu_link">Site-ul autorului</string>
+  <string name="error_download">Previzualizare eșuată!</string>
+  <string name="error_connection">Este nevoie de conexiune la internet!</string>
+  <string name="error_preview_unknown">Nu se poate afișa previzualizarea!</string>
+  <string name="error_preview_notfound">Indisponibil pentru previzualizare</string>
+  <string name="error_wpsetter">Tapet animat nu a fost găsit!</string>
+  <string name="error_timeout">Timeout conexiune. Încearcă din nou!</string>
+  <string name="error_catalog">Imposibil de preluat imaginile!</string>
+  <string name="error_browser">Browserul nu poate fi deschis!</string>
+  <string name="notif_new_title_one">Tapet nou! Verifică!</string>
+  <string name="notif_new_title_multi">Imagini de fundal noi! Verifică-i!</string>
+  <string name="notif_new_message_one">Un nou tapet a fost adăugat în catalog.</string>
+  <string name="notif_new_message_multi">Noi imagini de fundal au fost adăugate în catalog.</string>
+  <string name="select_language">Selecteaza limba</string>
+  <string name="main_info_empty_title">Nimic de arătat!</string>
+  <string name="main_info_empty_message">Conținutul va fi descărcat cât mai curând posibil...</string>
+  <string name="main_dialog_nosensor_title">Eroare senzor</string>
+  <string name="main_dialog_nosensor_message">Dispozitivul dvs. nu are senzorii necesari.</string>
+  <string name="main_ongoing_download">Generarea previzualizării</string>
+  <string name="main_alert_deleted">Copia locală a fost ștearsă!</string>
+  <string name="main_menu_sort_new">Nou</string>
+  <string name="main_menu_sort_title">Titlu</string>
+  <string name="main_menu_sort_author">Autor</string>
+  <string name="set_title">Previzualizare</string>
+  <string name="set_dialog_delete_title">Șterge imaginea de fundal</string>
+  <string name="set_dialog_delete_message">Chiar vrei să ștergi acest tapet? Îl puteți descărca oricând mai târziu.</string>
+  <string name="set_dialog_notzero_title">Selectați 3DLive</string>
+  <string name="set_dialog_notzero_message">Setați ca fundal animat</string>
+  <string name="set_alert_changed">Tapetul a fost schimbat!</string>
+  <string name="prev_thisisaprev_toast">Aceasta este doar o animație demonstrativă. Descărcați tapetul pentru a-l vedea în acțiune!</string>
+  <string name="settings_title">Setări</string>
+  <string name="settings_dialog_delete_title">Ștergeți conținutul local</string>
+  <string name="settings_dialog_delete_message">Chiar doriți să descărcați conținutul local?</string>
+  <string name="loading">Se încarcă...</string>
+  <string name="start">Start</string>
+  <string name="exit">Ieșire</string>
+  <string name="confirm_exit">Confirmați ieșirea?</string>
+  <string name="yes_exit">Da</string>
+  <string name="no_exit">Nu</string>
+  <string name="d3_wallpapers">Imagini de fundal 3D</string>
+  <string name="YourdropWallpapers">Imaginile dvs. de fundal \n</string>
+  <string name="livedropwallpapers">Imagini de fundal live \n</string>
+  <string name="d3dropwallpapers">Imagini de fundal 3D \n</string>
+  <string name="search">Căutare</string>
+  <string name="text_not_found">Datele căutate nu au fost găsite</string>
+  <string name="audio">Audio</string>
+</resources>

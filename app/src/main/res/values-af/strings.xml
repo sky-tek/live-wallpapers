@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Lewendige plakpapier</string>
+  <string name="my_name">Lewendige 3D-muurpapier</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Stel</string>
+  <string name="common_cancel">Kanselleer</string>
+  <string name="common_delete">Vee uit</string>
+  <string name="common_retry">Probeer weer</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Lewendige agtergronde</string>
+  <string name="menu_refresh">Verfris</string>
+  <string name="menu_sort">Sorteer Volgens</string>
+  <string name="menu_wpsetter">Stel agtergrond</string>
+  <string name="menu_settings">Instellings</string>
+  <string name="menu_delete">Vee uit</string>
+  <string name="menu_link">Skrywer se webwerf</string>
+  <string name="error_download">Kon nie voorbeskou nie!</string>
+  <string name="error_connection">Internet konneksie benodig!</string>
+  <string name="error_preview_unknown">Kan nie voorskou wys nie!</string>
+  <string name="error_preview_notfound">Nie beskikbaar om voorbeskou te word nie</string>
+  <string name="error_wpsetter">Lewendige plakpapier nie gevind nie!</string>
+  <string name="error_timeout">Verbinding uitteltyd. Probeer weer!</string>
+  <string name="error_catalog">Kan nie beelde ophaal nie!</string>
+  <string name="error_browser">Kan nie blaaier oopmaak nie!</string>
+  <string name="notif_new_title_one">Nuwe plakpapier! Kyk daarna!</string>
+  <string name="notif_new_title_multi">Nuwe agtergronde! Kyk na hulle!</string>
+  <string name="notif_new_message_one">\'n Nuwe muurpapier is by die katalogus gevoeg.</string>
+  <string name="notif_new_message_multi">Nuwe agtergronde is by die katalogus gevoeg.</string>
+  <string name="select_language">Kies taal</string>
+  <string name="main_info_empty_title">Niks om te wys nie!</string>
+  <string name="main_info_empty_message">Inhoud sal so gou moontlik afgelaai word...</string>
+  <string name="main_dialog_nosensor_title">Sensorfout</string>
+  <string name="main_dialog_nosensor_message">Jou toestel het nie die vereiste sensors nie.</string>
+  <string name="main_ongoing_download">Genereer voorskou</string>
+  <string name="main_alert_deleted">Plaaslike kopie uitgevee!</string>
+  <string name="main_menu_sort_new">Nuut</string>
+  <string name="main_menu_sort_title">Titel</string>
+  <string name="main_menu_sort_author">Skrywer</string>
+  <string name="set_title">Voorskou</string>
+  <string name="set_dialog_delete_title">Vee muurpapier uit</string>
+  <string name="set_dialog_delete_message">Wil jy regtig hierdie muurpapier uitvee? Jy kan dit altyd later aflaai.</string>
+  <string name="set_dialog_notzero_title">Kies 3DLive</string>
+  <string name="set_dialog_notzero_message">Stel as lewendige muurpapier</string>
+  <string name="set_alert_changed">Muurpapier verander!</string>
+  <string name="prev_thisisaprev_toast">Dit is slegs \'n demo-animasie. Laai die muurpapier af om dit in aksie te sien!</string>
+  <string name="settings_title">Instellings</string>
+  <string name="settings_dialog_delete_title">Vee plaaslike inhoud uit</string>
+  <string name="settings_dialog_delete_message">Wil jy regtig die plaaslike inhoud aflaai?</string>
+  <string name="loading">Laai tans...</string>
+  <string name="start">Begin</string>
+  <string name="exit">Verlaat</string>
+  <string name="confirm_exit">Bevestig uitgang?</string>
+  <string name="yes_exit">Ja</string>
+  <string name="no_exit">Geen</string>
+  <string name="d3_wallpapers">3D-agtergronde</string>
+  <string name="YourdropWallpapers">Jou \n agtergronde</string>
+  <string name="livedropwallpapers">Regstreekse \n agtergronde</string>
+  <string name="d3dropwallpapers">3D \n agtergronde</string>
+  <string name="search">Soek</string>
+  <string name="text_not_found">Gesoekte data nie gevind nie</string>
+  <string name="audio">Oudio</string>
+</resources>

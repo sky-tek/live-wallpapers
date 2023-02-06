@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Fons de pantalla en viu</string>
+  <string name="my_name">Fons de pantalla 3D en viu</string>
+  <string name="common_ok">D\'acord</string>
+  <string name="common_set">Conjunt</string>
+  <string name="common_cancel">Cancel · lar</string>
+  <string name="common_delete">Suprimeix</string>
+  <string name="common_retry">Torna-ho a provar</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Fons de pantalla en viu</string>
+  <string name="menu_refresh">Actualització</string>
+  <string name="menu_sort">Ordenar per</string>
+  <string name="menu_wpsetter">Estableix fons de pantalla</string>
+  <string name="menu_settings">Configuració</string>
+  <string name="menu_delete">Suprimeix</string>
+  <string name="menu_link">Lloc de l\'autor</string>
+  <string name="error_download">No s\'ha pogut previsualitzar!</string>
+  <string name="error_connection">Necessita connexió a Internet!</string>
+  <string name="error_preview_unknown">No es pot mostrar la vista prèvia!</string>
+  <string name="error_preview_notfound">No disponible per a la vista prèvia</string>
+  <string name="error_wpsetter">No s\'ha trobat fons de pantalla en viu!</string>
+  <string name="error_timeout">Temps d\'espera de connexió. Torna-ho a provar!</string>
+  <string name="error_catalog">No es poden recuperar les imatges!</string>
+  <string name="error_browser">No es pot obrir el navegador!</string>
+  <string name="notif_new_title_one">Nou fons de pantalla! Comprova-ho!</string>
+  <string name="notif_new_title_multi">Nous fons de pantalla! Consulteu-los!</string>
+  <string name="notif_new_message_one">S\'ha afegit un fons de pantalla nou al catàleg.</string>
+  <string name="notif_new_message_multi">S\'han afegit nous fons de pantalla al catàleg.</string>
+  <string name="select_language">Escolliu l\'idioma</string>
+  <string name="main_info_empty_title">Res a mostrar!</string>
+  <string name="main_info_empty_message">El contingut es baixarà tan aviat com sigui possible...</string>
+  <string name="main_dialog_nosensor_title">Error del sensor</string>
+  <string name="main_dialog_nosensor_message">El vostre dispositiu no té els sensors necessaris.</string>
+  <string name="main_ongoing_download">Generació de vista prèvia</string>
+  <string name="main_alert_deleted">S\'ha suprimit la còpia local!</string>
+  <string name="main_menu_sort_new">Nou</string>
+  <string name="main_menu_sort_title">Títol</string>
+  <string name="main_menu_sort_author">Autor</string>
+  <string name="set_title">Vista prèvia</string>
+  <string name="set_dialog_delete_title">Suprimeix fons de pantalla</string>
+  <string name="set_dialog_delete_message">Segur que voleu suprimir aquest fons de pantalla? Sempre el podeu descarregar més tard.</string>
+  <string name="set_dialog_notzero_title">Seleccioneu 3DLive</string>
+  <string name="set_dialog_notzero_message">Estableix com a fons de pantalla en viu</string>
+  <string name="set_alert_changed">S\'ha canviat el fons de pantalla!</string>
+  <string name="prev_thisisaprev_toast">Això només és una animació de demostració. Descarrega\'t el fons de pantalla per veure\'l en acció!</string>
+  <string name="settings_title">Configuració</string>
+  <string name="settings_dialog_delete_title">Suprimeix contingut local</string>
+  <string name="settings_dialog_delete_message">Realment voleu descarregar el contingut local?</string>
+  <string name="loading">Carregant...</string>
+  <string name="start">Començar</string>
+  <string name="exit">Sortida</string>
+  <string name="confirm_exit">Confirmeu la sortida?</string>
+  <string name="yes_exit">Sí</string>
+  <string name="no_exit">No</string>
+  <string name="d3_wallpapers">Fons de pantalla 3D</string>
+  <string name="YourdropWallpapers">Els vostres \n fons de pantalla</string>
+  <string name="livedropwallpapers">Fons de pantalla \n viu</string>
+  <string name="d3dropwallpapers">Fons de pantalla \n 3D</string>
+  <string name="search">Cerca</string>
+  <string name="text_not_found">No s\'han trobat dades cercades</string>
+  <string name="audio">Àudio</string>
+</resources>

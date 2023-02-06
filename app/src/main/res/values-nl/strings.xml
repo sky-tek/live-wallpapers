@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Live achtergrond</string>
+  <string name="my_name">Live 3D-achtergrond</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Set</string>
+  <string name="common_cancel">Annuleren</string>
+  <string name="common_delete">Verwijderen</string>
+  <string name="common_retry">Opnieuw proberen</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Live achtergronden</string>
+  <string name="menu_refresh">Vernieuwen</string>
+  <string name="menu_sort">Sorteer op</string>
+  <string name="menu_wpsetter">Stel in als achtergrond</string>
+  <string name="menu_settings">Instellingen</string>
+  <string name="menu_delete">Verwijderen</string>
+  <string name="menu_link">Website van de auteur</string>
+  <string name="error_download">Kan geen voorbeeld bekijken!</string>
+  <string name="error_connection">Internetverbinding nodig!</string>
+  <string name="error_preview_unknown">Kan voorbeeld niet weergeven!</string>
+  <string name="error_preview_notfound">Niet beschikbaar voor voorbeeld</string>
+  <string name="error_wpsetter">Live wallpaper niet gevonden!</string>
+  <string name="error_timeout">Time-out verbinding. Probeer het nog eens!</string>
+  <string name="error_catalog">Kan afbeeldingen niet ophalen!</string>
+  <string name="error_browser">Kan browser niet openen!</string>
+  <string name="notif_new_title_one">Nieuw behang! Bekijken!</string>
+  <string name="notif_new_title_multi">Nieuwe achtergronden! Bekijk ze eens!</string>
+  <string name="notif_new_message_one">Er is een nieuw behang aan de catalogus toegevoegd.</string>
+  <string name="notif_new_message_multi">Nieuwe wallpapers zijn toegevoegd aan de catalogus.</string>
+  <string name="select_language">Selecteer Taal</string>
+  <string name="main_info_empty_title">Niets om te laten zien!</string>
+  <string name="main_info_empty_message">Inhoud wordt zo snel mogelijk gedownload...</string>
+  <string name="main_dialog_nosensor_title">Sensorfout</string>
+  <string name="main_dialog_nosensor_message">Je apparaat heeft niet de vereiste sensoren.</string>
+  <string name="main_ongoing_download">Voorbeeld genereren</string>
+  <string name="main_alert_deleted">Lokale kopie verwijderd!</string>
+  <string name="main_menu_sort_new">Nieuw</string>
+  <string name="main_menu_sort_title">Titel</string>
+  <string name="main_menu_sort_author">Auteur</string>
+  <string name="set_title">Voorbeeld</string>
+  <string name="set_dialog_delete_title">Achtergrond verwijderen</string>
+  <string name="set_dialog_delete_message">Wil je deze achtergrond echt verwijderen? Je kunt het altijd later downloaden.</string>
+  <string name="set_dialog_notzero_title">Selecteer 3DLive</string>
+  <string name="set_dialog_notzero_message">Instellen als live achtergrond</string>
+  <string name="set_alert_changed">Behang veranderd!</string>
+  <string name="prev_thisisaprev_toast">Dit is slechts een demo-animatie. Download de achtergrond om hem in actie te zien!</string>
+  <string name="settings_title">Instellingen</string>
+  <string name="settings_dialog_delete_title">Lokale inhoud verwijderen</string>
+  <string name="settings_dialog_delete_message">Wil je echt de lokale inhoud downloaden?</string>
+  <string name="loading">Bezig met laden...</string>
+  <string name="start">Begin</string>
+  <string name="exit">Uitgang</string>
+  <string name="confirm_exit">Afsluiten bevestigen?</string>
+  <string name="yes_exit">Ja</string>
+  <string name="no_exit">Nee</string>
+  <string name="d3_wallpapers">3D-achtergronden</string>
+  <string name="YourdropWallpapers">Je \n achtergronden</string>
+  <string name="livedropwallpapers">Live \n achtergronden</string>
+  <string name="d3dropwallpapers">3D \n achtergronden</string>
+  <string name="search">Zoekopdracht</string>
+  <string name="text_not_found">Gezochte gegevens niet gevonden</string>
+  <string name="audio">Audio</string>
+</resources>

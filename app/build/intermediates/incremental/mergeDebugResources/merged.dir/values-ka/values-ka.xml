@@ -4,6 +4,7 @@
     <item quantity="one">%d ახალი შეტყობინება</item>
     <item quantity="other">%d ახალი შეტყობინება</item>
   </plurals>
+    <string name="YourdropWallpapers">თქვენი \n ფონები</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"მთავარზე გადასვლა"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ზემოთ გადასვლა"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"სხვა ვარიანტები"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"გაზიარება:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>-ით გაზიარება"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ჩაკეცვა"</string>
+    <string name="app_name">ცოცხალი ფონი</string>
+    <string name="audio">აუდიო</string>
     <string name="bottomsheet_action_expand_halfway">ნახევრამდე გაფართოება</string>
     <string name="character_counter_content_description">შეყვანილია %2$d-დან %1$d სიმბოლო</string>
     <string name="character_counter_overflowed_content_description">გადაჭარბებულია სიმბოლოთა ლიმიტი (%2$d-დან %1$d)</string>
     <string name="clear_text_end_icon_content_description">ტექსტის გასუფთავება</string>
+    <string name="common_cancel">გაუქმება</string>
+    <string name="common_delete">წაშლა</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"ჩართვა"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ვერ იმუშავებს Google Play Services-ის ჩართვამდე."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play Services-ის ჩართვა"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"განაახლეთ Google Play Services"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ვერ გაეშვება Google Play Services-ის გარეშე, რომელთა განახლებაც ამჟამად მიმდინარეობს."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"საჭიროა Google Play Services-ის ახალი ვერსია. ის მალე განახლდება."</string>
+    <string name="common_ok">კარგი</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"ტელეფონში გახსნა"</string>
+    <string name="common_pro">პრო</string>
+    <string name="common_retry">ხელახლა სცადეთ</string>
+    <string name="common_set">კომპლექტი</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"შესვლა"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google-ით შესვლა"</string>
+    <string name="confirm_exit">დაადასტურეთ გასვლა?</string>
+    <string name="d3_wallpapers">3D ფონები</string>
+    <string name="d3dropwallpapers">3D \n ფონები</string>
+    <string name="error_browser">ბრაუზერის გახსნა ვერ ხერხდება!</string>
+    <string name="error_catalog">სურათების მოძიება შეუძლებელია!</string>
+    <string name="error_connection">საჭიროა ინტერნეტი!</string>
+    <string name="error_download">გადახედვა ვერ მოხერხდა!</string>
     <string name="error_icon_content_description">შეცდომა</string>
+    <string name="error_preview_notfound">წინასწარი გადახედვა მიუწვდომელია</string>
+    <string name="error_preview_unknown">გადახედვის ჩვენება შეუძლებელია!</string>
+    <string name="error_timeout">Კავშირის დრო ამოიწურა. Კიდევ სცადე!</string>
+    <string name="error_wpsetter">ცოცხალი ფონი ვერ მოიძებნა!</string>
+    <string name="exit">გასვლა</string>
     <string name="exposed_dropdown_menu_content_description">ჩამოსაშლელი მენიუს ჩვენება</string>
     <string name="icon_content_description">დიალოგის ხატულა</string>
     <string name="item_view_role_description">ჩანართი</string>
+    <string name="live_wallpapers">ცოცხალი ფონები</string>
+    <string name="livedropwallpapers">ცოცხალი \n ფონები</string>
+    <string name="loading">Ჩატვირთვა...</string>
+    <string name="main_alert_deleted">ადგილობრივი ასლი წაშლილია!</string>
+    <string name="main_dialog_nosensor_message">თქვენს მოწყობილობას არ აქვს საჭირო სენსორები.</string>
+    <string name="main_dialog_nosensor_title">სენსორის შეცდომა</string>
+    <string name="main_info_empty_message">კონტენტი ჩამოიტვირთება რაც შეიძლება მალე…</string>
+    <string name="main_info_empty_title">საჩვენებელი არაფერია!</string>
+    <string name="main_menu_sort_author">ავტორი</string>
+    <string name="main_menu_sort_new">ახალი</string>
+    <string name="main_menu_sort_title">სათაური</string>
+    <string name="main_ongoing_download">გადახედვის გენერირება</string>
     <string name="material_clock_toggle_content_description">აირჩიეთ AM ან PM</string>
     <string name="material_hour_selection">აირჩიეთ საათი</string>
     <string name="material_hour_suffix">%1$s საათი</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">აირჩიეთ დრო</string>
     <string name="material_timepicker_text_input_mode_description">დროის შეყვანისთვის ტექსტის შეყვანის რეჟიმზე გადართვა.</string>
+    <string name="menu_delete">წაშლა</string>
+    <string name="menu_link">ავტორის საიტი</string>
+    <string name="menu_refresh">განაახლეთ</string>
+    <string name="menu_settings">პარამეტრები</string>
+    <string name="menu_sort">Დალაგება</string>
+    <string name="menu_wpsetter">დააყენეთ ფონი</string>
     <string name="mtrl_badge_numberless_content_description">ახალი შეტყობინება</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s-ის ამოშლა</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d-ზე მეტი ახალი შეტყობინება</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">შეეხეთ დღის არჩევაზე გადასართავად</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">ტექსტის შეყვანის რეჟიმზე გადართვა</string>
     <string name="mtrl_picker_toggle_to_year_selection">შეეხეთ წლის არჩევაზე გადასართავად</string>
+    <string name="my_name">ცოცხალი 3D ფონი</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"ზემოთ გადასვლა"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ნავიგაციის უჯრის გახსნა"</string>
+    <string name="no_exit">არა</string>
+    <string name="notif_new_message_multi">კატალოგს დაემატა ახალი ფონები.</string>
+    <string name="notif_new_message_one">კატალოგს დაემატა ახალი ფონი.</string>
+    <string name="notif_new_title_multi">ახალი ფონები! შეამოწმეთ ისინი!</string>
+    <string name="notif_new_title_one">ახალი ფონი! Შეამოწმე!</string>
     <string name="offline_notification_text">შეეხეთ რეკლამის გასახსნელად</string>
     <string name="offline_notification_title">ნახეთ თქვენ მიერ ხაზგარეშე ყოფნისას შენახული რეკლამა</string>
     <string name="offline_opt_in_confirm">კარგი</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">ჩვენ გამოგიგზავნით შეტყობინებას რეკლამის განმთავსების საიტის ბმულით.</string>
     <string name="offline_opt_in_title">გახსენით რეკლამა, როდესაც ონლაინ დაბრუნდებით.</string>
     <string name="password_toggle_content_description">პაროლის ჩვენება</string>
+    <string name="prev_thisisaprev_toast">ეს მხოლოდ დემო ანიმაციაა. ჩამოტვირთეთ ფონი, რომ ნახოთ ის მოქმედებაში!</string>
     <string name="s1">სურათის შენახვა</string>
     <string name="s2">აძლევთ ნებას რეკლამას, შეინახოს სურათი გალერეაში?</string>
     <string name="s3">მიღება</string>
@@ -119,6 +165,20 @@
     <string name="s5">კალენდარში მოვლენის შექმნა</string>
     <string name="s6">აძლევთ ნებას რეკლამას, შექმნას მოვლენა კალენდარში?</string>
     <string name="s7">სატესტო რეკლამა</string>
+    <string name="search">ძიება</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ძიება"</string>
+    <string name="select_language">Აირჩიეთ ენა</string>
+    <string name="set_alert_changed">ფონი შეიცვალა!</string>
+    <string name="set_dialog_delete_message">ნამდვილად გსურთ ამ ფონის წაშლა? თქვენ ყოველთვის შეგიძლიათ ჩამოტვირთოთ მოგვიანებით.</string>
+    <string name="set_dialog_delete_title">წაშალეთ ფონი</string>
+    <string name="set_dialog_notzero_message">დააყენეთ როგორც ცოცხალი ფონი</string>
+    <string name="set_dialog_notzero_title">აირჩიეთ 3DLive</string>
+    <string name="set_title">გადახედვა</string>
+    <string name="settings_dialog_delete_message">ნამდვილად გსურთ ადგილობრივი შინაარსის ჩამოტვირთვა?</string>
+    <string name="settings_dialog_delete_title">წაშალეთ ადგილობრივი შინაარსი</string>
+    <string name="settings_title">პარამეტრები</string>
+    <string name="start">დაწყება</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">მოძიებული მონაცემები ვერ მოიძებნა</string>
+    <string name="yes_exit">დიახ</string>
 </resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Gyvi tapetai</string>
+  <string name="my_name">Tiesioginis 3D ekrano užsklanda</string>
+  <string name="common_ok">Gerai</string>
+  <string name="common_set">Nustatyti</string>
+  <string name="common_cancel">Atšaukti</string>
+  <string name="common_delete">Ištrinti</string>
+  <string name="common_retry">Bandykite dar kartą</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Gyvi fono paveikslėliai</string>
+  <string name="menu_refresh">Atnaujinti</string>
+  <string name="menu_sort">Rūšiuoti pagal</string>
+  <string name="menu_wpsetter">Nustatyti ekrano užsklandą</string>
+  <string name="menu_settings">Nustatymai</string>
+  <string name="menu_delete">Ištrinti</string>
+  <string name="menu_link">Autoriaus svetainė</string>
+  <string name="error_download">Nepavyko peržiūrėti!</string>
+  <string name="error_connection">Reikalingas interneto ryšys!</string>
+  <string name="error_preview_unknown">Nepavyko parodyti peržiūros!</string>
+  <string name="error_preview_notfound">Negalima peržiūrėti</string>
+  <string name="error_wpsetter">Tiesioginis ekrano užsklanda nerasta!</string>
+  <string name="error_timeout">Ryšio skirtasis laikas. Bandyk iš naujo!</string>
+  <string name="error_catalog">Nepavyko gauti vaizdų!</string>
+  <string name="error_browser">Neįmanoma atidaryti naršyklės!</string>
+  <string name="notif_new_title_one">Naujas tapetas! Pasižiūrėk!</string>
+  <string name="notif_new_title_multi">Nauji tapetai! Patikrink juos!</string>
+  <string name="notif_new_message_one">Į katalogą įtrauktas naujas ekrano užsklanda.</string>
+  <string name="notif_new_message_multi">Į katalogą įtraukti nauji tapetai.</string>
+  <string name="select_language">Pasirinkite kalbą</string>
+  <string name="main_info_empty_title">Nėra ką parodyti!</string>
+  <string name="main_info_empty_message">Turinys bus atsisiųstas kuo greičiau…</string>
+  <string name="main_dialog_nosensor_title">Jutiklio klaida</string>
+  <string name="main_dialog_nosensor_message">Jūsų įrenginyje nėra reikiamų jutiklių.</string>
+  <string name="main_ongoing_download">Peržiūros generavimas</string>
+  <string name="main_alert_deleted">Vietinė kopija ištrinta!</string>
+  <string name="main_menu_sort_new">Nauja</string>
+  <string name="main_menu_sort_title">Pavadinimas</string>
+  <string name="main_menu_sort_author">Autorius</string>
+  <string name="set_title">Peržiūra</string>
+  <string name="set_dialog_delete_title">Ištrinti ekrano užsklandą</string>
+  <string name="set_dialog_delete_message">Ar tikrai norite ištrinti šį ekrano užsklandą? Visada galėsite jį atsisiųsti vėliau.</string>
+  <string name="set_dialog_notzero_title">Pasirinkite 3DLive</string>
+  <string name="set_dialog_notzero_message">Nustatyti kaip tiesioginį foną</string>
+  <string name="set_alert_changed">Tapetai pakeisti!</string>
+  <string name="prev_thisisaprev_toast">Tai tik demonstracinė animacija. Atsisiųskite ekrano užsklandą, kad pamatytumėte, kaip tai veikia!</string>
+  <string name="settings_title">Nustatymai</string>
+  <string name="settings_dialog_delete_title">Ištrinkite vietinį turinį</string>
+  <string name="settings_dialog_delete_message">Ar tikrai norite atsisiųsti vietinį turinį?</string>
+  <string name="loading">Įkeliama...</string>
+  <string name="start">Pradėti</string>
+  <string name="exit">Išeiti</string>
+  <string name="confirm_exit">Patvirtinti išėjimą?</string>
+  <string name="yes_exit">Taip</string>
+  <string name="no_exit">Nr</string>
+  <string name="d3_wallpapers">3D tapetai</string>
+  <string name="YourdropWallpapers">Jūsų \n fono paveikslėliai</string>
+  <string name="livedropwallpapers">Tiesioginiai \n tapetai</string>
+  <string name="d3dropwallpapers">3D \n Užsklandos</string>
+  <string name="search">Paieška</string>
+  <string name="text_not_found">Ieškomų duomenų nerasta</string>
+  <string name="audio">Garsas</string>
+</resources>

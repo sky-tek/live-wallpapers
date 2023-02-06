@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "D:\\live-wallpapers\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
+                {
+                    "source": "D:\\live-wallpapers\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "52",
+                        "endOffsets": "105"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "532",
+                        "endColumns": "52",
+                        "endOffsets": "580"
+                    }
+                },
                 {
                     "source": "C:\\Users\\MobiPixels01\\.gradle\\caches\\transforms-3\\70bb765044a3203b4ddbd00cb3e3d9e9\\transformed\\material-1.4.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
@@ -18,23 +35,6 @@
                         "startOffsets": "805,927",
                         "endColumns": "121,133",
                         "endOffsets": "922,1056"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MobiPixels01\\AndroidStudioProjects\\live wallpaper\\app\\src\\main\\res\\values-large\\dimens.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "52",
-                        "endOffsets": "105"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "532",
-                        "endColumns": "52",
-                        "endOffsets": "580"
                     }
                 },
                 {

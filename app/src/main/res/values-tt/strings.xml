@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Тере обои</string>
+  <string name="my_name">Тере 3D обои</string>
+  <string name="common_ok">ЯРАРМЫ</string>
+  <string name="common_set">Көйләгез</string>
+  <string name="common_cancel">Баш тарту</string>
+  <string name="common_delete">Бетерү</string>
+  <string name="common_retry">Кабатлап карагыз</string>
+  <string name="common_pro">Про</string>
+  <string name="live_wallpapers">Тере обои</string>
+  <string name="menu_refresh">Яңарту</string>
+  <string name="menu_sort">Карата төрлә</string>
+  <string name="menu_wpsetter">Обои куегыз</string>
+  <string name="menu_settings">Көйләүләр</string>
+  <string name="menu_delete">Бетерү</string>
+  <string name="menu_link">Автор сайты</string>
+  <string name="error_download">Алдан карау уңышсыз!</string>
+  <string name="error_connection">Интернетка тоташу кирәк!</string>
+  <string name="error_preview_unknown">Алдан карау күрсәтә алмый!</string>
+  <string name="error_preview_notfound">Алдан карау мөмкин түгел</string>
+  <string name="error_wpsetter">Тере обои табылмады!</string>
+  <string name="error_timeout">Бәйләнү вакыты. Кабатларга!</string>
+  <string name="error_catalog">Рәсемнәрне алып булмый!</string>
+  <string name="error_browser">Ачык браузерны эшләп булмый!</string>
+  <string name="notif_new_title_one">Яңа обои! Тикшерергә аны!</string>
+  <string name="notif_new_title_multi">Яңа обои! Аларны карагыз!</string>
+  <string name="notif_new_message_one">Каталогка яңа обои өстәлде.</string>
+  <string name="notif_new_message_multi">Каталогка яңа обойлар өстәлде.</string>
+  <string name="select_language">Телне сайлагыз</string>
+  <string name="main_info_empty_title">Күрсәтергә бернәрсә дә юк!</string>
+  <string name="main_info_empty_message">Эчтәлек тиз арада йөкләнәчәк ...</string>
+  <string name="main_dialog_nosensor_title">Сенсор хата</string>
+  <string name="main_dialog_nosensor_message">Сезнең җайланмада кирәкле сенсорлар юк.</string>
+  <string name="main_ongoing_download">Алдан карау</string>
+  <string name="main_alert_deleted">Localирле күчермә бетерелде!</string>
+  <string name="main_menu_sort_new">Яңа</string>
+  <string name="main_menu_sort_title">Титул</string>
+  <string name="main_menu_sort_author">Автор</string>
+  <string name="set_title">Алдан карау</string>
+  <string name="set_dialog_delete_title">Обои бетерү</string>
+  <string name="set_dialog_delete_message">Сез бу обойны бетерергә телисезме? Сез аны соңрак соңрак йөкли аласыз.</string>
+  <string name="set_dialog_notzero_title">3DLive сайлагыз</string>
+  <string name="set_dialog_notzero_message">Тере обои итеп куегыз</string>
+  <string name="set_alert_changed">Обои үзгәрде!</string>
+  <string name="prev_thisisaprev_toast">Бу демо анимация генә. Эшне күрү өчен обои йөкләгез!</string>
+  <string name="settings_title">Көйләүләр</string>
+  <string name="settings_dialog_delete_title">Localирле эчтәлекне бетерегез</string>
+  <string name="settings_dialog_delete_message">Сез чыннан да җирле эчтәлекне йөкләргә телисезме?</string>
+  <string name="loading">Йөкләү ...</string>
+  <string name="start">Башлау</string>
+  <string name="exit">Чыгу</string>
+  <string name="confirm_exit">Чыгышны раслыйсызмы?</string>
+  <string name="yes_exit">Әйе</string>
+  <string name="no_exit">.К</string>
+  <string name="d3_wallpapers">3D обои</string>
+  <string name="YourdropWallpapers">Сезнең \n обои</string>
+  <string name="livedropwallpapers">Тере \n обои</string>
+  <string name="d3dropwallpapers">3D \n обои</string>
+  <string name="search">Эзләү</string>
+  <string name="text_not_found">Эзләнгән мәгълүматлар табылмады</string>
+  <string name="audio">Аудио</string>
+</resources>

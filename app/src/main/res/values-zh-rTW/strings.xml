@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">動態壁紙</string>
+  <string name="my_name">動態 3D 壁紙</string>
+  <string name="common_ok">好的</string>
+  <string name="common_set">放</string>
+  <string name="common_cancel">取消</string>
+  <string name="common_delete">刪除</string>
+  <string name="common_retry">重試</string>
+  <string name="common_pro">臨</string>
+  <string name="live_wallpapers">動態壁紙</string>
+  <string name="menu_refresh">刷新</string>
+  <string name="menu_sort">排序方式</string>
+  <string name="menu_wpsetter">設置壁紙</string>
+  <string name="menu_settings">設置</string>
+  <string name="menu_delete">刪除</string>
+  <string name="menu_link">作者網站</string>
+  <string name="error_download">預覽失敗！</string>
+  <string name="error_connection">需要互聯網連接！</string>
+  <string name="error_preview_unknown">無法顯示預覽！</string>
+  <string name="error_preview_notfound">無法預覽</string>
+  <string name="error_wpsetter">找不到動態壁紙！</string>
+  <string name="error_timeout">連接超時。 再試一次！</string>
+  <string name="error_catalog">無法檢索圖像！</string>
+  <string name="error_browser">無法打開瀏覽器！</string>
+  <string name="notif_new_title_one">新壁紙！ 一探究竟！</string>
+  <string name="notif_new_title_multi">新壁紙！ 去看一下！</string>
+  <string name="notif_new_message_one">新壁紙已添加到目錄中。</string>
+  <string name="notif_new_message_multi">新壁紙已添加到目錄中。</string>
+  <string name="select_language">選擇語言</string>
+  <string name="main_info_empty_title">沒有什麼可展示的！</string>
+  <string name="main_info_empty_message">內容將盡快下載...</string>
+  <string name="main_dialog_nosensor_title">傳感器錯誤</string>
+  <string name="main_dialog_nosensor_message">您的設備沒有所需的傳感器。</string>
+  <string name="main_ongoing_download">生成預覽</string>
+  <string name="main_alert_deleted">本地副本已刪除！</string>
+  <string name="main_menu_sort_new">新的</string>
+  <string name="main_menu_sort_title">標題</string>
+  <string name="main_menu_sort_author">作者</string>
+  <string name="set_title">預覽</string>
+  <string name="set_dialog_delete_title">刪除牆紙</string>
+  <string name="set_dialog_delete_message">您真的要刪除此壁紙嗎？ 您以後可以隨時下載它。</string>
+  <string name="set_dialog_notzero_title">選擇 3DLive</string>
+  <string name="set_dialog_notzero_message">設為動態壁紙</string>
+  <string name="set_alert_changed">壁紙變了！</string>
+  <string name="prev_thisisaprev_toast">這只是一個演示動畫。 下載壁紙以查看實際效果！</string>
+  <string name="settings_title">設置</string>
+  <string name="settings_dialog_delete_title">刪除本地內容</string>
+  <string name="settings_dialog_delete_message">您真的要下載本地內容嗎？</string>
+  <string name="loading">加載中...</string>
+  <string name="start">開始</string>
+  <string name="exit">出口</string>
+  <string name="confirm_exit">確認退出？</string>
+  <string name="yes_exit">是的</string>
+  <string name="no_exit">不</string>
+  <string name="d3_wallpapers">3D壁紙</string>
+  <string name="YourdropWallpapers">你的\n壁紙</string>
+  <string name="livedropwallpapers">動態\n</string>
+  <string name="d3dropwallpapers">3D \n壁紙</string>
+  <string name="search">搜索</string>
+  <string name="text_not_found">未找到搜索的數據</string>
+  <string name="audio">聲音的</string>
+</resources>

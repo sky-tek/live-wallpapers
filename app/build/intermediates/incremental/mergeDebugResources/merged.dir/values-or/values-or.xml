@@ -4,6 +4,7 @@
     <item quantity="one">%d new notification</item>
     <item quantity="other">%d new notifications</item>
   </plurals>
+    <string name="YourdropWallpapers">ତୁମର \n ୱାଲପେପର |</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ହୋମ୍ ପେଜ୍‌କୁ ନେଭିଗେଟ୍ କରନ୍ତୁ"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ଉପରକୁ ନେଭିଗେଟ୍ କରନ୍ତୁ"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ଅଧିକ ବିକଳ୍ପ"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ଏହାଙ୍କ ସହ ସେୟାର୍‌ କରନ୍ତୁ"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ସହ ସେୟାର୍‍ କରନ୍ତୁ"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ସଂକୁଚିତ କରନ୍ତୁ"</string>
+    <string name="app_name">ଲାଇଭ୍ ୱାଲପେପର୍ |</string>
+    <string name="audio">ଅଡିଓ</string>
     <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string name="character_counter_content_description">%2$d ର %1$d ଅକ୍ଷର ଲେଖିଛନ୍ତି</string>
     <string name="character_counter_overflowed_content_description">%2$d ର %1$d ଅକ୍ଷର ଲେଖିଛନ୍ତି</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="common_cancel">ବାତିଲ୍ କରନ୍ତୁ |</string>
+    <string name="common_delete">ବିଲୋପ କରନ୍ତୁ |</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"ସକ୍ଷମ କରନ୍ତୁ"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"ଆପଣ Google Play ସେବା ସକ୍ଷମ ନ କରିବା ପର୍ଯ୍ୟନ୍ତ <ns1:g id="APP_NAME">%1$s</ns1:g> କାମ କରିବ ନାହିଁ।"</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play ସେବାଗୁଡ଼ିକ ସକ୍ଷମ କରନ୍ତୁ"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play ସେବାଗୁଡ଼ିକ ଅପଡେଟ୍ କରନ୍ତୁ"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Google Play ସେବାଗୁଡ଼ିକ ବିନା <ns1:g id="APP_NAME">%1$s</ns1:g> ଚାଲିବ ନାହିଁ, ଯେଉଁଗୁଡ଼ିକ ବର୍ତ୍ତମାନ ଅପଡେଟ୍‌ ହେଉଛି।"</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play ସେବାଗୁଡ଼ିକର ନୂତନ ଭର୍ସନ୍‌ ଆବଶ୍ୟକ। ଏହା ନିଜକୁ କିଛି ସମୟ ମଧ୍ୟରେ ଅପଡେଟ୍‌ କରିବ।"</string>
+    <string name="common_ok">ଠିକ୍ ଅଛି</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"ଫୋନ୍‌ରେ ଖୋଲନ୍ତୁ"</string>
+    <string name="common_pro">ପ୍ରୋ</string>
+    <string name="common_retry">ପୁନ ry ଚେଷ୍ଟା କରନ୍ତୁ |</string>
+    <string name="common_set">ସେଟ୍ କରନ୍ତୁ |</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ସାଇନ୍‌-ଇନ୍ କରନ୍ତୁ"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google ସହ ସାଇନ୍‌-ଇନ୍ କରନ୍ତୁ"</string>
+    <string name="confirm_exit">ପ୍ରସ୍ଥାନ ନିଶ୍ଚିତ କରନ୍ତୁ?</string>
+    <string name="d3_wallpapers">3D ୱାଲପେପର |</string>
+    <string name="d3dropwallpapers">3D \n ୱାଲପେପର |</string>
+    <string name="error_browser">ଖୋଲା ବ୍ରାଉଜର୍ ଅକ୍ଷମ!</string>
+    <string name="error_catalog">ପ୍ରତିଛବିଗୁଡିକ ପୁନରୁଦ୍ଧାର କରିବାରେ ଅସମର୍ଥ!</string>
+    <string name="error_connection">ଇଣ୍ଟରନେଟ୍ ସଂଯୋଗ ଆବଶ୍ୟକ!</string>
+    <string name="error_download">ପୂର୍ବାବଲୋକନ କରିବାରେ ବିଫଳ!</string>
     <string name="error_icon_content_description">Error</string>
+    <string name="error_preview_notfound">ପୂର୍ବାବଲୋକନ ପାଇଁ ଉପଲବ୍ଧ ନାହିଁ</string>
+    <string name="error_preview_unknown">ପୂର୍ବାବଲୋକନ ପ୍ରଦର୍ଶନ କରିବାକୁ ଅସମର୍ଥ!</string>
+    <string name="error_timeout">ସଂଯୋଗ ସମୟ ସମାପ୍ତ | ପୁଣି ଥରେ ଚେଷ୍ଟା କର!</string>
+    <string name="error_wpsetter">ଲାଇଭ୍ ୱାଲପେପର ମିଳିଲା ନାହିଁ!</string>
+    <string name="exit">ପ୍ରସ୍ଥାନ</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="live_wallpapers">ଲାଇଭ୍ ୱାଲପେପର |</string>
+    <string name="livedropwallpapers">ଲାଇଭ୍ \n ୱାଲପେପର |</string>
+    <string name="loading">ଲୋଡିଂ ...</string>
+    <string name="main_alert_deleted">ସ୍ଥାନୀୟ କପି ବିଲୋପ ହେଲା!</string>
+    <string name="main_dialog_nosensor_message">ଆପଣଙ୍କର ଡିଭାଇସରେ ଆବଶ୍ୟକୀୟ ସେନ୍ସର ନାହିଁ |</string>
+    <string name="main_dialog_nosensor_title">ସେନ୍ସର ତ୍ରୁଟି |</string>
+    <string name="main_info_empty_message">ଯଥାଶୀଘ୍ର ବିଷୟବସ୍ତୁ ଡାଉନଲୋଡ୍ ହେବ…</string>
+    <string name="main_info_empty_title">ଦେଖାଇବାକୁ କିଛି ନାହିଁ!</string>
+    <string name="main_menu_sort_author">ଲେଖକ</string>
+    <string name="main_menu_sort_new">ନୂତନ</string>
+    <string name="main_menu_sort_title">ଆଖ୍ୟା</string>
+    <string name="main_ongoing_download">ପୂର୍ବାବଲୋକନ ସୃଷ୍ଟି କରୁଛି |</string>
     <string name="material_clock_toggle_content_description">Select AM or PM</string>
     <string name="material_hour_selection">Select hour</string>
     <string name="material_hour_suffix">%1$s o\'clock</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">ସମୟ ଇନପୁଟ୍‍ ପାଇଁ ଟେକ୍ସଟ୍‍ ଇନପୁଟ୍‌କୁ ବଦଳାନ୍ତୁ।</string>
+    <string name="menu_delete">ବିଲୋପ କରନ୍ତୁ |</string>
+    <string name="menu_link">ଲେଖକଙ୍କ ସାଇଟ୍ |</string>
+    <string name="menu_refresh">ସତେଜ କରନ୍ତୁ |</string>
+    <string name="menu_settings">ସେଟିଂସମୂହ</string>
+    <string name="menu_sort">ଦ୍ୱାରା ସର୍ଟ କରନ୍ତୁ |</string>
+    <string name="menu_wpsetter">ୱାଲପେପର ସେଟ୍ କରନ୍ତୁ |</string>
     <string name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s କାଢ଼ିଦିଅନ୍ତୁ</string>
     <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="my_name">ଲାଇଭ୍ 3D ୱାଲପେପର୍ |</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"ଉପରକୁ ନାଭିଗେଟ୍‍ କରନ୍ତୁ"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ନାଭିଗେସନ୍‍ ଡ୍ରୟର୍‍ ଖୋଲନ୍ତୁ"</string>
+    <string name="no_exit">ନା</string>
+    <string name="notif_new_message_multi">ନୂତନ ୱାଲପେପରଗୁଡିକ ତାଲିକାରେ ଯୋଗ କରାଯାଇଛି |</string>
+    <string name="notif_new_message_one">କାଟାଲଗ୍ ରେ ଏକ ନୂତନ ୱାଲପେପର୍ ଯୋଡା ଯାଇଛି |</string>
+    <string name="notif_new_title_multi">ନୂଆ ୱାଲପେପର! ସେମାନଙ୍କୁ ଯାଞ୍ଚ କରନ୍ତୁ!</string>
+    <string name="notif_new_title_one">ନୂଆ ୱାଲପେପର! ଏହାକୁ ଯାଞ୍ଚ କରନ୍ତୁ!</string>
     <string name="offline_notification_text">ବିଜ୍ଞାପନ ଖୋଲିବାକୁ ଟାପ୍ କରନ୍ତୁ</string>
     <string name="offline_notification_title">ଆପଣ ଅଫଲାଇନ୍ ଥିବା ସମୟରେ ସେଭ୍ କରିଥିବା ବିଜ୍ଞାପନ ଦେଖନ୍ତୁ</string>
     <string name="offline_opt_in_confirm">ଠିକ୍ ଅଛି</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">ବିଜ୍ଞାପନଦାତାଙ୍କ ସାଇଟର ଏକ ଲିଙ୍କ୍ ସହ ଆମେ ଆପଣଙ୍କୁ ଏକ ବିଜ୍ଞପ୍ତି ପଠାଇବୁ।</string>
     <string name="offline_opt_in_title">ଆପଣ ପୁଣି ଅନଲାଇନ୍ ହେଲେ ବିଜ୍ଞାପନ ଖୋଲନ୍ତୁ।</string>
     <string name="password_toggle_content_description">ପାସ୍‍ୱାର୍ଡ ଦେଖାନ୍ତୁ</string>
+    <string name="prev_thisisaprev_toast">ଏହା କେବଳ ଏକ ଡେମୋ ଆନିମେସନ୍ | ଏହାକୁ କାର୍ଯ୍ୟରେ ଦେଖିବା ପାଇଁ ୱାଲପେପର ଡାଉନଲୋଡ୍ କରନ୍ତୁ!</string>
     <string name="s1">ଇମେଜ୍ ସେଭ୍‌ କରନ୍ତୁ</string>
     <string name="s2">ପିକ୍‌ଚର୍‌ ଗ୍ୟାଲେରୀରେ ଇମେଜ୍‌ଗୁଡ଼ିକ ଷ୍ଟୋର୍‌ କରିବା ପାଇଁ ବିଜ୍ଞାପନକୁ ଅନୁମତି ଦେବେ?</string>
     <string name="s3">ଗ୍ରହଣ କରନ୍ତୁ</string>
@@ -119,6 +165,20 @@
     <string name="s5">କ୍ୟାଲେଣ୍ଡର୍‌ ଇଭେଣ୍ଟ ତିଆରି କରନ୍ତୁ</string>
     <string name="s6">ଏକ କ୍ୟାଲେଣ୍ଡର୍ ଇଭେଣ୍ଟ ତିଆରି କରିବା ପାଇଁ ବିଜ୍ଞାପନକୁ ଅନୁମତି ଦେବେ କି?</string>
     <string name="s7">ପରୀକ୍ଷାମୂଳକ ବିଜ୍ଞାପନ</string>
+    <string name="search">ସନ୍ଧାନ କର |</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Search"</string>
+    <string name="select_language">ଭାଷା ଚୟନ କରନ୍ତୁ |</string>
+    <string name="set_alert_changed">ୱାଲପେପର ବଦଳିଗଲା!</string>
+    <string name="set_dialog_delete_message">ଆପଣ ପ୍ରକୃତରେ ଏହି ୱାଲପେପର୍ ଡିଲିଟ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି? ଆପଣ ଏହାକୁ ପରେ ପରେ ଡାଉନଲୋଡ୍ କରିପାରିବେ |</string>
+    <string name="set_dialog_delete_title">ୱାଲପେପର ବିଲୋପ କରନ୍ତୁ |</string>
+    <string name="set_dialog_notzero_message">ଲାଇଭ୍ ୱାଲପେପର ଭାବରେ ସେଟ୍ କରନ୍ତୁ |</string>
+    <string name="set_dialog_notzero_title">3DLive ଚୟନ କରନ୍ତୁ |</string>
+    <string name="set_title">ପୂର୍ବାବଲୋକନ</string>
+    <string name="settings_dialog_delete_message">ଆପଣ ପ୍ରକୃତରେ ସ୍ଥାନୀୟ ବିଷୟବସ୍ତୁ ଡାଉନଲୋଡ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?</string>
+    <string name="settings_dialog_delete_title">ସ୍ଥାନୀୟ ବିଷୟବସ୍ତୁ ବିଲୋପ କରନ୍ତୁ |</string>
+    <string name="settings_title">ସେଟିଂସମୂହ</string>
+    <string name="start">ଆରମ୍ଭ କରନ୍ତୁ |</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">ସନ୍ଧାନ କରାଯାଇଥିବା ତଥ୍ୟ ମିଳିଲା ନାହିଁ |</string>
+    <string name="yes_exit">ହଁ</string>
 </resources>

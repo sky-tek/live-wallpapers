@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Élő háttérkép</string>
+  <string name="my_name">Élő 3D háttérkép</string>
+  <string name="common_ok">Rendben</string>
+  <string name="common_set">Készlet</string>
+  <string name="common_cancel">Megszünteti</string>
+  <string name="common_delete">Töröl</string>
+  <string name="common_retry">Próbálja újra</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Élő háttérképek</string>
+  <string name="menu_refresh">Frissítés</string>
+  <string name="menu_sort">Rendezés</string>
+  <string name="menu_wpsetter">Háttérkép beállítása</string>
+  <string name="menu_settings">Beállítások</string>
+  <string name="menu_delete">Töröl</string>
+  <string name="menu_link">A szerző oldala</string>
+  <string name="error_download">Nem sikerült az előnézet!</string>
+  <string name="error_connection">Internet kapcsolat szükséges!</string>
+  <string name="error_preview_unknown">Az előnézet nem jeleníthető meg!</string>
+  <string name="error_preview_notfound">Nem érhető el előnézet</string>
+  <string name="error_wpsetter">Élő háttérkép nem található!</string>
+  <string name="error_timeout">Kapcsolat időtúllépés. Próbáld újra!</string>
+  <string name="error_catalog">Nem sikerült lekérni a képeket!</string>
+  <string name="error_browser">Nem lehet megnyitni a böngészőt!</string>
+  <string name="notif_new_title_one">Új háttérkép! Nézd meg!</string>
+  <string name="notif_new_title_multi">Új háttérképek! Nézd meg őket!</string>
+  <string name="notif_new_message_one">Új háttérkép került a katalógusba.</string>
+  <string name="notif_new_message_multi">Új háttérképek kerültek a katalógusba.</string>
+  <string name="select_language">Válasszon nyelvet</string>
+  <string name="main_info_empty_title">Nincs mit mutatni!</string>
+  <string name="main_info_empty_message">A tartalom a lehető leghamarabb letöltődik…</string>
+  <string name="main_dialog_nosensor_title">Érzékelő hiba</string>
+  <string name="main_dialog_nosensor_message">A készülék nem rendelkezik a szükséges érzékelőkkel.</string>
+  <string name="main_ongoing_download">Előnézet generálása</string>
+  <string name="main_alert_deleted">Helyi másolat törölve!</string>
+  <string name="main_menu_sort_new">Új</string>
+  <string name="main_menu_sort_title">Cím</string>
+  <string name="main_menu_sort_author">Szerző</string>
+  <string name="set_title">Előnézet</string>
+  <string name="set_dialog_delete_title">Háttérkép törlése</string>
+  <string name="set_dialog_delete_message">Biztosan törölni szeretné ezt a háttérképet? Később bármikor letöltheti.</string>
+  <string name="set_dialog_notzero_title">Válassza a 3DLive lehetőséget</string>
+  <string name="set_dialog_notzero_message">Állítsa be élő háttérképként</string>
+  <string name="set_alert_changed">Háttérkép megváltozott!</string>
+  <string name="prev_thisisaprev_toast">Ez csak egy bemutató animáció. Töltse le a háttérképet, és nézze meg működés közben!</string>
+  <string name="settings_title">Beállítások</string>
+  <string name="settings_dialog_delete_title">Törölje a helyi tartalmat</string>
+  <string name="settings_dialog_delete_message">Valóban le akarja tölteni a helyi tartalmat?</string>
+  <string name="loading">Betöltés...</string>
+  <string name="start">Rajt</string>
+  <string name="exit">Kijárat</string>
+  <string name="confirm_exit">Kilépés megerősítése?</string>
+  <string name="yes_exit">Igen</string>
+  <string name="no_exit">Nem</string>
+  <string name="d3_wallpapers">3D háttérképek</string>
+  <string name="YourdropWallpapers">Az Ön \n háttérképei</string>
+  <string name="livedropwallpapers">Élő \n háttérképek</string>
+  <string name="d3dropwallpapers">3D \n Háttérképek</string>
+  <string name="search">Keresés</string>
+  <string name="text_not_found">A keresett adat nem található</string>
+  <string name="audio">Hang</string>
+</resources>

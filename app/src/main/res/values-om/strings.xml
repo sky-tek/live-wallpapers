@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Wallpaper jiraataa</string>
+  <string name="my_name">Wallpaper 3D Kallattiin</string>
+  <string name="common_ok">TOLE</string>
+  <string name="common_set">Sirreessuu</string>
+  <string name="common_cancel">Haquu</string>
+  <string name="common_delete">Haquu</string>
+  <string name="common_retry">Irra deebi\'ii yaali</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Wallpapers Kallattiin</string>
+  <string name="menu_refresh">Haaromsi</string>
+  <string name="menu_sort">Akkaataa</string>
+  <string name="menu_wpsetter">Wallpaper saagi</string>
+  <string name="menu_settings">Sajoo</string>
+  <string name="menu_delete">Haquu</string>
+  <string name="menu_link">Marsariitii barreessaa</string>
+  <string name="error_download">Dursee ilaaluu hin dandeenye!</string>
+  <string name="error_connection">Intarneetii barbaachisa!</string>
+  <string name="error_preview_unknown">Durargii agarsiisuu hin dandeenye!</string>
+  <string name="error_preview_notfound">Dursee ilaaluuf hin argamu</string>
+  <string name="error_wpsetter">Wallpaper kallattiin hin argamne!</string>
+  <string name="error_timeout">Yeroon walqabsiisaa xumuramuu. Ammas Yaalaa!</string>
+  <string name="error_catalog">Fakkiiwwan deebisuu hin dandeenye!</string>
+  <string name="error_browser">Browser banaa hin dandeenye!</string>
+  <string name="notif_new_title_one">Wallpaper Haaraa! Daawwadhaa!</string>
+  <string name="notif_new_title_multi">Wallpaper Haaraa! Isaan ilaalaa!</string>
+  <string name="notif_new_message_one">Wallpaper haaraan kataloogii kana irratti dabalameera.</string>
+  <string name="notif_new_message_multi">Wallpapers haaraan kataloogii irratti dabalameera.</string>
+  <string name="select_language">Afaan Filadhu</string>
+  <string name="main_info_empty_title">Waan agarsiisu hin jiru!</string>
+  <string name="main_info_empty_message">Qabiyyeen yeroo dhiyootti ni buufama...</string>
+  <string name="main_dialog_nosensor_title">Dogoggora sensaraa</string>
+  <string name="main_dialog_nosensor_message">Meeshaan keessan sensaroota barbaachisan hin qabu.</string>
+  <string name="main_ongoing_download">Durargii Maddisiisuu</string>
+  <string name="main_alert_deleted">Koppii naannoo haqameera!</string>
+  <string name="main_menu_sort_new">Haaraa</string>
+  <string name="main_menu_sort_title">Mata-duree</string>
+  <string name="main_menu_sort_author">Barreessaa</string>
+  <string name="set_title">Dursee ilaaluu</string>
+  <string name="set_dialog_delete_title">Wallpaper haquu</string>
+  <string name="set_dialog_delete_message">Dhuguma wallpaper kana haquu barbaadduu? Yeroo hunda booda buufachuu dandeessu.</string>
+  <string name="set_dialog_notzero_title">3DLive filadhu</string>
+  <string name="set_dialog_notzero_message">Akka Live Wallpaper tti saagi</string>
+  <string name="set_alert_changed">Wallpaper jijjiirame!</string>
+  <string name="prev_thisisaprev_toast">Kun animation demo qofa. Hojiidhaan ilaaluuf wallpaper sana buufadhaa!</string>
+  <string name="settings_title">Sajoo</string>
+  <string name="settings_dialog_delete_title">Qabiyyee naannoo haqi</string>
+  <string name="settings_dialog_delete_message">Dhuguma qabiyyee naannoo sanaa buufachuu barbaadduu?</string>
+  <string name="loading">Fe\'amaa jira...</string>
+  <string name="start">Eegaluu</string>
+  <string name="exit">Ba\'uu</string>
+  <string name="confirm_exit">Ba\'uu Mirkaneessi ?</string>
+  <string name="yes_exit">Eeyyee</string>
+  <string name="no_exit">Lakki</string>
+  <string name="d3_wallpapers">Wallpaper 3D kan jedhu</string>
+  <string name="YourdropWallpapers">Wallpapers \n keessan</string>
+  <string name="livedropwallpapers">Kallattiin \n Wallpapers</string>
+  <string name="d3dropwallpapers">3D \n Wallpapers</string>
+  <string name="search">Barbaaduu</string>
+  <string name="text_not_found">Daataan barbaadame hin argamne</string>
+  <string name="audio">Sagalee</string>
+</resources>

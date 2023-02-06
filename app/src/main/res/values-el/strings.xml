@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Ζωντανή ταπετσαρία</string>
+  <string name="my_name">Ζωντανή τρισδιάστατη ταπετσαρία</string>
+  <string name="common_ok">Εντάξει</string>
+  <string name="common_set">Σειρά</string>
+  <string name="common_cancel">Ματαίωση</string>
+  <string name="common_delete">Διαγράφω</string>
+  <string name="common_retry">Ξαναδοκιμάσετε</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Ζωντανές ταπετσαρίες</string>
+  <string name="menu_refresh">Φρεσκάρω</string>
+  <string name="menu_sort">Ταξινόμηση κατά</string>
+  <string name="menu_wpsetter">Ορισμός ταπετσαρίας</string>
+  <string name="menu_settings">Ρυθμίσεις</string>
+  <string name="menu_delete">Διαγράφω</string>
+  <string name="menu_link">Ιστοσελίδα του συγγραφέα</string>
+  <string name="error_download">Η προεπισκόπηση απέτυχε!</string>
+  <string name="error_connection">Απαιτείται σύνδεση στο Διαδίκτυο!</string>
+  <string name="error_preview_unknown">Δεν είναι δυνατή η εμφάνιση της προεπισκόπησης!</string>
+  <string name="error_preview_notfound">Μη διαθέσιμο για προεπισκόπηση</string>
+  <string name="error_wpsetter">Η ζωντανή ταπετσαρία δεν βρέθηκε!</string>
+  <string name="error_timeout">Λήξη χρονικού ορίου σύνδεσης. Προσπάθησε ξανά!</string>
+  <string name="error_catalog">Δεν είναι δυνατή η ανάκτηση εικόνων!</string>
+  <string name="error_browser">Δεν είναι δυνατό το άνοιγμα του προγράμματος περιήγησης!</string>
+  <string name="notif_new_title_one">Νέα ταπετσαρία! Τσέκαρέ το!</string>
+  <string name="notif_new_title_multi">Νέες ταπετσαρίες! Ελέγξτε τα!</string>
+  <string name="notif_new_message_one">Μια νέα ταπετσαρία προστέθηκε στον κατάλογο.</string>
+  <string name="notif_new_message_multi">Νέες ταπετσαρίες έχουν προστεθεί στον κατάλογο.</string>
+  <string name="select_language">Επιλέξτε γλώσσα</string>
+  <string name="main_info_empty_title">Τίποτα να δείξει!</string>
+  <string name="main_info_empty_message">Το περιεχόμενο θα ληφθεί το συντομότερο δυνατό…</string>
+  <string name="main_dialog_nosensor_title">Σφάλμα αισθητήρα</string>
+  <string name="main_dialog_nosensor_message">Η συσκευή σας δεν διαθέτει τους απαιτούμενους αισθητήρες.</string>
+  <string name="main_ongoing_download">Δημιουργία προεπισκόπησης</string>
+  <string name="main_alert_deleted">Το τοπικό αντίγραφο διαγράφηκε!</string>
+  <string name="main_menu_sort_new">Νέος</string>
+  <string name="main_menu_sort_title">Τίτλος</string>
+  <string name="main_menu_sort_author">Συγγραφέας</string>
+  <string name="set_title">Προεπισκόπηση</string>
+  <string name="set_dialog_delete_title">Διαγραφή ταπετσαρίας</string>
+  <string name="set_dialog_delete_message">Θέλετε πραγματικά να διαγράψετε αυτήν την ταπετσαρία; Μπορείτε πάντα να το κατεβάσετε αργότερα.</string>
+  <string name="set_dialog_notzero_title">Επιλέξτε 3DLive</string>
+  <string name="set_dialog_notzero_message">Ορισμός ως Ζωντανή Ταπετσαρία</string>
+  <string name="set_alert_changed">Η ταπετσαρία άλλαξε!</string>
+  <string name="prev_thisisaprev_toast">Αυτό είναι μόνο ένα demo animation. Κατεβάστε την ταπετσαρία για να τη δείτε σε δράση!</string>
+  <string name="settings_title">Ρυθμίσεις</string>
+  <string name="settings_dialog_delete_title">Διαγραφή τοπικού περιεχομένου</string>
+  <string name="settings_dialog_delete_message">Θέλετε πραγματικά να κάνετε λήψη του τοπικού περιεχομένου;</string>
+  <string name="loading">Φόρτωση...</string>
+  <string name="start">Αρχή</string>
+  <string name="exit">Εξοδος</string>
+  <string name="confirm_exit">Επιβεβαίωση Έξοδος;</string>
+  <string name="yes_exit">Ναί</string>
+  <string name="no_exit">Οχι</string>
+  <string name="d3_wallpapers">3D ταπετσαρίες</string>
+  <string name="YourdropWallpapers">Οι \n ταπετσαρίες σας</string>
+  <string name="livedropwallpapers">Ζωντανές \n ταπετσαρίες</string>
+  <string name="d3dropwallpapers">3D \n Ταπετσαρίες</string>
+  <string name="search">Αναζήτηση</string>
+  <string name="text_not_found">Τα δεδομένα αναζήτησης δεν βρέθηκαν</string>
+  <string name="audio">Ήχος</string>
+</resources>

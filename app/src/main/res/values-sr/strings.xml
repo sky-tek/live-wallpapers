@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Ливе валлпапер</string>
+  <string name="my_name">Живе 3Д позадине</string>
+  <string name="common_ok">У реду</string>
+  <string name="common_set">Комплет</string>
+  <string name="common_cancel">Поништити, отказати</string>
+  <string name="common_delete">Избриши</string>
+  <string name="common_retry">Покушај поново</string>
+  <string name="common_pro">Про</string>
+  <string name="live_wallpapers">Живе тапете</string>
+  <string name="menu_refresh">Освјежи</string>
+  <string name="menu_sort">Сортирај по</string>
+  <string name="menu_wpsetter">Поставите позадину</string>
+  <string name="menu_settings">Подешавања</string>
+  <string name="menu_delete">Избриши</string>
+  <string name="menu_link">Ауторов сајт</string>
+  <string name="error_download">Преглед није успео!</string>
+  <string name="error_connection">Потребна је интернет веза!</string>
+  <string name="error_preview_unknown">Није могуће приказати преглед!</string>
+  <string name="error_preview_notfound">Није доступно за преглед</string>
+  <string name="error_wpsetter">Жива позадина није пронађена!</string>
+  <string name="error_timeout">Временско ограничење везе. Покушајте поново!</string>
+  <string name="error_catalog">Није могуће преузети слике!</string>
+  <string name="error_browser">Није могуће отворити прегледач!</string>
+  <string name="notif_new_title_one">Нова позадина! Погледај!</string>
+  <string name="notif_new_title_multi">Нове позадине! Погледајте их!</string>
+  <string name="notif_new_message_one">Нова позадина је додата у каталог.</string>
+  <string name="notif_new_message_multi">Нове позадине су додате у каталог.</string>
+  <string name="select_language">Изаберите Језик</string>
+  <string name="main_info_empty_title">Нема шта да се покаже!</string>
+  <string name="main_info_empty_message">Садржај ће бити преузет у најкраћем могућем року…</string>
+  <string name="main_dialog_nosensor_title">Грешка сензора</string>
+  <string name="main_dialog_nosensor_message">Ваш уређај нема потребне сензоре.</string>
+  <string name="main_ongoing_download">Генерисање прегледа</string>
+  <string name="main_alert_deleted">Локална копија је избрисана!</string>
+  <string name="main_menu_sort_new">Нова</string>
+  <string name="main_menu_sort_title">Наслов</string>
+  <string name="main_menu_sort_author">Аутор</string>
+  <string name="set_title">Преглед</string>
+  <string name="set_dialog_delete_title">Избриши позадину</string>
+  <string name="set_dialog_delete_message">Да ли заиста желите да избришете ову позадину? Увек га можете преузети касније.</string>
+  <string name="set_dialog_notzero_title">Изаберите 3ДЛиве</string>
+  <string name="set_dialog_notzero_message">Постави као аживу позадину</string>
+  <string name="set_alert_changed">Позадина промењена!</string>
+  <string name="prev_thisisaprev_toast">Ово је само демо анимација. Преузмите позадину да бисте је видели у акцији!</string>
+  <string name="settings_title">Подешавања</string>
+  <string name="settings_dialog_delete_title">Избришите локални садржај</string>
+  <string name="settings_dialog_delete_message">Да ли заиста желите да преузмете локални садржај?</string>
+  <string name="loading">Учитавање...</string>
+  <string name="start">Почетак</string>
+  <string name="exit">Изађи</string>
+  <string name="confirm_exit">Цонфирм Екит ?</string>
+  <string name="yes_exit">Да</string>
+  <string name="no_exit">Не</string>
+  <string name="d3_wallpapers">3Д позадине</string>
+  <string name="YourdropWallpapers">Ваше \n позадине</string>
+  <string name="livedropwallpapers">Живе \n позадине</string>
+  <string name="d3dropwallpapers">3Д \n Позадине</string>
+  <string name="search">Претрага</string>
+  <string name="text_not_found">Претражени подаци нису пронађени</string>
+  <string name="audio">Аудио</string>
+</resources>

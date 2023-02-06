@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Wallpaper hirup</string>
+  <string name="my_name">Live Wallpaper 3D</string>
+  <string name="common_ok">OKÉ</string>
+  <string name="common_set">Nyetél</string>
+  <string name="common_cancel">Ngabolaykeun</string>
+  <string name="common_delete">Mupus</string>
+  <string name="common_retry">Coba deui</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Wallpaper Live</string>
+  <string name="menu_refresh">Nyegerkeun</string>
+  <string name="menu_sort">Diurutkeun dumasarkeun</string>
+  <string name="menu_wpsetter">Nyetél wallpaper</string>
+  <string name="menu_settings">Setélan</string>
+  <string name="menu_delete">Mupus</string>
+  <string name="menu_link">Situs pangarang</string>
+  <string name="error_download">Gagal pikeun nilik!</string>
+  <string name="error_connection">Sambungan internét diperlukeun!</string>
+  <string name="error_preview_unknown">Teu bisa mintonkeun sawangan!</string>
+  <string name="error_preview_notfound">Teu sadia pikeun nilik</string>
+  <string name="error_wpsetter">Wallpaper hirup teu kapendak!</string>
+  <string name="error_timeout">Waktos sambungan. Cobian deui!</string>
+  <string name="error_catalog">Teu tiasa nyandak gambar!</string>
+  <string name="error_browser">Teu bisa muka browser!</string>
+  <string name="notif_new_title_one">Wallpaper Anyar! Parios éta!</string>
+  <string name="notif_new_title_multi">Wallpaper Anyar! Pariksa aranjeunna kaluar!</string>
+  <string name="notif_new_message_one">A wallpaper anyar geus ditambahkeun kana katalog.</string>
+  <string name="notif_new_message_multi">Wallpaper anyar geus ditambahkeun kana katalog.</string>
+  <string name="select_language">Pilih Basa</string>
+  <string name="main_info_empty_title">Euweuh nu dipintonkeun!</string>
+  <string name="main_info_empty_message">Eusi bakal diunduh pas mungkin…</string>
+  <string name="main_dialog_nosensor_title">Kasalahan sénsor</string>
+  <string name="main_dialog_nosensor_message">Alat anjeun teu gaduh sénsor anu diperyogikeun.</string>
+  <string name="main_ongoing_download">Ngahasilkeun Sawangan</string>
+  <string name="main_alert_deleted">Salinan lokal dihapus!</string>
+  <string name="main_menu_sort_new">Anyar</string>
+  <string name="main_menu_sort_title">Judul</string>
+  <string name="main_menu_sort_author">Pangarang</string>
+  <string name="set_title">Sawangan</string>
+  <string name="set_dialog_delete_title">Pupus wallpaper</string>
+  <string name="set_dialog_delete_message">Naha anjeun hoyong ngahapus wallpaper ieu? Anjeun salawasna bisa ngundeur éta engké.</string>
+  <string name="set_dialog_notzero_title">Pilih 3DLive</string>
+  <string name="set_dialog_notzero_message">Atur salaku Live Wallpaper</string>
+  <string name="set_alert_changed">Wallpaper robah!</string>
+  <string name="prev_thisisaprev_toast">Ieu ngan ukur animasi demo. Unduh wallpaper pikeun ningali dina aksi!</string>
+  <string name="settings_title">Setélan</string>
+  <string name="settings_dialog_delete_title">Hapus eusi lokal</string>
+  <string name="settings_dialog_delete_message">Naha anjeun badé ngaunduh kontén lokal?</string>
+  <string name="loading">Ngamuat...</string>
+  <string name="start">Mimitian</string>
+  <string name="exit">Kaluar</string>
+  <string name="confirm_exit">Konfirmasi kaluar?</string>
+  <string name="yes_exit">Sumuhun</string>
+  <string name="no_exit">No</string>
+  <string name="d3_wallpapers">Wallpaper 3D</string>
+  <string name="YourdropWallpapers">\n Wallpaper Anjeun</string>
+  <string name="livedropwallpapers">Live \n Wallpaper</string>
+  <string name="d3dropwallpapers">3D \n Wallpaper</string>
+  <string name="search">Pilarian</string>
+  <string name="text_not_found">Data nu ditéang teu kapanggih</string>
+  <string name="audio">Audio</string>
+</resources>

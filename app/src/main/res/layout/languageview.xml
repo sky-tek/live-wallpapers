@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="60dp" android:layout_width="match_parent" android:orientation="horizontal" android:padding="5dp">
+
+    <RadioButton android:layout_height="match_parent" android:layout_width="wrap_content" android:buttonTint="#7F9E5B" android:id="@+id/radioB"/>
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:padding="10dp" android:id="@+id/language" android:textColor="@color/black" android:text="English" android:layout_weight="3" android:textSize="20sp"> </TextView>
+
+    <ImageView android:layout_height="55dp" android:layout_width="45dp" android:id="@+id/image"/>
+
+</LinearLayout>
+
+</LinearLayout>

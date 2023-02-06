@@ -4,6 +4,7 @@
     <item quantity="one">%d nouvelle notification</item>
     <item quantity="other">%d nouvelles notifications</item>
   </plurals>
+    <string name="YourdropWallpapers">Vos \n fonds d\'écran</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Autres options"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Partager avec"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Partager avec <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <string name="app_name">Fond d\'écran en direct</string>
+    <string name="audio">L\'audio</string>
     <string name="bottomsheet_action_expand_halfway">Développer en entier</string>
     <string name="character_counter_content_description">Caractères saisis %1$d sur %2$d</string>
     <string name="character_counter_overflowed_content_description">Nombre maximal de caractères dépassé : %1$d sur %2$d</string>
     <string name="clear_text_end_icon_content_description">Effacer le texte</string>
+    <string name="common_cancel">Annuler</string>
+    <string name="common_delete">Supprimer</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Activer"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Activer les services Google Play"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Mettre à jour les services Google Play"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement."</string>
+    <string name="common_ok">D\'ACCORD</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Ouvrir sur le téléphone"</string>
+    <string name="common_pro">Pro</string>
+    <string name="common_retry">Recommencez</string>
+    <string name="common_set">Ensemble</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Se connecter"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Se connecter avec Google"</string>
+    <string name="confirm_exit">Confirmer Quitter ?</string>
+    <string name="d3_wallpapers">Fonds d\'écran 3D</string>
+    <string name="d3dropwallpapers">Fonds d\'écran \n 3D</string>
+    <string name="error_browser">Impossible d\'ouvrir le navigateur !</string>
+    <string name="error_catalog">Impossible de récupérer les images !</string>
+    <string name="error_connection">Connexion Internet nécessaire !</string>
+    <string name="error_download">Échec de la prévisualisation !</string>
     <string name="error_icon_content_description">Erreur</string>
+    <string name="error_preview_notfound">Non disponible pour prévisualiser</string>
+    <string name="error_preview_unknown">Impossible d\'afficher l\'aperçu !</string>
+    <string name="error_timeout">Délai de connection dépassé. Essayer à nouveau!</string>
+    <string name="error_wpsetter">Fond d\'écran animé introuvable !</string>
+    <string name="exit">Sortie</string>
     <string name="exposed_dropdown_menu_content_description">Afficher le menu déroulant</string>
     <string name="icon_content_description">Icône de la boîte de dialogue</string>
     <string name="item_view_role_description">Tabulation</string>
+    <string name="live_wallpapers">Fonds d\'écran animés</string>
+    <string name="livedropwallpapers">\n Fonds d\'écran animés</string>
+    <string name="loading">Chargement...</string>
+    <string name="main_alert_deleted">Copie locale supprimée !</string>
+    <string name="main_dialog_nosensor_message">Votre appareil ne dispose pas des capteurs requis.</string>
+    <string name="main_dialog_nosensor_title">Erreur de capteur</string>
+    <string name="main_info_empty_message">Le contenu sera téléchargé dès que possible…</string>
+    <string name="main_info_empty_title">Rien à montrer !</string>
+    <string name="main_menu_sort_author">Auteur</string>
+    <string name="main_menu_sort_new">Nouveau</string>
+    <string name="main_menu_sort_title">Titre</string>
+    <string name="main_ongoing_download">Génération d\'un aperçu</string>
     <string name="material_clock_toggle_content_description">Sélectionner le format AM ou PM</string>
     <string name="material_hour_selection">Sélectionnez une heure</string>
     <string name="material_hour_suffix">%1$s h</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Sélectionner l\'heure</string>
     <string name="material_timepicker_text_input_mode_description">Passer en mode saisie de texte pour la saisie de l\'heure.</string>
+    <string name="menu_delete">Supprimer</string>
+    <string name="menu_link">Site de l\'auteur</string>
+    <string name="menu_refresh">Rafraîchir</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_sort">Trier par</string>
+    <string name="menu_wpsetter">Définir le papier peint</string>
     <string name="mtrl_badge_numberless_content_description">Nouvelle notification</string>
     <string name="mtrl_chip_close_icon_content_description">Supprimer %1$s</string>
     <string name="mtrl_exceed_max_badge_number_content_description">Plus de %1$d nouvelles notifications</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Appuyer pour sélectionner un jour</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Passer au mode de saisie Texte</string>
     <string name="mtrl_picker_toggle_to_year_selection">Appuyer pour sélectionner une année</string>
+    <string name="my_name">Fond d\'écran 3D en direct</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Remonter"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Ouvrir le panneau de navigation"</string>
+    <string name="no_exit">Non</string>
+    <string name="notif_new_message_multi">De nouveaux papiers peints ont été ajoutés au catalogue.</string>
+    <string name="notif_new_message_one">Un nouveau fond d\'écran a été ajouté au catalogue.</string>
+    <string name="notif_new_title_multi">Nouveaux fonds d\'écran ! Vérifie-les!</string>
+    <string name="notif_new_title_one">Nouveau fond d\'écran! Vérifiez-le!</string>
     <string name="offline_notification_text">Appuyez pour ouvrir l\'annonce</string>
     <string name="offline_notification_title">Afficher l\'annonce que vous avez enregistrée lorsque vous n\'aviez pas accès à Internet</string>
     <string name="offline_opt_in_confirm">OK</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">Nous vous enverrons une notification contenant un lien vers le site de l\'annonceur.</string>
     <string name="offline_opt_in_title">Ouvrez l\'annonce lorsque vous serez à nouveau connecté à Internet.</string>
     <string name="password_toggle_content_description">Afficher le mot de passe</string>
+    <string name="prev_thisisaprev_toast">Ceci n\'est qu\'une animation de démonstration. Téléchargez le fond d\'écran pour le voir en action !</string>
     <string name="s1">Enregistrer l\'image</string>
     <string name="s2">Autoriser l\'annonce à stocker l\'image dans la galerie d\'images ?</string>
     <string name="s3">Accepter</string>
@@ -119,6 +165,20 @@
     <string name="s5">Créer un événement d\'agenda</string>
     <string name="s6">Autoriser l\'annonce à créer un événement d\'agenda ?</string>
     <string name="s7">Annonce test</string>
+    <string name="search">Recherche</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Rechercher"</string>
+    <string name="select_language">Choisir la langue</string>
+    <string name="set_alert_changed">Fond d\'écran changé !</string>
+    <string name="set_dialog_delete_message">Voulez-vous vraiment supprimer ce fond d\'écran ? Vous pouvez toujours le télécharger plus tard.</string>
+    <string name="set_dialog_delete_title">Supprimer le fond d\'écran</string>
+    <string name="set_dialog_notzero_message">Définir comme fond d\'écran animé</string>
+    <string name="set_dialog_notzero_title">Sélectionnez 3DLive</string>
+    <string name="set_title">Aperçu</string>
+    <string name="settings_dialog_delete_message">Voulez-vous vraiment télécharger le contenu local ?</string>
+    <string name="settings_dialog_delete_title">Supprimer le contenu local</string>
+    <string name="settings_title">Paramètres</string>
+    <string name="start">Commencer</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">Données recherchées introuvables</string>
+    <string name="yes_exit">Oui</string>
 </resources>

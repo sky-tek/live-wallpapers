@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">লাইভ ৱালপেপাৰ</string>
+  <string name="my_name">লাইভ 3D ৱালপেপাৰ</string>
+  <string name="common_ok">ঠিক আছে</string>
+  <string name="common_set">স্থাপন কৰা</string>
+  <string name="common_cancel">বাতিল কৰক</string>
+  <string name="common_delete">বিলোপ</string>
+  <string name="common_retry">পুনৰ চেষ্টা কৰক</string>
+  <string name="common_pro">প্ৰ\'</string>
+  <string name="live_wallpapers">লাইভ ৱালপেপাৰ</string>
+  <string name="menu_refresh">সতেজ কৰক</string>
+  <string name="menu_sort">দ্বাৰা সজাই থওক</string>
+  <string name="menu_wpsetter">ৱালপেপাৰ ছেট কৰক</string>
+  <string name="menu_settings">ছেটিংছ</string>
+  <string name="menu_delete">বিলোপ</string>
+  <string name="menu_link">লেখকৰ চাইট</string>
+  <string name="error_download">পূৰ্বদৰ্শন কৰাত ব্যৰ্থ!</string>
+  <string name="error_connection">ইণ্টাৰনেট সংযোগৰ প্ৰয়োজন!</string>
+  <string name="error_preview_unknown">পূৰ্বদৰ্শন প্ৰদৰ্শন কৰিব নোৱাৰি!</string>
+  <string name="error_preview_notfound">পূৰ্বদৰ্শন কৰিবলৈ উপলব্ধ নহয়</string>
+  <string name="error_wpsetter">লাইভ ৱালপেপাৰ পোৱা নগ\'ল!</string>
+  <string name="error_timeout">সংযোগৰ সময়সীমা। আকৌ এবাৰ চেষ্টা কৰক!</string>
+  <string name="error_catalog">ছবি উদ্ধাৰ কৰিবলৈ অক্ষম!</string>
+  <string name="error_browser">খোলা ব্ৰাউজাৰ অক্ষম!</string>
+  <string name="notif_new_title_one">নতুন ৱালপেপাৰ! চাওকচোন!</string>
+  <string name="notif_new_title_multi">নতুন ৱালপেপাৰ! সেইবোৰ চাওকচোন!</string>
+  <string name="notif_new_message_one">কেটেলগত এটা নতুন ৱালপেপাৰ সংযোজন কৰা হৈছে।</string>
+  <string name="notif_new_message_multi">কেটেলগত নতুন ৱালপেপাৰ যোগ কৰা হৈছে।</string>
+  <string name="select_language">ভাষা নিৰ্বাচন কৰক</string>
+  <string name="main_info_empty_title">দেখুৱাবলৈ একো নাই!</string>
+  <string name="main_info_empty_message">যথাসম্ভৱ সোনকালে বিষয়বস্তু ডাউনলোড কৰা হ\'ব...</string>
+  <string name="main_dialog_nosensor_title">চেন্সৰৰ ভুল</string>
+  <string name="main_dialog_nosensor_message">আপোনাৰ ডিভাইচত প্ৰয়োজনীয় চেন্সৰ নাই।</string>
+  <string name="main_ongoing_download">পূৰ্বদৰ্শন সৃষ্টি কৰা</string>
+  <string name="main_alert_deleted">স্থানীয় কপি মচি পেলোৱা হ\'ল!</string>
+  <string name="main_menu_sort_new">নতুন</string>
+  <string name="main_menu_sort_title">অলপ</string>
+  <string name="main_menu_sort_author">লিখক</string>
+  <string name="set_title">পূৰ্বদৰ্শন</string>
+  <string name="set_dialog_delete_title">ৱালপেপাৰ মচি পেলাওক</string>
+  <string name="set_dialog_delete_message">আপুনি সঁচাকৈয়ে এই ৱালপেপাৰটো মচি পেলাব বিচাৰেনে? পিছত সদায় ডাউনলোড কৰিব পাৰিব।</string>
+  <string name="set_dialog_notzero_title">3DLive নিৰ্ব্বাচন কৰক</string>
+  <string name="set_dialog_notzero_message">লাইভ ৱালপেপাৰ হিচাপে ছেট কৰক</string>
+  <string name="set_alert_changed">ৱালপেপাৰ সলনি হ\'ল!</string>
+  <string name="prev_thisisaprev_toast">এইটো মাত্ৰ এটা ডেমো এনিমেচন। ইয়াক কাৰ্য্যত চাবলৈ ৱালপেপাৰ ডাউনলোড কৰক!</string>
+  <string name="settings_title">ছেটিংছ</string>
+  <string name="settings_dialog_delete_title">স্থানীয় বিষয়বস্তু মচি পেলাওক</string>
+  <string name="settings_dialog_delete_message">আপুনি সঁচাকৈয়ে স্থানীয় বিষয়বস্তু ডাউনলোড কৰিব বিচাৰেনে?</string>
+  <string name="loading">লোড হচ্ছে...</string>
+  <string name="start">আৰম্ভ কৰক</string>
+  <string name="exit">প্ৰস্থান</string>
+  <string name="confirm_exit">প্ৰস্থান নিশ্চিত কৰক ?</string>
+  <string name="yes_exit">হয়</string>
+  <string name="no_exit">নহয়</string>
+  <string name="d3_wallpapers">3D ৱালপেপাৰ</string>
+  <string name="YourdropWallpapers">আপোনাৰ \n ৱালপেপাৰ</string>
+  <string name="livedropwallpapers">লাইভ \n ৱালপেপাৰ</string>
+  <string name="d3dropwallpapers">3D \n ৱালপেপাৰ</string>
+  <string name="search">সন্ধান</string>
+  <string name="text_not_found">সন্ধান কৰা তথ্য পোৱা নগ\'ল</string>
+  <string name="audio">অডিঅ\'</string>
+</resources>

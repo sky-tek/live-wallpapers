@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Жандуу обои</string>
+  <string name="my_name">Жандуу 3D обои</string>
+  <string name="common_ok">Макул</string>
+  <string name="common_set">Коюу</string>
+  <string name="common_cancel">Жокко чыгаруу</string>
+  <string name="common_delete">Жок кылуу</string>
+  <string name="common_retry">Кайталап көрүңүз</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Жандуу тушкагаздар</string>
+  <string name="menu_refresh">Жаңылоо</string>
+  <string name="menu_sort">Иреттөө</string>
+  <string name="menu_wpsetter">Обои коюу</string>
+  <string name="menu_settings">Орнотуулар</string>
+  <string name="menu_delete">Жок кылуу</string>
+  <string name="menu_link">Автордун сайты</string>
+  <string name="error_download">Алдын ала көрүү ишке ашкан жок!</string>
+  <string name="error_connection">Интернет байланышы керек!</string>
+  <string name="error_preview_unknown">Алдын ала кароону көрсөтүү мүмкүн эмес!</string>
+  <string name="error_preview_notfound">Алдын ала көрүү үчүн жеткиликсиз</string>
+  <string name="error_wpsetter">Жандуу тушкагаз табылган жок!</string>
+  <string name="error_timeout">Туташуу күтүүсүз. Кайра аракет кыл!</string>
+  <string name="error_catalog">Сүрөттөрдү алуу мүмкүн эмес!</string>
+  <string name="error_browser">Браузер ачылбай жатат!</string>
+  <string name="notif_new_title_one">Жаңы обои! Муну карап көр!</string>
+  <string name="notif_new_title_multi">Жаңы тушкагаздар! Аларды текшерип көрүңүз!</string>
+  <string name="notif_new_message_one">Каталогго жаңы обои кошулду.</string>
+  <string name="notif_new_message_multi">Каталогго жаңы обои кошулду.</string>
+  <string name="select_language">Тил тандаңыз</string>
+  <string name="main_info_empty_title">Көрсөтө турган эч нерсе жок!</string>
+  <string name="main_info_empty_message">Мазмун мүмкүн болушунча тезирээк жүктөлүп алынат…</string>
+  <string name="main_dialog_nosensor_title">Сенсор катасы</string>
+  <string name="main_dialog_nosensor_message">Түзмөгүңүздө талап кылынган сенсорлор жок.</string>
+  <string name="main_ongoing_download">Алдын ала көрүү түзүлүүдө</string>
+  <string name="main_alert_deleted">Жергиликтүү көчүрмө жок кылынды!</string>
+  <string name="main_menu_sort_new">Жаңы</string>
+  <string name="main_menu_sort_title">Title</string>
+  <string name="main_menu_sort_author">Автор</string>
+  <string name="set_title">Алдын ала көрүү</string>
+  <string name="set_dialog_delete_title">Обои жок кылуу</string>
+  <string name="set_dialog_delete_message">Чын эле бул тушкагазды жок кылгыңыз келеби? Аны кийинчерээк жүктөп алсаңыз болот.</string>
+  <string name="set_dialog_notzero_title">3DLive тандаңыз</string>
+  <string name="set_dialog_notzero_message">Жандуу обои катары коюу</string>
+  <string name="set_alert_changed">Обои өзгөрдү!</string>
+  <string name="prev_thisisaprev_toast">Бул жөн гана демо анимация. Аны иш жүзүндө көрүү үчүн обои жүктөп алыңыз!</string>
+  <string name="settings_title">Орнотуулар</string>
+  <string name="settings_dialog_delete_title">Жергиликтүү мазмунду жок кылуу</string>
+  <string name="settings_dialog_delete_message">Сиз чындап эле жергиликтүү мазмунду жүктөп алгыңыз келеби?</string>
+  <string name="loading">Жүктөлүүдө...</string>
+  <string name="start">Баштоо</string>
+  <string name="exit">Чыгыңыз</string>
+  <string name="confirm_exit">Чыгууну ырастайсызбы?</string>
+  <string name="yes_exit">Ооба</string>
+  <string name="no_exit">Жок</string>
+  <string name="d3_wallpapers">3D обои</string>
+  <string name="YourdropWallpapers">Сиздин \n Обои</string>
+  <string name="livedropwallpapers">Жандуу \n Тушкагаздар</string>
+  <string name="d3dropwallpapers">3D \n Обои</string>
+  <string name="search">Издөө</string>
+  <string name="text_not_found">Изделген маалымат табылган жок</string>
+  <string name="audio">Аудио</string>
+</resources>

@@ -4,6 +4,7 @@
     <item quantity="one">%d new notification</item>
     <item quantity="other">%d new notifications</item>
   </plurals>
+    <string name="YourdropWallpapers">আপোনাৰ \n ৱালপেপাৰ</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"গৃহ পৃষ্ঠালৈ যাওক"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ওপৰলৈ যাওক"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"অধিক বিকল্প"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ইয়াৰ জৰিয়তে শ্বেয়াৰ কৰক"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>ৰ জৰিয়তে শ্বেয়াৰ কৰক"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"সংকোচন কৰক"</string>
+    <string name="app_name">লাইভ ৱালপেপাৰ</string>
+    <string name="audio">অডিঅ\'</string>
     <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string name="character_counter_content_description">%2$dটাৰ ভিতৰত %1$dটা বৰ্ণ লিখা হৈছে</string>
     <string name="character_counter_overflowed_content_description">%2$dটাৰ ভিতৰত %1$dটা বৰ্ণৰ সীমা অতিক্ৰম কৰিছে</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="common_cancel">বাতিল কৰক</string>
+    <string name="common_delete">বিলোপ</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"সক্ষম কৰক"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"আপুনি Google Play সেৱাবোৰ সক্ষম নকৰালৈকে <ns1:g id="APP_NAME">%1$s</ns1:g>এ কাম নকৰিব।"</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google প্লে সেৱাসক্ষম কৰক"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play সেৱা আপডে’ট কৰক"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"বৰ্তমান আপডে’ট হৈ থকা Google Play সেৱাসমূহৰ অবিহনে <ns1:g id="APP_NAME">%1$s</ns1:g> নচলিব৷"</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play সেৱাসমূহৰ নতুন সংস্কৰণৰ প্ৰয়োজন৷ এইটো শীঘ্ৰেই নিজে-নিজে আপডে’ট হ’ব৷"</string>
+    <string name="common_ok">ঠিক আছে</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"ফ\'নত খোলক"</string>
+    <string name="common_pro">প্ৰ\'</string>
+    <string name="common_retry">পুনৰ চেষ্টা কৰক</string>
+    <string name="common_set">স্থাপন কৰা</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ছাইন ইন কৰক"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleৰ জৰিয়তে ছাইন ইন কৰক"</string>
+    <string name="confirm_exit">প্ৰস্থান নিশ্চিত কৰক ?</string>
+    <string name="d3_wallpapers">3D ৱালপেপাৰ</string>
+    <string name="d3dropwallpapers">3D \n ৱালপেপাৰ</string>
+    <string name="error_browser">খোলা ব্ৰাউজাৰ অক্ষম!</string>
+    <string name="error_catalog">ছবি উদ্ধাৰ কৰিবলৈ অক্ষম!</string>
+    <string name="error_connection">ইণ্টাৰনেট সংযোগৰ প্ৰয়োজন!</string>
+    <string name="error_download">পূৰ্বদৰ্শন কৰাত ব্যৰ্থ!</string>
     <string name="error_icon_content_description">Error</string>
+    <string name="error_preview_notfound">পূৰ্বদৰ্শন কৰিবলৈ উপলব্ধ নহয়</string>
+    <string name="error_preview_unknown">পূৰ্বদৰ্শন প্ৰদৰ্শন কৰিব নোৱাৰি!</string>
+    <string name="error_timeout">সংযোগৰ সময়সীমা। আকৌ এবাৰ চেষ্টা কৰক!</string>
+    <string name="error_wpsetter">লাইভ ৱালপেপাৰ পোৱা নগ\'ল!</string>
+    <string name="exit">প্ৰস্থান</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="live_wallpapers">লাইভ ৱালপেপাৰ</string>
+    <string name="livedropwallpapers">লাইভ \n ৱালপেপাৰ</string>
+    <string name="loading">লোড হচ্ছে...</string>
+    <string name="main_alert_deleted">স্থানীয় কপি মচি পেলোৱা হ\'ল!</string>
+    <string name="main_dialog_nosensor_message">আপোনাৰ ডিভাইচত প্ৰয়োজনীয় চেন্সৰ নাই।</string>
+    <string name="main_dialog_nosensor_title">চেন্সৰৰ ভুল</string>
+    <string name="main_info_empty_message">যথাসম্ভৱ সোনকালে বিষয়বস্তু ডাউনলোড কৰা হ\'ব...</string>
+    <string name="main_info_empty_title">দেখুৱাবলৈ একো নাই!</string>
+    <string name="main_menu_sort_author">লিখক</string>
+    <string name="main_menu_sort_new">নতুন</string>
+    <string name="main_menu_sort_title">অলপ</string>
+    <string name="main_ongoing_download">পূৰ্বদৰ্শন সৃষ্টি কৰা</string>
     <string name="material_clock_toggle_content_description">Select AM or PM</string>
     <string name="material_hour_selection">Select hour</string>
     <string name="material_hour_suffix">%1$s o\'clock</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">সময়ৰ ইনপুটৰ বাবে পাঠৰ ইনপুট ম\'ডলৈ যাওক।</string>
+    <string name="menu_delete">বিলোপ</string>
+    <string name="menu_link">লেখকৰ চাইট</string>
+    <string name="menu_refresh">সতেজ কৰক</string>
+    <string name="menu_settings">ছেটিংছ</string>
+    <string name="menu_sort">দ্বাৰা সজাই থওক</string>
+    <string name="menu_wpsetter">ৱালপেপাৰ ছেট কৰক</string>
     <string name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_chip_close_icon_content_description">%1$sক আঁতৰাওক</string>
     <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
     <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="my_name">লাইভ 3D ৱালপেপাৰ</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"ওপৰলৈ যাওক"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"নেভিগেশ্বন ড্ৰৱাৰ খোলক"</string>
+    <string name="no_exit">নহয়</string>
+    <string name="notif_new_message_multi">কেটেলগত নতুন ৱালপেপাৰ যোগ কৰা হৈছে।</string>
+    <string name="notif_new_message_one">কেটেলগত এটা নতুন ৱালপেপাৰ সংযোজন কৰা হৈছে।</string>
+    <string name="notif_new_title_multi">নতুন ৱালপেপাৰ! সেইবোৰ চাওকচোন!</string>
+    <string name="notif_new_title_one">নতুন ৱালপেপাৰ! চাওকচোন!</string>
     <string name="offline_notification_text">বিজ্ঞাপন খুলিবলৈ টিপক</string>
     <string name="offline_notification_title">আপুনি অফলাইন হৈ থাকোঁতে ছেভ কৰা বিজ্ঞাপনটো চাওক</string>
     <string name="offline_opt_in_confirm">ঠিক আছে</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">বিজ্ঞাপনদাতাৰ ছাইটৰ এটা লিংকৰ সৈতে আমি আপোনালৈ এটা জাননী পঠিয়াম।</string>
     <string name="offline_opt_in_title">আপুনি পুনৰাই অনলাইন হ’লে বিজ্ঞাপন খোলে।</string>
     <string name="password_toggle_content_description">পাছৱৰ্ড দেখুৱাওক</string>
+    <string name="prev_thisisaprev_toast">এইটো মাত্ৰ এটা ডেমো এনিমেচন। ইয়াক কাৰ্য্যত চাবলৈ ৱালপেপাৰ ডাউনলোড কৰক!</string>
     <string name="s1">ছবি ছেভ কৰক</string>
     <string name="s2">বিজ্ঞাপনক চিত্ৰৰ গেলাৰীত ছবি সঞ্চয় কৰিবলৈ অনুমতি দিবনে?</string>
     <string name="s3">স্বীকাৰ কৰক</string>
@@ -119,6 +165,20 @@
     <string name="s5">কেলেণ্ডাৰৰ কাৰ্যক্ৰম সৃষ্টি কৰক</string>
     <string name="s6">বিজ্ঞাপনক কোনো কেলেণ্ডাৰৰ কাৰ্যক্ৰম সৃষ্টি কৰিবলৈ অনুমতি দিবনে?</string>
     <string name="s7">পৰীক্ষণ বিজ্ঞাপন</string>
+    <string name="search">সন্ধান</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Search"</string>
+    <string name="select_language">ভাষা নিৰ্বাচন কৰক</string>
+    <string name="set_alert_changed">ৱালপেপাৰ সলনি হ\'ল!</string>
+    <string name="set_dialog_delete_message">আপুনি সঁচাকৈয়ে এই ৱালপেপাৰটো মচি পেলাব বিচাৰেনে? পিছত সদায় ডাউনলোড কৰিব পাৰিব।</string>
+    <string name="set_dialog_delete_title">ৱালপেপাৰ মচি পেলাওক</string>
+    <string name="set_dialog_notzero_message">লাইভ ৱালপেপাৰ হিচাপে ছেট কৰক</string>
+    <string name="set_dialog_notzero_title">3DLive নিৰ্ব্বাচন কৰক</string>
+    <string name="set_title">পূৰ্বদৰ্শন</string>
+    <string name="settings_dialog_delete_message">আপুনি সঁচাকৈয়ে স্থানীয় বিষয়বস্তু ডাউনলোড কৰিব বিচাৰেনে?</string>
+    <string name="settings_dialog_delete_title">স্থানীয় বিষয়বস্তু মচি পেলাওক</string>
+    <string name="settings_title">ছেটিংছ</string>
+    <string name="start">আৰম্ভ কৰক</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"৯৯৯+"</string>
+    <string name="text_not_found">সন্ধান কৰা তথ্য পোৱা নগ\'ল</string>
+    <string name="yes_exit">হয়</string>
 </resources>

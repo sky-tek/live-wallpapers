@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Живі шпалери</string>
+  <string name="my_name">Живі 3D шпалери</string>
+  <string name="common_ok">В порядку</string>
+  <string name="common_set">Встановити</string>
+  <string name="common_cancel">Скасувати</string>
+  <string name="common_delete">Видалити</string>
+  <string name="common_retry">Повторіть спробу</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Живі шпалери</string>
+  <string name="menu_refresh">Оновити</string>
+  <string name="menu_sort">Сортувати за</string>
+  <string name="menu_wpsetter">Встановити шпалери</string>
+  <string name="menu_settings">Налаштування</string>
+  <string name="menu_delete">Видалити</string>
+  <string name="menu_link">Авторський сайт</string>
+  <string name="error_download">Не вдалося переглянути!</string>
+  <string name="error_connection">Потрібне підключення до Інтернету!</string>
+  <string name="error_preview_unknown">Неможливо відобразити попередній перегляд!</string>
+  <string name="error_preview_notfound">Недоступний для попереднього перегляду</string>
+  <string name="error_wpsetter">Живі шпалери не знайдено!</string>
+  <string name="error_timeout">Час очікування підключення. Спробуйте знову!</string>
+  <string name="error_catalog">Неможливо отримати зображення!</string>
+  <string name="error_browser">Неможливо відкрити браузер!</string>
+  <string name="notif_new_title_one">Нові шпалери! Перевір!</string>
+  <string name="notif_new_title_multi">Нові шпалери! Перевірте їх!</string>
+  <string name="notif_new_message_one">Нові шпалери додано в каталог.</string>
+  <string name="notif_new_message_multi">Нові шпалери додано в каталог.</string>
+  <string name="select_language">Оберіть мову</string>
+  <string name="main_info_empty_title">Нема чого показувати!</string>
+  <string name="main_info_empty_message">Вміст буде завантажено якомога швидше…</string>
+  <string name="main_dialog_nosensor_title">Помилка датчика</string>
+  <string name="main_dialog_nosensor_message">Ваш пристрій не має необхідних датчиків.</string>
+  <string name="main_ongoing_download">Створення попереднього перегляду</string>
+  <string name="main_alert_deleted">Локальну копію видалено!</string>
+  <string name="main_menu_sort_new">Новий</string>
+  <string name="main_menu_sort_title">Назва</string>
+  <string name="main_menu_sort_author">Автор</string>
+  <string name="set_title">Попередній перегляд</string>
+  <string name="set_dialog_delete_title">Видалити шпалери</string>
+  <string name="set_dialog_delete_message">Ви справді хочете видалити ці шпалери? Ви завжди можете завантажити його пізніше.</string>
+  <string name="set_dialog_notzero_title">Виберіть 3DLive</string>
+  <string name="set_dialog_notzero_message">Встановити як живі шпалери</string>
+  <string name="set_alert_changed">Шпалери поміняні!</string>
+  <string name="prev_thisisaprev_toast">Це лише демонстраційна анімація. Завантажте шпалери, щоб побачити їх у дії!</string>
+  <string name="settings_title">Налаштування</string>
+  <string name="settings_dialog_delete_title">Видалити локальний вміст</string>
+  <string name="settings_dialog_delete_message">Ви дійсно хочете завантажити локальний вміст?</string>
+  <string name="loading">Завантаження...</string>
+  <string name="start">Старт</string>
+  <string name="exit">Вихід</string>
+  <string name="confirm_exit">Підтвердити вихід?</string>
+  <string name="yes_exit">Так</string>
+  <string name="no_exit">Немає</string>
+  <string name="d3_wallpapers">3D шпалери</string>
+  <string name="YourdropWallpapers">Ваші \n шпалери</string>
+  <string name="livedropwallpapers">Живі \n шпалери</string>
+  <string name="d3dropwallpapers">3D \n шпалери</string>
+  <string name="search">Пошук</string>
+  <string name="text_not_found">Пошукові дані не знайдені</string>
+  <string name="audio">Аудіо</string>
+</resources>

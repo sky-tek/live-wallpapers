@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">라이브 배경 화면</string>
+  <string name="my_name">라이브 3D 배경화면</string>
+  <string name="common_ok">좋아요</string>
+  <string name="common_set">세트</string>
+  <string name="common_cancel">취소</string>
+  <string name="common_delete">삭제</string>
+  <string name="common_retry">다시 해 보다</string>
+  <string name="common_pro">찬성</string>
+  <string name="live_wallpapers">라이브 월페이퍼</string>
+  <string name="menu_refresh">새로 고치다</string>
+  <string name="menu_sort">정렬 기준</string>
+  <string name="menu_wpsetter">배경화면 설정</string>
+  <string name="menu_settings">설정</string>
+  <string name="menu_delete">삭제</string>
+  <string name="menu_link">저자 사이트</string>
+  <string name="error_download">미리보기에 실패했습니다!</string>
+  <string name="error_connection">인터넷 연결이 필요합니다!</string>
+  <string name="error_preview_unknown">미리보기를 표시할 수 없습니다!</string>
+  <string name="error_preview_notfound">미리보기 불가</string>
+  <string name="error_wpsetter">라이브 배경화면을 찾을 수 없습니다!</string>
+  <string name="error_timeout">접속 시간 초과. 다시 시도하십시오!</string>
+  <string name="error_catalog">이미지를 검색할 수 없습니다!</string>
+  <string name="error_browser">브라우저를 열 수 없습니다!</string>
+  <string name="notif_new_title_one">새로운 배경화면! 확인 해봐!</string>
+  <string name="notif_new_title_multi">새로운 배경화면! 한번 봐봐!</string>
+  <string name="notif_new_message_one">카탈로그에 새 배경화면이 추가되었습니다.</string>
+  <string name="notif_new_message_multi">새로운 월페이퍼가 카탈로그에 추가되었습니다.</string>
+  <string name="select_language">언어 선택</string>
+  <string name="main_info_empty_title">보여줄 게 ​​없어!</string>
+  <string name="main_info_empty_message">콘텐츠는 가능한 한 빨리 다운로드됩니다…</string>
+  <string name="main_dialog_nosensor_title">센서 오류</string>
+  <string name="main_dialog_nosensor_message">장치에 필요한 센서가 없습니다.</string>
+  <string name="main_ongoing_download">미리보기 생성</string>
+  <string name="main_alert_deleted">로컬 사본이 삭제되었습니다!</string>
+  <string name="main_menu_sort_new">새로운</string>
+  <string name="main_menu_sort_title">제목</string>
+  <string name="main_menu_sort_author">작가</string>
+  <string name="set_title">시사</string>
+  <string name="set_dialog_delete_title">배경화면 삭제</string>
+  <string name="set_dialog_delete_message">이 배경화면을 삭제하시겠습니까? 나중에 언제든지 다운로드할 수 있습니다.</string>
+  <string name="set_dialog_notzero_title">3D라이브 선택</string>
+  <string name="set_dialog_notzero_message">라이브 배경 화면으로 설정</string>
+  <string name="set_alert_changed">배경화면이 바뀜!</string>
+  <string name="prev_thisisaprev_toast">이것은 데모 애니메이션일 뿐입니다. 배경화면을 다운로드하여 실제 작동 모습을 확인하세요!</string>
+  <string name="settings_title">설정</string>
+  <string name="settings_dialog_delete_title">로컬 콘텐츠 삭제</string>
+  <string name="settings_dialog_delete_message">로컬 콘텐츠를 다운로드하시겠습니까?</string>
+  <string name="loading">로드 중...</string>
+  <string name="start">시작</string>
+  <string name="exit">출구</string>
+  <string name="confirm_exit">종료를 확인하시겠습니까?</string>
+  <string name="yes_exit">예</string>
+  <string name="no_exit">아니요</string>
+  <string name="d3_wallpapers">3D 월페이퍼</string>
+  <string name="YourdropWallpapers">내 \n 배경화면</string>
+  <string name="livedropwallpapers">라이브 \n 배경화면</string>
+  <string name="d3dropwallpapers">3D \n 배경화면</string>
+  <string name="search">찾다</string>
+  <string name="text_not_found">검색된 데이터가 없습니다</string>
+  <string name="audio">오디오</string>
+</resources>

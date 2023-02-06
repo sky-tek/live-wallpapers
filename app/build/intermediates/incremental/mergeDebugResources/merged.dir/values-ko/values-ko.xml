@@ -4,6 +4,7 @@
     <item quantity="one">새 알림 %d개</item>
     <item quantity="other">새 알림 %d개</item>
   </plurals>
+    <string name="YourdropWallpapers">내 \n 배경화면</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"홈으로 이동"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"위로 이동"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"추가 옵션"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"공유 대상:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>과(와) 공유"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"접기"</string>
+    <string name="app_name">라이브 배경 화면</string>
+    <string name="audio">오디오</string>
     <string name="bottomsheet_action_expand_halfway">반만 펼치기</string>
     <string name="character_counter_content_description">입력된 글자 %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">글자 수 제한이 초과되었습니다(%1$d/%2$d).</string>
     <string name="clear_text_end_icon_content_description">텍스트 삭제</string>
+    <string name="common_cancel">취소</string>
+    <string name="common_delete">삭제</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"사용 설정"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play 서비스를 사용하도록 설정해야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 작동합니다."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play 서비스 사용"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play 서비스 업데이트"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"현재 업데이트 중인 Google Play 서비스가 있어야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다."</string>
+    <string name="common_ok">좋아요</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"스마트폰에서 열기"</string>
+    <string name="common_pro">찬성</string>
+    <string name="common_retry">다시 해 보다</string>
+    <string name="common_set">세트</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"로그인"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
+    <string name="confirm_exit">종료를 확인하시겠습니까?</string>
+    <string name="d3_wallpapers">3D 월페이퍼</string>
+    <string name="d3dropwallpapers">3D \n 배경화면</string>
+    <string name="error_browser">브라우저를 열 수 없습니다!</string>
+    <string name="error_catalog">이미지를 검색할 수 없습니다!</string>
+    <string name="error_connection">인터넷 연결이 필요합니다!</string>
+    <string name="error_download">미리보기에 실패했습니다!</string>
     <string name="error_icon_content_description">오류</string>
+    <string name="error_preview_notfound">미리보기 불가</string>
+    <string name="error_preview_unknown">미리보기를 표시할 수 없습니다!</string>
+    <string name="error_timeout">접속 시간 초과. 다시 시도하십시오!</string>
+    <string name="error_wpsetter">라이브 배경화면을 찾을 수 없습니다!</string>
+    <string name="exit">출구</string>
     <string name="exposed_dropdown_menu_content_description">드롭다운 메뉴 표시</string>
     <string name="icon_content_description">대화상자 아이콘</string>
     <string name="item_view_role_description">탭</string>
+    <string name="live_wallpapers">라이브 월페이퍼</string>
+    <string name="livedropwallpapers">라이브 \n 배경화면</string>
+    <string name="loading">로드 중...</string>
+    <string name="main_alert_deleted">로컬 사본이 삭제되었습니다!</string>
+    <string name="main_dialog_nosensor_message">장치에 필요한 센서가 없습니다.</string>
+    <string name="main_dialog_nosensor_title">센서 오류</string>
+    <string name="main_info_empty_message">콘텐츠는 가능한 한 빨리 다운로드됩니다…</string>
+    <string name="main_info_empty_title">보여줄 게 ​​없어!</string>
+    <string name="main_menu_sort_author">작가</string>
+    <string name="main_menu_sort_new">새로운</string>
+    <string name="main_menu_sort_title">제목</string>
+    <string name="main_ongoing_download">미리보기 생성</string>
     <string name="material_clock_toggle_content_description">오전 또는 오후를 선택하세요.</string>
     <string name="material_hour_selection">시간 선택</string>
     <string name="material_hour_suffix">%1$s시 정각</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">오후</string>
     <string name="material_timepicker_select_time">시간 선택</string>
     <string name="material_timepicker_text_input_mode_description">시간 입력을 위해 텍스트 입력 모드로 전환합니다.</string>
+    <string name="menu_delete">삭제</string>
+    <string name="menu_link">저자 사이트</string>
+    <string name="menu_refresh">새로 고치다</string>
+    <string name="menu_settings">설정</string>
+    <string name="menu_sort">정렬 기준</string>
+    <string name="menu_wpsetter">배경화면 설정</string>
     <string name="mtrl_badge_numberless_content_description">새 알림</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s 삭제</string>
     <string name="mtrl_exceed_max_badge_number_content_description">새 알림 %1$d개 초과</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">탭하여 요일 선택으로 전환</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">텍스트 입력 모드로 전환</string>
     <string name="mtrl_picker_toggle_to_year_selection">탭하여 연도 선택으로 전환</string>
+    <string name="my_name">라이브 3D 배경화면</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"위로 이동"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"탐색 창 열기"</string>
+    <string name="no_exit">아니요</string>
+    <string name="notif_new_message_multi">새로운 월페이퍼가 카탈로그에 추가되었습니다.</string>
+    <string name="notif_new_message_one">카탈로그에 새 배경화면이 추가되었습니다.</string>
+    <string name="notif_new_title_multi">새로운 배경화면! 한번 봐봐!</string>
+    <string name="notif_new_title_one">새로운 배경화면! 확인 해봐!</string>
     <string name="offline_notification_text">광고를 열려면 탭하세요.</string>
     <string name="offline_notification_title">오프라인 상태에서 저장한 광고 보기</string>
     <string name="offline_opt_in_confirm">확인</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">광고주 사이트로 연결되는 링크와 함께 알림을 보내 드리겠습니다.</string>
     <string name="offline_opt_in_title">다시 온라인 상태가 될 때 광고 열기</string>
     <string name="password_toggle_content_description">비밀번호 표시</string>
+    <string name="prev_thisisaprev_toast">이것은 데모 애니메이션일 뿐입니다. 배경화면을 다운로드하여 실제 작동 모습을 확인하세요!</string>
     <string name="s1">이미지 저장</string>
     <string name="s2">광고에서 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?</string>
     <string name="s3">동의</string>
@@ -119,6 +165,20 @@
     <string name="s5">캘린더 일정 만들기</string>
     <string name="s6">광고에서 캘린더 일정을 만들도록 허용하시겠습니까?</string>
     <string name="s7">테스트 광고</string>
+    <string name="search">찾다</string>
     <string msgid="6264217191555673260" name="search_menu_title">"검색"</string>
+    <string name="select_language">언어 선택</string>
+    <string name="set_alert_changed">배경화면이 바뀜!</string>
+    <string name="set_dialog_delete_message">이 배경화면을 삭제하시겠습니까? 나중에 언제든지 다운로드할 수 있습니다.</string>
+    <string name="set_dialog_delete_title">배경화면 삭제</string>
+    <string name="set_dialog_notzero_message">라이브 배경 화면으로 설정</string>
+    <string name="set_dialog_notzero_title">3D라이브 선택</string>
+    <string name="set_title">시사</string>
+    <string name="settings_dialog_delete_message">로컬 콘텐츠를 다운로드하시겠습니까?</string>
+    <string name="settings_dialog_delete_title">로컬 콘텐츠 삭제</string>
+    <string name="settings_title">설정</string>
+    <string name="start">시작</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">검색된 데이터가 없습니다</string>
+    <string name="yes_exit">예</string>
 </resources>

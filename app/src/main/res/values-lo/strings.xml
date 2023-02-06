@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">ຮູບວໍເປເປີສົດ</string>
+  <string name="my_name">ພາບພື້ນຫຼັງ 3 ມິຕິສົດ</string>
+  <string name="common_ok">ຕົກ​ລົງ</string>
+  <string name="common_set">ຕັ້ງ</string>
+  <string name="common_cancel">ຍົກເລີກ</string>
+  <string name="common_delete">ລຶບ</string>
+  <string name="common_retry">ລອງໃໝ່</string>
+  <string name="common_pro">ໂປຣ</string>
+  <string name="live_wallpapers">ພາບພື້ນຫຼັງສົດ</string>
+  <string name="menu_refresh">ໂຫຼດຂໍ້ມູນຄືນໃໝ່</string>
+  <string name="menu_sort">ຈັດຮຽງຕາມ</string>
+  <string name="menu_wpsetter">ຕັ້ງຮູບວໍເປເປີ</string>
+  <string name="menu_settings">ການຕັ້ງຄ່າ</string>
+  <string name="menu_delete">ລຶບ</string>
+  <string name="menu_link">ເວັບໄຊຂອງຜູ້ຂຽນ</string>
+  <string name="error_download">ລົ້ມເຫລວໃນການສະແດງຕົວຢ່າງ!</string>
+  <string name="error_connection">ຕ້ອງການການເຊື່ອມຕໍ່ອິນເຕີເນັດ!</string>
+  <string name="error_preview_unknown">ບໍ່ສາມາດສະແດງຕົວຢ່າງໄດ້!</string>
+  <string name="error_preview_notfound">ບໍ່ມີໃຫ້ເບິ່ງຕົວຢ່າງ</string>
+  <string name="error_wpsetter">ບໍ່ພົບຮູບວໍເປເປີສົດ!</string>
+  <string name="error_timeout">ໝົດເວລາການເຊື່ອມຕໍ່. ລອງ​ອີກ​ຄັ້ງ!</string>
+  <string name="error_catalog">ບໍ່ສາມາດໂຫຼດຮູບພາບໄດ້!</string>
+  <string name="error_browser">ບໍ່ສາມາດເປີດຕົວທ່ອງເວັບໄດ້!</string>
+  <string name="notif_new_title_one">ພາບພື້ນຫຼັງໃໝ່! ກວດເບິ່ງມັນອອກ!</string>
+  <string name="notif_new_title_multi">ພາບພື້ນຫຼັງໃໝ່! ກວດເບິ່ງພວກເຂົາອອກ!</string>
+  <string name="notif_new_message_one">ຮູບວໍເປເປີໃໝ່ຖືກເພີ່ມໃສ່ລາຍການແລ້ວ.</string>
+  <string name="notif_new_message_multi">ພາບພື້ນຫຼັງໃໝ່ໄດ້ຖືກເພີ່ມໃສ່ລາຍການ.</string>
+  <string name="select_language">ເລືອກພາສາ</string>
+  <string name="main_info_empty_title">ບໍ່ມີຫຍັງທີ່ຈະສະແດງ!</string>
+  <string name="main_info_empty_message">ເນື້ອຫາຈະຖືກດາວໂຫຼດໄວເທົ່າທີ່ຈະໄວໄດ້…</string>
+  <string name="main_dialog_nosensor_title">ເຊັນເຊີຜິດພາດ</string>
+  <string name="main_dialog_nosensor_message">ອຸປະກອນຂອງທ່ານບໍ່ມີເຊັນເຊີທີ່ຕ້ອງການ.</string>
+  <string name="main_ongoing_download">ກຳລັງສ້າງຕົວຢ່າງ</string>
+  <string name="main_alert_deleted">ລຶບສຳເນົາທ້ອງຖິ່ນແລ້ວ!</string>
+  <string name="main_menu_sort_new">ໃຫມ່</string>
+  <string name="main_menu_sort_title">ຫົວຂໍ້</string>
+  <string name="main_menu_sort_author">ຜູ້ຂຽນ</string>
+  <string name="set_title">ເບິ່ງຕົວຢ່າງ</string>
+  <string name="set_dialog_delete_title">ລຶບຮູບວໍເປເປີ</string>
+  <string name="set_dialog_delete_message">ທ່ານຕ້ອງການລຶບຮູບນີ້ແທ້ໆບໍ? ທ່ານສາມາດດາວໂຫລດມັນໄດ້ໃນພາຍຫຼັງ.</string>
+  <string name="set_dialog_notzero_title">ເລືອກ 3DLive</string>
+  <string name="set_dialog_notzero_message">ຕັ້ງເປັນພາບພື້ນຫຼັງສົດ</string>
+  <string name="set_alert_changed">ປ່ຽນຮູບວໍເປເປີແລ້ວ!</string>
+  <string name="prev_thisisaprev_toast">ນີ້ແມ່ນພຽງແຕ່ອະນິເມຊັນຕົວຢ່າງ. ດາວໂຫລດຮູບວໍເປເປີເພື່ອເບິ່ງມັນຢູ່ໃນການປະຕິບັດ!</string>
+  <string name="settings_title">ການຕັ້ງຄ່າ</string>
+  <string name="settings_dialog_delete_title">ລຶບເນື້ອຫາທ້ອງຖິ່ນ</string>
+  <string name="settings_dialog_delete_message">ທ່ານຕ້ອງການດາວໂຫລດເນື້ອຫາທ້ອງຖິ່ນແທ້ໆບໍ?</string>
+  <string name="loading">ກຳລັງໂຫລດ...</string>
+  <string name="start">ເລີ່ມ</string>
+  <string name="exit">ອອກໄປ</string>
+  <string name="confirm_exit">ຢືນຢັນການອອກ?</string>
+  <string name="yes_exit">ແມ່ນແລ້ວ</string>
+  <string name="no_exit">ບໍ່</string>
+  <string name="d3_wallpapers">ພາບພື້ນຫຼັງ 3 ມິຕິ</string>
+  <string name="YourdropWallpapers">\n ພາບພື້ນຫຼັງຂອງທ່ານ</string>
+  <string name="livedropwallpapers">Live \n ພາບພື້ນຫຼັງ</string>
+  <string name="d3dropwallpapers">3D \n ພາບພື້ນຫຼັງ</string>
+  <string name="search">ຊອກຫາ</string>
+  <string name="text_not_found">ຊອກຫາຂໍ້ມູນບໍ່ພົບ</string>
+  <string name="audio">ສຽງ</string>
+</resources>

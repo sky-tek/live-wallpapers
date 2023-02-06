@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Gliɖoɖo si le agbe</string>
+  <string name="my_name">3D Wallpaper si le agbe</string>
+  <string name="common_ok">ENYO</string>
+  <string name="common_set">Ɖoe</string>
+  <string name="common_cancel">Te fli ɖe eme</string>
+  <string name="common_delete">Ɖe ɖa</string>
+  <string name="common_retry">Gadze agbagba ake</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Live Wallpapers</string>
+  <string name="menu_refresh">Gbugbɔgadzɔ</string>
+  <string name="menu_sort">Ðo wo ɖe ɖoɖo nu</string>
+  <string name="menu_wpsetter">Ðo gliɖoɖo</string>
+  <string name="menu_settings">Ðoɖowo</string>
+  <string name="menu_delete">Ɖe ɖa</string>
+  <string name="menu_link">Agbalẽŋlɔla ƒe nyatakakadzraɖoƒe</string>
+  <string name="error_download">Do kpo nukpɔkpɔ do ŋgɔ!</string>
+  <string name="error_connection">Internet dzi kadodo hiã!</string>
+  <string name="error_preview_unknown">Mete ŋu ɖe ŋgɔdonya fia o!</string>
+  <string name="error_preview_notfound">Womate ŋu akpɔe do ŋgɔ o</string>
+  <string name="error_wpsetter">Womeke ɖe live wallpaper ŋu ​​o!</string>
+  <string name="error_timeout">Kadodo ƒe ɣeyiɣi ƒe nuwuwu. Gadze agbagba Ake!</string>
+  <string name="error_catalog">Mete ŋu xɔ nɔnɔmetatawo o!</string>
+  <string name="error_browser">Mete ŋu ʋu browser o!</string>
+  <string name="notif_new_title_one">Wallpaper Yeye! Kpɔe ɖa!</string>
+  <string name="notif_new_title_multi">Wallpaper Yeyewo! Kpɔ wo ɖa!</string>
+  <string name="notif_new_message_one">Wotsɔ gli yeye aɖe kpe ɖe agbalẽdzraɖoƒea ŋu.</string>
+  <string name="notif_new_message_multi">Wotsɔ gli yeyewo kpe ɖe agbalẽdzraɖoƒea ŋu.</string>
+  <string name="select_language">Tia Gbegbɔgblɔ</string>
+  <string name="main_info_empty_title">Naneke meli woatsɔ aɖee afia o!</string>
+  <string name="main_info_empty_message">Woaɖe emenyawo ƒe kɔpi kaba ale si wòanya wɔ...</string>
+  <string name="main_dialog_nosensor_title">Sensor ƒe vodada</string>
+  <string name="main_dialog_nosensor_message">Sensor siwo hiã la mele wò mɔ̃a ŋu o.</string>
+  <string name="main_ongoing_download">Do ŋgɔ na Nukpɔkpɔ</string>
+  <string name="main_alert_deleted">Wotutu nutoa me kɔpi ɖa!</string>
+  <string name="main_menu_sort_new">Yɛye</string>
+  <string name="main_menu_sort_title">Tanya</string>
+  <string name="main_menu_sort_author">Nuŋlɔla</string>
+  <string name="set_title">Kpɔe do ŋgɔ</string>
+  <string name="set_dialog_delete_title">Tsɔ gliɖoɖo ɖa</string>
+  <string name="set_dialog_delete_message">Ðe nèdi ŋutɔŋutɔ be yeatutu gli sia ɖaa? Àte ŋu awɔ eƒe kɔpi emegbe ɣesiaɣi.</string>
+  <string name="set_dialog_notzero_title">Tia 3DLive</string>
+  <string name="set_dialog_notzero_message">Ðoe abe Live Wallpaper ene</string>
+  <string name="set_alert_changed">Wallpaper trɔ!</string>
+  <string name="prev_thisisaprev_toast">Demo animation koe nye esia. Wɔ wallpaper la ƒe kɔpi be nàkpɔe le dɔwɔwɔ me!</string>
+  <string name="settings_title">Ðoɖowo</string>
+  <string name="settings_dialog_delete_title">Tsɔ nyatakaka siwo le mia gbɔ ɖa</string>
+  <string name="settings_dialog_delete_message">Ðe nèdi ŋutɔŋutɔ be yeawɔ nyatakaka siwo le mia gbɔ la ƒe kɔpia?</string>
+  <string name="loading">Wole agba tsɔm...</string>
+  <string name="start">Dze egᴐme</string>
+  <string name="exit">Do</string>
+  <string name="confirm_exit">Ðo kpe edzi be Dodo le eme ?</string>
+  <string name="yes_exit">Ɛ̃</string>
+  <string name="no_exit">Ao</string>
+  <string name="d3_wallpapers">3D ƒe Nɔnɔmetatawo</string>
+  <string name="YourdropWallpapers">Wò \n Wallpapers</string>
+  <string name="livedropwallpapers">Live \n Wallpapers ƒe nɔnɔmetatawo</string>
+  <string name="d3dropwallpapers">3D \n Kpɔɖeŋudzesiwo</string>
+  <string name="search">Di</string>
+  <string name="text_not_found">Womekpɔ nyatakaka siwo di la o</string>
+  <string name="audio">Odio</string>
+</resources>

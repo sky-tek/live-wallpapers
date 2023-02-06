@@ -10,6 +10,8 @@
     <string name="common_delete">Delete</string>
     <string name="common_retry">Retry</string>
     <string name="common_pro">Pro</string>
+    <string name="live_wallpapers">Live Wallpapers</string>
+
 
     <string name="menu_refresh">Refresh</string>
     <string name="menu_sort">Sort by</string>
@@ -31,6 +33,10 @@
     <string name="notif_new_title_multi">New Wallpapers! Check them out!</string>
     <string name="notif_new_message_one">A new wallpaper has been added to the catalog.</string>
     <string name="notif_new_message_multi">new wallpapers have been added to the catalog.</string>
+
+
+    <!-- Language Dialog -->
+    <string name="select_language">Select Language</string>
 
     <!-- Main activity -->
     <string name="main_info_empty_title">Nothing to show!</string>
@@ -67,4 +73,20 @@
     <string name="settings_dialog_delete_message">Do you really want to download the local content?</string>
     <string name="loading">Loading...</string>
     <string name="start">Start</string>
+    <!-- exit activity -->
+    <string name="exit">Exit</string>
+    <string name="confirm_exit">Confirm Exit ?</string>
+    <string name="yes_exit">Yes</string>
+    <string name="no_exit">No</string>
+
+
+    <string name="d3_wallpapers">3D Wallpapers</string>
+    <string name="YourdropWallpapers">Your\nWallpapers</string>
+    <string name="livedropwallpapers">Live\nWallpapers</string>
+    <string name="d3dropwallpapers">3D\nWallpapers</string>
+
+    <string name="search">Search</string>
+    <string name="text_not_found">Searched data not found</string>
+
+    <string name="audio">Audio</string>
 </resources>

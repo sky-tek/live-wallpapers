@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Живые обои</string>
+  <string name="my_name">Живые 3D обои</string>
+  <string name="common_ok">ХОРОШО</string>
+  <string name="common_set">Набор</string>
+  <string name="common_cancel">Отмена</string>
+  <string name="common_delete">Удалить</string>
+  <string name="common_retry">Повторить попытку</string>
+  <string name="common_pro">Про</string>
+  <string name="live_wallpapers">Живые обои</string>
+  <string name="menu_refresh">Обновить</string>
+  <string name="menu_sort">Сортировать по</string>
+  <string name="menu_wpsetter">Установка обоев</string>
+  <string name="menu_settings">Настройки</string>
+  <string name="menu_delete">Удалить</string>
+  <string name="menu_link">Сайт автора</string>
+  <string name="error_download">Не удалось просмотреть!</string>
+  <string name="error_connection">Необходимо подключение к интернету!</string>
+  <string name="error_preview_unknown">Невозможно отобразить предварительный просмотр!</string>
+  <string name="error_preview_notfound">Недоступно для предварительного просмотра</string>
+  <string name="error_wpsetter">Живые обои не найдены!</string>
+  <string name="error_timeout">Время соединения вышло. Попробуйте еще раз!</string>
+  <string name="error_catalog">Не удалось получить изображения!</string>
+  <string name="error_browser">Невозможно открыть браузер!</string>
+  <string name="notif_new_title_one">Новые обои! Проверьте это!</string>
+  <string name="notif_new_title_multi">Новые обои! Проверь их!</string>
+  <string name="notif_new_message_one">В каталог добавлены новые обои.</string>
+  <string name="notif_new_message_multi">В каталог добавлены новые обои.</string>
+  <string name="select_language">Выберите язык</string>
+  <string name="main_info_empty_title">Нечего показывать!</string>
+  <string name="main_info_empty_message">Контент будет загружен как можно скорее…</string>
+  <string name="main_dialog_nosensor_title">Ошибка датчика</string>
+  <string name="main_dialog_nosensor_message">На вашем устройстве нет необходимых датчиков.</string>
+  <string name="main_ongoing_download">Создание предварительного просмотра</string>
+  <string name="main_alert_deleted">Локальная копия удалена!</string>
+  <string name="main_menu_sort_new">Новый</string>
+  <string name="main_menu_sort_title">Заголовок</string>
+  <string name="main_menu_sort_author">Автор</string>
+  <string name="set_title">Предварительный просмотр</string>
+  <string name="set_dialog_delete_title">Удалить обои</string>
+  <string name="set_dialog_delete_message">Вы действительно хотите удалить эти обои? Вы всегда можете скачать его позже.</string>
+  <string name="set_dialog_notzero_title">Выберите 3DLive</string>
+  <string name="set_dialog_notzero_message">Сделать живыми обоями</string>
+  <string name="set_alert_changed">Обои изменены!</string>
+  <string name="prev_thisisaprev_toast">Это всего лишь демонстрационная анимация. Загрузите обои, чтобы увидеть его в действии!</string>
+  <string name="settings_title">Настройки</string>
+  <string name="settings_dialog_delete_title">Удалить локальный контент</string>
+  <string name="settings_dialog_delete_message">Вы действительно хотите загрузить локальный контент?</string>
+  <string name="loading">Загрузка...</string>
+  <string name="start">Начинать</string>
+  <string name="exit">Выход</string>
+  <string name="confirm_exit">Подтвердить выход?</string>
+  <string name="yes_exit">Да</string>
+  <string name="no_exit">Нет</string>
+  <string name="d3_wallpapers">3D обои</string>
+  <string name="YourdropWallpapers">Ваши обои \n</string>
+  <string name="livedropwallpapers">Живые \n nобои</string>
+  <string name="d3dropwallpapers">3D \n Обои</string>
+  <string name="search">Поиск</string>
+  <string name="text_not_found">Искомые данные не найдены</string>
+  <string name="audio">Аудио</string>
+</resources>

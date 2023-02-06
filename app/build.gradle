@@ -4,7 +4,7 @@ plugins {
     id 'com.google.firebase.crashlytics'
 }
 apply plugin: 'kotlin-android'
-//first commit
+//january 6th commit
 android {
     compileSdkVersion 33
     buildToolsVersion "30.0.3"
@@ -13,8 +13,8 @@ android {
         applicationId "com.skytek.live.wallpapers"
         minSdkVersion 23
         targetSdkVersion 33
-        versionCode 46
-        versionName "1.0.5"
+        versionCode 48
+        versionName "1.0.7"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

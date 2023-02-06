@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Обои зинда</string>
+  <string name="my_name">Обои зинда 3D</string>
+  <string name="common_ok">ДУРУСТ</string>
+  <string name="common_set">Танзим</string>
+  <string name="common_cancel">Бекор кардан</string>
+  <string name="common_delete">Нобуд кунед</string>
+  <string name="common_retry">Аз нав кӯшиш кунед</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Обои зинда</string>
+  <string name="menu_refresh">Навсозӣ</string>
+  <string name="menu_sort">Ҷудо кардан ба</string>
+  <string name="menu_wpsetter">Танзими обои</string>
+  <string name="menu_settings">Танзимотҳо</string>
+  <string name="menu_delete">Нобуд кунед</string>
+  <string name="menu_link">Сайти муаллиф</string>
+  <string name="error_download">Пешнамоиш натавонист!</string>
+  <string name="error_connection">Пайвастшавӣ ба интернет лозим аст!</string>
+  <string name="error_preview_unknown">Намоиши пешнамоиш ғайриимкон аст!</string>
+  <string name="error_preview_notfound">Барои пешнамоиш дастрас нест</string>
+  <string name="error_wpsetter">Обои зинда ёфт нашуд!</string>
+  <string name="error_timeout">Вақти пайвастшавӣ. Як бори дигар санҷед!</string>
+  <string name="error_catalog">Тасвирҳоро гирифтан ғайриимкон аст!</string>
+  <string name="error_browser">Браузер кушода намешавад!</string>
+  <string name="notif_new_title_one">Обои нав! Инро Санҷ!</string>
+  <string name="notif_new_title_multi">Обои нав! Онҳоро санҷед!</string>
+  <string name="notif_new_message_one">Ба каталоги обои нав илова карда шуд.</string>
+  <string name="notif_new_message_multi">Ба каталог обои нав дохил карда шуданд.</string>
+  <string name="select_language">Забонро интихоб кунед</string>
+  <string name="main_info_empty_title">Ҳеҷ чиз барои нишон додан нест!</string>
+  <string name="main_info_empty_message">Мундариҷа ҳарчи зудтар зеркашӣ карда мешавад…</string>
+  <string name="main_dialog_nosensor_title">Хатогии сенсор</string>
+  <string name="main_dialog_nosensor_message">Дастгоҳи шумо сенсорҳои лозимиро надорад.</string>
+  <string name="main_ongoing_download">Таҳияи пешнамоиш</string>
+  <string name="main_alert_deleted">Нусхаи маҳаллӣ нест карда шуд!</string>
+  <string name="main_menu_sort_new">Нав</string>
+  <string name="main_menu_sort_title">Унвон</string>
+  <string name="main_menu_sort_author">Муаллиф</string>
+  <string name="set_title">Пешнамоиш</string>
+  <string name="set_dialog_delete_title">Нобуд кардани обои</string>
+  <string name="set_dialog_delete_message">Оё шумо дар ҳақиқат мехоҳед, ки ин деворро нест кунед? Шумо ҳамеша метавонед онро дертар зеркашӣ кунед.</string>
+  <string name="set_dialog_notzero_title">3DLive -ро интихоб кунед</string>
+  <string name="set_dialog_notzero_message">Ҳамчун обои зинда насб кунед</string>
+  <string name="set_alert_changed">Обои тағир ёфт!</string>
+  <string name="prev_thisisaprev_toast">Ин танҳо як аниматсияи намоишӣ аст. Барои дидани он дар амал обои обоиро зеркашӣ кунед!</string>
+  <string name="settings_title">Танзимотҳо</string>
+  <string name="settings_dialog_delete_title">Нест кардани мундариҷаи маҳаллӣ</string>
+  <string name="settings_dialog_delete_message">Оё шумо дар ҳақиқат мехоҳед мундариҷаи маҳаллиро зеркашӣ кунед?</string>
+  <string name="loading">Loading...</string>
+  <string name="start">Оғоз</string>
+  <string name="exit">Баромадгоҳ</string>
+  <string name="confirm_exit">Хуруҷро тасдиқ кунед?</string>
+  <string name="yes_exit">Бале</string>
+  <string name="no_exit">Не</string>
+  <string name="d3_wallpapers">Обои 3D</string>
+  <string name="YourdropWallpapers">\n Обои шумо</string>
+  <string name="livedropwallpapers">\n Обои зинда</string>
+  <string name="d3dropwallpapers">3D \n Обои обои</string>
+  <string name="search">Ҷустуҷӯ</string>
+  <string name="text_not_found">Маълумоти ҷустуҷӯшуда ёфт нашуд</string>
+  <string name="audio">Аудио</string>
+</resources>

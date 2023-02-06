@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Жывыя шпалеры</string>
+  <string name="my_name">Жывыя 3д шпалеры</string>
+  <string name="common_ok">Добра</string>
+  <string name="common_set">Набор</string>
+  <string name="common_cancel">Адмяніць</string>
+  <string name="common_delete">Выдаліць</string>
+  <string name="common_retry">Паўтарыць</string>
+  <string name="common_pro">Профі</string>
+  <string name="live_wallpapers">Жывыя шпалеры</string>
+  <string name="menu_refresh">Абнавіць</string>
+  <string name="menu_sort">Сартаваць па</string>
+  <string name="menu_wpsetter">Усталяваць шпалеры</string>
+  <string name="menu_settings">Налады</string>
+  <string name="menu_delete">Выдаліць</string>
+  <string name="menu_link">Аўтарскі сайт</string>
+  <string name="error_download">Не ўдалося праглядзець!</string>
+  <string name="error_connection">Патрабуецца падключэнне да Інтэрнэту!</string>
+  <string name="error_preview_unknown">Немагчыма адлюстраваць папярэдні прагляд!</string>
+  <string name="error_preview_notfound">Недаступны для папярэдняга прагляду</string>
+  <string name="error_wpsetter">Жывыя шпалеры не знойдзены!</string>
+  <string name="error_timeout">Час чакання злучэння. Паспрабуй яшчэ!</string>
+  <string name="error_catalog">Немагчыма атрымаць выявы!</string>
+  <string name="error_browser">Немагчыма адкрыць браўзер!</string>
+  <string name="notif_new_title_one">Новыя шпалеры! Праверце гэта!</string>
+  <string name="notif_new_title_multi">Новыя шпалеры! Праверце іх!</string>
+  <string name="notif_new_message_one">Новыя шпалеры былі дададзены ў каталог.</string>
+  <string name="notif_new_message_multi">Новыя шпалеры былі дададзены ў каталог.</string>
+  <string name="select_language">Выберыце мову</string>
+  <string name="main_info_empty_title">Няма чаго паказваць!</string>
+  <string name="main_info_empty_message">Змест будзе спампаваны як мага хутчэй...</string>
+  <string name="main_dialog_nosensor_title">Памылка датчыка</string>
+  <string name="main_dialog_nosensor_message">Ваша прылада не мае неабходных датчыкаў.</string>
+  <string name="main_ongoing_download">Стварэнне папярэдняга прагляду</string>
+  <string name="main_alert_deleted">Лакальная копія выдалена!</string>
+  <string name="main_menu_sort_new">Новы</string>
+  <string name="main_menu_sort_title">Назва</string>
+  <string name="main_menu_sort_author">Аўтар</string>
+  <string name="set_title">Папярэдні прагляд</string>
+  <string name="set_dialog_delete_title">Выдаліць шпалеры</string>
+  <string name="set_dialog_delete_message">Вы сапраўды хочаце выдаліць гэтыя шпалеры? Вы заўсёды можаце спампаваць яго пазней.</string>
+  <string name="set_dialog_notzero_title">Выберыце 3DLive</string>
+  <string name="set_dialog_notzero_message">Усталяваць як жывыя шпалеры</string>
+  <string name="set_alert_changed">Шпалеры зменены!</string>
+  <string name="prev_thisisaprev_toast">Гэта толькі дэма-анімацыя. Спампуйце шпалеры, каб убачыць іх у дзеянні!</string>
+  <string name="settings_title">Налады</string>
+  <string name="settings_dialog_delete_title">Выдаліць лакальны кантэнт</string>
+  <string name="settings_dialog_delete_message">Вы сапраўды хочаце загрузіць мясцовы кантэнт?</string>
+  <string name="loading">Загрузка...</string>
+  <string name="start">Пачаць</string>
+  <string name="exit">Выхад</string>
+  <string name="confirm_exit">Пацвердзіць выхад?</string>
+  <string name="yes_exit">Так</string>
+  <string name="no_exit">Няма</string>
+  <string name="d3_wallpapers">3d шпалеры</string>
+  <string name="YourdropWallpapers">Вашы \n шпалеры</string>
+  <string name="livedropwallpapers">Жывыя \n шпалеры</string>
+  <string name="d3dropwallpapers">3D \n шпалеры</string>
+  <string name="search">Пошук</string>
+  <string name="text_not_found">Пошукавыя дадзеныя не знойдзены</string>
+  <string name="audio">Аўдыё</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Żywa tapeta</string>
+  <string name="my_name">Animowana tapeta 3D</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Ustawić</string>
+  <string name="common_cancel">Anulować</string>
+  <string name="common_delete">Usuwać</string>
+  <string name="common_retry">Spróbować ponownie</string>
+  <string name="common_pro">Zawodowiec</string>
+  <string name="live_wallpapers">Animowane tapety</string>
+  <string name="menu_refresh">Odświeżać</string>
+  <string name="menu_sort">Sortuj według</string>
+  <string name="menu_wpsetter">Ustaw tapetę</string>
+  <string name="menu_settings">Ustawienia</string>
+  <string name="menu_delete">Usuwać</string>
+  <string name="menu_link">Strona autora</string>
+  <string name="error_download">Nie udało się wyświetlić podglądu!</string>
+  <string name="error_connection">Wymagane połączenie z Internetem!</string>
+  <string name="error_preview_unknown">Nie można wyświetlić podglądu!</string>
+  <string name="error_preview_notfound">Niedostępne do podglądu</string>
+  <string name="error_wpsetter">Nie znaleziono tapety na żywo!</string>
+  <string name="error_timeout">Czas połączenia minął. Spróbuj ponownie!</string>
+  <string name="error_catalog">Nie można pobrać obrazów!</string>
+  <string name="error_browser">Nie można otworzyć przeglądarki!</string>
+  <string name="notif_new_title_one">Nowa tapeta! Sprawdź to!</string>
+  <string name="notif_new_title_multi">Nowe tapety! Sprawdź je!</string>
+  <string name="notif_new_message_one">Do katalogu została dodana nowa tapeta.</string>
+  <string name="notif_new_message_multi">Do katalogu dodano nowe tapety.</string>
+  <string name="select_language">Wybierz język</string>
+  <string name="main_info_empty_title">Nic do pokazania!</string>
+  <string name="main_info_empty_message">Zawartość zostanie pobrana tak szybko, jak to możliwe…</string>
+  <string name="main_dialog_nosensor_title">Błąd czujnika</string>
+  <string name="main_dialog_nosensor_message">Twoje urządzenie nie ma wymaganych czujników.</string>
+  <string name="main_ongoing_download">Generowanie podglądu</string>
+  <string name="main_alert_deleted">Lokalna kopia usunięta!</string>
+  <string name="main_menu_sort_new">Nowy</string>
+  <string name="main_menu_sort_title">Tytuł</string>
+  <string name="main_menu_sort_author">Autor</string>
+  <string name="set_title">Zapowiedź</string>
+  <string name="set_dialog_delete_title">Usuń tapetę</string>
+  <string name="set_dialog_delete_message">Czy na pewno chcesz usunąć tę tapetę? Zawsze możesz pobrać później.</string>
+  <string name="set_dialog_notzero_title">Wybierz 3DLive</string>
+  <string name="set_dialog_notzero_message">Ustaw jako tapetę na żywo</string>
+  <string name="set_alert_changed">Zmieniono tapetę!</string>
+  <string name="prev_thisisaprev_toast">To jest tylko animacja demonstracyjna. Pobierz tapetę, aby zobaczyć go w akcji!</string>
+  <string name="settings_title">Ustawienia</string>
+  <string name="settings_dialog_delete_title">Usuń zawartość lokalną</string>
+  <string name="settings_dialog_delete_message">Czy na pewno chcesz pobrać zawartość lokalną?</string>
+  <string name="loading">Ładowanie...</string>
+  <string name="start">Początek</string>
+  <string name="exit">Wyjście</string>
+  <string name="confirm_exit">Potwierdź wyjście?</string>
+  <string name="yes_exit">Tak</string>
+  <string name="no_exit">NIE</string>
+  <string name="d3_wallpapers">Tapety 3D</string>
+  <string name="YourdropWallpapers">Twoje \n tapety</string>
+  <string name="livedropwallpapers">Tapety na żywo \n</string>
+  <string name="d3dropwallpapers">Tapety 3D \n</string>
+  <string name="search">Szukaj</string>
+  <string name="text_not_found">Nie znaleziono szukanych danych</string>
+  <string name="audio">Audio</string>
+</resources>

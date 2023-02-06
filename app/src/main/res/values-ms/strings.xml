@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Kertas dinding langsung</string>
+  <string name="my_name">Kertas Dinding 3D Langsung</string>
+  <string name="common_ok">Okey</string>
+  <string name="common_set">Tetapkan</string>
+  <string name="common_cancel">Batal</string>
+  <string name="common_delete">Padam</string>
+  <string name="common_retry">Cuba semula</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Kertas Dinding Langsung</string>
+  <string name="menu_refresh">Segarkan semula</string>
+  <string name="menu_sort">Disusun mengikut</string>
+  <string name="menu_wpsetter">Tetapkan kertas dinding</string>
+  <string name="menu_settings">Tetapan</string>
+  <string name="menu_delete">Padam</string>
+  <string name="menu_link">Tapak pengarang</string>
+  <string name="error_download">Gagal untuk pratonton!</string>
+  <string name="error_connection">Sambungan Internet diperlukan!</string>
+  <string name="error_preview_unknown">Tidak dapat memaparkan pratonton!</string>
+  <string name="error_preview_notfound">Tidak tersedia untuk pratonton</string>
+  <string name="error_wpsetter">Kertas dinding langsung tidak ditemui!</string>
+  <string name="error_timeout">Masa sambungan telah tamat. Cuba lagi!</string>
+  <string name="error_catalog">Tidak dapat mendapatkan semula imej!</string>
+  <string name="error_browser">Tidak dapat membuka penyemak imbas!</string>
+  <string name="notif_new_title_one">Kertas Dinding Baharu! Semak ia!</string>
+  <string name="notif_new_title_multi">Kertas Dinding Baharu! Semak mereka!</string>
+  <string name="notif_new_message_one">Kertas dinding baharu telah ditambahkan pada katalog.</string>
+  <string name="notif_new_message_multi">Kertas dinding baharu telah ditambahkan pada katalog.</string>
+  <string name="select_language">Pilih Bahasa</string>
+  <string name="main_info_empty_title">Tiada apa-apa untuk ditunjukkan!</string>
+  <string name="main_info_empty_message">Kandungan akan dimuat turun secepat mungkin…</string>
+  <string name="main_dialog_nosensor_title">Ralat sensor</string>
+  <string name="main_dialog_nosensor_message">Peranti anda tidak mempunyai penderia yang diperlukan.</string>
+  <string name="main_ongoing_download">Menjana Pratonton</string>
+  <string name="main_alert_deleted">Salinan tempatan dipadamkan!</string>
+  <string name="main_menu_sort_new">Baru</string>
+  <string name="main_menu_sort_title">Tajuk</string>
+  <string name="main_menu_sort_author">Pengarang</string>
+  <string name="set_title">Pratonton</string>
+  <string name="set_dialog_delete_title">Padam kertas dinding</string>
+  <string name="set_dialog_delete_message">Adakah anda benar-benar mahu memadamkan kertas dinding ini? Anda sentiasa boleh memuat turunnya kemudian.</string>
+  <string name="set_dialog_notzero_title">Pilih 3DLive</string>
+  <string name="set_dialog_notzero_message">Tetapkan sebagai Kertas Dinding Langsung</string>
+  <string name="set_alert_changed">Kertas dinding berubah!</string>
+  <string name="prev_thisisaprev_toast">Ini hanyalah animasi demo. Muat turun kertas dinding untuk melihatnya dalam tindakan!</string>
+  <string name="settings_title">Tetapan</string>
+  <string name="settings_dialog_delete_title">Padamkan kandungan tempatan</string>
+  <string name="settings_dialog_delete_message">Adakah anda benar-benar mahu memuat turun kandungan tempatan?</string>
+  <string name="loading">Memuatkan...</string>
+  <string name="start">Mulakan</string>
+  <string name="exit">Keluar</string>
+  <string name="confirm_exit">Sahkan Keluar?</string>
+  <string name="yes_exit">Ya</string>
+  <string name="no_exit">Tidak</string>
+  <string name="d3_wallpapers">Kertas Dinding 3D</string>
+  <string name="YourdropWallpapers">\n Kertas dinding anda</string>
+  <string name="livedropwallpapers">Hidup \n Kertas Dinding</string>
+  <string name="d3dropwallpapers">Kertas dinding 3D \n</string>
+  <string name="search">Cari</string>
+  <string name="text_not_found">Data yang dicari tidak ditemui</string>
+  <string name="audio">Audio</string>
+</resources>

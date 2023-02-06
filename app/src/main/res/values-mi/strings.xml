@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Pepapātū ora</string>
+  <string name="my_name">Pepapātū Ahu-3 Ora</string>
+  <string name="common_ok">Pai</string>
+  <string name="common_set">Tautuhi</string>
+  <string name="common_cancel">Whakakore</string>
+  <string name="common_delete">Mukua</string>
+  <string name="common_retry">Ngana ano</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Pepapepa Ora</string>
+  <string name="menu_refresh">Tāmata</string>
+  <string name="menu_sort">Kōmaka mā</string>
+  <string name="menu_wpsetter">Tautuhi pepapātū</string>
+  <string name="menu_settings">Tautuhinga</string>
+  <string name="menu_delete">Mukua</string>
+  <string name="menu_link">Pae a te Kaituhi</string>
+  <string name="error_download">I rahua te arokite!</string>
+  <string name="error_connection">Kei te hiahia hononga ipurangi!</string>
+  <string name="error_preview_unknown">Kaore e taea te whakaatu arokite!</string>
+  <string name="error_preview_notfound">Kāore i te wātea ki te arokite</string>
+  <string name="error_wpsetter">Ko te pepapātū ora i kitea!</string>
+  <string name="error_timeout">Waahi hononga. Ngana Anō!</string>
+  <string name="error_catalog">Kaore e taea te tiki whakaahua!</string>
+  <string name="error_browser">Kaore e taea te whakatuwhera i te kaitirotiro!</string>
+  <string name="notif_new_title_one">Papapātū Hou! Tirohia!</string>
+  <string name="notif_new_title_multi">Whakaahua Hou! Tirohia ratou!</string>
+  <string name="notif_new_message_one">Kua taapirihia he pepapātū hou ki te putumōhio.</string>
+  <string name="notif_new_message_multi">Kua taapirihia nga pepapata hou ki te raarangi.</string>
+  <string name="select_language">Tīpakohia te Reo</string>
+  <string name="main_info_empty_title">Kaore he mea hei whakaatu!</string>
+  <string name="main_info_empty_message">Ka tere te tango i nga ihirangi…</string>
+  <string name="main_dialog_nosensor_title">Hapa pūoko</string>
+  <string name="main_dialog_nosensor_message">Karekau nga pūoko e hiahiatia ana e to taputapu.</string>
+  <string name="main_ongoing_download">Whakaputa Arokite</string>
+  <string name="main_alert_deleted">Kua mukua te kape rohe!</string>
+  <string name="main_menu_sort_new">Hou</string>
+  <string name="main_menu_sort_title">Taitara</string>
+  <string name="main_menu_sort_author">Kaituhi</string>
+  <string name="set_title">Arokite</string>
+  <string name="set_dialog_delete_title">Muku pepapātū</string>
+  <string name="set_dialog_delete_message">Me tino muku koe i tenei pepapātū? Ka taea e koe te tiki ake i nga wa katoa.</string>
+  <string name="set_dialog_notzero_title">Tīpakohia 3DLive</string>
+  <string name="set_dialog_notzero_message">Tautuhi hei Pepapepa Ora</string>
+  <string name="set_alert_changed">Kua huri te pepapātū!</string>
+  <string name="prev_thisisaprev_toast">He hākoritanga demo noa tenei. Tangohia te pepapātū kia kite i te mahi!</string>
+  <string name="settings_title">Tautuhinga</string>
+  <string name="settings_dialog_delete_title">Mukua nga ihirangi paetata</string>
+  <string name="settings_dialog_delete_message">Kei te pirangi koe ki te tango i nga ihirangi paetata?</string>
+  <string name="loading">Uta ana...</string>
+  <string name="start">Tīmata</string>
+  <string name="exit">Putaatu</string>
+  <string name="confirm_exit">Whakaū Putanga ?</string>
+  <string name="yes_exit">Ae</string>
+  <string name="no_exit">Kao</string>
+  <string name="d3_wallpapers">Whakaahua Ahu-3</string>
+  <string name="YourdropWallpapers">To \n Whakaahua</string>
+  <string name="livedropwallpapers">Ora \n Wallpapers</string>
+  <string name="d3dropwallpapers">3D \n Whakaahua</string>
+  <string name="search">Rapu</string>
+  <string name="text_not_found">Kaore i kitea nga raraunga rapu</string>
+  <string name="audio">Ororongo</string>
+</resources>

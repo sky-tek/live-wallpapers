@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Carta da parati dal vivo</string>
+  <string name="my_name">Sfondo animato 3D</string>
+  <string name="common_ok">OK</string>
+  <string name="common_set">Impostato</string>
+  <string name="common_cancel">Annulla</string>
+  <string name="common_delete">Eliminare</string>
+  <string name="common_retry">Riprova</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Sfondi animati</string>
+  <string name="menu_refresh">Ricaricare</string>
+  <string name="menu_sort">Ordina per</string>
+  <string name="menu_wpsetter">Imposta sfondo</string>
+  <string name="menu_settings">Impostazioni</string>
+  <string name="menu_delete">Eliminare</string>
+  <string name="menu_link">Sito dell\'autore</string>
+  <string name="error_download">Anteprima non riuscita!</string>
+  <string name="error_connection">Connessione Internet necessaria!</string>
+  <string name="error_preview_unknown">Impossibile visualizzare l\'anteprima!</string>
+  <string name="error_preview_notfound">Non disponibile per l\'anteprima</string>
+  <string name="error_wpsetter">Sfondo animato non trovato!</string>
+  <string name="error_timeout">Connesione finita. Riprova!</string>
+  <string name="error_catalog">Impossibile recuperare le immagini!</string>
+  <string name="error_browser">Impossibile aprire il browser!</string>
+  <string name="notif_new_title_one">Nuovo sfondo! Controlla!</string>
+  <string name="notif_new_title_multi">Nuovi sfondi! Dai un\'occhiata!</string>
+  <string name="notif_new_message_one">Un nuovo sfondo è stato aggiunto al catalogo.</string>
+  <string name="notif_new_message_multi">Nuovi sfondi sono stati aggiunti al catalogo.</string>
+  <string name="select_language">Seleziona la lingua</string>
+  <string name="main_info_empty_title">Niente da mostrare!</string>
+  <string name="main_info_empty_message">Il contenuto verrà scaricato il prima possibile...</string>
+  <string name="main_dialog_nosensor_title">Errore del sensore</string>
+  <string name="main_dialog_nosensor_message">Il tuo dispositivo non ha i sensori richiesti.</string>
+  <string name="main_ongoing_download">Generazione anteprima</string>
+  <string name="main_alert_deleted">Copia locale eliminata!</string>
+  <string name="main_menu_sort_new">Nuovo</string>
+  <string name="main_menu_sort_title">Titolo</string>
+  <string name="main_menu_sort_author">Autore</string>
+  <string name="set_title">Anteprima</string>
+  <string name="set_dialog_delete_title">Elimina lo sfondo</string>
+  <string name="set_dialog_delete_message">Vuoi davvero eliminare questo sfondo? Puoi sempre scaricarlo in seguito.</string>
+  <string name="set_dialog_notzero_title">Selezionare 3DLive</string>
+  <string name="set_dialog_notzero_message">Imposta come sfondo animato</string>
+  <string name="set_alert_changed">Sfondo cambiato!</string>
+  <string name="prev_thisisaprev_toast">Questa è solo un\'animazione demo. Scarica lo sfondo per vederlo in azione!</string>
+  <string name="settings_title">Impostazioni</string>
+  <string name="settings_dialog_delete_title">Elimina contenuto locale</string>
+  <string name="settings_dialog_delete_message">Vuoi davvero scaricare il contenuto locale?</string>
+  <string name="loading">Caricamento...</string>
+  <string name="start">Inizio</string>
+  <string name="exit">Uscita</string>
+  <string name="confirm_exit">Conferma uscita ?</string>
+  <string name="yes_exit">SÌ</string>
+  <string name="no_exit">NO</string>
+  <string name="d3_wallpapers">Sfondi 3D</string>
+  <string name="YourdropWallpapers">I tuoi \n sfondi</string>
+  <string name="livedropwallpapers">Live \n Sfondi</string>
+  <string name="d3dropwallpapers">3D \n Sfondi</string>
+  <string name="search">Ricerca</string>
+  <string name="text_not_found">Dati cercati non trovati</string>
+  <string name="audio">Audio</string>
+</resources>

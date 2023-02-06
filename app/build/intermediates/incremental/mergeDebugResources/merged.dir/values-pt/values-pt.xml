@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="YourdropWallpapers">Seus \n papéis de parede</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navegar para cima"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mais opções"</string>
@@ -27,8 +28,67 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="app_name">Papel de parede ao vivo</string>
+    <string name="audio">Áudio</string>
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_delete">Excluir</string>
+    <string name="common_ok">OK</string>
+    <string name="common_pro">Pró</string>
+    <string name="common_retry">Tentar novamente</string>
+    <string name="common_set">Definir</string>
+    <string name="confirm_exit">Confirmar saída?</string>
+    <string name="d3_wallpapers">Papéis de parede 3D</string>
+    <string name="d3dropwallpapers">Papéis de parede \n 3D</string>
+    <string name="error_browser">Não é possível abrir o navegador!</string>
+    <string name="error_catalog">Não foi possível recuperar as imagens!</string>
+    <string name="error_connection">Conexão com a Internet necessária!</string>
+    <string name="error_download">Falha ao visualizar!</string>
+    <string name="error_preview_notfound">Indisponível para visualização</string>
+    <string name="error_preview_unknown">Não foi possível exibir a visualização!</string>
+    <string name="error_timeout">Tempo limite de conexão. Tente novamente!</string>
+    <string name="error_wpsetter">Papel de parede ao vivo não encontrado!</string>
+    <string name="exit">Saída</string>
+    <string name="live_wallpapers">Papel de parede animados</string>
+    <string name="livedropwallpapers">Papéis de parede \n animados</string>
+    <string name="loading">Carregando...</string>
+    <string name="main_alert_deleted">Cópia local deletada!</string>
+    <string name="main_dialog_nosensor_message">Seu dispositivo não possui os sensores necessários.</string>
+    <string name="main_dialog_nosensor_title">Erro do sensor</string>
+    <string name="main_info_empty_message">O conteúdo será baixado o mais rápido possível…</string>
+    <string name="main_info_empty_title">Nada a mostrar!</string>
+    <string name="main_menu_sort_author">Autor</string>
+    <string name="main_menu_sort_new">Novo</string>
+    <string name="main_menu_sort_title">Título</string>
+    <string name="main_ongoing_download">Gerando visualização</string>
+    <string name="menu_delete">Excluir</string>
+    <string name="menu_link">Site do autor</string>
+    <string name="menu_refresh">Atualizar</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_sort">Ordenar por</string>
+    <string name="menu_wpsetter">Definir papel de parede</string>
+    <string name="my_name">Papel de parede 3D ao vivo</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Navegar para cima"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Abrir gaveta de navegação"</string>
+    <string name="no_exit">Não</string>
+    <string name="notif_new_message_multi">Novos papéis de parede foram adicionados ao catálogo.</string>
+    <string name="notif_new_message_one">Um novo papel de parede foi adicionado ao catálogo.</string>
+    <string name="notif_new_title_multi">Novos papéis de parede! Confira!</string>
+    <string name="notif_new_title_one">Novo papel de parede! Confira!</string>
+    <string name="prev_thisisaprev_toast">Esta é apenas uma animação de demonstração. Baixe o papel de parede para vê-lo em ação!</string>
+    <string name="search">Procurar</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
+    <string name="select_language">Selecione o idioma</string>
+    <string name="set_alert_changed">Papel de parede alterado!</string>
+    <string name="set_dialog_delete_message">Você realmente deseja excluir este papel de parede? Você sempre pode baixá-lo mais tarde.</string>
+    <string name="set_dialog_delete_title">Excluir papel de parede</string>
+    <string name="set_dialog_notzero_message">Definir como papel de parede ao vivo</string>
+    <string name="set_dialog_notzero_title">Selecione 3DLive</string>
+    <string name="set_title">Visualização</string>
+    <string name="settings_dialog_delete_message">Você realmente deseja baixar o conteúdo local?</string>
+    <string name="settings_dialog_delete_title">Excluir conteúdo local</string>
+    <string name="settings_title">Configurações</string>
+    <string name="start">Começar</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">Dados pesquisados ​​não encontrados</string>
+    <string name="yes_exit">Sim</string>
 </resources>

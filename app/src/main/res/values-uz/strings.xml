@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">Jonli fon rasmi</string>
+  <string name="my_name">Jonli 3D fon rasmi</string>
+  <string name="common_ok">KELISHDIKMI</string>
+  <string name="common_set">Oʻrnatish</string>
+  <string name="common_cancel">Bekor qilish</string>
+  <string name="common_delete">Oʻchirish</string>
+  <string name="common_retry">Qayta urinish</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">Jonli fon rasmlari</string>
+  <string name="menu_refresh">Yangilash</string>
+  <string name="menu_sort">Saralash turi</string>
+  <string name="menu_wpsetter">Fon rasmi o\'rnatish</string>
+  <string name="menu_settings">Sozlamalar</string>
+  <string name="menu_delete">Oʻchirish</string>
+  <string name="menu_link">Muallif sayti</string>
+  <string name="error_download">Ko‘rib chiqilmadi!</string>
+  <string name="error_connection">Internetga ulanish kerak!</string>
+  <string name="error_preview_unknown">Oldindan ko‘rishni ko‘rsatib bo‘lmadi!</string>
+  <string name="error_preview_notfound">Oldindan ko‘rish imkonsiz</string>
+  <string name="error_wpsetter">Jonli fon rasmi topilmadi!</string>
+  <string name="error_timeout">Ulanish vaqti tugaydi. Qayta urinib ko\'ring!</string>
+  <string name="error_catalog">Rasmlarni olib bo\'lmadi!</string>
+  <string name="error_browser">Brauzerni ochib bo\'lmadi!</string>
+  <string name="notif_new_title_one">Yangi fon rasmi! Tekshirib ko\'r!</string>
+  <string name="notif_new_title_multi">Yangi fon rasmlari! Ularni tekshiring!</string>
+  <string name="notif_new_message_one">Katalogga yangi fon rasmi qo\'shildi.</string>
+  <string name="notif_new_message_multi">Katalogga yangi fon rasmlari qo\'shildi.</string>
+  <string name="select_language">Tilni tanlang</string>
+  <string name="main_info_empty_title">Ko\'rsatish uchun hech narsa yo\'q!</string>
+  <string name="main_info_empty_message">Kontent imkon qadar tezroq yuklab olinadi…</string>
+  <string name="main_dialog_nosensor_title">Sensor xatosi</string>
+  <string name="main_dialog_nosensor_message">Qurilmangizda kerakli sensorlar mavjud emas.</string>
+  <string name="main_ongoing_download">Ko‘rib chiqish yaratilmoqda</string>
+  <string name="main_alert_deleted">Mahalliy nusxa o\'chirildi!</string>
+  <string name="main_menu_sort_new">Yangi</string>
+  <string name="main_menu_sort_title">Sarlavha</string>
+  <string name="main_menu_sort_author">Muallif</string>
+  <string name="set_title">Ko‘rib chiqish</string>
+  <string name="set_dialog_delete_title">Fon rasmi o\'chirish</string>
+  <string name="set_dialog_delete_message">Haqiqatan ham bu fon rasmini o\'chirib tashlamoqchimisiz? Siz uni har doim keyinroq yuklab olishingiz mumkin.</string>
+  <string name="set_dialog_notzero_title">3DLive-ni tanlang</string>
+  <string name="set_dialog_notzero_message">Jonli fon rasmi sifatida sozlash</string>
+  <string name="set_alert_changed">Fon rasmi o\'zgartirildi!</string>
+  <string name="prev_thisisaprev_toast">Bu faqat demo animatsiya. Amalda ko\'rish uchun fon rasmini yuklab oling!</string>
+  <string name="settings_title">Sozlamalar</string>
+  <string name="settings_dialog_delete_title">Mahalliy tarkibni o\'chirish</string>
+  <string name="settings_dialog_delete_message">Haqiqatan ham mahalliy kontentni yuklab olishni xohlaysizmi?</string>
+  <string name="loading">Yuklanmoqda...</string>
+  <string name="start">Boshlash</string>
+  <string name="exit">Chiqish</string>
+  <string name="confirm_exit">Chiqish tasdiqlansinmi?</string>
+  <string name="yes_exit">Ha</string>
+  <string name="no_exit">Yo\'q</string>
+  <string name="d3_wallpapers">3D fon rasmlari</string>
+  <string name="YourdropWallpapers">\n Fon rasmlaringiz</string>
+  <string name="livedropwallpapers">Jonli \n Fon rasmlari</string>
+  <string name="d3dropwallpapers">3D \n Fon rasmlari</string>
+  <string name="search">Qidirmoq</string>
+  <string name="text_not_found">Qidirilgan maʼlumotlar topilmadi</string>
+  <string name="audio">Audio</string>
+</resources>

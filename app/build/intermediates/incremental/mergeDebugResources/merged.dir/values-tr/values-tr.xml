@@ -4,6 +4,7 @@
     <item quantity="one">%d yeni bildirim</item>
     <item quantity="other">%d yeni bildirim</item>
   </plurals>
+    <string name="YourdropWallpapers">\n Duvar Kağıtlarınız</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Eve gidiş yolunu göster"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Yukarı git"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
@@ -31,10 +32,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Şununla paylaş:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ile paylaş"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="app_name">Canlı duvar kağıdı</string>
+    <string name="audio">Ses</string>
     <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
     <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
     <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
     <string name="clear_text_end_icon_content_description">Metni temizle</string>
+    <string name="common_cancel">İptal etmek</string>
+    <string name="common_delete">Silmek</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Etkinleştir"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play hizmetlerini etkinleştirmezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmaz."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play hizmetlerini etkinleştirin"</string>
@@ -50,13 +55,41 @@
     <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play hizmetlerini güncelleyin"</string>
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir."</string>
+    <string name="common_ok">TAMAM</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Telefonda aç"</string>
+    <string name="common_pro">Profesyonel</string>
+    <string name="common_retry">Yeniden dene</string>
+    <string name="common_set">Ayarlamak</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Oturum aç"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google\'da oturum aç"</string>
+    <string name="confirm_exit">Çıkışı Onayla?</string>
+    <string name="d3_wallpapers">3D Duvar Kağıtları</string>
+    <string name="d3dropwallpapers">3D \n Duvar Kağıtları</string>
+    <string name="error_browser">Tarayıcı açılamıyor!</string>
+    <string name="error_catalog">Resimler alınamıyor!</string>
+    <string name="error_connection">İnternet bağlantısı gerekli!</string>
+    <string name="error_download">Önizleme başarısız oldu!</string>
     <string name="error_icon_content_description">Hata</string>
+    <string name="error_preview_notfound">Önizleme için kullanılamıyor</string>
+    <string name="error_preview_unknown">Önizleme görüntülenemiyor!</string>
+    <string name="error_timeout">Bağlantı zamanaşımı. Tekrar deneyin!</string>
+    <string name="error_wpsetter">Canlı duvar kağıdı bulunamadı!</string>
+    <string name="exit">Çıkış</string>
     <string name="exposed_dropdown_menu_content_description">Açılır menüyü göster</string>
     <string name="icon_content_description">İletişim kutusu simgesi</string>
     <string name="item_view_role_description">Sekme</string>
+    <string name="live_wallpapers">Canlı Duvarkağıtları</string>
+    <string name="livedropwallpapers">Canlı \n Duvar Kağıtları</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="main_alert_deleted">Yerel kopya silindi!</string>
+    <string name="main_dialog_nosensor_message">Cihazınız gerekli sensörlere sahip değil.</string>
+    <string name="main_dialog_nosensor_title">Sensör hatası</string>
+    <string name="main_info_empty_message">İçerik en kısa sürede indirilecektir…</string>
+    <string name="main_info_empty_title">Gösterecek bir şey yok!</string>
+    <string name="main_menu_sort_author">Yazar</string>
+    <string name="main_menu_sort_new">Yeni</string>
+    <string name="main_menu_sort_title">Başlık</string>
+    <string name="main_ongoing_download">Önizleme oluşturuluyor</string>
     <string name="material_clock_toggle_content_description">ÖÖ veya ÖS\'yi seçin</string>
     <string name="material_hour_selection">Saat seçin</string>
     <string name="material_hour_suffix">Saat %1$s</string>
@@ -69,6 +102,12 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">Zamanı seçin</string>
     <string name="material_timepicker_text_input_mode_description">Zaman girişi için metin girişi moduna geçin.</string>
+    <string name="menu_delete">Silmek</string>
+    <string name="menu_link">Yazarın sitesi</string>
+    <string name="menu_refresh">Yenile</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_sort">Göre sırala</string>
+    <string name="menu_wpsetter">Duvar kağıdı ayarla</string>
     <string name="mtrl_badge_numberless_content_description">Yeni bildirim</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s içeriğini kaldır</string>
     <string name="mtrl_exceed_max_badge_number_content_description">%1$d adetten fazla yeni bildirim</string>
@@ -102,8 +141,14 @@
     <string name="mtrl_picker_toggle_to_day_selection">Gün seçmeye geçmek için dokunun</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Metin giriş moduna geç</string>
     <string name="mtrl_picker_toggle_to_year_selection">Yıl seçmeye geçmek için dokunun</string>
+    <string name="my_name">Canlı 3D Duvar Kağıdı</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Yukarı git"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Gezinme çekmecesini aç"</string>
+    <string name="no_exit">HAYIR</string>
+    <string name="notif_new_message_multi">Kataloğa yeni duvar kağıtları eklendi.</string>
+    <string name="notif_new_message_one">Kataloğa yeni bir duvar kağıdı eklendi.</string>
+    <string name="notif_new_title_multi">Yeni Duvar Kağıtları! Onları kontrol et!</string>
+    <string name="notif_new_title_one">Yeni Duvar Kağıdı! Buna bir bak!</string>
     <string name="offline_notification_text">Reklamı açmak için dokunun</string>
     <string name="offline_notification_title">Kaydettiğiniz reklamı internet bağlantınız yokken görüntüleyin</string>
     <string name="offline_opt_in_confirm">Tamam</string>
@@ -112,6 +157,7 @@
     <string name="offline_opt_in_message">Size reklamverenin sitesine bir bağlantının olduğu bildirim göndereceğiz.</string>
     <string name="offline_opt_in_title">İnternete tekrar bağlandığınızda reklamı açın.</string>
     <string name="password_toggle_content_description">Şifreyi göster</string>
+    <string name="prev_thisisaprev_toast">Bu sadece bir demo animasyondur. Hareket halinde görmek için duvar kağıdını indirin!</string>
     <string name="s1">Resmi kaydet</string>
     <string name="s2">Reklamın, Resim galerisine resim kaydetmesine izin verilsin mi?</string>
     <string name="s3">Kabul et</string>
@@ -119,6 +165,20 @@
     <string name="s5">Takvim etkinliği oluştur</string>
     <string name="s6">Reklamın, takvim etkinliği oluşturmasına izin verilsin mi?</string>
     <string name="s7">Test Reklamı</string>
+    <string name="search">Aramak</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Ara"</string>
+    <string name="select_language">Dil Seçin</string>
+    <string name="set_alert_changed">Duvar kağıdı değişti!</string>
+    <string name="set_dialog_delete_message">Bu duvar kağıdını gerçekten silmek istiyor musunuz? Daha sonra istediğiniz zaman indirebilirsiniz.</string>
+    <string name="set_dialog_delete_title">Duvar kağıdını sil</string>
+    <string name="set_dialog_notzero_message">Canlı Duvar Kağıdı Olarak Ayarla</string>
+    <string name="set_dialog_notzero_title">3DLive\'ı seçin</string>
+    <string name="set_title">Ön izleme</string>
+    <string name="settings_dialog_delete_message">Yerel içeriği gerçekten indirmek istiyor musunuz?</string>
+    <string name="settings_dialog_delete_title">Yerel içeriği sil</string>
+    <string name="settings_title">Ayarlar</string>
+    <string name="start">Başlangıç</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="text_not_found">Aranan veri bulunamadı</string>
+    <string name="yes_exit">Evet</string>
 </resources>

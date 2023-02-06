@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">የቀጥታ ልጣፍ</string>
+  <string name="my_name">የቀጥታ 3D ልጣፍ</string>
+  <string name="common_ok">እሺ</string>
+  <string name="common_set">አዘጋጅ</string>
+  <string name="common_cancel">ሰርዝ</string>
+  <string name="common_delete">ሰርዝ</string>
+  <string name="common_retry">እንደገና ይሞክሩ</string>
+  <string name="common_pro">ፕሮ</string>
+  <string name="live_wallpapers">የቀጥታ የግድግዳ ወረቀቶች</string>
+  <string name="menu_refresh">አድስ</string>
+  <string name="menu_sort">ቅደምተከተሉ የተስተካከለው</string>
+  <string name="menu_wpsetter">የግድግዳ ወረቀት አዘጋጅ</string>
+  <string name="menu_settings">ቅንብሮች</string>
+  <string name="menu_delete">ሰርዝ</string>
+  <string name="menu_link">የደራሲው ጣቢያ</string>
+  <string name="error_download">አስቀድሞ ማየት አልተሳካም!</string>
+  <string name="error_connection">የበይነመረብ ግንኙነት ያስፈልጋል!</string>
+  <string name="error_preview_unknown">ቅድመ እይታን ማሳየት አልተቻለም!</string>
+  <string name="error_preview_notfound">ለቅድመ-እይታ አይገኝም</string>
+  <string name="error_wpsetter">የቀጥታ ልጣፍ አልተገኘም!</string>
+  <string name="error_timeout">የግንኙነት ጊዜ አልቋል። እንደገና ሞክር!</string>
+  <string name="error_catalog">ምስሎችን ሰርስሮ ማውጣት አልተቻለም!</string>
+  <string name="error_browser">አሳሽ መክፈት አልተቻለም!</string>
+  <string name="notif_new_title_one">አዲስ ልጣፍ! ተመልከተው!</string>
+  <string name="notif_new_title_multi">አዲስ የግድግዳ ወረቀቶች! እነሱን ተመልከት!</string>
+  <string name="notif_new_message_one">አዲስ ልጣፍ ወደ ካታሎግ ታክሏል።</string>
+  <string name="notif_new_message_multi">አዲስ የግድግዳ ወረቀቶች ወደ ካታሎግ ተጨምረዋል።</string>
+  <string name="select_language">ቋንቋ ይምረጡ</string>
+  <string name="main_info_empty_title">ምንም የሚታይ ነገር የለም!</string>
+  <string name="main_info_empty_message">ይዘቱ በተቻለ ፍጥነት ይወርዳል…</string>
+  <string name="main_dialog_nosensor_title">የዳሳሽ ስህተት</string>
+  <string name="main_dialog_nosensor_message">መሣሪያዎ የሚያስፈልጉት ዳሳሾች የሉትም።</string>
+  <string name="main_ongoing_download">ቅድመ እይታን በማመንጨት ላይ</string>
+  <string name="main_alert_deleted">የአካባቢ ቅጂ ተሰርዟል!</string>
+  <string name="main_menu_sort_new">አዲስ</string>
+  <string name="main_menu_sort_title">ርዕስ</string>
+  <string name="main_menu_sort_author">ደራሲ</string>
+  <string name="set_title">ቅድመ እይታ</string>
+  <string name="set_dialog_delete_title">ልጣፍ ሰርዝ</string>
+  <string name="set_dialog_delete_message">ይህን ልጣፍ በእርግጥ መሰረዝ ይፈልጋሉ? ሁልጊዜ በኋላ ማውረድ ይችላሉ።</string>
+  <string name="set_dialog_notzero_title">3DLive ን ይምረጡ</string>
+  <string name="set_dialog_notzero_message">እንደ ቀጥታ ልጣፍ አዘጋጅ</string>
+  <string name="set_alert_changed">ልጣፍ ተለውጧል!</string>
+  <string name="prev_thisisaprev_toast">ይህ ማሳያ እነማ ብቻ ነው። ልጣፉን በተግባር ለማየት ያውርዱ!</string>
+  <string name="settings_title">ቅንብሮች</string>
+  <string name="settings_dialog_delete_title">የአካባቢ ይዘትን ሰርዝ</string>
+  <string name="settings_dialog_delete_message">የምር የአካባቢውን ይዘት ማውረድ ይፈልጋሉ?</string>
+  <string name="loading">በመጫን ላይ...</string>
+  <string name="start">ጀምር</string>
+  <string name="exit">ውጣ</string>
+  <string name="confirm_exit">መውጣት ይረጋገጥ?</string>
+  <string name="yes_exit">አዎ</string>
+  <string name="no_exit">አይ</string>
+  <string name="d3_wallpapers">3 ዲ የግድግዳ ወረቀቶች</string>
+  <string name="YourdropWallpapers">የእርስዎ \n የግድግዳ ወረቀቶች</string>
+  <string name="livedropwallpapers">ቀጥታ \n የግድግዳ ወረቀቶች</string>
+  <string name="d3dropwallpapers">3D \n የግድግዳ ወረቀቶች</string>
+  <string name="search">ፈልግ</string>
+  <string name="text_not_found">የተፈለገው ውሂብ አልተገኘም።</string>
+  <string name="audio">ኦዲዮ</string>
+</resources>

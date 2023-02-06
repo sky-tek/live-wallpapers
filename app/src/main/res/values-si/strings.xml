@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">සජීවී බිතුපත</string>
+  <string name="my_name">සජීවී 3D බිතුපත</string>
+  <string name="common_ok">හරි</string>
+  <string name="common_set">සකසන්න</string>
+  <string name="common_cancel">අවලංගු කරන්න</string>
+  <string name="common_delete">මකන්න</string>
+  <string name="common_retry">නැවත උත්සාහ කරන්න</string>
+  <string name="common_pro">Pro</string>
+  <string name="live_wallpapers">සජීවී බිතුපත්</string>
+  <string name="menu_refresh">නැවුම් කරන්න</string>
+  <string name="menu_sort">අනුව තෝරන්න</string>
+  <string name="menu_wpsetter">බිතුපත සකසන්න</string>
+  <string name="menu_settings">සැකසුම්</string>
+  <string name="menu_delete">මකන්න</string>
+  <string name="menu_link">කර්තෘගේ අඩවිය</string>
+  <string name="error_download">පෙරදසුන් කිරීමට අසමත් විය!</string>
+  <string name="error_connection">අන්තර්ජාල සම්බන්ධතාවය අවශ්යයි!</string>
+  <string name="error_preview_unknown">පෙරදසුන සංදර්ශන කළ නොහැක!</string>
+  <string name="error_preview_notfound">පෙරදසුන් කිරීමට නොමැත</string>
+  <string name="error_wpsetter">සජීවී බිතුපත හමු නොවීය!</string>
+  <string name="error_timeout">සම්බන්ධතා කල් ඉකුත්වීම. නැවත උත්සාහ කරන්න!</string>
+  <string name="error_catalog">පින්තූර ලබා ගත නොහැක!</string>
+  <string name="error_browser">බ්‍රවුසරය විවෘත කළ නොහැක!</string>
+  <string name="notif_new_title_one">නව බිතුපත! එය පරික්ෂා කරන්න!</string>
+  <string name="notif_new_title_multi">නව Wallpapers! ඒවා පරීක්ෂා කරන්න!</string>
+  <string name="notif_new_message_one">නාමාවලියට නව බිතුපතක් එක් කර ඇත.</string>
+  <string name="notif_new_message_multi">නව බිතුපත් නාමාවලියට එකතු කර ඇත.</string>
+  <string name="select_language">භාෂාව තෝරන්න</string>
+  <string name="main_info_empty_title">පෙන්වීමට කිසිවක් නැත!</string>
+  <string name="main_info_empty_message">අන්තර්ගතය හැකි ඉක්මනින් බාගත කරනු ලැබේ...</string>
+  <string name="main_dialog_nosensor_title">සංවේදක දෝෂය</string>
+  <string name="main_dialog_nosensor_message">ඔබගේ උපාංගයට අවශ්‍ය සංවේදක නොමැත.</string>
+  <string name="main_ongoing_download">පෙරදසුන ජනනය කිරීම</string>
+  <string name="main_alert_deleted">දේශීය පිටපත මකා දමන ලදී!</string>
+  <string name="main_menu_sort_new">අලුත්</string>
+  <string name="main_menu_sort_title">ශීර්ෂය</string>
+  <string name="main_menu_sort_author">කර්තෘ</string>
+  <string name="set_title">පෙරදසුන</string>
+  <string name="set_dialog_delete_title">බිතුපත මකන්න</string>
+  <string name="set_dialog_delete_message">ඔබට ඇත්තටම මෙම බිතුපත මැකීමට අවශ්‍යද? ඔබට එය පසුව බාගත කළ හැක.</string>
+  <string name="set_dialog_notzero_title">3DLive තෝරන්න</string>
+  <string name="set_dialog_notzero_message">සජීවී බිතුපත ලෙස සකසන්න</string>
+  <string name="set_alert_changed">බිතුපත වෙනස් විය!</string>
+  <string name="prev_thisisaprev_toast">මේක demo animation එකක් විතරයි. බිතුපත ක්‍රියාවෙන් බැලීමට බාගන්න!</string>
+  <string name="settings_title">සැකසුම්</string>
+  <string name="settings_dialog_delete_title">දේශීය අන්තර්ගතය මකන්න</string>
+  <string name="settings_dialog_delete_message">ඔබට ඇත්තටම දේශීය අන්තර්ගතය බාගැනීමට අවශ්‍යද?</string>
+  <string name="loading">පූරණය වෙමින්...</string>
+  <string name="start">ආරම්භ කරන්න</string>
+  <string name="exit">පිටවීම</string>
+  <string name="confirm_exit">පිටවීම තහවුරු කරන්නද?</string>
+  <string name="yes_exit">ඔව්</string>
+  <string name="no_exit">නැත</string>
+  <string name="d3_wallpapers">3D Wallpapers</string>
+  <string name="YourdropWallpapers">ඔබගේ \n බිතුපත්</string>
+  <string name="livedropwallpapers">සජීවී \n බිතුපත්</string>
+  <string name="d3dropwallpapers">3D \n බිතුපත්</string>
+  <string name="search">සෙවීම</string>
+  <string name="text_not_found">සෙවූ දත්ත හමු නොවීය</string>
+  <string name="audio">ශ්රව්ය උපකරණ</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">کاغذ دیواری زنده</string>
+  <string name="my_name">والپیپر سه بعدی زنده</string>
+  <string name="common_ok">خوب</string>
+  <string name="common_set">تنظیم</string>
+  <string name="common_cancel">لغو کنید</string>
+  <string name="common_delete">حذف</string>
+  <string name="common_retry">دوباره امتحان کنید</string>
+  <string name="common_pro">حرفه ای</string>
+  <string name="live_wallpapers">تصاویر پس زمینه زنده</string>
+  <string name="menu_refresh">تازه کردن</string>
+  <string name="menu_sort">مرتب سازی بر اساس</string>
+  <string name="menu_wpsetter">تنظیم پس زمینه</string>
+  <string name="menu_settings">تنظیمات</string>
+  <string name="menu_delete">حذف</string>
+  <string name="menu_link">سایت نویسنده</string>
+  <string name="error_download">پیش نمایش ناموفق بود!</string>
+  <string name="error_connection">اتصال به اینترنت مورد نیاز است!</string>
+  <string name="error_preview_unknown">نمایش پیش نمایش ممکن نیست!</string>
+  <string name="error_preview_notfound">برای پیش نمایش در دسترس نیست</string>
+  <string name="error_wpsetter">تصویر زمینه زنده یافت نشد!</string>
+  <string name="error_timeout">پایان زمان اتصال. دوباره امتحان کن!</string>
+  <string name="error_catalog">بازیابی تصاویر ممکن نیست!</string>
+  <string name="error_browser">مرورگر باز نشد!</string>
+  <string name="notif_new_title_one">والپیپر جدید آن را بررسی کنید!</string>
+  <string name="notif_new_title_multi">تصاویر پس زمینه جدید! آنها را بررسی کنید!</string>
+  <string name="notif_new_message_one">یک والپیپر جدید به کاتالوگ اضافه شده است.</string>
+  <string name="notif_new_message_multi">تصاویر پس زمینه جدید به کاتالوگ اضافه شده است.</string>
+  <string name="select_language">زبان را انتخاب کنید</string>
+  <string name="main_info_empty_title">چیزی برای نشان دادن نیست!</string>
+  <string name="main_info_empty_message">مطالب در اسرع وقت دانلود خواهد شد…</string>
+  <string name="main_dialog_nosensor_title">خطای سنسور</string>
+  <string name="main_dialog_nosensor_message">دستگاه شما سنسورهای لازم را ندارد.</string>
+  <string name="main_ongoing_download">ایجاد پیش نمایش</string>
+  <string name="main_alert_deleted">کپی محلی حذف شد!</string>
+  <string name="main_menu_sort_new">جدید</string>
+  <string name="main_menu_sort_title">عنوان</string>
+  <string name="main_menu_sort_author">نویسنده</string>
+  <string name="set_title">پیش نمایش</string>
+  <string name="set_dialog_delete_title">حذف والپیپر</string>
+  <string name="set_dialog_delete_message">آیا واقعاً می خواهید این تصویر زمینه را حذف کنید؟ همیشه می توانید آن را بعدا دانلود کنید.</string>
+  <string name="set_dialog_notzero_title">3DLive را انتخاب کنید</string>
+  <string name="set_dialog_notzero_message">به عنوان تصویر زمینه زنده تنظیم کنید</string>
+  <string name="set_alert_changed">والپیپر تغییر کرد!</string>
+  <string name="prev_thisisaprev_toast">این فقط یک انیمیشن دمو است. تصویر زمینه را دانلود کنید تا آن را در عمل ببینید!</string>
+  <string name="settings_title">تنظیمات</string>
+  <string name="settings_dialog_delete_title">حذف محتوای محلی</string>
+  <string name="settings_dialog_delete_message">آیا واقعاً می خواهید محتوای محلی را دانلود کنید؟</string>
+  <string name="loading">بارگذاری...</string>
+  <string name="start">شروع کنید</string>
+  <string name="exit">خارج شوید</string>
+  <string name="confirm_exit">خروج را تایید کنید؟</string>
+  <string name="yes_exit">آره</string>
+  <string name="no_exit">خیر</string>
+  <string name="d3_wallpapers">والپیپرهای سه بعدی</string>
+  <string name="YourdropWallpapers">تصاویر پس زمینه \n شما</string>
+  <string name="livedropwallpapers">والپیپرهای زنده \n</string>
+  <string name="d3dropwallpapers">والپیپرهای سه بعدی \n</string>
+  <string name="search">جستجو کردن</string>
+  <string name="text_not_found">داده های جستجو شده یافت نشد</string>
+  <string name="audio">سمعی</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Automatically translated by Globalization Translator (https://github.com/wilinz/globalization-translator)-->
+<resources>
+  <string name="app_name">જીવંત વૉલપેપર</string>
+  <string name="my_name">જીવંત 3D વૉલપેપર</string>
+  <string name="common_ok">બરાબર</string>
+  <string name="common_set">સેટ</string>
+  <string name="common_cancel">રદ કરો</string>
+  <string name="common_delete">કાઢી નાખો</string>
+  <string name="common_retry">ફરી પ્રયાસ કરો</string>
+  <string name="common_pro">પ્રો</string>
+  <string name="live_wallpapers">લાઇવ વૉલપેપર્સ</string>
+  <string name="menu_refresh">તાજું કરો</string>
+  <string name="menu_sort">દ્વારા સૉર્ટ કરો</string>
+  <string name="menu_wpsetter">વૉલપેપર સેટ કરો</string>
+  <string name="menu_settings">સેટિંગ્સ</string>
+  <string name="menu_delete">કાઢી નાખો</string>
+  <string name="menu_link">લેખકની સાઇટ</string>
+  <string name="error_download">પૂર્વાવલોકન કરવામાં નિષ્ફળ!</string>
+  <string name="error_connection">ઇન્ટરનેટ કનેક્શનની જરૂર છે!</string>
+  <string name="error_preview_unknown">પૂર્વાવલોકન પ્રદર્શિત કરવામાં અસમર્થ!</string>
+  <string name="error_preview_notfound">પૂર્વાવલોકન માટે અનુપલબ્ધ</string>
+  <string name="error_wpsetter">લાઇવ વૉલપેપર મળ્યું નથી!</string>
+  <string name="error_timeout">કનેક્શન સમયસમાપ્તિ. ફરીથી પ્રયત્ન કરો!</string>
+  <string name="error_catalog">છબીઓ પુનઃપ્રાપ્ત કરવામાં અસમર્થ!</string>
+  <string name="error_browser">બ્રાઉઝર ખોલવામાં અસમર્થ!</string>
+  <string name="notif_new_title_one">નવું વૉલપેપર! તપાસી જુઓ!</string>
+  <string name="notif_new_title_multi">નવા વૉલપેપર્સ! તેમને તપાસો!</string>
+  <string name="notif_new_message_one">સૂચિમાં એક નવું વૉલપેપર ઉમેરવામાં આવ્યું છે.</string>
+  <string name="notif_new_message_multi">સૂચિમાં નવા વોલપેપરો ઉમેરવામાં આવ્યા છે.</string>
+  <string name="select_language">ભાષા પસંદ કરો</string>
+  <string name="main_info_empty_title">બતાવવા માટે કંઈ નથી!</string>
+  <string name="main_info_empty_message">સામગ્રી શક્ય તેટલી વહેલી તકે ડાઉનલોડ કરવામાં આવશે...</string>
+  <string name="main_dialog_nosensor_title">સેન્સર ભૂલ</string>
+  <string name="main_dialog_nosensor_message">તમારા ઉપકરણમાં જરૂરી સેન્સર નથી.</string>
+  <string name="main_ongoing_download">પૂર્વાવલોકન જનરેટ કરી રહ્યું છે</string>
+  <string name="main_alert_deleted">સ્થાનિક નકલ કાઢી નાખી!</string>
+  <string name="main_menu_sort_new">નવી</string>
+  <string name="main_menu_sort_title">શીર્ષક</string>
+  <string name="main_menu_sort_author">લેખક</string>
+  <string name="set_title">પૂર્વાવલોકન</string>
+  <string name="set_dialog_delete_title">વૉલપેપર કાઢી નાખો</string>
+  <string name="set_dialog_delete_message">શું તમે ખરેખર આ વૉલપેપરને કાઢી નાખવા માંગો છો? તમે તેને પછીથી હંમેશા ડાઉનલોડ કરી શકો છો.</string>
+  <string name="set_dialog_notzero_title">3DLive પસંદ કરો</string>
+  <string name="set_dialog_notzero_message">લાઇવ વૉલપેપર તરીકે સેટ કરો</string>
+  <string name="set_alert_changed">વૉલપેપર બદલાઈ ગયું!</string>
+  <string name="prev_thisisaprev_toast">આ માત્ર એક ડેમો એનિમેશન છે. તેને ક્રિયામાં જોવા માટે વૉલપેપર ડાઉનલોડ કરો!</string>
+  <string name="settings_title">સેટિંગ્સ</string>
+  <string name="settings_dialog_delete_title">સ્થાનિક સામગ્રી કાઢી નાખો</string>
+  <string name="settings_dialog_delete_message">શું તમે ખરેખર સ્થાનિક સામગ્રી ડાઉનલોડ કરવા માંગો છો?</string>
+  <string name="loading">લોડ કરી રહ્યું છે...</string>
+  <string name="start">શરૂઆત</string>
+  <string name="exit">બહાર નીકળો</string>
+  <string name="confirm_exit">બહાર નીકળવાની પુષ્ટિ કરો?</string>
+  <string name="yes_exit">હા</string>
+  <string name="no_exit">ના</string>
+  <string name="d3_wallpapers">3D વૉલપેપર્સ</string>
+  <string name="YourdropWallpapers">તમારા \n વૉલપેપર્સ</string>
+  <string name="livedropwallpapers">લાઇવ \n વૉલપેપર્સ</string>
+  <string name="d3dropwallpapers">3D \n વૉલપેપર્સ</string>
+  <string name="search">શોધો</string>
+  <string name="text_not_found">શોધાયેલ ડેટા મળ્યો નથી</string>
+  <string name="audio">ઓડિયો</string>
+</resources>
