@@ -4,6 +4,7 @@ import static android.widget.Toast.LENGTH_SHORT;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.ContentUris;
 import android.content.Context;
@@ -14,15 +15,19 @@ import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.database.Cursor;
 import android.graphics.Color;
+import android.net.ConnectivityManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.Environment;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.provider.OpenableColumns;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -77,6 +82,7 @@ import java.util.concurrent.Executors;
 public class MainLauncher extends AppCompatActivity implements Checkvalue {
 
     ImageView offlineob, onlineob, image3dob;
+    AlertDialog  alertDialog;
 
     public static String a;
 
@@ -86,13 +92,13 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
     ArrayList<datamodel> listoflanguage = new ArrayList<>();
     public static Boolean adcheck = false;
     private FirebaseAnalytics mFirebaseAnalytics;
-
     public String one;
     public String getcode;
-
     public static TextView selectedl;
-
     AppUpdateManager appUpdateManager;
+    public static int for_live_wallpaper_ad_key;
+    public static int for_3d_wallpaper_ad_key;
+    public static int for_backpressed_ad_key;
 
 
 
@@ -231,18 +237,20 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
 
         adsManager = new AdsManager();
         adsManager.refreshAd(MainLauncher.this, R.id.fl_adplaceholder1);
+
         image3dob.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainLauncher.this, MainActivity3d.class);
-                startActivity(intent);
-                adsManager.show_inter(MainLauncher.this);
-
-                Bundle bundle = new Bundle();
-                bundle.putString("live3d","live3d");
-                mFirebaseAnalytics.logEvent("live3d",bundle);
-
+                for_3d_wallpaper_ad_key = 2;
+                if(checkInternet(MainLauncher.this))
+                {
+                    showDialog();
+                }
+                else
+                {
+                    startActivity(new Intent(MainLauncher.this , MainActivity3d.class));
+                }
             }
         });
 
@@ -292,12 +300,16 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
 
 
             public void onClick(View param1View) {
-                Intent intent = new Intent(MainLauncher.this, MainActivity.class);
-                startActivity(intent);
-                adsManager.show_inter(MainLauncher.this);
-                Bundle bundle = new Bundle();
-                bundle.putString("onlineVideo","onlineVideo");
-                mFirebaseAnalytics.logEvent("onlineVideo",bundle);
+              for_live_wallpaper_ad_key = 1;
+                if(checkInternet(MainLauncher.this))
+                {
+                    showDialog();
+                }
+                else
+                {
+                    startActivity(new Intent(MainLauncher.this , MainActivity3d.class));
+                }
+
 
             }
         });
@@ -413,6 +425,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                 final String docId = DocumentsContract.getDocumentId(uri);
                 final String[] split = docId.split(":");
                 final String type = split[0];
+                Log.d("ceckgetpath" , "path is "+uri);
                 if ("primary".equalsIgnoreCase(type)) {
                     return Environment.getExternalStorageDirectory() + "/" + split[1];
                 }
@@ -457,7 +470,12 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                 final int column_index = cursor.getColumnIndexOrThrow(column);
                 return cursor.getString(column_index);
             }
-        } finally {
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        finally {
             if (cursor != null)
                 cursor.close();
         }
@@ -487,6 +505,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                 Cursor cursor = getContentResolver().query(
                         uri, null, null, null, null
                 );
+                Log.d("onActivityResultexe" , "hello moto "+cursor);
                 if (cursor == null) {
                     return;
                 }
@@ -494,12 +513,18 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                 cursor.moveToFirst();
                 a = cursor.getString(nameIndex);
                 cursor.close();
-                copyFile(new File(getPath(this, uri)), new File(getExternalFilesDir("offline").getAbsolutePath() + "/" + a));
+                try
+                {
+                    copyFile(new File(getPath(this, uri)), new File(getExternalFilesDir("offline").getAbsolutePath() + "/" + a));
 
-
-                Intent intent = new Intent(MainLauncher.this, VideoView.class);
+                    Intent intent = new Intent(MainLauncher.this, VideoView.class);
 //            intent.putExtra("value",name);
-                startActivity(intent);
+                    startActivity(intent);
+                }
+                catch (Exception e)
+                {
+                    //for 8 sometimes corrupted files gets open
+                }
 
                 return;
             } else {
@@ -518,66 +543,52 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
 
     @Override
     public void onBackPressed() {
-        startActivity(new Intent(MainLauncher.this, exitScreen.class));
-        Bundle bundle = new Bundle();
-        bundle.putString("exit","exitTotal");
-        mFirebaseAnalytics.logEvent("exitTotal",bundle);
-        if (adsManager.show_inter(MainLauncher.this)) {
-            Bundle bundle1 = new Bundle();
-            bundle1.putString("exit","exitShowed");
-            mFirebaseAnalytics.logEvent("exitShowed",bundle1);
-            adcheck = true;
-        } else {
-            adcheck = false;
-        }
+     if(checkInternet(MainLauncher.this))
+     {
+         for_backpressed_ad_key = 123;
+         showDialog();
+
+     }
+     else {
+
+             startActivity(new Intent(MainLauncher.this, exitScreen.class));
+             Bundle bundle = new Bundle();
+             bundle.putString("exit","exitTotal");
+             mFirebaseAnalytics.logEvent("exitTotal",bundle);
+             if (adsManager.show_inter(MainLauncher.this)) {
+                 Bundle bundle1 = new Bundle();
+                 bundle1.putString("exit","exitShowed");
+                 mFirebaseAnalytics.logEvent("exitShowed",bundle1);
+                 adcheck = true;
+             } else {
+                 adcheck = false;
+             }
+
+     }
+
     }
 
-/*    public static String getFilePathFromURI(Context context, Uri contentUri) {
-        //copy file and send new file path
-        String fileName = getFileName(contentUri);
-
-
-        if (!TextUtils.isEmpty(fileName)) {
-
-            File docsFolder;
-
-            if (Build.VERSION.SDK_INT > Build.VERSION_CODES.Q) {
-                docsFolder = new File(context.getExternalFilesDir(null).getAbsolutePath());
-            } else {
-                docsFolder = new File(String.valueOf(Environment.getExternalStorageDirectory()));
+    public static boolean checkInternet(Context context) {
+        try {
+            ConnectivityManager connec =
+                    (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+            // Check for network connections
+            if (connec.getNetworkInfo(0).getState() == android.net.NetworkInfo.State.CONNECTED ||
+                    connec.getNetworkInfo(0).getState() == android.net.NetworkInfo.State.CONNECTING ||
+                    connec.getNetworkInfo(1).getState() == android.net.NetworkInfo.State.CONNECTING ||
+                    connec.getNetworkInfo(1).getState() == android.net.NetworkInfo.State.CONNECTED) {
+                return true;
+            } else if (
+                    connec.getNetworkInfo(0).getState() == android.net.NetworkInfo.State.DISCONNECTED ||
+                            connec.getNetworkInfo(1).getState() == android.net.NetworkInfo.State.DISCONNECTED) {
+                return false;
             }
-
-//            docsFolder = new File(String.valueOf(Environment.getExternalStorageDirectory()));
-
-            if (!docsFolder.exists()) {
-                docsFolder.mkdir();
-                //    Log.i(TAG, "Created a new directory for PDF");
-            }
-
-            File copyFile;
-
-            copyFile = new File(docsFolder + File.separator + fileName);
-
-            copy(context, contentUri, copyFile);
-            return copyFile.getAbsolutePath();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        return null;
-    }*/
+        return false;
+    }
 
-/*    public static String getFileName(Uri uri) {
-        if (uri == null) return null;
-        String fileName = null;
-        String path = uri.getPath();
-        int cut = path.lastIndexOf('/');
-        if (cut != -1) {
-            fileName = path.substring(cut + 1);
-        }
-//        if (fileName != null && fileName.startsWith("primary:")) {
-//
-//            fileName = fileName.replace("primary:","");
-//        }
-        return fileName;
-    }*/
 
 
     public static void copy(Context context, Uri srcUri, File dstFile) {
@@ -596,85 +607,9 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
     @SuppressLint("MissingPermission")
     @Override
     protected void onResume() {
-        adsManager.load_inter(this);
+
         super.onResume();
     }
-
-/*    public void data() {
-        String mJSONURLString = "http://mobipixels.net/3d-Live-wallpapers-api/front_page.php";
-
-        // Initialize a new RequestQueue instance
-        RequestQueue requestQueue = Volley.newRequestQueue(MainLauncher.this);
-
-        // Initialize a new JsonArrayRequest instance
-        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
-                Request.Method.GET,
-                mJSONURLString,
-                null,
-                new Response.Listener<JSONArray>() {
-                    @Override
-                    public void onResponse(JSONArray response) {
-                        ArrayList<String> dataset = new ArrayList<>();
-
-                        try{
-                            // Loop through the array elements
-                            for(int i=0;i<response.length();i++){
-                                // Get current json object
-                                JSONObject student = response.getJSONObject(i);
-
-                                // Get the current student (json object) data
-                                String imgs = student.getString("imgs");
-                                dataset.add(imgs);
-                                Log.e("gdsgdsgds", "name"+imgs);
-                            }
-
-                            if (dataset.size()==3) {
-                                runOnUiThread(new Runnable() {
-                                    @Override
-                                    public void run() {
-                                        Glide.with(MainLauncher.this).load(dataset.get(0))
-
-                                                .apply(new RequestOptions()
-                                                        .fitCenter()
-                                                        .format(DecodeFormat.PREFER_ARGB_8888)
-                                                        .override(Target.SIZE_ORIGINAL))
-                                                .into(onlineob);
-
-                                        Glide.with(MainLauncher.this).load(dataset.get(1))
-
-                                                .apply(new RequestOptions()
-                                                        .fitCenter()
-                                                        .format(DecodeFormat.PREFER_ARGB_8888)
-                                                        .override(Target.SIZE_ORIGINAL))
-                                                .into(offlineob);
-
-                                        Glide.with(MainLauncher.this).load(dataset.get(2))
-                                                .apply(new RequestOptions()
-                                                        .fitCenter()
-                                                        .format(DecodeFormat.PREFER_ARGB_8888)
-                                                        .override(Target.SIZE_ORIGINAL))
-                                                .into(image3dob);
-                                    }
-                                });
-
-                            }
-
-                        }catch (JSONException e){
-                            e.printStackTrace();
-                        }
-                    }
-                },
-                new Response.ErrorListener(){r
-                    @Override
-                    public void onErrorResponse(VolleyError error){
-
-                    }
-                }
-        );
-        // Add JsonArrayRequest to the RequestQueue
-        requestQueue.add(jsonArrayRequest);
-
-    }*/
 
     public void diloglanguage() {
         Log.d("adasdasd" ,"asdadasdasasdsadasd123123123dasd");
@@ -691,6 +626,12 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
 
         selectedl = dialog.findViewById(R.id.selectedlanguage);
 
+        dialogButtoncancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
         dialogButtonselect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -710,12 +651,8 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                 dialog.dismiss();
                 SharedPreferences sharedPreferences = getSharedPreferences("MySharedPref", MODE_PRIVATE);
                 SharedPreferences.Editor myEdit = sharedPreferences.edit();
-
                 myEdit.putString("language", selectedl.getText().toString());
-
-
                 myEdit.commit();
-
                 Toast.makeText(getApplicationContext(), "Language is Changed!!", LENGTH_SHORT).show();
             }
         });
@@ -726,6 +663,89 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
     public String getcvalue(String value) {
         selectedl.setText(value);
         return value;
+    }
+
+    //custom view for ads loading
+    public void showDialog() {
+
+
+        customdialog();
+
+        new CountDownTimer(6000, 6000) {
+
+            @Override
+            public void onTick(long l) {
+                Log.d("checkTickposition" , "tick posiiton is "+l);
+                adsManager.load_inter(MainLauncher.this);
+            }
+            @Override
+            public void onFinish() {
+                if (alertDialog.isShowing()) {
+                    if(for_3d_wallpaper_ad_key == 2)
+                    {
+                        alertDialog.dismiss();
+                        if(  adsManager.show_inter(MainLauncher.this))
+                        {
+                            Bundle bundle = new Bundle();
+                            bundle.putString("live3d","live3d");
+                            mFirebaseAnalytics.logEvent("live3d",bundle);
+                            for_3d_wallpaper_ad_key = 2;
+                        }
+                        else {
+                            Intent intent = new Intent(MainLauncher.this, MainActivity3d.class);
+                            startActivity(intent);
+                            for_3d_wallpaper_ad_key = 0;
+                        }
+                    }
+                    if(for_live_wallpaper_ad_key == 1)
+                    {
+                        alertDialog.dismiss();
+                        if(adsManager.show_inter(MainLauncher.this))
+                        {
+                            Bundle bundle = new Bundle();
+                            bundle.putString("onlineVideo","onlineVideo");
+                            mFirebaseAnalytics.logEvent("onlineVideo",bundle);
+                            for_live_wallpaper_ad_key = 1;
+                        }
+                        else {
+                            Intent intent = new Intent(MainLauncher.this, MainActivity.class);
+                            startActivity(intent);
+                            for_live_wallpaper_ad_key=0;
+                        }
+                    }
+                    if(for_backpressed_ad_key == 123)
+                    {
+                        alertDialog.dismiss();
+                        Bundle bundle = new Bundle();
+                        bundle.putString("exit","exitTotal");
+                        mFirebaseAnalytics.logEvent("exitTotal",bundle);
+                        if (adsManager.show_inter(MainLauncher.this)) {
+                            Bundle bundle1 = new Bundle();
+                            bundle1.putString("exit","exitShowed");
+                            mFirebaseAnalytics.logEvent("exitShowed",bundle1);
+                            adcheck = true;
+                            for_backpressed_ad_key = 123;
+                        } else {
+                            adcheck = false;
+                            Intent intent = new Intent(MainLauncher.this, exitScreen.class);
+                            startActivity(intent);
+                            for_backpressed_ad_key = 0;
+                        }
+                    }
+//                    startActivity(new Intent(MainLauncher.this, exitScreen.class));
+                }
+            }
+        }.start();
+    }
+
+    private void customdialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        ViewGroup viewGroup = findViewById(android.R.id.content);
+        View dialogView = LayoutInflater.from(MainLauncher.this).inflate(R.layout.customview, viewGroup, false);
+        builder.setView(dialogView);
+        alertDialog = builder.create();
+        alertDialog.setCancelable(false);
+        alertDialog.show();
     }
 }
 

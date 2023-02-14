@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -92,12 +93,12 @@ public class ParentItemAdapter extends RecyclerView.Adapter<ParentItemAdapter.Pa
         // item view adapter and set its
         // adapter, layout manager and RecyclerViewPool
 
+
         Adapter childItemAdapter = new Adapter(parentItem.getChildItemList(),pcontext,R.layout.child_item);
+        Log.d("checllisthere" , "list is "+parentItem.getChildItemList());
         parentViewHolder.ChildRecyclerView.setLayoutManager(layoutManager);
         parentViewHolder.ChildRecyclerView.setAdapter(childItemAdapter);
         parentViewHolder.ChildRecyclerView.setRecycledViewPool(viewPool);
-
-
 
     }
 

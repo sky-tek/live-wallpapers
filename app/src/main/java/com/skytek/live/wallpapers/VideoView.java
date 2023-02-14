@@ -13,6 +13,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.service.wallpaper.WallpaperService;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -40,9 +42,6 @@ public class VideoView extends AppCompatActivity {
             getWindow().setStatusBarColor(Color.parseColor("#1F212D"));
 
 
-
-
-
         videoob.setVideoPath(getExternalFilesDir("offline").getAbsolutePath() + "/" + MainLauncher.a);
         this.videoob.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             public void onPrepared(MediaPlayer param1MediaPlayer) {
@@ -52,11 +51,23 @@ public class VideoView extends AppCompatActivity {
         });
         checkBoxob.setOnClickListener(new View.OnClickListener() {
             public void onClick(View param1View) {
-                if (VideoView.this.checkBoxob.isChecked()) {
-                    mp1.setVolume(1.0F, 1.0F);
-                } else {
-                    VideoView.this.mp1.setVolume(0.0F, 0.0F);
+
+                try
+                {
+                    if (VideoView.this.checkBoxob.isChecked()) {
+                        mp1.setVolume(1.0F, 1.0F);
+
+                    } else {
+                        VideoView.this.mp1.setVolume(0.0F, 0.0F);
+
+                    }
                 }
+                catch (Exception e)
+                {
+                    e.printStackTrace();
+                }
+
+
             }
         });
         setLauncherob.setOnClickListener(new View.OnClickListener() {
@@ -86,13 +97,18 @@ public class VideoView extends AppCompatActivity {
                     } catch (IOException iOException) {
                         iOException.printStackTrace();
                     }
-
-
                 }
 
+                try {
                     final Intent intent1 = new Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER);
                     intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(VideoView.this, VideoLiveWallpaperoffline.class));
                     startActivityForResult(intent1, 100);
+                }
+                catch (Exception e)
+                {
+                    Log.d("checkexcpetion" , "exception is "+e);
+                }
+
 
 //                // There is a problem, that after you choose "Set to desktop (and lock screen)",
 //                // the preview activity does not back to MainActivity directly,

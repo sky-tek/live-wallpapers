@@ -1,11 +1,16 @@
 package com.skytek.live.wallpapers;
 
-import static com.skytek.live.wallpapers.MainLauncher.adcheck;
+
+
+import static com.skytek.live.wallpapers.Fragments.Home.check_more;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -26,7 +31,14 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
 import com.falcon.video.downloader.Helper.AdsManager;
 import com.google.android.gms.ads.AdLoader;
 import com.google.android.gms.ads.AdRequest;
@@ -37,6 +49,15 @@ import com.google.android.play.core.review.ReviewInfo;
 import com.google.android.play.core.review.ReviewManager;
 import com.google.android.play.core.review.ReviewManagerFactory;
 import com.google.android.play.core.tasks.Task;
+import com.skytek.live.wallpapers.Adapters.ParentItemAdapter;
+import com.skytek.live.wallpapers.ModelClasses.ModelClass;
+import com.skytek.live.wallpapers.ModelClasses.ParentItem;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 public class exitScreen extends AppCompatActivity {
     Button yesob, noob;
@@ -47,14 +68,23 @@ public class exitScreen extends AppCompatActivity {
     AdsManager adsManager;
     private ReviewManager reviewManager;
 
+    private RecyclerView ParentRecyclerViewItem;
+
+
+
+
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exit_screen);
+
+        data();
         yesob = findViewById(R.id.yes);
         noob = findViewById(R.id.no);
         exitlayoutob = findViewById(R.id.exit_layout);
         backbutton = findViewById(R.id.back_arrow);
+        ParentRecyclerViewItem = findViewById(R.id.ParentRecyclerViewItem);
 
 
         toolbar = findViewById(R.id.toolbar);
@@ -69,7 +99,7 @@ public class exitScreen extends AppCompatActivity {
 
         adsManager = new AdsManager();
 
-        adsManager.loadNativeAdd(exitScreen.this, R.id.fl_adplaceholder);
+
 
 
         yesob.setOnClickListener(new View.OnClickListener() {
@@ -138,38 +168,103 @@ public class exitScreen extends AppCompatActivity {
         super.onResume();
     }
 
-//    public void showRateApp() {
-//        Task<ReviewInfo> request = reviewManager.requestReviewFlow();
-//        request.addOnCompleteListener(task -> {
-//            if (task.isSuccessful()) {
-//                // We can get the ReviewInfo object
-//                ReviewInfo reviewInfo = task.getResult();
-//
-//                Task<Void> flow = reviewManager.launchReviewFlow(this, reviewInfo);
-//                flow.addOnCompleteListener(task1 -> {
-//                    // The flow has finished. The API does not indicate whether the user
-//                    // reviewed or not, or even whether the review dialog was shown. Thus, no
-//                    // matter the result, we continue our app flow.
-//                });
-//            }
-//        });
-//    }
+    public void data() {
 
-//    public void checkforreview() {
-//        Handler handler = new Handler();
-//
-//        final Runnable r = new Runnable() {
-//            public void run() {
-//
-//                if (!adcheck) {
-//                    showRateApp();
-//                } else {
-//                    checkforreview();
-//                }
-//            }
-//        };
-//
-//        handler.postDelayed(r, 100);
-//    }
+        final String JSON_URL = "https://mobipixels.net/3d-Live-wallpapers-api/newt.php";
+        try {
+
+            RequestQueue requestQueue = Volley.newRequestQueue(this);
+
+            // Initialize a new JsonArrayRequest instance
+            JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(
+                    Request.Method.GET,
+                    JSON_URL,
+                    null,
+                    new Response.Listener<JSONObject>() {
+                        @Override
+                        public void onResponse(JSONObject response) {
+                            if (response != null) {
+                                adsManager.loadNativeAdd(exitScreen.this, R.id.fl_adplaceholder);
+                                try {
+                                    //getting the whole json object from the response
+                                    JSONArray jsonArray = response.getJSONArray("response");
+
+                                    JSONObject catObject;
+                                    String catName;
+                                    String catid;
+
+                                    ArrayList<ParentItem> dataset1 = new ArrayList<>();
+                                    for (int i = 0; i < jsonArray.length(); i++) {
+                                        ArrayList<ModelClass> dataset = new ArrayList<>();
+                                        catObject = jsonArray.getJSONObject(i);
+                                        catName = jsonArray.getJSONObject(i).getString("Category");
+                                        if(catName.equals("Trending") || catName.equals("New"))
+                                        {
+                                            Log.d("fdsfd", "onResponse: "+catName);
+                                            catid = jsonArray.getJSONObject(i).getString("id");
+
+                                            JSONArray wallpapers = catObject.getJSONArray("wallpapers");
+                                            JSONObject wallpaper;
+
+                                            for (int j = 0; j < wallpapers.length(); j++) {
+                                                if(j < 3 )
+                                                {
+                                                    wallpaper = wallpapers.getJSONObject(j);
+                                                    String thumb_path = wallpaper.getString("thumbPath");
+                                                    String id = wallpaper.getString("id");
+                                                    String likes = wallpaper.getString("likes");
+                                                    String downloads = wallpaper.getString("Downloads");
+                                                    dataset.add(new ModelClass(thumb_path, id, likes, downloads));
+                                                }
+
+                                            }
+                                            dataset1.add(new ParentItem(catid, catName, dataset));
+                                        }
+                                        else {
+                                            Log.d("checkCatname" , "cat name is "+catName);
+                                        }
+                                    }
+                                    check_more=true;
+                                    ParentItemAdapter parentItemAdapter = new ParentItemAdapter(dataset1, exitScreen.this);
+                                    ParentRecyclerViewItem.setAdapter(parentItemAdapter);
+
+
+                                    LinearLayoutManager layoutManager = new LinearLayoutManager(exitScreen.this);
+                                    ParentRecyclerViewItem.setLayoutManager(layoutManager);
+
+//                                    if (mBundleRecyclerViewState != null) {
+//                                        new Handler().postDelayed(new Runnable() {
+//                                            @Override
+//                                            public void run() {
+//                                                mListState = mBundleRecyclerViewState.getParcelable("KEY_RECYCLER_STATE");
+//                                                ParentRecyclerViewItem.getLayoutManager().onRestoreInstanceState(mListState);
+//                                            }
+//                                        }, 50);
+//                                    }
+
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+
+                        }
+                    }, new com.android.volley.Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    Toast.makeText(exitScreen.this, "No Internet", Toast.LENGTH_SHORT).show();
+                }
+            });
+
+
+            //adding the string request to request queue
+            requestQueue.add(jsonObjectRequest);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
 
 }

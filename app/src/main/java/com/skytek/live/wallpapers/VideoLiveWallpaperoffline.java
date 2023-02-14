@@ -30,8 +30,7 @@ import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory;
 import com.google.android.exoplayer2.util.Util;
 
 import java.io.File;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+
 
 /**
  * Generally, WallpaperService should not depend other parts of app.
@@ -192,55 +191,49 @@ public class VideoLiveWallpaperoffline extends WallpaperService {
 
 
         private void startPlayer() {
-            ExecutorService executorService = Executors.newSingleThreadExecutor();
-            executorService.execute(new Runnable() {
-                @Override
-                public void run() {
-                    if (exoPlayer != null) {
-                        stopPlayer();
-                    }
-
-                    trackSelector = new DefaultTrackSelector();
-                    exoPlayer = ExoPlayerFactory.newSimpleInstance(context, trackSelector);
-                    File file = new File(getFilesDir() + "/unmute");
-                    if (file.exists()) {
-                        exoPlayer.setVolume(1.0f);
-                    } else {
-                        exoPlayer.setVolume(0f);
-                    }
-
-                    // Disable audio decoder.
-                    final int count = exoPlayer.getRendererCount();
-                    for (int i = 0; i < count; ++i) {
-                        if (exoPlayer.getRendererType(i) == C.TRACK_TYPE_AUDIO) {
-                            trackSelector.setParameters(
-                                    trackSelector.buildUponParameters().setRendererDisabled(i, false)
-                            );
-                        }
-                    }
-                    exoPlayer.setRepeatMode(Player.REPEAT_MODE_ALL);
-                    final DataSource.Factory dataSourceFactory = new DefaultDataSourceFactory(
-                            context, Util.getUserAgent(context, "com.skytek.live.wallpapers")
-                    );
 
 
-
-                    // ExoPlayer can load file:///android_asset/ uri correctly.
-                    videoSource = new ExtractorMediaSource.Factory(
-                            dataSourceFactory
-                    ).createMediaSource(Uri.parse(getExternalFilesDir("offline").getAbsolutePath() + "/" + a));
-                    // Let we assume video has correct info in metadata, or user should fix it.
-                    renderer.setVideoSizeAndRotation(videoWidth, videoHeight, videoRotation);
-                    // This must be set after getting video info.
-                    renderer.setSourcePlayer(exoPlayer);
-                    exoPlayer.prepare(videoSource);
-                    // ExoPlayer's video size changed listener is buggy. Don't use it.
-                    // It give's width and height after rotation, but did not rotate frames.
-
-                    exoPlayer.setPlayWhenReady(true);
+                if (exoPlayer != null) {
+                    stopPlayer();
                 }
-            });
 
+                trackSelector = new DefaultTrackSelector();
+                exoPlayer = ExoPlayerFactory.newSimpleInstance(context, trackSelector);
+                File file = new File(getFilesDir() + "/unmute");
+                if (file.exists()) {
+                    exoPlayer.setVolume(1.0f);
+                } else {
+                    exoPlayer.setVolume(0f);
+                }
+
+                // Disable audio decoder.
+                final int count = exoPlayer.getRendererCount();
+                for (int i = 0; i < count; ++i) {
+                    if (exoPlayer.getRendererType(i) == C.TRACK_TYPE_AUDIO) {
+                        trackSelector.setParameters(
+                                trackSelector.buildUponParameters().setRendererDisabled(i, false)
+                        );
+                    }
+                }
+                exoPlayer.setRepeatMode(Player.REPEAT_MODE_ALL);
+                final DataSource.Factory dataSourceFactory = new DefaultDataSourceFactory(
+                        context, Util.getUserAgent(context, "com.skytek.live.wallpapers")
+                );
+
+
+                // ExoPlayer can load file:///android_asset/ uri correctly.
+                videoSource = new ExtractorMediaSource.Factory(
+                        dataSourceFactory
+                ).createMediaSource(Uri.parse(getExternalFilesDir("offline").getAbsolutePath() + "/" + a));
+                // Let we assume video has correct info in metadata, or user should fix it.
+                renderer.setVideoSizeAndRotation(videoWidth, videoHeight, videoRotation);
+                // This must be set after getting video info.
+                renderer.setSourcePlayer(exoPlayer);
+                exoPlayer.prepare(videoSource);
+                // ExoPlayer's video size changed listener is buggy. Don't use it.
+                // It give's width and height after rotation, but did not rotate frames.
+
+                exoPlayer.setPlayWhenReady(true);
 
         }
 

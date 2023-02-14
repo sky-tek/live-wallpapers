@@ -1969,6 +1969,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id ParentRecyclerViewItem
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2170,6 +2171,7 @@ id fill_horizontal
 id fill_vertical
 id filled
 id first
+id fisttwocontent
 id fitToContents
 id fixed
 id fl_adplaceholder
@@ -2228,6 +2230,7 @@ id linearSize
 id listMode
 id list_item
 id listview_background_shape
+id llprogressad
 id loading
 id loading_layout
 id main
@@ -2336,6 +2339,7 @@ id prev_text_author
 id prev_text_error
 id prev_text_title
 id prev_video
+id progressBar
 id progress_circular
 id progress_horizontal
 id radial
@@ -2586,6 +2590,7 @@ layout browser_actions_context_menu_row
 layout catalog_cell
 layout child_item
 layout custom_dialog
+layout customview
 layout data_placeholder_layout
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2692,6 +2697,7 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw firebase_common_keep
 raw fragment_20
 raw fragment_30
 raw vertex_20
@@ -2781,6 +2787,7 @@ string exit
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fcm_fallback_notification_channel_label
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

@@ -105,22 +105,28 @@ public class Categories extends Fragment {
                                         ArrayList<ModelClass> dataset = new ArrayList<>();
                                         catObject = jsonArray.getJSONObject(i);
                                         catName = jsonArray.getJSONObject(i).getString("Category");
-                                        Log.d("fdsfd", "onResponse: "+catName);
+
                                         catid = jsonArray.getJSONObject(i).getString("id");
 
                                         JSONArray wallpapers = catObject.getJSONArray("Wallpapers");
                                         JSONObject wallpaper;
 
-                                        for (int j = 0; j < 5; j++) {
-                                            wallpaper = wallpapers.getJSONObject(j);
-                                            String thumb_path = wallpaper.getString("thumbPath");
-                                            String id = wallpaper.getString("id");
-                                            String likes = wallpaper.getString("likes");
-                                            String downloads = wallpaper.getString("downloads");
-                                            dataset.add(new ModelClass(thumb_path, id, likes, downloads));
+                                        for (int j = 0; j < wallpapers.length() ; j++) {
+                                            Log.d("checkcontentvolly" , "volly content is "+wallpapers.length());
+                                            if(j < 5)
+                                            {
+                                                wallpaper = wallpapers.getJSONObject(j);
+                                                String thumb_path = wallpaper.getString("thumbPath");
+                                                String id = wallpaper.getString("id");
+                                                String likes = wallpaper.getString("likes");
+                                                String downloads = wallpaper.getString("downloads");
+                                                dataset.add(new ModelClass(thumb_path, id, likes, downloads));
+                                            }
+                                            else {
+                                                break;
+                                            }
                                         }
                                         dataset1.add(new ParentItem(catid, catName, dataset));
-
                                     }
                                     check_more=false;
                                     ParentItemAdapter parentItemAdapter = new ParentItemAdapter(dataset1, getActivity());

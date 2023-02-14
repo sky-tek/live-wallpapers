@@ -204,7 +204,11 @@ class GLES20WallpaperRenderer extends GLWallpaperRenderer {
         }
 
         if (renderedFrame < updatedFrame) {
-            surfaceTexture.updateTexImage();
+            if(surfaceTexture != null)
+            {
+                surfaceTexture.updateTexImage();
+            }
+
             ++renderedFrame;
             // Utils.debug(
             //     TAG, "renderedFrame: " + renderedFrame + " updatedFrame: " + updatedFrame

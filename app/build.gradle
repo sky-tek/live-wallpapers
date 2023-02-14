@@ -13,8 +13,8 @@ android {
         applicationId "com.skytek.live.wallpapers"
         minSdkVersion 23
         targetSdkVersion 33
-        versionCode 48
-        versionName "1.0.7"
+        versionCode 49
+        versionName "1.0.8"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -81,6 +81,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.google.firebase:firebase-messaging:23.1.0'
 
 }
 repositories {

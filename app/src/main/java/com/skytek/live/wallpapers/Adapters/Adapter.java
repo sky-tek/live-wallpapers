@@ -92,7 +92,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     static public String idold;
     static public String idnew;
     int layoutid;
-    private ProgressDialog pDialog;
+    public static ProgressDialog pDialog;
 
 
     public Adapter(List<ModelClass> listData, Context context,int id) {
@@ -115,6 +115,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder holder, @SuppressLint("RecyclerView") final int position) {
         final ModelClass ld = listData.get(position);
+
 
         favlist = PrefConfig.readListFromPref(mcontext);
         if (favlist == null)
@@ -191,6 +192,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                             @Override
                             public void onPermissionDenied(PermissionDeniedResponse permissionDeniedResponse) {
                                 if (permissionDeniedResponse.isPermanentlyDenied()) {
+                                    Log.d("checkcontext" , "showing dialog");
                                     AlertDialog alertDialog = new AlertDialog.Builder(mcontext)
 //set icon
 //set title
@@ -204,8 +206,25 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                                                     //set what would happen when positive button is clicked
                                                     Intent intent = new Intent();
                                                     intent.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
-                                                    Uri uri = Uri.fromParts("package", mcontext.getApplicationContext().getPackageName(), null);
-                                                    intent.setData(uri);
+                                                    Log.d("checkcontext" , "context is aplicaton "+ mcontext.getApplicationContext().getPackageName());
+                                                    Log.d("checkcontext" , "context is context "+ mcontext.getPackageName());
+                                                    try
+                                                    {
+                                                        Uri uri = Uri.fromParts("package", mcontext.getApplicationContext().getPackageName(), null);
+                                                        intent.setData(uri);
+                                                    }
+                                                    catch (Exception e)
+                                                    {
+                                                        try
+                                                        {
+                                                            Uri uri = Uri.fromParts("package", mcontext.getPackageName(), null);
+                                                            intent.setData(uri);
+                                                        }
+                                                        catch (Exception e1)
+                                                        {
+                                                            //IGNORE then
+                                                        }
+                                                    }
                                                     mcontext.startActivity(intent);
                                                 }
                                             })
@@ -266,19 +285,17 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                         }
                     });
                     queue.add(request);
-
-
                 }
                 else if (holder.favourite.getTag().equals(R.drawable.ic_red_like)){
 
                     String like = "https://mobipixels.net/3d-Live-wallpapers-api/likes_live_wp.php?id=" + ld.getId() + "&likes=0";
-
 
                     // creating a new variable for our request queue
                     RequestQueue queue = Volley.newRequestQueue(context);
 
                     // making a string request to update our data and
                     // passing method as PUT. to update our data.
+
                     StringRequest request = new StringRequest(Request.Method.PUT, like, new Response.Listener<String>() {
                         @Override
                         public void onResponse(String response) {
@@ -298,7 +315,14 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                         @Override
                         public void onErrorResponse(VolleyError error) {
                             // displaying toast message on response failure.
-                            Toast.makeText(context, "No Internet", Toast.LENGTH_SHORT).show();
+                            if(context != null)
+                            {
+                                Toast.makeText(context, "No Internet", Toast.LENGTH_SHORT).show();
+                            }
+                            else {
+                                Toast.makeText(mcontext, "No Internet", Toast.LENGTH_SHORT).show();
+                            }
+
                         }
                     });
                     queue.add(request);
@@ -349,14 +373,19 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             if (file.exists()) {
                 try
                 {
+                    Log.d("checkopening" , "opening file 1");
                     final Intent intent1 = new Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER);
-                    intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(context, GLWallpaperService.class));
+                    Log.d("checkopening" , "opening file 2");
+                    intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(mcontext, GLWallpaperService.class));
+                    Log.d("checkopening" , "opening file 3");
                     ((Activity) mcontext).startActivityForResult(intent1, REQUEST_FOR_ACTIVITY_CODE);
+                    Log.d("checkopening" , "opening file 5");
 
                 }
                 catch (Exception e)
                 {
                     //IGNORE
+                    Log.d("checkopening" , "opening file"+e.getMessage());
                 }
 
 
@@ -445,17 +474,19 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     public void download(String image_path) {
 
+        Log.d("checkdownloads" , "downloads adapter first line");
         String download = "https://mobipixels.net/3d-Live-wallpapers-api/downloads_live_wp.php?id=" + id1 + "&down=1";
 
 
         // creating a new variable for our request queue
-        RequestQueue queue = Volley.newRequestQueue(context);
+        RequestQueue queue = Volley.newRequestQueue(mcontext);
 
         // making a string request to update our data and
         // passing method as PUT. to update our data.
         StringRequest request = new StringRequest(Request.Method.PUT, download, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
+                Log.d("checkdownloads" , "downloads adapter first line 485");
                 new DownloadFileFromURL().execute(image_path);
             }
         }, new Response.ErrorListener() {
@@ -470,21 +501,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         queue.add(request);
     }
 
-//    @SuppressLint("MissingPermission")
-//    public static void downloadManager(String url, Context context) {
-//        DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
-//        request.setDescription("download");
-//// in order for this if to run, you must use the android 3.2 to compile your app
-//        request.allowScanningByMediaScanner();
-//        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_HIDDEN);
-////        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_HIDDEN);
-//        request.setDestinationInExternalFilesDir(context, "live", "" + "/" + id1);
-//// get download service and enqueue file
-//        manager = (DownloadManager) context.getSystemService(Context.DOWNLOAD_SERVICE);
-//        manager.enqueue(request);
-//
-//
-//    }
+
 
 
     class DownloadFileFromURL extends AsyncTask<String, String, String> {
@@ -533,44 +550,40 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         }
 
         protected void onProgressUpdate(String... progress) {
+            Log.d("checkdownloads" , "on progress update");
             pDialog.setProgress(Integer.parseInt(progress[0]));
         }
 
+
         @Override
         protected void onPostExecute(String file_url) {
-
                 if (RESULT_FAIL) {
 
                     File file = new File(mcontext.getExternalFilesDir("live").getAbsolutePath() + "/" + id1);
                     if (file.exists()) {
                         file.delete();
                     }
-
                     Toast.makeText(mcontext, "Internet Connection Failed", Toast.LENGTH_SHORT).show();
                 } else {
-
                     try
                     {
+                        Log.d("checkopening" , " opening is");
                         final Intent intent1 = new Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER);
-                        intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(context, GLWallpaperService.class));
-                        ((Activity) context).startActivityForResult(intent1, REQUEST_FOR_ACTIVITY_CODE);
+                        Log.d("checkopening" , " opening is1");
+                        intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(mcontext, GLWallpaperService.class));
+                        Log.d("checkopening" , " opening is 2");
+                        ((Activity) mcontext).startActivityForResult(intent1, REQUEST_FOR_ACTIVITY_CODE);
+                        Log.d("checkopening" , " opening is3 ");
                     }
                     catch (Exception e)
                     {
-
+                        //IGNORE
+                        Log.d("checkopening" , " opening is catch" );
                     }
-
                  notifyDataSetChanged();
-
                 }
+                Log.d("checkDialogasdsad" , "dialog isasdasdasd ");
                 pDialog.dismiss();
-
-
         }
-
-
     }
-
-
-
 }

@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.skytek.live.wallpapers"
-4    android:versionCode="46"
-5    android:versionName="1.0.5" >
+4    android:versionCode="48"
+5    android:versionName="1.0.7" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
@@ -63,695 +63,764 @@
 31
 32    <!-- Permission will be merged into the manifest of the hosting app. -->
 33    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
-34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Android package visibility setting -->
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 34-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:8:3-74
 34-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:8:20-72
-35    <queries>
-35-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:28:5-44:15
-36
-37        <!-- For browser content -->
-38        <intent>
-38-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:31:9-37:18
-39            <action android:name="android.intent.action.VIEW" />
-39-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:32:13-65
-39-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:32:21-62
-40
-41            <category android:name="android.intent.category.BROWSABLE" />
-41-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:34:13-74
-41-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:34:23-71
-42
-43            <data android:scheme="https" />
-43-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:36:13-44
-43-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:36:19-41
-44        </intent>
-45        <!-- End of browser content -->
-46        <!-- For CustomTabsService -->
-47        <intent>
-47-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:40:9-42:18
-48            <action android:name="android.support.customtabs.action.CustomTabsService" />
-48-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:41:13-90
-48-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:41:21-87
-49        </intent>
-50        <!-- End of CustomTabsService -->
-51        <package android:name="com.facebook.katana" />
-51-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:12:9-55
-51-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:12:18-52
-52    </queries>
-53
-54    <uses-permission android:name="android.permission.WAKE_LOCK" />
-54-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\202beda18210cab20be37b2467e51ade\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:24:5-68
-54-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\202beda18210cab20be37b2467e51ade\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:24:22-65
-55    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-55-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:26:5-110
-55-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:26:22-107
-56    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-56-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:5-81
-56-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:22-78
-57
-58    <application
-58-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:32:5-141:19
-59        android:name="com.skytek.live.wallpapers.MyApplication"
-59-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:33:9-38
-60        android:allowBackup="true"
-60-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:34:9-35
-61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-61-->[androidx.core:core:1.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\e38877ea22addeb564df72c2095bc473\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-62        android:debuggable="true"
-63        android:extractNativeLibs="false"
-64        android:icon="@mipmap/ic_launcher"
-64-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:35:9-43
-65        android:label="@string/app_name"
-65-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:36:9-41
-66        android:networkSecurityConfig="@xml/network_security_config"
-66-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:37:9-69
-67        android:requestLegacyExternalStorage="true"
-67-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:38:9-52
-68        android:roundIcon="@mipmap/ic_launcher_round"
-68-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:39:9-54
-69        android:supportsRtl="true"
-69-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:40:9-35
-70        android:testOnly="true"
-71        android:theme="@style/Theme.LiveWallpaper" >
-71-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:41:9-51
-72        <activity
-72-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:42:9-45:65
-73            android:name="com.skytek.live.wallpapers.Search"
-73-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:43:13-35
-74            android:exported="true"
-74-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:44:13-36
-75            android:theme="@style/Theme.AppCompat.NoActionBar" />
-75-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:45:13-63
-76        <activity
-76-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:46:9-48:39
-77            android:name="com.skytek.live.wallpapers.exitScreen"
-77-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:47:13-39
-78            android:exported="true" />
-78-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:48:13-36
-79        <activity
-79-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:49:9-57:20
-80            android:name="com.skytek.live.wallpapers.splashMainActivity"
-80-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:50:13-47
-81            android:exported="true" >
-81-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:51:13-36
-82            <intent-filter>
-82-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:52:13-56:29
-83                <action android:name="android.intent.action.MAIN" />
-83-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:53:17-69
-83-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:53:25-66
-84
-85                <category android:name="android.intent.category.LAUNCHER" />
-85-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:55:17-77
-85-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:55:27-74
-86            </intent-filter>
-87        </activity>
-88        <activity
-88-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:58:9-61:66
-89            android:name="com.skytek.live.wallpapers.categorythumnail"
-89-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:59:13-45
-90            android:exported="true"
-90-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:60:13-36
-91            android:theme="@style/Theme.AppCompat.NoActionBar" />
-91-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:61:13-63
-92        <activity
-92-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:62:9-64:39
-93            android:name="com.skytek.live.wallpapers.VideoView"
-93-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:63:13-38
-94            android:exported="true" />
-94-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:64:13-36
-95        <activity android:name="com.skytek.live.wallpapers.MainLauncher" />
-95-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:65:9-50
-95-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:65:19-47
-96        <activity
-96-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:66:9-69:66
-97            android:name="com.skytek.live.wallpapers.MainActivity"
-97-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:67:13-41
-98            android:exported="true"
-98-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:68:13-36
-99            android:theme="@style/Theme.AppCompat.NoActionBar" />
-99-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:69:13-63
-100        <activity
-100-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:70:9-73:66
-101            android:name="com.skytek.live.wallpapers.Just3D.MainActivity3d"
-101-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:71:13-50
-102            android:exported="true"
-102-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:72:13-36
-103            android:theme="@style/Theme.AppCompat.NoActionBar" />
-103-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:73:13-63
-104        <activity
-104-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:74:9-79:67
-105            android:name="com.skytek.live.wallpapers.Just3D.SettingsActivity"
-105-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:75:13-52
-106            android:exported="true"
-106-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:76:13-36
-107            android:label="@string/settings_title"
-107-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:78:13-51
-108            android:parentActivityName="com.skytek.live.wallpapers.Just3D.MainActivity3d" />
-108-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:79:13-64
-109
-110        <service
-110-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:81:9-94:19
-111            android:name="com.skytek.live.wallpapers.Just3D.wallpaper.MyWallpaperService"
-111-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:82:13-64
-112            android:enabled="true"
-112-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:83:13-35
-113            android:exported="true"
-113-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:84:13-36
-114            android:label="3D Live Wallpaper"
-114-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:85:13-46
-115            android:permission="android.permission.BIND_WALLPAPER" >
-115-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:86:13-67
+35    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+35-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:25:5-77
+35-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:25:22-74
+36    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+36-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:26:5-68
+36-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:26:22-65
+37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Android package visibility setting -->
+37-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:28:5-82
+37-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:28:22-79
+38    <queries>
+38-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:28:5-44:15
+39
+40        <!-- For browser content -->
+41        <intent>
+41-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:31:9-37:18
+42            <action android:name="android.intent.action.VIEW" />
+42-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:32:13-65
+42-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:32:21-62
+43
+44            <category android:name="android.intent.category.BROWSABLE" />
+44-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:34:13-74
+44-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:34:23-71
+45
+46            <data android:scheme="https" />
+46-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:36:13-44
+46-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:36:19-41
+47        </intent>
+48        <!-- End of browser content -->
+49        <!-- For CustomTabsService -->
+50        <intent>
+50-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:40:9-42:18
+51            <action android:name="android.support.customtabs.action.CustomTabsService" />
+51-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:41:13-90
+51-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:41:21-87
+52        </intent>
+53        <!-- End of CustomTabsService -->
+54        <package android:name="com.facebook.katana" />
+54-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:12:9-55
+54-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:12:18-52
+55    </queries>
+56
+57    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+57-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:26:5-110
+57-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:26:22-107
+58    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+58-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:5-81
+58-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:22-78
+59
+60    <application
+60-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:32:5-149:19
+61        android:name="com.skytek.live.wallpapers.MyApplication"
+61-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:33:9-38
+62        android:allowBackup="true"
+62-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:34:9-35
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\e38877ea22addeb564df72c2095bc473\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+64        android:debuggable="true"
+65        android:extractNativeLibs="false"
+66        android:icon="@mipmap/ic_launcher"
+66-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:35:9-43
+67        android:label="@string/app_name"
+67-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:36:9-41
+68        android:networkSecurityConfig="@xml/network_security_config"
+68-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:37:9-69
+69        android:requestLegacyExternalStorage="true"
+69-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:38:9-52
+70        android:roundIcon="@mipmap/ic_launcher_round"
+70-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:39:9-54
+71        android:supportsRtl="true"
+71-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:40:9-35
+72        android:testOnly="true"
+73        android:theme="@style/Theme.LiveWallpaper" >
+73-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:41:9-51
+74        <activity
+74-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:42:9-45:65
+75            android:name="com.skytek.live.wallpapers.Search"
+75-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:43:13-35
+76            android:exported="true"
+76-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:44:13-36
+77            android:theme="@style/Theme.AppCompat.NoActionBar" />
+77-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:45:13-63
+78        <activity
+78-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:46:9-48:39
+79            android:name="com.skytek.live.wallpapers.exitScreen"
+79-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:47:13-39
+80            android:exported="true" />
+80-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:48:13-36
+81        <activity
+81-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:49:9-57:20
+82            android:name="com.skytek.live.wallpapers.splashMainActivity"
+82-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:50:13-47
+83            android:exported="true" >
+83-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:51:13-36
+84            <intent-filter>
+84-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:52:13-56:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:53:17-69
+85-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:53:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:55:17-77
+87-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:55:27-74
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:58:9-61:66
+91            android:name="com.skytek.live.wallpapers.categorythumnail"
+91-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:59:13-45
+92            android:exported="true"
+92-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:60:13-36
+93            android:theme="@style/Theme.AppCompat.NoActionBar" />
+93-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:61:13-63
+94        <activity
+94-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:62:9-64:39
+95            android:name="com.skytek.live.wallpapers.VideoView"
+95-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:63:13-38
+96            android:exported="true" />
+96-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:64:13-36
+97        <activity android:name="com.skytek.live.wallpapers.MainLauncher" />
+97-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:65:9-50
+97-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:65:19-47
+98        <activity
+98-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:66:9-69:66
+99            android:name="com.skytek.live.wallpapers.MainActivity"
+99-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:67:13-41
+100            android:exported="true"
+100-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:68:13-36
+101            android:theme="@style/Theme.AppCompat.NoActionBar" />
+101-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:69:13-63
+102        <activity
+102-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:70:9-73:66
+103            android:name="com.skytek.live.wallpapers.Just3D.MainActivity3d"
+103-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:71:13-50
+104            android:exported="true"
+104-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:72:13-36
+105            android:theme="@style/Theme.AppCompat.NoActionBar" />
+105-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:73:13-63
+106        <activity
+106-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:74:9-79:67
+107            android:name="com.skytek.live.wallpapers.Just3D.SettingsActivity"
+107-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:75:13-52
+108            android:exported="true"
+108-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:76:13-36
+109            android:label="@string/settings_title"
+109-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:78:13-51
+110            android:parentActivityName="com.skytek.live.wallpapers.Just3D.MainActivity3d" />
+110-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:79:13-64
+111
+112        <service
+112-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:80:9-88:19
+113            android:name="com.skytek.live.wallpapers.MyFirebaseMessagingService"
+113-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:81:13-55
+114            android:enabled="true"
+114-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:82:13-35
+115            android:exported="true" >
+115-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:83:13-36
 116            <intent-filter>
-116-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:87:13-89:29
-117                <action android:name="android.service.wallpaper.WallpaperService" />
-117-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:17-85
-117-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:25-82
+116-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:85:13-87:29
+117                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+117-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:86:17-78
+117-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:86:25-75
 118            </intent-filter>
-119
-120            <meta-data
-120-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:91:13-93:53
-121                android:name="android.service.wallpaper"
-121-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:92:17-57
-122                android:resource="@xml/wallpaper" />
-122-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:93:17-50
-123        </service>
-124
-125        <activity
-125-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:96:9-101:59
-126            android:name="com.skytek.live.wallpapers.Just3D.SetActivity"
-126-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:97:13-47
-127            android:exported="true"
-127-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:99:13-36
-128            android:label="@string/set_title"
-128-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:98:13-46
-129            android:parentActivityName="com.skytek.live.wallpapers.Just3D.MainActivity3d"
-129-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:100:13-64
-130            android:theme="@style/LiveWallpaper3D.Base" />
-130-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:101:13-56
-131        <activity
-131-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:102:9-105:66
-132            android:name="com.skytek.live.wallpapers.Just3D.PreviewActivity"
-132-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:103:13-51
-133            android:exported="true"
-133-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:104:13-36
-134            android:theme="@style/LiveWallpaper3D.NoActionBar" />
-134-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:105:13-63
-135
-136        <service
-136-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:107:9-110:38
-137            android:name="com.skytek.live.wallpapers.Just3D.services.SyncManager"
-137-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:108:13-56
-138            android:enabled="true"
-138-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:110:13-35
-139            android:exported="true" />
-139-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:109:13-36
-140        <service
-140-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:111:9-124:19
-141            android:name="com.skytek.live.wallpapers.VideoLiveWallpaperoffline"
-141-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:112:13-54
-142            android:exported="true"
-142-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:113:13-36
-143            android:permission="android.permission.BIND_WALLPAPER" >
-143-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:114:13-67
-144
-145            <!-- android:process=":wallpaper" -->
-146            <intent-filter>
-146-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:87:13-89:29
-147                <action android:name="android.service.wallpaper.WallpaperService" />
-147-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:17-85
-147-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:25-82
-148            </intent-filter>
-149
-150            <meta-data
-150-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:91:13-93:53
-151                android:name="android.service.wallpaper"
-151-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:92:17-57
-152                android:resource="@xml/livewallpaper" />
-152-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:93:17-50
-153        </service>
-154        <service
-154-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:125:9-136:19
-155            android:name="com.skytek.live.wallpapers.GLWallpaperService"
-155-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:126:13-47
-156            android:exported="true"
-156-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:127:13-36
-157            android:permission="android.permission.BIND_WALLPAPER" >
-157-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:128:13-67
-158            <intent-filter>
-158-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:87:13-89:29
-159                <action android:name="android.service.wallpaper.WallpaperService" />
-159-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:17-85
-159-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:88:25-82
-160            </intent-filter>
-161
-162            <meta-data
-162-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:91:13-93:53
-163                android:name="android.service.wallpaper"
-163-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:92:17-57
-164                android:resource="@xml/livewallpaper" />
-164-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:93:17-50
-165        </service>
-166
-167        <meta-data
-167-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:138:9-140:46
-168            android:name="com.google.android.gms.ads.APPLICATION_ID"
-168-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:139:13-69
-169            android:value="@string/app_id" />
-169-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:140:13-43
-170
-171        <activity
-171-->[com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72
-172            android:name="com.karumi.dexter.DexterActivity"
-172-->[com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:28:13-60
-173            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- The activities will be merged into the manifest of the hosting app. -->
-173-->[com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:29:13-69
-174        <activity
-174-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:5-271
-175            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-175-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:15-102
-176            android:enabled="false"
-176-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:103-126
-177            android:exported="false"
-177-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:127-151
-178            android:launchMode="singleInstance"
-178-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:204-239
-179            android:process=":playcore_missing_splits_activity"
-179-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:152-203
-180            android:stateNotNeeded="true" />
-180-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:240-269
+119        </service>
+120        <service
+120-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:90:9-102:19
+121            android:name="com.skytek.live.wallpapers.Just3D.wallpaper.MyWallpaperService"
+121-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:91:13-64
+122            android:enabled="true"
+122-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:92:13-35
+123            android:exported="true"
+123-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:93:13-36
+124            android:label="3D Live Wallpaper"
+124-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:94:13-46
+125            android:permission="android.permission.BIND_WALLPAPER" >
+125-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:95:13-67
+126            <intent-filter>
+126-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:96:13-98:29
+127                <action android:name="android.service.wallpaper.WallpaperService" />
+127-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:97:17-85
+127-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:97:25-82
+128            </intent-filter>
+129
+130            <meta-data
+130-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:99:13-101:53
+131                android:name="android.service.wallpaper"
+131-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:100:17-57
+132                android:resource="@xml/wallpaper" />
+132-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:101:17-50
+133        </service>
+134
+135        <activity
+135-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:104:9-109:59
+136            android:name="com.skytek.live.wallpapers.Just3D.SetActivity"
+136-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:105:13-47
+137            android:exported="true"
+137-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:107:13-36
+138            android:label="@string/set_title"
+138-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:106:13-46
+139            android:parentActivityName="com.skytek.live.wallpapers.Just3D.MainActivity3d"
+139-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:108:13-64
+140            android:theme="@style/LiveWallpaper3D.Base" />
+140-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:109:13-56
+141        <activity
+141-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:110:9-113:66
+142            android:name="com.skytek.live.wallpapers.Just3D.PreviewActivity"
+142-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:111:13-51
+143            android:exported="true"
+143-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:112:13-36
+144            android:theme="@style/LiveWallpaper3D.NoActionBar" />
+144-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:113:13-63
+145
+146        <service
+146-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:115:9-118:38
+147            android:name="com.skytek.live.wallpapers.Just3D.services.SyncManager"
+147-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:116:13-56
+148            android:enabled="true"
+148-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:118:13-35
+149            android:exported="true" />
+149-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:117:13-36
+150        <service
+150-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:119:9-132:19
+151            android:name="com.skytek.live.wallpapers.VideoLiveWallpaperoffline"
+151-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:120:13-54
+152            android:exported="true"
+152-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:121:13-36
+153            android:permission="android.permission.BIND_WALLPAPER" >
+153-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:122:13-67
+154
+155            <!-- android:process=":wallpaper" -->
+156            <intent-filter>
+156-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:96:13-98:29
+157                <action android:name="android.service.wallpaper.WallpaperService" />
+157-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:97:17-85
+157-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:97:25-82
+158            </intent-filter>
+159
+160            <meta-data
+160-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:99:13-101:53
+161                android:name="android.service.wallpaper"
+161-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:100:17-57
+162                android:resource="@xml/livewallpaper" />
+162-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:101:17-50
+163        </service>
+164        <service
+164-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:133:9-144:19
+165            android:name="com.skytek.live.wallpapers.GLWallpaperService"
+165-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:134:13-47
+166            android:exported="true"
+166-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:135:13-36
+167            android:permission="android.permission.BIND_WALLPAPER" >
+167-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:136:13-67
+168            <intent-filter>
+168-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:96:13-98:29
+169                <action android:name="android.service.wallpaper.WallpaperService" />
+169-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:97:17-85
+169-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:97:25-82
+170            </intent-filter>
+171
+172            <meta-data
+172-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:99:13-101:53
+173                android:name="android.service.wallpaper"
+173-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:100:17-57
+174                android:resource="@xml/livewallpaper" />
+174-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:101:17-50
+175        </service>
+176
+177        <meta-data
+177-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:146:9-148:46
+178            android:name="com.google.android.gms.ads.APPLICATION_ID"
+178-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:147:13-69
+179            android:value="@string/app_id" />
+179-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:148:13-43
+180
 181        <activity
-181-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:5-226
-182            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-182-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:15-95
-183            android:enabled="false"
-183-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:96-119
-184            android:exported="false"
-184-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:120-144
-185            android:stateNotNeeded="true"
-185-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:145-174
-186            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
-186-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:175-224
-187        <service
-187-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:5-18:15
-188            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-188-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:14-95
-189            android:enabled="false"
-189-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:96-119
-190            android:exported="true" >
-190-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:120-143
-191            <meta-data
-191-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:7-108
-192                android:name="com.google.android.play.core.assetpacks.versionCode"
-192-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:18-84
-193                android:value="11000" />
-193-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:85-106
-194        </service>
-195        <service
-195-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:5-147
-196            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
-196-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:14-96
-197            android:enabled="false"
-197-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:97-120
-198            android:exported="false" />
-198-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:121-145
-199        <service
-199-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:15:9-21:19
-200            android:name="com.google.firebase.components.ComponentDiscoveryService"
-200-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:16:13-84
-201            android:directBootAware="true"
-201-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\13d7a25eb5c949b9109cafa8a1520e3c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-202            android:exported="false" >
-202-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:17:13-37
-203            <meta-data
-203-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:18:13-20:85
-204                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-204-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:19:17-115
-205                android:value="com.google.firebase.components.ComponentRegistrar" />
-205-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:20:17-82
-206            <meta-data
-206-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\202beda18210cab20be37b2467e51ade\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:30:13-32:85
-207                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-207-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\202beda18210cab20be37b2467e51ade\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:31:17-139
-208                android:value="com.google.firebase.components.ComponentRegistrar" />
-208-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\202beda18210cab20be37b2467e51ade\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:32:17-82
-209            <meta-data
-209-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b601d62a683a257e8d94346d5062ceba\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
-210                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-210-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b601d62a683a257e8d94346d5062ceba\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
-211                android:value="com.google.firebase.components.ComponentRegistrar" />
-211-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b601d62a683a257e8d94346d5062ceba\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
-212        </service>
-213
-214        <activity
-214-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b272f5019b02f53cdf1147b7274781d9\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
-215            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-215-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b272f5019b02f53cdf1147b7274781d9\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
-216            android:exported="false"
-216-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b272f5019b02f53cdf1147b7274781d9\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
-217            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-217-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b272f5019b02f53cdf1147b7274781d9\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
-218        <activity
-218-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:49:9-53:64
-219            android:name="com.google.android.gms.ads.AdActivity"
-219-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:50:13-65
-220            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-220-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:51:13-122
-221            android:exported="false"
-221-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:52:13-37
-222            android:theme="@android:style/Theme.Translucent" />
-222-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:53:13-61
-223
-224        <provider
-224-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:55:9-59:39
-225            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-225-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:56:13-76
-226            android:authorities="com.skytek.live.wallpapers.mobileadsinitprovider"
-226-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:57:13-73
-227            android:exported="false"
-227-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:58:13-37
-228            android:initOrder="100" />
-228-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:59:13-36
+181-->[com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:27:9-29:72
+182            android:name="com.karumi.dexter.DexterActivity"
+182-->[com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:28:13-60
+183            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+183-->[com.karumi:dexter:6.2.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1b21a234eadcdbe113ce6d4a854f2fbb\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:29:13-69
+184        <activity
+184-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:5-271
+185            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+185-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:15-102
+186            android:enabled="false"
+186-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:103-126
+187            android:exported="false"
+187-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:127-151
+188            android:launchMode="singleInstance"
+188-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:204-239
+189            android:process=":playcore_missing_splits_activity"
+189-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:152-203
+190            android:stateNotNeeded="true" />
+190-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:12:240-269
+191        <activity
+191-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:5-226
+192            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+192-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:15-95
+193            android:enabled="false"
+193-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:96-119
+194            android:exported="false"
+194-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:120-144
+195            android:stateNotNeeded="true"
+195-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:145-174
+196            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+196-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:13:175-224
+197        <service
+197-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:5-18:15
+198            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+198-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:14-95
+199            android:enabled="false"
+199-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:96-119
+200            android:exported="true" >
+200-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:16:120-143
+201            <meta-data
+201-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:7-108
+202                android:name="com.google.android.play.core.assetpacks.versionCode"
+202-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:18-84
+203                android:value="11000" />
+203-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:17:85-106
+204        </service>
+205        <service
+205-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:5-147
+206            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+206-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:14-96
+207            android:enabled="false"
+207-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:97-120
+208            android:exported="false" />
+208-->[com.google.android.play:core:1.10.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\881ccc22346c4f8b629b64c6e8fd678b\transformed\jetified-core-1.10.0\AndroidManifest.xml:19:121-145
+209        <service
+209-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:15:9-21:19
+210            android:name="com.google.firebase.components.ComponentDiscoveryService"
+210-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:16:13-84
+211            android:directBootAware="true"
+211-->[com.google.firebase:firebase-common:20.2.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\59ab37d5d32a60ef6aa4cdd8bea05277\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+212            android:exported="false" >
+212-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:17:13-37
+213            <meta-data
+213-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:18:13-20:85
+214                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+214-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:19:17-115
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.firebase:firebase-crashlytics:18.2.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\b7bbb76037e9bb692015834ffa04d068\transformed\jetified-firebase-crashlytics-18.2.8\AndroidManifest.xml:20:17-82
+216            <meta-data
+216-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:55:13-57:85
+217                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+217-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:56:17-119
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:57:17-82
+219            <meta-data
+219-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\202beda18210cab20be37b2467e51ade\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:30:13-32:85
+220                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+220-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\202beda18210cab20be37b2467e51ade\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:31:17-139
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.android.gms:play-services-measurement-api:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\202beda18210cab20be37b2467e51ade\transformed\jetified-play-services-measurement-api-20.1.0\AndroidManifest.xml:32:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c89d2f229ff790c830afbdc73842b343\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+223                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+223-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c89d2f229ff790c830afbdc73842b343\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c89d2f229ff790c830afbdc73842b343\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+225            <meta-data
+225-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MobiPixels01\.gradle\caches\transforms-3\88e4e22426c143f624006fcd85549d18\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+226                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+226-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MobiPixels01\.gradle\caches\transforms-3\88e4e22426c143f624006fcd85549d18\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\MobiPixels01\.gradle\caches\transforms-3\88e4e22426c143f624006fcd85549d18\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+228        </service>
 229
-230        <service
-230-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:61:9-64:40
-231            android:name="com.google.android.gms.ads.AdService"
-231-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:62:13-64
-232            android:enabled="true"
-232-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:63:13-35
-233            android:exported="false" />
-233-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:64:13-37
-234
-235        <activity
-235-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:19:9-23:75
-236            android:name="com.facebook.ads.AudienceNetworkActivity"
-236-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:20:13-68
-237            android:configChanges="keyboardHidden|orientation|screenSize"
-237-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:21:13-74
-238            android:exported="false"
-238-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:22:13-37
-239            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-239-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:23:13-72
-240
-241        <provider
-241-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:25:9-28:40
-242            android:name="com.facebook.ads.AudienceNetworkContentProvider"
-242-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:26:13-75
-243            android:authorities="com.skytek.live.wallpapers.AudienceNetworkContentProvider"
-243-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:27:13-82
-244            android:exported="false" />
-244-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:28:13-37
-245        <provider
-245-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\13d7a25eb5c949b9109cafa8a1520e3c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-246            android:name="com.google.firebase.provider.FirebaseInitProvider"
-246-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\13d7a25eb5c949b9109cafa8a1520e3c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-247            android:authorities="com.skytek.live.wallpapers.firebaseinitprovider"
-247-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\13d7a25eb5c949b9109cafa8a1520e3c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-248            android:directBootAware="true"
-248-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\13d7a25eb5c949b9109cafa8a1520e3c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-249            android:exported="false"
-249-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\13d7a25eb5c949b9109cafa8a1520e3c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-250            android:initOrder="100" />
-250-->[com.google.firebase:firebase-common:20.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\13d7a25eb5c949b9109cafa8a1520e3c\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-251
-252        <receiver
-252-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:29:9-33:20
-253            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-253-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:30:13-85
-254            android:enabled="true"
-254-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:31:13-35
-255            android:exported="false" >
-255-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:32:13-37
-256        </receiver>
-257
-258        <service
-258-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:35:9-38:40
-259            android:name="com.google.android.gms.measurement.AppMeasurementService"
-259-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:36:13-84
-260            android:enabled="true"
-260-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:37:13-35
-261            android:exported="false" />
-261-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:38:13-37
+230        <receiver
+230-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:31:9-38:20
+231            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+231-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:32:13-78
+232            android:exported="true"
+232-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:33:13-36
+233            android:permission="com.google.android.c2dm.permission.SEND" >
+233-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:34:13-73
+234            <intent-filter>
+234-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:35:13-37:29
+235                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+235-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:36:17-81
+235-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:36:25-78
+236            </intent-filter>
+237        </receiver>
+238        <!--
+239             FirebaseMessagingService performs security checks at runtime,
+240             but set to not exported to explicitly avoid allowing another app to call it.
+241        -->
+242        <service
+242-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:44:9-51:19
+243            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+243-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:45:13-82
+244            android:directBootAware="true"
+244-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:46:13-43
+245            android:exported="false" >
+245-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\af0acdc776e59056b6ee8db34d7eb2ac\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:47:13-37
+246            <intent-filter android:priority="-500" >
+246-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:85:13-87:29
+247                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+247-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:86:17-78
+247-->D:\live-wallpapers\app\src\main\AndroidManifest.xml:86:25-75
+248            </intent-filter>
+249        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+250        <activity
+250-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:49:9-53:64
+251            android:name="com.google.android.gms.ads.AdActivity"
+251-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:50:13-65
+252            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+252-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:51:13-122
+253            android:exported="false"
+253-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:52:13-37
+254            android:theme="@android:style/Theme.Translucent" />
+254-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:53:13-61
+255
+256        <provider
+256-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:55:9-59:39
+257            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+257-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:56:13-76
+258            android:authorities="com.skytek.live.wallpapers.mobileadsinitprovider"
+258-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:57:13-73
+259            android:exported="false"
+259-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:58:13-37
+260            android:initOrder="100" />
+260-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:59:13-36
+261
 262        <service
-262-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:39:9-43:72
-263            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-263-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:40:13-87
+262-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:61:9-64:40
+263            android:name="com.google.android.gms.ads.AdService"
+263-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:62:13-64
 264            android:enabled="true"
-264-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:41:13-35
-265            android:exported="false"
-265-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:42:13-37
-266            android:permission="android.permission.BIND_JOB_SERVICE" />
-266-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:43:13-69
-267
-268        <meta-data
-268-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\f82b9b49539827d806e980097d25aec0\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-269            android:name="com.google.android.gms.version"
-269-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\f82b9b49539827d806e980097d25aec0\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-270            android:value="@integer/google_play_services_version" />
-270-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\f82b9b49539827d806e980097d25aec0\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-271
-272        <provider
-272-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\904ee09f766f20031c2ec8a967c134a2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-273            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-273-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\904ee09f766f20031c2ec8a967c134a2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-274            android:authorities="com.skytek.live.wallpapers.lifecycle-process"
-274-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\904ee09f766f20031c2ec8a967c134a2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-275            android:exported="false"
-275-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\904ee09f766f20031c2ec8a967c134a2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-276            android:multiprocess="true" />
-276-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\904ee09f766f20031c2ec8a967c134a2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-277        <provider
-277-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
-278            android:name="androidx.startup.InitializationProvider"
-278-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:32:13-67
-279            android:authorities="com.skytek.live.wallpapers.androidx-startup"
-279-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:33:13-68
-280            android:exported="false" >
-280-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:34:13-37
-281            <meta-data
-281-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
-282                android:name="androidx.work.WorkManagerInitializer"
-282-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
-283                android:value="androidx.startup" />
-283-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
-284        </provider>
-285
-286        <service
-286-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
-287            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-287-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
-288            android:directBootAware="false"
-288-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
-289            android:enabled="@bool/enable_system_alarm_service_default"
-289-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
-290            android:exported="false" />
-290-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
-291        <service
-291-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
-292            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-292-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
-293            android:directBootAware="false"
-293-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
-294            android:enabled="@bool/enable_system_job_service_default"
-294-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
-295            android:exported="true"
-295-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
-296            android:permission="android.permission.BIND_JOB_SERVICE" />
-296-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
-297        <service
-297-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
-298            android:name="androidx.work.impl.foreground.SystemForegroundService"
-298-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
-299            android:directBootAware="false"
-299-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
-300            android:enabled="@bool/enable_system_foreground_service_default"
-300-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
-301            android:exported="false" />
-301-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
-302
-303        <receiver
-303-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
-304            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-304-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
-305            android:directBootAware="false"
-305-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
-306            android:enabled="true"
-306-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
-307            android:exported="false" />
-307-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
-308        <receiver
-308-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
-309            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-309-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
-310            android:directBootAware="false"
-310-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
-311            android:enabled="false"
-311-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
-312            android:exported="false" >
-312-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
-313            <intent-filter>
-313-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
-314                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-314-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
-314-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
-315                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-315-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
-315-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
-316            </intent-filter>
-317        </receiver>
-318        <receiver
-318-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
-319            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-319-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
-320            android:directBootAware="false"
-320-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
-321            android:enabled="false"
-321-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
-322            android:exported="false" >
-322-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
-323            <intent-filter>
-323-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
-324                <action android:name="android.intent.action.BATTERY_OKAY" />
-324-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
-324-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
-325                <action android:name="android.intent.action.BATTERY_LOW" />
-325-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
-325-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
-326            </intent-filter>
-327        </receiver>
-328        <receiver
-328-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
-329            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-329-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
-330            android:directBootAware="false"
-330-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
-331            android:enabled="false"
-331-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
-332            android:exported="false" >
-332-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
-333            <intent-filter>
-333-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
-334                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-334-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
-334-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
-335                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-335-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
-335-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
-336            </intent-filter>
-337        </receiver>
-338        <receiver
-338-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
-339            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-339-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
-340            android:directBootAware="false"
-340-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
-341            android:enabled="false"
-341-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
-342            android:exported="false" >
-342-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
-343            <intent-filter>
-343-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
-344                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-344-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
-344-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
-345            </intent-filter>
-346        </receiver>
-347        <receiver
-347-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
-348            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-348-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
-349            android:directBootAware="false"
-349-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
-350            android:enabled="false"
-350-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
-351            android:exported="false" >
-351-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
-352            <intent-filter>
-352-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
-353                <action android:name="android.intent.action.BOOT_COMPLETED" />
-353-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
-353-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
-354                <action android:name="android.intent.action.TIME_SET" />
-354-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
-354-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
-355                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-355-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
-355-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
-356            </intent-filter>
-357        </receiver>
-358        <receiver
-358-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
-359            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-359-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
-360            android:directBootAware="false"
-360-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
-361            android:enabled="@bool/enable_system_alarm_service_default"
-361-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
-362            android:exported="false" >
-362-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
-363            <intent-filter>
-363-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
-364                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-364-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
-364-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
-365            </intent-filter>
-366        </receiver>
-367        <receiver
-367-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
-368            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-368-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
-369            android:directBootAware="false"
-369-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
-370            android:enabled="true"
-370-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
-371            android:exported="true"
-371-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
-372            android:permission="android.permission.DUMP" >
-372-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
-373            <intent-filter>
-373-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
-374                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-374-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
-374-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
-375            </intent-filter>
-376        </receiver>
-377
-378        <service
-378-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1969c959af8471b29a86bd9a69e9404b\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:29:9-35:19
-379            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-379-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1969c959af8471b29a86bd9a69e9404b\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:30:13-103
+264-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:63:13-35
+265            android:exported="false" />
+265-->[com.google.android.gms:play-services-ads-lite:20.5.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\426f1a3222a6aeefe71c0ddad8551804\transformed\jetified-play-services-ads-lite-20.5.0\AndroidManifest.xml:64:13-37
+266
+267        <activity
+267-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:19:9-23:75
+268            android:name="com.facebook.ads.AudienceNetworkActivity"
+268-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:20:13-68
+269            android:configChanges="keyboardHidden|orientation|screenSize"
+269-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:21:13-74
+270            android:exported="false"
+270-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:22:13-37
+271            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+271-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:23:13-72
+272
+273        <provider
+273-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:25:9-28:40
+274            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+274-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:26:13-75
+275            android:authorities="com.skytek.live.wallpapers.AudienceNetworkContentProvider"
+275-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:27:13-82
+276            android:exported="false" />
+276-->[com.facebook.android:audience-network-sdk:6.8.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\ae044d5f59c33ec62a33605377181f1e\transformed\jetified-audience-network-sdk-6.8.0\AndroidManifest.xml:28:13-37
+277
+278        <receiver
+278-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:29:9-33:20
+279            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+279-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:30:13-85
+280            android:enabled="true"
+280-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:31:13-35
+281            android:exported="false" >
+281-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:32:13-37
+282        </receiver>
+283
+284        <service
+284-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:35:9-38:40
+285            android:name="com.google.android.gms.measurement.AppMeasurementService"
+285-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:36:13-84
+286            android:enabled="true"
+286-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:37:13-35
+287            android:exported="false" />
+287-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:38:13-37
+288        <service
+288-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:39:9-43:72
+289            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+289-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:40:13-87
+290            android:enabled="true"
+290-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:41:13-35
+291            android:exported="false"
+291-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:42:13-37
+292            android:permission="android.permission.BIND_JOB_SERVICE" />
+292-->[com.google.android.gms:play-services-measurement:20.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\0c31eea17c7809ed8aaf2c48b2b5d276\transformed\jetified-play-services-measurement-20.1.0\AndroidManifest.xml:43:13-69
+293
+294        <provider
+294-->[com.google.firebase:firebase-common:20.2.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\59ab37d5d32a60ef6aa4cdd8bea05277\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+295            android:name="com.google.firebase.provider.FirebaseInitProvider"
+295-->[com.google.firebase:firebase-common:20.2.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\59ab37d5d32a60ef6aa4cdd8bea05277\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+296            android:authorities="com.skytek.live.wallpapers.firebaseinitprovider"
+296-->[com.google.firebase:firebase-common:20.2.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\59ab37d5d32a60ef6aa4cdd8bea05277\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+297            android:directBootAware="true"
+297-->[com.google.firebase:firebase-common:20.2.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\59ab37d5d32a60ef6aa4cdd8bea05277\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+298            android:exported="false"
+298-->[com.google.firebase:firebase-common:20.2.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\59ab37d5d32a60ef6aa4cdd8bea05277\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+299            android:initOrder="100" />
+299-->[com.google.firebase:firebase-common:20.2.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\59ab37d5d32a60ef6aa4cdd8bea05277\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+300
+301        <activity
+301-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MobiPixels01\.gradle\caches\transforms-3\43271f14945948cbcecb622e78a5b0d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+302            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+302-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MobiPixels01\.gradle\caches\transforms-3\43271f14945948cbcecb622e78a5b0d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+303            android:exported="false"
+303-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MobiPixels01\.gradle\caches\transforms-3\43271f14945948cbcecb622e78a5b0d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+304            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+304-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\MobiPixels01\.gradle\caches\transforms-3\43271f14945948cbcecb622e78a5b0d3\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+305
+306        <meta-data
+306-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\5009a9800167357db035d62fb131879d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+307            android:name="com.google.android.gms.version"
+307-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\5009a9800167357db035d62fb131879d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+308            android:value="@integer/google_play_services_version" />
+308-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\5009a9800167357db035d62fb131879d\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+309
+310        <provider
+310-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\904ee09f766f20031c2ec8a967c134a2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+311            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+311-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\904ee09f766f20031c2ec8a967c134a2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+312            android:authorities="com.skytek.live.wallpapers.lifecycle-process"
+312-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\904ee09f766f20031c2ec8a967c134a2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+313            android:exported="false"
+313-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\904ee09f766f20031c2ec8a967c134a2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+314            android:multiprocess="true" />
+314-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\904ee09f766f20031c2ec8a967c134a2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+315        <provider
+315-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
+316            android:name="androidx.startup.InitializationProvider"
+316-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:32:13-67
+317            android:authorities="com.skytek.live.wallpapers.androidx-startup"
+317-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:33:13-68
+318            android:exported="false" >
+318-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:34:13-37
+319            <meta-data
+319-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+320                android:name="androidx.work.WorkManagerInitializer"
+320-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+321                android:value="androidx.startup" />
+321-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+322        </provider>
+323
+324        <service
+324-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+325            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+325-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+326            android:directBootAware="false"
+326-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+327            android:enabled="@bool/enable_system_alarm_service_default"
+327-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+328            android:exported="false" />
+328-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+329        <service
+329-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+330            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+330-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+331            android:directBootAware="false"
+331-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+332            android:enabled="@bool/enable_system_job_service_default"
+332-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+333            android:exported="true"
+333-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+334            android:permission="android.permission.BIND_JOB_SERVICE" />
+334-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+335        <service
+335-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+336            android:name="androidx.work.impl.foreground.SystemForegroundService"
+336-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+337            android:directBootAware="false"
+337-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+338            android:enabled="@bool/enable_system_foreground_service_default"
+338-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+339            android:exported="false" />
+339-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+340
+341        <receiver
+341-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+342            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+342-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+343            android:directBootAware="false"
+343-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+344            android:enabled="true"
+344-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+345            android:exported="false" />
+345-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+346        <receiver
+346-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+347            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+347-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+348            android:directBootAware="false"
+348-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+349            android:enabled="false"
+349-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+350            android:exported="false" >
+350-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+351            <intent-filter>
+351-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+352                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+352-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+352-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+353                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+353-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+353-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+354            </intent-filter>
+355        </receiver>
+356        <receiver
+356-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+357            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+357-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+358            android:directBootAware="false"
+358-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+359            android:enabled="false"
+359-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+360            android:exported="false" >
+360-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+361            <intent-filter>
+361-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+362                <action android:name="android.intent.action.BATTERY_OKAY" />
+362-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+362-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+363                <action android:name="android.intent.action.BATTERY_LOW" />
+363-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+363-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+364            </intent-filter>
+365        </receiver>
+366        <receiver
+366-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+367            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+367-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+368            android:directBootAware="false"
+368-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+369            android:enabled="false"
+369-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+370            android:exported="false" >
+370-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+371            <intent-filter>
+371-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+372                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+372-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+372-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+373                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+373-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+373-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+374            </intent-filter>
+375        </receiver>
+376        <receiver
+376-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+377            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+377-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+378            android:directBootAware="false"
+378-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+379            android:enabled="false"
+379-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
 380            android:exported="false" >
-380-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1969c959af8471b29a86bd9a69e9404b\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:31:13-37
-381            <meta-data
-381-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1969c959af8471b29a86bd9a69e9404b\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:32:13-34:39
-382                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-382-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1969c959af8471b29a86bd9a69e9404b\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:33:17-94
-383                android:value="cct" />
-383-->[com.google.android.datatransport:transport-backend-cct:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\1969c959af8471b29a86bd9a69e9404b\transformed\jetified-transport-backend-cct-3.1.2\AndroidManifest.xml:34:17-36
-384        </service>
-385        <service
-385-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\99ac0979a4f9223e83ed42a4e242f1b7\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:26:9-30:19
-386            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-386-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\99ac0979a4f9223e83ed42a4e242f1b7\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:27:13-117
-387            android:exported="false"
-387-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\99ac0979a4f9223e83ed42a4e242f1b7\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:28:13-37
-388            android:permission="android.permission.BIND_JOB_SERVICE" >
-388-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\99ac0979a4f9223e83ed42a4e242f1b7\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:29:13-69
-389        </service>
-390
-391        <receiver
-391-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\99ac0979a4f9223e83ed42a4e242f1b7\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:32:9-34:40
-392            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-392-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\99ac0979a4f9223e83ed42a4e242f1b7\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:33:13-132
-393            android:exported="false" />
-393-->[com.google.android.datatransport:transport-runtime:3.1.2] C:\Users\MobiPixels01\.gradle\caches\transforms-3\99ac0979a4f9223e83ed42a4e242f1b7\transformed\jetified-transport-runtime-3.1.2\AndroidManifest.xml:34:13-37
-394
-395        <service
-395-->[androidx.room:room-runtime:2.2.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\8566d2620b75309ef0c628398163e925\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-396            android:name="androidx.room.MultiInstanceInvalidationService"
-396-->[androidx.room:room-runtime:2.2.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\8566d2620b75309ef0c628398163e925\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-397            android:directBootAware="true"
-397-->[androidx.room:room-runtime:2.2.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\8566d2620b75309ef0c628398163e925\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-398            android:exported="false" />
-398-->[androidx.room:room-runtime:2.2.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\8566d2620b75309ef0c628398163e925\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-399    </application>
-400
-401</manifest>
+380-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+381            <intent-filter>
+381-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+382                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+382-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+382-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+383            </intent-filter>
+384        </receiver>
+385        <receiver
+385-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+386            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+386-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+387            android:directBootAware="false"
+387-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+388            android:enabled="false"
+388-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+389            android:exported="false" >
+389-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+390            <intent-filter>
+390-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+391                <action android:name="android.intent.action.BOOT_COMPLETED" />
+391-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+391-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+392                <action android:name="android.intent.action.TIME_SET" />
+392-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+392-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+393                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+393-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+393-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+394            </intent-filter>
+395        </receiver>
+396        <receiver
+396-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+397            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+397-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+398            android:directBootAware="false"
+398-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+399            android:enabled="@bool/enable_system_alarm_service_default"
+399-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+400            android:exported="false" >
+400-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+401            <intent-filter>
+401-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+402                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+402-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+402-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+403            </intent-filter>
+404        </receiver>
+405        <receiver
+405-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+406            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+406-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+407            android:directBootAware="false"
+407-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+408            android:enabled="true"
+408-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+409            android:exported="true"
+409-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+410            android:permission="android.permission.DUMP" >
+410-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+411            <intent-filter>
+411-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+412                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+412-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+412-->[androidx.work:work-runtime:2.7.0] C:\Users\MobiPixels01\.gradle\caches\transforms-3\c46f9dc688d7a1b4e1588626a890cc75\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+413            </intent-filter>
+414        </receiver>
+415
+416        <service
+416-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\f30553fafe70115b75446696e9420b0d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+417            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+417-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\f30553fafe70115b75446696e9420b0d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+418            android:exported="false" >
+418-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\f30553fafe70115b75446696e9420b0d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+419            <meta-data
+419-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\f30553fafe70115b75446696e9420b0d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+420                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+420-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\f30553fafe70115b75446696e9420b0d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+421                android:value="cct" />
+421-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\f30553fafe70115b75446696e9420b0d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+422        </service>
+423        <service
+423-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\65fa2416f001c6138bc2d9799a08441c\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+424            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+424-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\65fa2416f001c6138bc2d9799a08441c\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+425            android:exported="false"
+425-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\65fa2416f001c6138bc2d9799a08441c\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+426            android:permission="android.permission.BIND_JOB_SERVICE" >
+426-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\65fa2416f001c6138bc2d9799a08441c\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+427        </service>
+428
+429        <receiver
+429-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\65fa2416f001c6138bc2d9799a08441c\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+430            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+430-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\65fa2416f001c6138bc2d9799a08441c\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+431            android:exported="false" />
+431-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\MobiPixels01\.gradle\caches\transforms-3\65fa2416f001c6138bc2d9799a08441c\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+432
+433        <service
+433-->[androidx.room:room-runtime:2.2.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\8566d2620b75309ef0c628398163e925\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+434            android:name="androidx.room.MultiInstanceInvalidationService"
+434-->[androidx.room:room-runtime:2.2.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\8566d2620b75309ef0c628398163e925\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+435            android:directBootAware="true"
+435-->[androidx.room:room-runtime:2.2.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\8566d2620b75309ef0c628398163e925\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+436            android:exported="false" />
+436-->[androidx.room:room-runtime:2.2.5] C:\Users\MobiPixels01\.gradle\caches\transforms-3\8566d2620b75309ef0c628398163e925\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+437    </application>
+438
+439</manifest>

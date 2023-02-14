@@ -26,10 +26,10 @@ public class StorageHelper {
             return file;
         } else {
             if (file.mkdir()) {
-                Log.e(TAG, "Root directory \"" + file.getPath() + "\" not found: create it");
+                Log.d(TAG, "Root directory \"" + file.getPath() + "\" not found: create it");
                 return file;
             } else {
-                Log.e(TAG, "Unable to create root directory \"" + file.getPath() + "\"");
+                Log.d(TAG, "Unable to create root directory \"" + file.getPath() + "\"");
             }
         }
 
@@ -45,14 +45,14 @@ public class StorageHelper {
                 return file;
             } else {
                 if (file.mkdir()) {
-                    Log.e(TAG, "Download directory \"" + file.getPath() + "\" not found: create it");
+                    Log.e("war gaye" , "lagny walu hain bas ");
+                    Log.d(TAG, "Download directory \"" + file.getPath() + "\" not found: create it");
                     return file;
                 } else {
-                    Log.e(TAG, "Unable to create download directory \"" + file.getPath() + "\"");
+                    Log.d(TAG, "Unable to create download directory \"" + file.getPath() + "\"");
                 }
             }
         }
-
         return null;
     }
 

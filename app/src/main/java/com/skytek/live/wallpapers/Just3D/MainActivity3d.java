@@ -372,6 +372,16 @@ public class MainActivity3d extends AppCompatActivity implements MyAsync.MyAsync
         }
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(WallpaperDownloader.progressDialog != null)
+        {
+            WallpaperDownloader.progressDialog.dismiss();
+        }
+
+    }
+
     // Download background
     private void downloadBackground(final CatalogItem item) {
         // Download

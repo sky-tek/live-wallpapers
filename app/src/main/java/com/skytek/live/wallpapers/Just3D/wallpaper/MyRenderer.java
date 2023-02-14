@@ -263,7 +263,6 @@ class MyRenderer implements GLSurfaceView.Renderer {
     private void generateLayers() {
         // Clean old textures (if any) before loading the new ones
         clearTextures();
-
         // Assume that the layer is fallback
         int layerCount;
         isFallback = false;
@@ -294,7 +293,7 @@ class MyRenderer implements GLSurfaceView.Renderer {
         textures = new int[layerCount + 1];
         GLES20.glGenTextures(layerCount + 1, textures, 0); // Layer + Overlay
 
-        Bitmap tempBitmap;
+        Bitmap tempBitmap = null;
 
         for (int i = 0; i < textures.length; i++) {
             if (i < textures.length - 1) {
@@ -303,23 +302,29 @@ class MyRenderer implements GLSurfaceView.Renderer {
                 tempBitmap = BackgroundHelper.decodeScaledFromFile(bitmapFile);
                 if(tempBitmap != null)
                 {
-                    try
-                    {
+
                         tempBitmap.getWidth();
                         width = tempBitmap.getWidth();
                         height = tempBitmap.getHeight();
-                    }
-                    catch (Exception e)
-                    {
-                        Log.d("exceptionis" , "check exception"+e.getMessage());
-                    }
 
                 }
-
             } else {
                 // Generate overlay
-                tempBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
-                tempBitmap.eraseColor(Color.argb(prefDim, 0, 0, 0));
+                try
+                {
+                    if(width > 0 && height > 0)
+                    {
+                        tempBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+                        tempBitmap.eraseColor(Color.argb(prefDim, 0, 0, 0));
+                    }
+                    else {
+                        //IGNORE
+                    }
+                }
+                catch (Exception e)
+                {
+                    Log.e("exception" , "generate layers exception "+e.getMessage());
+                }
             }
 
             if (i == 0) {

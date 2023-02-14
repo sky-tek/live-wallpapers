@@ -186,4 +186,14 @@ private ImageView back_arrowob;
 
         }
     }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(Adapter.pDialog != null)
+        {
+            Adapter.pDialog.dismiss();
+        }
+
+    }
 }

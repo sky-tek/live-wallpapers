@@ -77,6 +77,15 @@
 
             android:label="@string/settings_title"
             android:parentActivityName=".Just3D.MainActivity3d" />
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
         <service
             android:name=".Just3D.wallpaper.MyWallpaperService"
@@ -87,7 +96,6 @@
             <intent-filter>
                 <action android:name="android.service.wallpaper.WallpaperService" />
             </intent-filter>
-
             <meta-data
                 android:name="android.service.wallpaper"
                 android:resource="@xml/wallpaper" />

@@ -46,7 +46,7 @@ public class WallpaperDownloader extends MyAsync {
     private boolean progresscheck;
 
     // Layout
-    private final ProgressDialog progressDialog;
+    public static  ProgressDialog progressDialog;
 
 
     // Data

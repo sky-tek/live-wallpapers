@@ -3,12 +3,14 @@ package com.falcon.video.downloader.Helper
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
+import android.content.Intent
 import android.util.DisplayMetrics
 import android.util.Log
 import android.view.View
 import android.widget.*
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
+import androidx.core.content.ContextCompat.startActivity
 import com.google.android.gms.ads.*
 import com.google.android.gms.ads.admanager.AdManagerAdRequest
 import com.google.android.gms.ads.interstitial.InterstitialAd
@@ -16,8 +18,12 @@ import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.google.android.gms.ads.nativead.NativeAd
 import com.google.android.gms.ads.nativead.NativeAdOptions
 import com.google.android.gms.ads.nativead.NativeAdView
+import com.skytek.live.wallpapers.Just3D.MainActivity3d
+import com.skytek.live.wallpapers.MainActivity
+import com.skytek.live.wallpapers.MainLauncher
 import com.skytek.live.wallpapers.MainLauncher.adcheck
 import com.skytek.live.wallpapers.R
+import com.skytek.live.wallpapers.exitScreen
 import org.jetbrains.annotations.NotNull
 import java.util.*
 
@@ -163,6 +169,8 @@ class AdsManager {
                 populateNativeAdView(nativeAd, adView)
                 frameLayout.removeAllViews()
                 frameLayout.addView(adView)
+
+
             }
             val videoOptions = VideoOptions.Builder()
                 .build()
@@ -211,7 +219,6 @@ class AdsManager {
     private fun populateNativeAdView2(nativeAd: NativeAd, adView: NativeAdView) {
         // Set the media view.
         //adView.setMediaView((MediaView) adView.findViewById(R.id.ad_media));
-
         // Set other ad assets.
         adView.headlineView = adView.findViewById(R.id.ad_headline)
         adView.bodyView = adView.findViewById(R.id.ad_body)
@@ -316,13 +323,41 @@ class AdsManager {
                 override fun onAdFailedToLoad(adError: LoadAdError) {
                     mInterstitial = null
                 }
-
                 override fun onAdLoaded(interstitialAd: InterstitialAd) {
                     mInterstitial = interstitialAd
                     mInterstitial?.fullScreenContentCallback =
                         object : FullScreenContentCallback() {
                             override fun onAdDismissedFullScreenContent() {
                                 adcheck=false;
+                                if(MainLauncher.for_live_wallpaper_ad_key == 1)
+                                {
+                                    Log.d("checkaasdasdd" , "ad is 1")
+                                    MainLauncher.for_live_wallpaper_ad_key = 0;
+                                    ctx.startActivity(
+                                        Intent(
+                                            ctx,
+                                            MainActivity::class.java
+                                        )
+                                    )
+                                }
+                                if(MainLauncher.for_3d_wallpaper_ad_key == 2)
+                                {
+                                    Log.d("checkaasdasdd" , "ad is 2")
+                                    MainLauncher.for_3d_wallpaper_ad_key = 0;
+                                    ctx.startActivity(
+                                        Intent(
+                                            ctx,
+                                            MainActivity3d::class.java
+                                        )
+                                    )
+                                }
+                                if(MainLauncher.for_backpressed_ad_key == 123)
+                                {
+                                    Log.d("checkaasdasdd" , "ad is 3")
+                                    MainLauncher.for_backpressed_ad_key = 0;
+                                    ctx.startActivity( Intent(ctx , exitScreen::class.java));
+                                }
+                               //
                             }
 
                             override fun onAdFailedToShowFullScreenContent(adError: AdError?) {

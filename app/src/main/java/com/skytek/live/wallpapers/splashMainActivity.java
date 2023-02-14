@@ -84,14 +84,14 @@ TinyData tinyData;
         Log.d("dsgdsgds", "onCreate: "+configInfo);
         Glide.with(splashMainActivity.this).load(R.drawable.icon).into(splashob);
 
-        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                if (!appOpenManager.isShowingAd && appOpenManager.isAdAvailable()){
-                    appOpenManager.showAdIfAvailable();
-                }
-            }
-        }, 3000);
+//        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                if (!appOpenManager.isShowingAd && appOpenManager.isAdAvailable()){
+//                    appOpenManager.showAdIfAvailable();
+//                }
+//            }
+//        }, 3000);
         new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {

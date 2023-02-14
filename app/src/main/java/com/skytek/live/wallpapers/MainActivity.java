@@ -102,8 +102,6 @@ public class MainActivity extends AppCompatActivity {
         // add the fragments
 
 
-
-
         viewPagerAdapter.add(new Home(), "Home");
         viewPagerAdapter.add(new Categories(), "Categories");
         // Set the adapter
@@ -117,11 +115,7 @@ public class MainActivity extends AppCompatActivity {
 
         //app update manager
 
-
-
     }
-
-
 
     //app update ends
     @Override
@@ -134,8 +128,11 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String newText) {
+
                 //Log.e("onQueryTextChange", "called");
+
                 return false;
+
             }
 
             @Override
@@ -154,6 +151,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         return super.onCreateOptionsMenu(menu);
+
     }
 
 //    @Override
@@ -189,13 +187,18 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Wallpaper Set Successfully", LENGTH_SHORT).show();
             } else {
                 idnew=idold;
-
             }
 
 
         }
     }
 
-
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if(Adapter.pDialog != null)
+        {
+            Adapter.pDialog.dismiss();
+        }
+    }
 }

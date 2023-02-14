@@ -62,24 +62,10 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
+                android:id="@+id/fisttwocontent"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/first">
-
-
-                    <FrameLayout
-                        android:background="@drawable/shape"
-                        android:layout_gravity="center"
-                        android:id="@+id/fl_adplaceholder"
-                        android:layout_width="match_parent"
-                        android:layout_height="70dp" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/first"
@@ -100,7 +86,7 @@
                         android:textColor="#fff"
                         android:fontFamily="@font/blogger_sans"
                         android:textSize="20dp"
-                       ></TextView>
+                        ></TextView>
 
                     <LinearLayout
 
@@ -134,10 +120,40 @@
 
 
                     </LinearLayout>
+
                 </LinearLayout>
 
 
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/first">
+
+
+                    <FrameLayout
+                        android:background="@drawable/shape"
+                        android:layout_gravity="center"
+                        android:id="@+id/fl_adplaceholder"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp" />
+                </LinearLayout>
+
+
+
+
+
             </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ParentRecyclerViewItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fisttwocontent"
+            />
+
         </RelativeLayout>
+
     </ScrollView>
 </RelativeLayout>
