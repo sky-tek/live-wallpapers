@@ -14,22 +14,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MobiPixels01\\.gradle\\caches\\transforms-3\\8abbee10b8ef6163a4306daea8b2c54c\\transformed\\appcompat-1.3.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\MobiPixels01\\.gradle\\caches\\transforms-3\\480e416f94214d9343ff9ec64aa39bb5\\transformed\\appcompat-1.6.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,447",
+                        "startOffsets": "55,130,217,397",
                         "endLines": "2,3,7,11",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,442,684"
+                        "endOffsets": "125,212,392,584"
                     },
                     "to": {
                         "startLines": "10,11,12,16",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "755,830,917,1147",
+                        "startOffsets": "755,830,917,1097",
                         "endLines": "10,11,15,19",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "825,912,1142,1384"
+                        "endOffsets": "825,912,1092,1284"
                     }
                 }
             ]

@@ -12,6 +12,8 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import static com.skytek.live.wallpapers.Just3D.Constants.BG_FORMAT;
 import static com.skytek.live.wallpapers.Just3D.utils.StorageHelper.getBackgroundFolder;
@@ -74,11 +76,17 @@ class BackgroundHelper {
     static Bitmap decodeScaledFromFile(File file) {
         // Get the size
         final BitmapFactory.Options options = new BitmapFactory.Options();
-        options.inJustDecodeBounds = true;
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
+        executorService.execute(new Runnable() {
+            @Override
+            public void run() {
+                options.inJustDecodeBounds = true;
 
-        BitmapFactory.decodeFile(file.getPath(), options);
+                BitmapFactory.decodeFile(file.getPath(), options);
 
-        options.inJustDecodeBounds = false;
+                options.inJustDecodeBounds = false;
+            }
+        });
 
         return BitmapFactory.decodeFile(file.getPath(), options);
     }
@@ -86,11 +94,21 @@ class BackgroundHelper {
     static Bitmap decodeScaledFromRes(Resources res, int id) {
         // Get the size
         final BitmapFactory.Options options = new BitmapFactory.Options();
-        options.inJustDecodeBounds = true;
 
-        BitmapFactory.decodeResource(res, id, options);
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
 
-        options.inJustDecodeBounds = false;
+        executorService.execute(new Runnable() {
+            @Override
+            public void run() {
+                options.inJustDecodeBounds = true;
+
+                BitmapFactory.decodeResource(res, id, options);
+
+                options.inJustDecodeBounds = false;
+            }
+        });
+
+
 
         return BitmapFactory.decodeResource(res, id, options);
     }

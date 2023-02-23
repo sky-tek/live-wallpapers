@@ -191,12 +191,9 @@ public class VideoLiveWallpaperoffline extends WallpaperService {
 
 
         private void startPlayer() {
-
-
                 if (exoPlayer != null) {
                     stopPlayer();
                 }
-
                 trackSelector = new DefaultTrackSelector();
                 exoPlayer = ExoPlayerFactory.newSimpleInstance(context, trackSelector);
                 File file = new File(getFilesDir() + "/unmute");
@@ -205,7 +202,6 @@ public class VideoLiveWallpaperoffline extends WallpaperService {
                 } else {
                     exoPlayer.setVolume(0f);
                 }
-
                 // Disable audio decoder.
                 final int count = exoPlayer.getRendererCount();
                 for (int i = 0; i < count; ++i) {
@@ -219,8 +215,6 @@ public class VideoLiveWallpaperoffline extends WallpaperService {
                 final DataSource.Factory dataSourceFactory = new DefaultDataSourceFactory(
                         context, Util.getUserAgent(context, "com.skytek.live.wallpapers")
                 );
-
-
                 // ExoPlayer can load file:///android_asset/ uri correctly.
                 videoSource = new ExtractorMediaSource.Factory(
                         dataSourceFactory
@@ -232,7 +226,6 @@ public class VideoLiveWallpaperoffline extends WallpaperService {
                 exoPlayer.prepare(videoSource);
                 // ExoPlayer's video size changed listener is buggy. Don't use it.
                 // It give's width and height after rotation, but did not rotate frames.
-
                 exoPlayer.setPlayWhenReady(true);
 
         }

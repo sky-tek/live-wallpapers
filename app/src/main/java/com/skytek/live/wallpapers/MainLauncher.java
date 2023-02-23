@@ -4,7 +4,6 @@ import static android.widget.Toast.LENGTH_SHORT;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.Dialog;
 import android.content.ContentUris;
 import android.content.Context;
@@ -113,6 +112,12 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
 
         adsManager = new AdsManager();
         adsManager.load_inter(this);
+
+        if(alertDialog != null)
+        {
+            alertDialog.dismiss();
+            alertDialog = null;
+        }
 
 
 
@@ -341,7 +346,6 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                     Log.d("checkappupdate" , "asdsad checking the calling functio try  here");
                 }
             }
-
         });
         appUpdateManager.registerListener(installStateUpdatedListener);
     }
@@ -681,9 +685,21 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
             @Override
             public void onFinish() {
                 if (alertDialog.isShowing()) {
+                    if(alertDialog != null)
+                    {
+                        try {
+                            alertDialog.dismiss();
+                            alertDialog = null;
+                        }
+                        catch (Exception e)
+                        {
+
+                        }
+
+                    }
+
                     if(for_3d_wallpaper_ad_key == 2)
                     {
-                        alertDialog.dismiss();
                         if(  adsManager.show_inter(MainLauncher.this))
                         {
                             Bundle bundle = new Bundle();
@@ -699,7 +715,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                     }
                     if(for_live_wallpaper_ad_key == 1)
                     {
-                        alertDialog.dismiss();
+
                         if(adsManager.show_inter(MainLauncher.this))
                         {
                             Bundle bundle = new Bundle();
@@ -715,7 +731,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                     }
                     if(for_backpressed_ad_key == 123)
                     {
-                        alertDialog.dismiss();
+
                         Bundle bundle = new Bundle();
                         bundle.putString("exit","exitTotal");
                         mFirebaseAnalytics.logEvent("exitTotal",bundle);
@@ -739,6 +755,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
     }
 
     private void customdialog() {
+
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         ViewGroup viewGroup = findViewById(android.R.id.content);
         View dialogView = LayoutInflater.from(MainLauncher.this).inflate(R.layout.customview, viewGroup, false);

@@ -8,18 +8,13 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.FrameLayout;
 import android.widget.GridView;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
@@ -33,6 +28,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.falcon.video.downloader.Helper.AdsManager;
+
 import com.google.android.material.snackbar.Snackbar;
 import com.skytek.live.wallpapers.Just3D.async.MyAsync;
 import com.skytek.live.wallpapers.Just3D.async.WallpaperDownloader;
@@ -46,15 +42,11 @@ import com.skytek.live.wallpapers.Just3D.utils.InternalData;
 import com.skytek.live.wallpapers.Just3D.utils.StorageHelper;
 import com.skytek.live.wallpapers.R;
 
-import java.io.File;
-
 import static com.skytek.live.wallpapers.Just3D.Constants.LD_TIMESTAMP;
 import static com.skytek.live.wallpapers.Just3D.Constants.PREF_CHECKSENS;
 import static com.skytek.live.wallpapers.Just3D.Constants.PREF_CHECKSENS_DEFAULT;
 import static com.skytek.live.wallpapers.Just3D.Constants.T_CATALOG_EXPIRATION;
 import static com.skytek.live.wallpapers.Just3D.Utils.getTimestamp;
-import static com.skytek.live.wallpapers.Just3D.Utils.openLWSetter;
-import static com.skytek.live.wallpapers.Just3D.utils.StorageHelper.backgroundExist;
 import static com.skytek.live.wallpapers.Just3D.utils.StorageHelper.getCacheFolder;
 
 public class MainActivity3d extends AppCompatActivity implements MyAsync.MyAsyncInterface, SwipeRefreshLayout.OnRefreshListener {

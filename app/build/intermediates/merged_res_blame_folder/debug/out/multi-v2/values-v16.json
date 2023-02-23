@@ -4,7 +4,7 @@
             "outputFile": "D:\\live-wallpapers\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MobiPixels01\\.gradle\\caches\\transforms-3\\8abbee10b8ef6163a4306daea8b2c54c\\transformed\\appcompat-1.3.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\MobiPixels01\\.gradle\\caches\\transforms-3\\480e416f94214d9343ff9ec64aa39bb5\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MobiPixels01\\.gradle\\caches\\transforms-3\\e38877ea22addeb564df72c2095bc473\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\MobiPixels01\\.gradle\\caches\\transforms-3\\8a2a7130ac8394e7b9bc9fc3e9b5103f\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

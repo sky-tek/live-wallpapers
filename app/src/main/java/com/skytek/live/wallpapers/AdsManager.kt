@@ -33,7 +33,7 @@ class AdsManager {
 
     @SuppressLint("StaticFieldLeak")
     var nativeAdView: NativeAdView? = null
-     var mInterstitial: InterstitialAd? = null
+    var mInterstitial: InterstitialAd? = null
 
     @SuppressLint("StaticFieldLeak")
     var adContainerView: FrameLayout? = null
@@ -54,7 +54,7 @@ class AdsManager {
             .build()
         val adSize = getAdSize(activity)
         // Step 4 - Set the adaptive ad size on the ad view.
-        adView!!.adSize = adSize
+        adView!!.setAdSize(adSize)
         // Step 5 - Start loading the ad in the background.
         adView!!.loadAd(adRequest)
     }
@@ -72,83 +72,83 @@ class AdsManager {
         return AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(activity, adWidth)
     }
 
-        fun populateNativeAdView(nativeAd: NativeAd, adView: NativeAdView) {
-            // Set the media view.
-            adView.mediaView = adView.findViewById(R.id.ad_media)
+    fun populateNativeAdView(nativeAd: NativeAd, adView: NativeAdView) {
+        // Set the media view.
+        adView.mediaView = adView.findViewById(R.id.ad_media)
 
-            // Set other ad assets.
-            adView.headlineView =
-                adView.findViewById(R.id.ad_headline)
-            adView.bodyView = adView.findViewById(R.id.ad_body)
-            adView.callToActionView = adView.findViewById(R.id.ad_call_to_action)
-            adView.iconView = adView.findViewById(R.id.ad_app_icon)
-            adView.priceView = adView.findViewById(R.id.ad_price)
-            adView.starRatingView = adView.findViewById(R.id.ad_stars)
-            adView.storeView = adView.findViewById(R.id.ad_store)
-            adView.advertiserView = adView.findViewById(R.id.ad_advertiser)
-            adView.setLayerType(View.LAYER_TYPE_SOFTWARE, null)
+        // Set other ad assets.
+        adView.headlineView =
+            adView.findViewById(R.id.ad_headline)
+        adView.bodyView = adView.findViewById(R.id.ad_body)
+        adView.callToActionView = adView.findViewById(R.id.ad_call_to_action)
+        adView.iconView = adView.findViewById(R.id.ad_app_icon)
+        adView.priceView = adView.findViewById(R.id.ad_price)
+        adView.starRatingView = adView.findViewById(R.id.ad_stars)
+        adView.storeView = adView.findViewById(R.id.ad_store)
+        adView.advertiserView = adView.findViewById(R.id.ad_advertiser)
+        adView.setLayerType(View.LAYER_TYPE_SOFTWARE, null)
 
-            // The headline and mediaContent are guaranteed to be in every UnifiedNativeAd.
-            (Objects.requireNonNull(adView.headlineView) as TextView).text = nativeAd.headline
-            Objects.requireNonNull(adView.mediaView)
-                .setMediaContent(Objects.requireNonNull(nativeAd.mediaContent))
+        // The headline and mediaContent are guaranteed to be in every UnifiedNativeAd.
+        (Objects.requireNonNull(adView.headlineView) as TextView).text = nativeAd.headline
+        Objects.requireNonNull(nativeAd.mediaContent)
+            ?.let { Objects.requireNonNull(adView.mediaView)?.setMediaContent(it) }
 
-            // These assets aren't guaranteed to be in every UnifiedNativeAd, so it's important to
-            // check before trying to display them.
-            if (nativeAd.body == null) {
-                Objects.requireNonNull(adView.bodyView).visibility = View.INVISIBLE
-            } else {
-                Objects.requireNonNull(adView.bodyView).visibility = View.VISIBLE
-                (adView.bodyView as TextView).text = nativeAd.body
-            }
-            if (nativeAd.callToAction == null) {
-                Objects.requireNonNull(adView.callToActionView).visibility = View.INVISIBLE
-            } else {
-                Objects.requireNonNull(adView.callToActionView).visibility = View.VISIBLE
-                (adView.callToActionView as Button).text = nativeAd.callToAction
-            }
-            if (nativeAd.icon == null) {
-                Objects.requireNonNull(adView.iconView).visibility = View.GONE
-            } else {
-                (Objects.requireNonNull(adView.iconView) as ImageView).setImageDrawable(
-                    nativeAd.icon.drawable
-                )
-                adView.iconView.visibility = View.VISIBLE
-            }
-            if (nativeAd.price == null) {
-                Objects.requireNonNull(adView.priceView).visibility = View.INVISIBLE
-            } else {
-                Objects.requireNonNull(adView.priceView).visibility = View.VISIBLE
-                (adView.priceView as TextView).text = nativeAd.price
-            }
-            if (nativeAd.store == null) {
-                Objects.requireNonNull(adView.storeView).visibility = View.INVISIBLE
-            } else {
-                Objects.requireNonNull(adView.storeView).visibility = View.VISIBLE
-                (adView.storeView as TextView).text = nativeAd.store
-            }
-            if (nativeAd.starRating == null) {
-                Objects.requireNonNull(adView.starRatingView).visibility = View.INVISIBLE
-            } else {
-                (Objects.requireNonNull(adView.starRatingView) as RatingBar).rating =
-                    nativeAd.starRating.toFloat()
-                adView.starRatingView.visibility = View.VISIBLE
-            }
-            if (nativeAd.advertiser == null) {
-                Objects.requireNonNull(adView.advertiserView).visibility = View.INVISIBLE
-            } else {
-                (Objects.requireNonNull(adView.advertiserView) as TextView).text =
-                    nativeAd.advertiser
-                adView.advertiserView.visibility = View.VISIBLE
-            }
-
-            // This method tells the Google Mobile Ads SDK that you have finished populating your
-            // native ad view with this native ad.
-            adView.setNativeAd(nativeAd)
-
-            // Get the video controller for the ad. One will always be provided, even if the ad doesn't
-            // have a video asset.
+        // These assets aren't guaranteed to be in every UnifiedNativeAd, so it's important to
+        // check before trying to display them.
+        if (nativeAd.body == null) {
+            Objects.requireNonNull(adView.bodyView)!!.visibility = View.INVISIBLE
+        } else {
+            Objects.requireNonNull(adView.bodyView)!!.visibility = View.VISIBLE
+            (adView.bodyView as TextView).text = nativeAd.body
         }
+        if (nativeAd.callToAction == null) {
+            Objects.requireNonNull(adView.callToActionView)!!.visibility = View.INVISIBLE
+        } else {
+            Objects.requireNonNull(adView.callToActionView)!!.visibility = View.VISIBLE
+            (adView.callToActionView as Button).text = nativeAd.callToAction
+        }
+        if (nativeAd.icon == null) {
+            Objects.requireNonNull(adView.iconView)!!.visibility = View.GONE
+        } else {
+            (Objects.requireNonNull(adView.iconView) as ImageView).setImageDrawable(
+                nativeAd.icon!!.drawable
+            )
+            adView.iconView!!.visibility = View.VISIBLE
+        }
+        if (nativeAd.price == null) {
+            Objects.requireNonNull(adView.priceView)!!.visibility = View.INVISIBLE
+        } else {
+            Objects.requireNonNull(adView.priceView)!!.visibility = View.VISIBLE
+            (adView.priceView as TextView).text = nativeAd.price
+        }
+        if (nativeAd.store == null) {
+            Objects.requireNonNull(adView.storeView)!!.visibility = View.INVISIBLE
+        } else {
+            Objects.requireNonNull(adView.storeView)!!.visibility = View.VISIBLE
+            (adView.storeView as TextView).text = nativeAd.store
+        }
+        if (nativeAd.starRating == null) {
+            Objects.requireNonNull(adView.starRatingView)!!.visibility = View.INVISIBLE
+        } else {
+            (Objects.requireNonNull(adView.starRatingView) as RatingBar).rating =
+                nativeAd.starRating!!.toFloat()
+            adView.starRatingView!!.visibility = View.VISIBLE
+        }
+        if (nativeAd.advertiser == null) {
+            Objects.requireNonNull(adView.advertiserView)!!.visibility = View.INVISIBLE
+        } else {
+            (Objects.requireNonNull(adView.advertiserView) as TextView).text =
+                nativeAd.advertiser
+            adView.advertiserView!!.visibility = View.VISIBLE
+        }
+
+        // This method tells the Google Mobile Ads SDK that you have finished populating your
+        // native ad view with this native ad.
+        adView.setNativeAd(nativeAd)
+
+        // Get the video controller for the ad. One will always be provided, even if the ad doesn't
+        // have a video asset.
+    }
 
     /**
      * Creates a request for a new native ad based on the boolean parameters and calls the
@@ -158,33 +158,33 @@ class AdsManager {
 
     @SuppressLint("MissingPermission")
     fun refreshAd(activity: Activity, id: Int) {
-            val builder = AdLoader.Builder(
-                activity,
-                activity.resources.getString(R.string.Ad_Mob_Native_ID)
-            )
-            builder.forNativeAd { nativeAd: NativeAd ->
-                val frameLayout = activity.findViewById<FrameLayout>(id)
-                @SuppressLint("InflateParams") val adView = activity.layoutInflater
-                    .inflate(R.layout.ad_unified, null) as NativeAdView
-                populateNativeAdView(nativeAd, adView)
-                frameLayout.removeAllViews()
-                frameLayout.addView(adView)
+        val builder = AdLoader.Builder(
+            activity,
+            activity.resources.getString(R.string.Ad_Mob_Native_ID)
+        )
+        builder.forNativeAd { nativeAd: NativeAd ->
+            val frameLayout = activity.findViewById<FrameLayout>(id)
+            @SuppressLint("InflateParams") val adView = activity.layoutInflater
+                .inflate(R.layout.ad_unified, null) as NativeAdView
+            populateNativeAdView(nativeAd, adView)
+            frameLayout.removeAllViews()
+            frameLayout.addView(adView)
 
 
-            }
-            val videoOptions = VideoOptions.Builder()
-                .build()
-            val adOptions = NativeAdOptions.Builder()
-                .setVideoOptions(videoOptions)
-                .build()
-            builder.withNativeAdOptions(adOptions)
-            val adLoader = builder.withAdListener(object : AdListener() {
-                override fun onAdFailedToLoad(@NotNull error: LoadAdError) {
-                    Log.d("Ads", error.toString())
-                }
-            }).build()
-            adLoader.loadAd(AdRequest.Builder().build())
         }
+        val videoOptions = VideoOptions.Builder()
+            .build()
+        val adOptions = NativeAdOptions.Builder()
+            .setVideoOptions(videoOptions)
+            .build()
+        builder.withNativeAdOptions(adOptions)
+        val adLoader = builder.withAdListener(object : AdListener() {
+            override fun onAdFailedToLoad(@NotNull error: LoadAdError) {
+                Log.d("Ads", error.toString())
+            }
+        }).build()
+        adLoader.loadAd(AdRequest.Builder().build())
+    }
 
 
 
@@ -240,31 +240,31 @@ class AdsManager {
         // These assets aren't guaranteed to be in every UnifiedNativeAd, so it's important to
         // check before trying to display them.
         if (nativeAd.body == null) {
-            adView.bodyView.visibility = View.INVISIBLE
+            adView.bodyView!!.visibility = View.INVISIBLE
         } else {
-            adView.bodyView.visibility = View.VISIBLE
+            adView.bodyView!!.visibility = View.VISIBLE
             (adView.bodyView as TextView).text = nativeAd.body
         }
         if (nativeAd.callToAction == null) {
-            adView.callToActionView.visibility = View.INVISIBLE
+            adView.callToActionView!!.visibility = View.INVISIBLE
         } else {
-            adView.callToActionView.visibility = View.VISIBLE
+            adView.callToActionView!!.visibility = View.VISIBLE
             (adView.callToActionView as Button).text = nativeAd.callToAction
         }
         if (nativeAd.starRating == null) {
-            adView.starRatingView.visibility = View.GONE
+            adView.starRatingView!!.visibility = View.GONE
         } else {
-            (adView.starRatingView as RatingBar).rating = nativeAd.starRating.toFloat()
-            adView.starRatingView.visibility = View.VISIBLE
+            (adView.starRatingView as RatingBar).rating = nativeAd.starRating!!.toFloat()
+            adView.starRatingView!!.visibility = View.VISIBLE
         }
         if (nativeAd.price == null) {
-            adView.priceView.visibility = View.GONE
+            adView.priceView!!.visibility = View.GONE
         } else {
-            adView.priceView.visibility = View.VISIBLE
+            adView.priceView!!.visibility = View.VISIBLE
             (adView.priceView as TextView).text = nativeAd.price
         }
         if (nativeAd.icon == null) {
-            adView.iconView.visibility = View.GONE
+            adView.iconView!!.visibility = View.GONE
             val constraintSet = ConstraintSet()
             constraintSet.clone(constraint)
             constraintSet.connect(
@@ -300,9 +300,9 @@ class AdsManager {
             constraintSet.applyTo(constraint)
         } else {
             (adView.iconView as ImageView).setImageDrawable(
-                nativeAd.icon.drawable
+                nativeAd.icon!!.drawable
             )
-            adView.iconView.visibility = View.VISIBLE
+            adView.iconView!!.visibility = View.VISIBLE
         }
 
 
@@ -357,11 +357,10 @@ class AdsManager {
                                     MainLauncher.for_backpressed_ad_key = 0;
                                     ctx.startActivity( Intent(ctx , exitScreen::class.java));
                                 }
-                               //
+                                //
                             }
 
-                            override fun onAdFailedToShowFullScreenContent(adError: AdError?) {
-                            }
+
 
                             override fun onAdShowedFullScreenContent() {
                                 mInterstitial = null

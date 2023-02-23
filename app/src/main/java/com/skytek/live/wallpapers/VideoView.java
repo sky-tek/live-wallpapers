@@ -6,23 +6,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.WallpaperManager;
 import android.content.ComponentName;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
-import android.service.wallpaper.WallpaperService;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.Toast;
 
-import com.falcon.video.downloader.Helper.AdsManager;
-
-import java.io.File;
 import java.io.IOException;
 
 public class VideoView extends AppCompatActivity {

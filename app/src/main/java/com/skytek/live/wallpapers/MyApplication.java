@@ -31,5 +31,4 @@ public class MyApplication extends Application {
 //        appOpenManager = new AppOpenManager(this);
 
     }
-
 }

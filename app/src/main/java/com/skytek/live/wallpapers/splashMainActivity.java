@@ -1,22 +1,11 @@
 package com.skytek.live.wallpapers;
 
-import static android.content.ContentValues.TAG;
-import static android.widget.Toast.LENGTH_SHORT;
-
-import static com.skytek.live.wallpapers.MyApplication.appOpenManager;
-
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ActivityManager;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.pm.ConfigurationInfo;
-import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -27,23 +16,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.falcon.video.downloader.Helper.AdsManager;
-import com.google.android.gms.ads.AdError;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.FullScreenContentCallback;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.skytek.live.wallpapers.Adapters.CustomAdapter;
-import com.skytek.live.wallpapers.ModelClasses.datamodel;
-
-
-import java.util.ArrayList;
-import java.util.Locale;
 
 
 public class splashMainActivity extends AppCompatActivity {

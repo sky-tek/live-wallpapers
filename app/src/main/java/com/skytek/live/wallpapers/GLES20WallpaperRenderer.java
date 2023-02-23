@@ -21,6 +21,7 @@ import android.graphics.SurfaceTexture;
 import android.opengl.GLES11Ext;
 import android.opengl.GLES20;
 import android.opengl.Matrix;
+import android.util.Log;
 import android.view.Surface;
 
 import androidx.annotation.NonNull;
@@ -199,21 +200,30 @@ class GLES20WallpaperRenderer extends GLWallpaperRenderer {
 
     @Override
     public void onDrawFrame(GL10 gl10) {
-        if (surfaceTexture == null) {
-            return;
-        }
-
-        if (renderedFrame < updatedFrame) {
-            if(surfaceTexture != null)
-            {
-                surfaceTexture.updateTexImage();
+        try
+        {
+            if (surfaceTexture == null) {
+                return;
             }
 
-            ++renderedFrame;
-            // Utils.debug(
-            //     TAG, "renderedFrame: " + renderedFrame + " updatedFrame: " + updatedFrame
-            // );
+            if (renderedFrame < updatedFrame) {
+                if(surfaceTexture != null)
+                {
+                    surfaceTexture.updateTexImage();
+                }
+
+                ++renderedFrame;
+                // Utils.debug(
+                //     TAG, "renderedFrame: " + renderedFrame + " updatedFrame: " + updatedFrame
+                // );
+            }
         }
+        catch (NullPointerException e)
+        {
+            //
+            Log.e("exception" , "Exception is "+e.getMessage());
+        }
+
 
         GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT);
         GLES20.glUseProgram(program);

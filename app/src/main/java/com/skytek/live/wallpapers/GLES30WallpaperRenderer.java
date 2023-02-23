@@ -223,9 +223,6 @@ class GLES30WallpaperRenderer extends GLWallpaperRenderer {
             Log.d("checkanotherexception" , "asdasdasdss  1231232131312");
             surfaceTexture.updateTexImage();
             ++renderedFrame;
-            // Utils.debug(
-            //     TAG, "renderedFrame: " + renderedFrame + " updatedFrame: " + updatedFrame
-            // );
         }
 
         GLES30.glClear(GLES30.GL_COLOR_BUFFER_BIT);
