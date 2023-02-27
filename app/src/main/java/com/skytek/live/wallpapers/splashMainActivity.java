@@ -38,8 +38,7 @@ TinyData tinyData;
 
         tinyData = new TinyData(this);
         CustomAdapter.languageposition=tinyData.getInt("key");
-        Log.d("checposition" , "log is "+tinyData.getInt("key"));
-        Log.d("checposition" , "log is "+   CustomAdapter.languageposition);
+
 
 
 
@@ -57,7 +56,7 @@ TinyData tinyData;
                 Context.ACTIVITY_SERVICE
         );
         ConfigurationInfo configInfo = activityManager.getDeviceConfigurationInfo();
-        Log.d("dsgdsgds", "onCreate: "+configInfo);
+
         Glide.with(splashMainActivity.this).load(R.drawable.icon).into(splashob);
 
 //        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {

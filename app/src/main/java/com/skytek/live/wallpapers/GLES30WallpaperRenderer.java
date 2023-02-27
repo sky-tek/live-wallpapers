@@ -214,13 +214,13 @@ class GLES30WallpaperRenderer extends GLWallpaperRenderer {
     @Override
     public void onDrawFrame(GL10 gl10) {
 
-        Log.d("checkanotherexception" , "asdasdasdss ");
+
         if (surfaceTexture == null) {
             return;
         }
 
         if (renderedFrame < updatedFrame) {
-            Log.d("checkanotherexception" , "asdasdasdss  1231232131312");
+
             surfaceTexture.updateTexImage();
             ++renderedFrame;
         }

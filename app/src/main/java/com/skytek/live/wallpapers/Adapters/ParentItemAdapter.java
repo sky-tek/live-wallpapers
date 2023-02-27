@@ -95,7 +95,7 @@ public class ParentItemAdapter extends RecyclerView.Adapter<ParentItemAdapter.Pa
 
 
         Adapter childItemAdapter = new Adapter(parentItem.getChildItemList(),pcontext,R.layout.child_item);
-        Log.d("checllisthere" , "list is "+parentItem.getChildItemList());
+
         parentViewHolder.ChildRecyclerView.setLayoutManager(layoutManager);
         parentViewHolder.ChildRecyclerView.setAdapter(childItemAdapter);
         parentViewHolder.ChildRecyclerView.setRecycledViewPool(viewPool);

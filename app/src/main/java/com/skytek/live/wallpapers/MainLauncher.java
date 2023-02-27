@@ -324,7 +324,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
 
     //app update manager
     public void initInAppUpdate() {
-        Log.d("checkappupdate" , "checking the calling functio  here");
+
         appUpdateManager = AppUpdateManagerFactory.create(this);
         appUpdateManager.getAppUpdateInfo().addOnSuccessListener(new OnSuccessListener<AppUpdateInfo>() {
             @Override
@@ -334,16 +334,16 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                         // instead, pass in AppUpdateType.FLEXIBLE
                         && result.isUpdateTypeAllowed(AppUpdateType.FLEXIBLE)) {
                     try {
-                        Log.d("checkappupdate" , "checking the calling functio try  here");
+
                         appUpdateManager.startUpdateFlowForResult(result, AppUpdateType.FLEXIBLE, MainLauncher.this, IN_APP_UPDATE_MY_REQUEST_CODE);
                     } catch (IntentSender.SendIntentException e) {
-                        Log.d("checkappupdate" , "checking the calling functio catch  here");
+
                         e.printStackTrace();
                     }
                 }
                 else
                 {
-                    Log.d("checkappupdate" , "asdsad checking the calling functio try  here");
+                 //IGNORE
                 }
             }
         });
@@ -384,7 +384,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
 
     public void copyFile(File fromFile, File toFile) {
 
-        Log.d("checkingCopying" , "Going All Good Ninja!");
+
         //ANR for doing soo much work on main thread
         //fixed using executorservice (shfting task to background to avoid ANR)
         ExecutorService executorService = Executors.newSingleThreadExecutor();
@@ -429,7 +429,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                 final String docId = DocumentsContract.getDocumentId(uri);
                 final String[] split = docId.split(":");
                 final String type = split[0];
-                Log.d("ceckgetpath" , "path is "+uri);
+
                 if ("primary".equalsIgnoreCase(type)) {
                     return Environment.getExternalStorageDirectory() + "/" + split[1];
                 }
@@ -509,7 +509,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
                 Cursor cursor = getContentResolver().query(
                         uri, null, null, null, null
                 );
-                Log.d("onActivityResultexe" , "hello moto "+cursor);
+
                 if (cursor == null) {
                     return;
                 }
@@ -616,7 +616,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
     }
 
     public void diloglanguage() {
-        Log.d("adasdasd" ,"asdadasdasasdsadasd123123123dasd");
+
         final Dialog dialog = new Dialog(MainLauncher.this);
         dialog.setContentView(R.layout.activity_dilogactivity);
         RecyclerView recyclerView = (RecyclerView) dialog.findViewById(R.id.custom1);
@@ -626,7 +626,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
         recyclerView.setAdapter(customAdapter); // set the Adapter to RecyclerView
         Button dialogButtonselect = (Button) dialog.findViewById(R.id.select);
         Button dialogButtoncancel = (Button) dialog.findViewById(R.id.dismiss);
-        Log.d("adasdasd" ,"asdaliasd");
+
 
         selectedl = dialog.findViewById(R.id.selectedlanguage);
 
@@ -679,7 +679,7 @@ public class MainLauncher extends AppCompatActivity implements Checkvalue {
 
             @Override
             public void onTick(long l) {
-                Log.d("checkTickposition" , "tick posiiton is "+l);
+
                 adsManager.load_inter(MainLauncher.this);
             }
             @Override

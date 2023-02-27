@@ -99,7 +99,7 @@ public class VideoView extends AppCompatActivity {
                 }
                 catch (Exception e)
                 {
-                    Log.d("checkexcpetion" , "exception is "+e);
+
                 }
 
 

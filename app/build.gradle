@@ -5,8 +5,8 @@ plugins {
 }
 apply plugin: 'kotlin-android'
 
-//crashes reolvde
-//window manager
+//solved crashes
+//2/27/2023
 android {
     compileSdkVersion 33
     buildToolsVersion "30.0.3"

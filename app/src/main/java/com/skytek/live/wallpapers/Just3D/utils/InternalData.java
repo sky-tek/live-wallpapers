@@ -46,12 +46,12 @@ public class InternalData {
     public long readLong(String path, long defaultValue) {
 
         byte[] temp = readBytes(path);
-        Log.d("checkreadString" , "path is "+path);
+
         if (temp != null) {
-            Log.d("checkreadString" , "reradLong is "+temp);
+
             return byteArrayToLong(temp);
         } else {
-            Log.d("checkreadString" , "reradLong else "+temp);
+
             return defaultValue;
         }
     }
@@ -60,10 +60,10 @@ public class InternalData {
 
         byte[] temp = readBytes(path);
         if (temp != null) {
-            Log.d("checkreadString" , "readstring is "+temp);
+
             return new String(temp);
         } else {
-            Log.d("checkreadString" , "readstring is else "+temp);
+
             return defaultValue;
         }
     }
@@ -73,10 +73,10 @@ public class InternalData {
 
         try {
 
-            Log.d("asdasdasdasd" , "inout stram is "+path);
+
             FileInputStream inputStream = context.openFileInput(path);
 
-            Log.d("checinputstream" , "inout stram is "+inputStream);
+
             bytes = new byte[(int) inputStream.getChannel().size()];
             for (int i = 0; i < bytes.length; i++) {
                 bytes[i] = (byte) (inputStream.read() & 0xFF);

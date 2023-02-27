@@ -45,12 +45,11 @@ class BackgroundHelper {
                         Arrays.sort(layers);
                         for (File layerFile : layers) {
                             String zString = Utils.getBetweenStrings(layerFile.getPath(), id + "_", BG_FORMAT);
-                            Log.d("checkexception" , "exception is "+zString);
+
                             if(zString != null && !zString.isEmpty()) {
                                 int layerZ = Integer.parseInt(zString);
                                 Layer layer = new Layer(layerFile, layerZ);
                                 output.add(layer);
-                                Log.d(TAG, "Layer with name " + layerFile.getName() + " loaded with z=" + layerZ);
                             }
                         }
                     } else {
@@ -66,7 +65,7 @@ class BackgroundHelper {
         }
         catch (Exception e)
         {
-            Log.d("checkexception " , "exception is for Nexus 5X android M"+e.getMessage());
+
         }
 
 

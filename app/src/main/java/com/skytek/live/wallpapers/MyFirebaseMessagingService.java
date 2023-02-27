@@ -52,7 +52,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
 
         {
-            Log.d("asdasjkdasjdhas" , "getFirebaseMessagingServiceOnLowDevices");
             int importance  = NotificationManager.IMPORTANCE_DEFAULT;
 
             NotificationChannel notificationChannel = new NotificationChannel("myFirebaseChannel" , getTitle ,  importance);

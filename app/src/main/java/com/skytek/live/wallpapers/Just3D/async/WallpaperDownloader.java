@@ -169,9 +169,9 @@ public class WallpaperDownloader extends MyAsync {
         // Check if destination already exist
         if (unzipDestination.exists()) {
             // Shouldn't exist: deleted
-            Log.d(TAG, "Destination folder \"" + unzipDestination.getPath() + "\" already exist: delete it!");
+
             if (!deleteFolder(unzipDestination)) {
-                Log.e(TAG, "Unable to deleted destionation folder \"" + unzipDestination.getPath() + "\"");
+
                 return RESULT_FAIL;
             }
         }
@@ -207,7 +207,7 @@ public class WallpaperDownloader extends MyAsync {
                         File fmd = new File(unzipDestination.getPath(), item);
                         if (!item.contains(".") && !fmd.exists()) {
                             fmd.mkdirs();
-                            Log.d("created folder", item);
+
                         }
                     }
                 }

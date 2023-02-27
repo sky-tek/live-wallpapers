@@ -331,7 +331,7 @@ class AdsManager {
                                 adcheck=false;
                                 if(MainLauncher.for_live_wallpaper_ad_key == 1)
                                 {
-                                    Log.d("checkaasdasdd" , "ad is 1")
+
                                     MainLauncher.for_live_wallpaper_ad_key = 0;
                                     ctx.startActivity(
                                         Intent(
@@ -342,7 +342,7 @@ class AdsManager {
                                 }
                                 if(MainLauncher.for_3d_wallpaper_ad_key == 2)
                                 {
-                                    Log.d("checkaasdasdd" , "ad is 2")
+
                                     MainLauncher.for_3d_wallpaper_ad_key = 0;
                                     ctx.startActivity(
                                         Intent(
@@ -353,7 +353,7 @@ class AdsManager {
                                 }
                                 if(MainLauncher.for_backpressed_ad_key == 123)
                                 {
-                                    Log.d("checkaasdasdd" , "ad is 3")
+
                                     MainLauncher.for_backpressed_ad_key = 0;
                                     ctx.startActivity( Intent(ctx , exitScreen::class.java));
                                 }

@@ -113,8 +113,7 @@ public class exitScreen extends AppCompatActivity {
     }
 
     private void initInAppReview() {
-        Log.d("adasdasdasdasdasdasd", "initInAppReview: called!");
-        Log.d("TAG", "initInAppReview: called!");
+
         reviewManager = ReviewManagerFactory.create(this);
         showRateApp();
 
@@ -123,7 +122,7 @@ public class exitScreen extends AppCompatActivity {
         com.google.android.play.core.tasks.Task<ReviewInfo> request = reviewManager.requestReviewFlow();
         request.addOnCompleteListener(task -> {
             if (task.isSuccessful()) {
-                Log.d("TAG", "showRateApp: task successful");
+
                 // We can get the ReviewInfo object
                 ReviewInfo reviewInfo = task.getResult();
 
@@ -138,7 +137,7 @@ public class exitScreen extends AppCompatActivity {
                 // There was some problem, continue regardless of the result.
                 // show native rate app dialog on error
 //                showRateAppFallbackDialog();
-                Log.d("TAG", "showRateApp: task not successful");
+
             }
         });
     }
@@ -182,7 +181,7 @@ public class exitScreen extends AppCompatActivity {
                                         catName = jsonArray.getJSONObject(i).getString("Category");
                                         if(catName.equals("Trending") || catName.equals("New"))
                                         {
-                                            Log.d("fdsfd", "onResponse: "+catName);
+
                                             catid = jsonArray.getJSONObject(i).getString("id");
 
                                             JSONArray wallpapers = catObject.getJSONArray("wallpapers");
@@ -203,7 +202,7 @@ public class exitScreen extends AppCompatActivity {
                                             dataset1.add(new ParentItem(catid, catName, dataset));
                                         }
                                         else {
-                                            Log.d("checkCatname" , "cat name is "+catName);
+
                                         }
                                     }
                                     check_more=true;

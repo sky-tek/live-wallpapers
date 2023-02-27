@@ -192,7 +192,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                             @Override
                             public void onPermissionDenied(PermissionDeniedResponse permissionDeniedResponse) {
                                 if (permissionDeniedResponse.isPermanentlyDenied()) {
-                                    Log.d("checkcontext" , "showing dialog");
+
                                     AlertDialog alertDialog = new AlertDialog.Builder(mcontext)
 //set icon
 //set title
@@ -206,8 +206,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                                                     //set what would happen when positive button is clicked
                                                     Intent intent = new Intent();
                                                     intent.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
-                                                    Log.d("checkcontext" , "context is aplicaton "+ mcontext.getApplicationContext().getPackageName());
-                                                    Log.d("checkcontext" , "context is context "+ mcontext.getPackageName());
+
                                                     try
                                                     {
                                                         Uri uri = Uri.fromParts("package", mcontext.getApplicationContext().getPackageName(), null);
@@ -357,7 +356,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             favourite = itemView.findViewById(R.id.fav_like);
             progressBar = itemView.findViewById(R.id.catalog_progress);
 //            download_video = itemView.findViewById(R.id.download_video);
-            Log.d("checkpermission" , "asdasdas is ");
+
 
         }
 
@@ -368,24 +367,24 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     public void permission(String id) {
         id1 = id;
 
-        Log.d("checkpermission" , "permission is ");
+
             File file = new File(mcontext.getExternalFilesDir("live").getAbsolutePath() + "/" + id);
             if (file.exists()) {
                 try
                 {
-                    Log.d("checkopening" , "opening file 1");
+
                     final Intent intent1 = new Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER);
-                    Log.d("checkopening" , "opening file 2");
+
                     intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(mcontext, GLWallpaperService.class));
-                    Log.d("checkopening" , "opening file 3");
+
                     ((Activity) mcontext).startActivityForResult(intent1, REQUEST_FOR_ACTIVITY_CODE);
-                    Log.d("checkopening" , "opening file 5");
+
 
                 }
                 catch (Exception e)
                 {
                     //IGNORE
-                    Log.d("checkopening" , "opening file"+e.getMessage());
+
                 }
 
 
@@ -474,7 +473,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     public void download(String image_path) {
 
-        Log.d("checkdownloads" , "downloads adapter first line");
+
         String download = "https://mobipixels.net/3d-Live-wallpapers-api/downloads_live_wp.php?id=" + id1 + "&down=1";
 
 
@@ -486,7 +485,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         StringRequest request = new StringRequest(Request.Method.PUT, download, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
-                Log.d("checkdownloads" , "downloads adapter first line 485");
+
                 new DownloadFileFromURL().execute(image_path);
             }
         }, new Response.ErrorListener() {
@@ -550,7 +549,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         }
 
         protected void onProgressUpdate(String... progress) {
-            Log.d("checkdownloads" , "on progress update");
+
             pDialog.setProgress(Integer.parseInt(progress[0]));
         }
 
@@ -567,22 +566,22 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
                 } else {
                     try
                     {
-                        Log.d("checkopening" , " opening is");
+
                         final Intent intent1 = new Intent(WallpaperManager.ACTION_CHANGE_LIVE_WALLPAPER);
-                        Log.d("checkopening" , " opening is1");
+
                         intent1.putExtra(WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT, new ComponentName(mcontext, GLWallpaperService.class));
-                        Log.d("checkopening" , " opening is 2");
+
                         ((Activity) mcontext).startActivityForResult(intent1, REQUEST_FOR_ACTIVITY_CODE);
-                        Log.d("checkopening" , " opening is3 ");
+
                     }
                     catch (Exception e)
                     {
                         //IGNORE
-                        Log.d("checkopening" , " opening is catch" );
+
                     }
                  notifyDataSetChanged();
                 }
-                Log.d("checkDialogasdsad" , "dialog isasdasdasd ");
+
                 pDialog.dismiss();
         }
     }
